@@ -54,203 +54,232 @@
 
   <script>
     let currentVocabList = [];
-    let isPlaying = false;
-    let isPaused = false;
-    let currentIndex = 0;
-    const synth = window.speechSynthesis;
+  let isPlaying = false;
+  let isPaused = false;
+  let currentIndex = 0;
+  let currentUtterance = null;
+  const synth = window.speechSynthesis;
 
-    // 載入書籍清單
-    async function init() {
-      try {
-        const res = await fetch('books.json');
-        if (!res.ok) throw new Error(`無法讀取 books.json (HTTP ${res.status})`);
-        const books = await res.json();
-        const select = document.getElementById('bookSelect');
-        select.innerHTML = books.map(b => `<option value="${b.file}">${b.title}</option>`).join('');
-        loadSelectedBook();
-      } catch (error) {
-        alert('載入書籍清單失敗：' + error.message);
-      }
+  // 載入書籍清單
+  async function init() {
+    try {
+      const res = await fetch('books.json');
+      if (!res.ok) throw new Error(`無法讀取 books.json (HTTP ${res.status})`);
+      const books = await res.json();
+      const select = document.getElementById('bookSelect');
+      select.innerHTML = books.map(b => `<option value="${b.file}">${b.title}</option>`).join('');
+      loadSelectedBook();
+    } catch (error) {
+      alert('載入書籍清單失敗：' + error.message);
     }
+  }
 
-    // 載入單字
-    async function loadSelectedBook() {
-      stopAutoPlay();
-      const file = document.getElementById('bookSelect').value;
-      try {
-        const res = await fetch(file);
-        if (!res.ok) throw new Error(`無法讀取單字檔 ${file} (HTTP ${res.status})`);
-        const data = await res.json();
-        currentVocabList = data.vocabulary;
-        renderTable();
-      } catch (error) {
-        alert('載入單字檔失敗：' + error.message);
-      }
+  // 載入單字
+  async function loadSelectedBook() {
+    stopAutoPlay();
+    const file = document.getElementById('bookSelect').value;
+    try {
+      const res = await fetch(file);
+      if (!res.ok) throw new Error(`無法讀取單字檔 ${file} (HTTP ${res.status})`);
+      const data = await res.json();
+      currentVocabList = data.vocabulary;
+      renderTable();
+    } catch (error) {
+      alert('載入單字檔失敗：' + error.message);
     }
+  }
 
-    // 渲染表格
-    function renderTable() {
-      const tbody = document.getElementById('tableBody');
-      tbody.innerHTML = currentVocabList.map((item, index) => `
-        <tr id="row-${index}">
-          <td><button onclick="speakSingle(${index})">🔊</button></td>
-          <td><strong>${item.word}</strong></td>
-          <td>${item.phonetic}</td>
-          <td>${item.definition}</td>
-          <td>${item.analysis}<br><small style="color:#666">例: ${item.example}</small></td>
-        </tr>
-      `).join('');
-    }
+  // 渲染表格
+  function renderTable() {
+    const tbody = document.getElementById('tableBody');
+    tbody.innerHTML = currentVocabList.map((item, index) => `
+      <tr id="row-${index}">
+        <td><button onclick="speakSingle(${index})">🔊</button></td>
+        <td><strong>${item.word}</strong></td>
+        <td>${item.phonetic}</td>
+        <td>${item.definition}</td>
+        <td>${item.analysis}<br><small style="color:#666">例: ${item.example}</small></td>
+      </tr>
+    `).join('');
+  }
 
-    // 文字朗讀 Promisify，支援暫停檢查
-    function speakText(text, lang = 'en-US', speed = 0.9) {
-      return new Promise((resolve) => {
-        if (!isPlaying && !isPaused) return resolve();
+  // 可隨時被中斷的延遲等待函式
+  function delay(ms) {
+    return new Promise((resolve, reject) => {
+      const timer = setTimeout(resolve, ms);
+      // 透過監聽機制，若播放被中斷或暫停，立即取消等待
+      const checkInterval = setInterval(() => {
+        if (!isPlaying || isPaused) {
+          clearTimeout(timer);
+          clearInterval(checkInterval);
+          reject(new Error('Interrupted'));
+        }
+      }, 50);
+    });
+  }
 
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = lang;
-        utterance.rate = speed;
+  // 文字朗讀（改為最穩定的封裝方式）
+  function speakText(text, lang = 'en-US', speed = 0.9) {
+    return new Promise((resolve, reject) => {
+      if (!isPlaying || isPaused) return reject(new Error('Interrupted'));
 
-        utterance.onend = () => {
-          // 在每句朗讀結束後，若處於暫停狀態則等待
-          const checkPause = setInterval(() => {
-            if (!isPaused || !isPlaying) {
-              clearInterval(checkPause);
-              resolve();
-            }
-          }, 200);
-        };
+      synth.cancel(); // 播放新語音前先清空佇列，確保順暢
 
-        synth.speak(utterance);
-      });
-    }
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = lang;
+      utterance.rate = speed;
+      currentUtterance = utterance;
 
-    // 唸完一個項目的完整流程：Word ➔ Definition ➔ Example ➔ Chinese Analysis
-    async function speakVocabItem(item) {
-      // 1. 唸單字 (英文)
-      await speakText(item.word, 'en-US', 0.85);
-      await new Promise(r => setTimeout(r, 400));
+      utterance.onend = () => {
+        currentUtterance = null;
+        resolve();
+      };
 
-      // 2. 唸 Definition (英文)
-      await speakText(item.definition, 'en-US', 0.9);
-      await new Promise(r => setTimeout(r, 400));
+      utterance.onerror = (e) => {
+        currentUtterance = null;
+        // 如果是被使用者主動中斷（如按下暫停或停止），不視為程式錯誤
+        reject(new Error('Speech error'));
+      };
 
-      // 3. 唸英文例句 (英文)
-      await speakText(item.example, 'en-US', 0.9);
-      await new Promise(r => setTimeout(r, 500));
+      synth.speak(utterance);
+    });
+  }
 
-      // 4. 唸中文解析/翻譯 (中文)
-      await speakText(item.analysis, 'zh-TW', 1.0);
-      await new Promise(r => setTimeout(r, 1500)); // 單字間隔停頓
-    }
+  // 唸完一個單字的完整順序：Word ➔ Definition ➔ Example ➔ Chinese Analysis
+  async function speakVocabItem(item) {
+    // 1. 唸單字 (英文)
+    await speakText(item.word, 'en-US', 0.85);
+    await delay(400);
 
-    // 點擊表格旁的單一播放
-    async function speakSingle(index) {
-      stopAutoPlay();
-      isPlaying = true;
-      highlightRow(index);
+    // 2. 唸 Definition (英文)
+    await speakText(item.definition, 'en-US', 0.9);
+    await delay(400);
+
+    // 3. 唸英文例句 (英文)
+    await speakText(item.example, 'en-US', 0.9);
+    await delay(500);
+
+    // 4. 唸中文解析/翻譯 (中文)
+    await speakText(item.analysis, 'zh-TW', 1.0);
+    await delay(1500);
+  }
+
+  // 點擊表格旁的單一播放
+  async function speakSingle(index) {
+    stopAutoPlay();
+    isPlaying = true;
+    isPaused = false;
+    currentIndex = index;
+    highlightRow(index);
+    try {
       await speakVocabItem(currentVocabList[index]);
-      isPlaying = false;
-      highlightRow(-1);
+    } catch (e) {
+      // 被中斷屬於正常流程
     }
+    isPlaying = false;
+    highlightRow(-1);
+    updateUI();
+  }
 
-    // 開車連播模式
-    async function startAutoPlay() {
-      if (isPlaying && !isPaused) return;
+  // 開車連播模式
+  async function startAutoPlay() {
+    if (isPlaying && !isPaused) return;
 
-      if (isPaused) {
-        // 如果是暫停後恢復
-        isPaused = false;
-        synth.resume();
-        updateUI();
-        return;
-      }
-
+    // 如果從暫停狀態復原，只需解除暫停狀態並重新觸發播放迴圈
+    if (isPaused) {
+      isPaused = false;
+      isPlaying = true;
+      updateUI();
+    } else {
       isPlaying = true;
       isPaused = false;
       updateUI();
+    }
 
-      while (currentIndex < currentVocabList.length && isPlaying) {
-        highlightRow(currentIndex);
-        const item = currentVocabList[currentIndex];
-        document.getElementById('nowPlayingText').innerText = `正在播放 (${currentIndex + 1}/${currentVocabList.length}): ${item.word}`;
+    while (currentIndex < currentVocabList.length && isPlaying && !isPaused) {
+      highlightRow(currentIndex);
+      const item = currentVocabList[currentIndex];
+      document.getElementById('nowPlayingText').innerText = `正在播放 (${currentIndex + 1}/${currentVocabList.length}): ${item.word}`;
 
+      try {
         await speakVocabItem(item);
-
+        // 當前單字完整唸完後，指標才往後移
         if (isPlaying && !isPaused) {
           currentIndex++;
         }
-      }
-
-      if (currentIndex >= currentVocabList.length) {
-        stopAutoPlay();
+      } catch (err) {
+        // 如果播放過程被按下暫停或停止，會跳到這裡並乾淨地離開迴圈
+        break;
       }
     }
 
-    // 暫停 / 繼續 切換
-    function togglePause() {
-      if (!isPlaying) return;
+    if (currentIndex >= currentVocabList.length) {
+      stopAutoPlay();
+    }
+  }
 
-      if (synth.speaking && !synth.paused) {
-        synth.pause();
-        isPaused = true;
-      } else if (synth.paused) {
-        synth.resume();
-        isPaused = false;
-      } else {
-        isPaused = !isPaused;
-      }
+  // 暫停 / 繼續 切換
+  function togglePause() {
+    if (!isPlaying && !isPaused) return;
 
+    if (!isPaused) {
+      // 點擊「暫停」
+      isPaused = true;
+      synth.cancel(); // 立即中斷當前發聲
       updateUI();
+    } else {
+      // 點擊「繼續播放」
+      startAutoPlay();
     }
+  }
 
-    // 停止播放
-    function stopAutoPlay() {
-      isPlaying = false;
-      isPaused = false;
-      currentIndex = 0;
-      synth.cancel();
-      highlightRow(-1);
-      updateUI();
-    }
+  // 停止播放
+  function stopAutoPlay() {
+    isPlaying = false;
+    isPaused = false;
+    currentIndex = 0;
+    synth.cancel();
+    highlightRow(-1);
+    updateUI();
+  }
 
-    // 高亮顯示目前播放列
-    function highlightRow(index) {
-      document.querySelectorAll('tr').forEach(r => r.classList.remove('playing-row'));
-      if (index >= 0) {
-        const row = document.getElementById(`row-${index}`);
-        if (row) {
-          row.classList.add('playing-row');
-          row.scrollIntoView({ behavior: 'smooth', block: 'center' }); // 自動捲動到正在播放的單字
-        }
+  // 高亮顯示目前播放列
+  function highlightRow(index) {
+    document.querySelectorAll('tr').forEach(r => r.classList.remove('playing-row'));
+    if (index >= 0) {
+      const row = document.getElementById(`row-${index}`);
+      if (row) {
+        row.classList.add('playing-row');
+        row.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     }
+  }
 
-    // 更新介面按鈕狀態
-    function updateUI() {
-      const playBtn = document.getElementById('playBtn');
-      const pauseBtn = document.getElementById('pauseBtn');
-      const statusText = document.getElementById('nowPlayingText');
+  // 更新介面按鈕狀態
+  function updateUI() {
+    const playBtn = document.getElementById('playBtn');
+    const pauseBtn = document.getElementById('pauseBtn');
+    const statusText = document.getElementById('nowPlayingText');
 
-      if (!isPlaying) {
-        playBtn.innerText = '▶ 開始全部輪播';
-        playBtn.style.display = 'inline-block';
-        pauseBtn.style.display = 'none';
-        statusText.innerText = '狀態：未播放';
-      } else if (isPaused) {
-        pauseBtn.innerText = '▶ 繼續播放';
-        pauseBtn.style.display = 'inline-block';
-        playBtn.style.display = 'none';
-        statusText.innerText = `狀態：已暫停 (${currentVocabList[currentIndex]?.word || ''})`;
-      } else {
-        pauseBtn.innerText = '⏸ 暫停播放';
-        pauseBtn.style.display = 'inline-block';
-        playBtn.style.display = 'none';
-        statusText.innerText = `正在播放 (${currentIndex + 1}/${currentVocabList.length}): ${currentVocabList[currentIndex]?.word || ''}`;
-      }
+    if (!isPlaying && !isPaused) {
+      playBtn.innerText = '▶ 開始全部輪播';
+      playBtn.style.display = 'inline-block';
+      pauseBtn.style.display = 'none';
+      statusText.innerText = '狀態：未播放';
+    } else if (isPaused) {
+      pauseBtn.innerText = '▶ 繼續播放';
+      pauseBtn.style.display = 'inline-block';
+      playBtn.style.display = 'none';
+      statusText.innerText = `狀態：已暫停 (${currentVocabList[currentIndex]?.word || ''})`;
+    } else {
+      pauseBtn.innerText = '⏸ 暫停播放';
+      pauseBtn.style.display = 'inline-block';
+      playBtn.style.display = 'none';
+      statusText.innerText = `正在播放 (${currentIndex + 1}/${currentVocabList.length}): ${currentVocabList[currentIndex]?.word || ''}`;
     }
+  }
 
-    init();
+  init();
   </script>
 </body>
 </html>
