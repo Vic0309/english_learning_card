@@ -53,7 +53,7 @@
   </table>
 
   <script>
-    let currentVocabList = [];
+  let currentVocabList = [];
   let isPlaying = false;
   let isPaused = false;
   let currentIndex = 0;
@@ -89,12 +89,12 @@
     }
   }
 
-  // 渲染表格
+  // 渲染表格（點擊 🔊 或整列都可以直接從該單字開始輪播）
   function renderTable() {
     const tbody = document.getElementById('tableBody');
     tbody.innerHTML = currentVocabList.map((item, index) => `
-      <tr id="row-${index}">
-        <td><button onclick="speakSingle(${index})">🔊</button></td>
+      <tr id="row-${index}" onclick="playFromIndex(${index})" style="cursor: pointer;">
+        <td><button onclick="event.stopPropagation(); playFromIndex(${index});">🔊</button></td>
         <td><strong>${item.word}</strong></td>
         <td>${item.phonetic}</td>
         <td>${item.definition}</td>
@@ -107,7 +107,6 @@
   function delay(ms) {
     return new Promise((resolve, reject) => {
       const timer = setTimeout(resolve, ms);
-      // 透過監聽機制，若播放被中斷或暫停，立即取消等待
       const checkInterval = setInterval(() => {
         if (!isPlaying || isPaused) {
           clearTimeout(timer);
@@ -118,12 +117,12 @@
     });
   }
 
-  // 文字朗讀（改為最穩定的封裝方式）
+  // 文字朗讀
   function speakText(text, lang = 'en-US', speed = 0.9) {
     return new Promise((resolve, reject) => {
       if (!isPlaying || isPaused) return reject(new Error('Interrupted'));
 
-      synth.cancel(); // 播放新語音前先清空佇列，確保順暢
+      synth.cancel(); // 播放前先清空佇列，確保順暢
 
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = lang;
@@ -137,7 +136,6 @@
 
       utterance.onerror = (e) => {
         currentUtterance = null;
-        // 如果是被使用者主動中斷（如按下暫停或停止），不視為程式錯誤
         reject(new Error('Speech error'));
       };
 
@@ -164,38 +162,19 @@
     await delay(1500);
   }
 
-  // 點擊表格旁的單一播放
-  async function speakSingle(index) {
-    stopAutoPlay();
-    isPlaying = true;
-    isPaused = false;
-    currentIndex = index;
-    highlightRow(index);
-    try {
-      await speakVocabItem(currentVocabList[index]);
-    } catch (e) {
-      // 被中斷屬於正常流程
-    }
+  // 核心功能：從指定單字開始繼續/輪播
+  async function playFromIndex(index) {
+    // 先停止當前播放
+    synth.cancel();
     isPlaying = false;
-    highlightRow(-1);
+    isPaused = false;
+
+    // 設定新的起點
+    currentIndex = index;
+    isPlaying = true;
     updateUI();
-  }
 
-  // 開車連播模式
-  async function startAutoPlay() {
-    if (isPlaying && !isPaused) return;
-
-    // 如果從暫停狀態復原，只需解除暫停狀態並重新觸發播放迴圈
-    if (isPaused) {
-      isPaused = false;
-      isPlaying = true;
-      updateUI();
-    } else {
-      isPlaying = true;
-      isPaused = false;
-      updateUI();
-    }
-
+    // 啟動播放迴圈
     while (currentIndex < currentVocabList.length && isPlaying && !isPaused) {
       highlightRow(currentIndex);
       const item = currentVocabList[currentIndex];
@@ -203,18 +182,28 @@
 
       try {
         await speakVocabItem(item);
-        // 當前單字完整唸完後，指標才往後移
         if (isPlaying && !isPaused) {
           currentIndex++;
         }
       } catch (err) {
-        // 如果播放過程被按下暫停或停止，會跳到這裡並乾淨地離開迴圈
         break;
       }
     }
 
     if (currentIndex >= currentVocabList.length) {
       stopAutoPlay();
+    }
+  }
+
+  // 開車連播模式（預設從第 0 個或目前暫停位置開始）
+  function startAutoPlay() {
+    if (isPlaying && !isPaused) return;
+
+    if (isPaused) {
+      isPaused = false;
+      playFromIndex(currentIndex);
+    } else {
+      playFromIndex(0);
     }
   }
 
@@ -225,11 +214,12 @@
     if (!isPaused) {
       // 點擊「暫停」
       isPaused = true;
-      synth.cancel(); // 立即中斷當前發聲
+      synth.cancel();
       updateUI();
     } else {
       // 點擊「繼續播放」
-      startAutoPlay();
+      isPaused = false;
+      playFromIndex(currentIndex);
     }
   }
 
