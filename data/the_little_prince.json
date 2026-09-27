@@ -337,6 +337,510 @@
       "definition": "A customary practice of keeping one's feelings hidden.",
       "analysis": "習慣性的保留/沉穩內斂。短語。指作者打破了平日矜持、不輕易訓人的習慣，大聲呼籲「小朋友們，當心猴麵包樹！」",
       "example": "I broke my habitual reserve to give a clear warning."
+    },
+    {
+      "word": "Abruptly",
+      "phonetic": "[əˈbrʌptli]",
+      "definition": "Suddenly and unexpectedly, often in a rude or brief manner.",
+      "analysis": "副詞，意為「突然地；唐突地」。常用於描述動作或對話突然中斷。",
+      "example": "He stopped talking abruptly when the door opened."
+    },
+    {
+      "word": "Preamble",
+      "phonetic": "[ˈpriːæmbl]",
+      "definition": "An introductory statement; a preliminary explanation.",
+      "analysis": "名詞，意為「序言；前言」。指文章、演講或契約開頭的說明部分。",
+      "example": "Without any preamble, she announced her resignation."
+    },
+    {
+      "word": "Thorns",
+      "phonetic": "[θɔːrnz]",
+      "definition": "Sharp-pointed projections on a stem or branch of a plant.",
+      "analysis": "名詞（複數），意為「植物的刺；棘刺」。在《小王子》中常指玫瑰花上的刺。",
+      "example": "The rose protects itself with sharp thorns."
+    },
+    {
+      "word": "Jammed",
+      "phonetic": "[dʒæmd]",
+      "definition": "Stuck fast and unable to move; squeezed tightly into a space.",
+      "analysis": "動詞 past/adj，意為「卡住的；塞滿的」。常用於描述機械卡死或空間擠滿。",
+      "example": "The bolt was jammed and wouldn't turn."
+    },
+    {
+      "word": "Lashed out",
+      "phonetic": "[læʃt aʊt]",
+      "definition": "Attacked physically or verbally in a sudden, violent way.",
+      "analysis": "動詞短語（過去式），意為「猛烈抨擊；猛痛擊」。常用於情緒失控時的言語反擊。",
+      "example": "Feeling cornered, he lashed out at his critics."
+    },
+    {
+      "word": "Bitterness",
+      "phonetic": "[ˈbɪtərnəs]",
+      "definition": "A feeling of deep resentment or anger; a bitter taste.",
+      "analysis": "名詞，意為「苦味；怨恨、痛苦的情緒」。",
+      "example": "There was a note of bitterness in her voice."
+    },
+    {
+      "word": "Naive",
+      "phonetic": "[naɪˈiːv]",
+      "definition": "Showing a lack of experience, wisdom, or judgment; innocent.",
+      "analysis": "形容詞，意為「天真的；幼稚的；單純的」。",
+      "example": "It was naive of him to believe everything they promised."
+    },
+    {
+      "word": "Grease",
+      "phonetic": "[ɡriːs]",
+      "definition": "Oily or greasy matter; lubricant for machine parts.",
+      "analysis": "名詞/動詞，意為「油脂；潤滑油」。常用於機械維修的場合。",
+      "example": "His hands were covered in black grease after fixing the engine."
+    },
+    {
+      "word": "Mercilessly",
+      "phonetic": "[ˈmɜːrsɪləsli]",
+      "definition": "In a way that shows no mercy or pity; cruelly.",
+      "analysis": "副詞，意為「殘忍地；無情地」。形容完全不給予同情或憐憫的態度。",
+      "example": "The sun beat down mercilessly on the desert sand."
+    },
+    {
+      "word": "Puffs him up",
+      "phonetic": "[pʌfs hɪm ʌp]",
+      "definition": "Makes someone feel overly proud or self-important.",
+      "analysis": "動詞短語，意為「使他自滿；使他通脹膨脹、吹捧」。",
+      "example": "Praise from his supervisor always puffs him up."
+    },
+    {
+      "word": "Sobbing",
+      "phonetic": "[ˈsɑːbɪŋ]",
+      "definition": "Crying noisily, taking sudden sharp breaths.",
+      "analysis": "動詞/名詞，意為「抽泣；啜泣」。形容傷心至極時帶有喘息聲的哭泣。",
+      "example": "She sat in the corner, sobbing quietly."
+    },
+    {
+      "word": "Miraculous",
+      "phonetic": "[mɪˈrækjələs]",
+      "definition": "Resembling or being a miracle; extraordinary and wonderful.",
+      "analysis": "形容詞，意為「奇蹟般的；不可思議的」。",
+      "example": "He made a miraculous recovery after the accident."
+    },
+    {
+      "word": "Deliberately",
+      "phonetic": "[dɪˈlɪbərətli]",
+      "definition": "Intentionally; done on purpose.",
+      "analysis": "副詞，意為「故意地；蓄意地；深思熟慮地」。",
+      "example": "He deliberately ignored my phone calls."
+    },
+    {
+      "word": "Emerge",
+      "phonetic": "[ɪˈmɜːrdʒ]",
+      "definition": "To come out into view, especially after being hidden.",
+      "analysis": "動詞，意為「浮現；顯露；出現」。",
+      "example": "The sun slowly began to emerge from behind the clouds."
+    },
+    {
+      "word": "Rumpled",
+      "phonetic": "[ˈrʌmpld]",
+      "definition": "Crumpled or creased; messy and untidy.",
+      "analysis": "形容詞，意為「皺巴巴的；凌亂的」。常用於形容衣物或頭髮。",
+      "example": "He wore a rumpled shirt and uncombed hair."
+    },
+    {
+      "word": "Adornment",
+      "phonetic": "[əˈdɔːrnmənt]",
+      "definition": "A thing that adds value or beauty; decoration.",
+      "analysis": "名詞，意為「裝飾；飾品；裝飾物」。",
+      "example": "The flower needed no extra adornment to show its beauty."
+    },
+    {
+      "word": "Painstakingly",
+      "phonetic": "[ˈpeɪnzteɪkɪŋli]",
+      "definition": "With great care and thoroughness; meticulously.",
+      "analysis": "副詞，意為「煞費苦心地；極其細心地」。形容花費極大耐心與功夫工作。",
+      "example": "The artist painstakingly restored the ancient painting."
+    },
+    {
+      "word": "Dazzling",
+      "phonetic": "[ˈdæzlɪŋ]",
+      "definition": "Extremely bright or impressive; visually stunning.",
+      "analysis": "形容詞，意為「耀眼的；令人眼花繚亂的」。",
+      "example": "Her smile was bright and dazzling."
+    },
+    {
+      "word": "Utterly abashed",
+      "phonetic": "[ˈʌtərli əˈbæʃt]",
+      "definition": "Completely embarrassed, ashamed, or disconcerted.",
+      "analysis": "短語/形容詞，意為「感到極度窘迫；非常羞愧窘迫」。",
+      "example": "He felt utterly abashed when he realized his mistake."
+    },
+    {
+      "word": "Tormenting",
+      "phonetic": "[tɔːrˈmentɪŋ]",
+      "definition": "Causing severe physical or mental suffering.",
+      "analysis": "形容詞/分詞，意為「令人折磨的；痛苦的；折磨人的」。",
+      "example": "He was haunted by tormenting thoughts of failure."
+    },
+    {
+      "word": "Touchy vanity",
+      "phonetic": "[ˈtʌtʃi ˈvænəti]",
+      "definition": "An overly sensitive desire for admiration; easily offended pride.",
+      "analysis": "名詞短語，意為「過度敏感的虛榮心」。常用於描繪性格敏感、自尊心極強的人。",
+      "example": "Her touchy vanity made it difficult to offer constructive criticism."
+    },
+    {
+      "word": "Alluding",
+      "phonetic": "[əˈluːdɪŋ]",
+      "definition": "Suggesting or mentioning something indirectly.",
+      "analysis": "動詞分詞，意為「暗指；影射；間接提到」。常搭配 `to` 使用（alluding to）。",
+      "example": "She was alluding to the problems they had faced earlier."
+    },
+    {
+      "word": "Humiliated",
+      "phonetic": "[hjuːˈmɪlieɪtɪd]",
+      "definition": "Feeling deeply ashamed or lose face in front of others.",
+      "analysis": "形容詞/動詞過去式，意為「感到受辱的；羞辱的」。",
+      "example": "He felt humiliated after forgetting his speech on stage."
+    },
+    {
+      "word": "Verge",
+      "phonetic": "[vɜːrdʒ]",
+      "definition": "An edge or border; the point beyond which something occurs.",
+      "analysis": "名詞，意為「邊緣；臨界點」。常組成短語 `on the verge of`（瀕臨…/即將…）。",
+      "example": "She was on the verge of tears after hearing the bad news."
+    },
+    {
+      "word": "Inflict a twinge",
+      "phonetic": "[ɪnˈflɪkt ə twɪndʒ]",
+      "definition": "To cause a sudden sharp pain, emotion, or pang of guilt.",
+      "analysis": "動詞短語，意為「引起陣痛；帶來一絲痛苦/罪惡感」。",
+      "example": "Her cold remark served to inflict a twinge of remorse on him."
+    },
+    {
+      "word": "Remorse",
+      "phonetic": "[rɪˈmɔːrs]",
+      "definition": "Deep regret or guilt for a wrong committed.",
+      "analysis": "名詞，意為「懊悔；悔恨；罪惡感」。",
+      "example": "He felt genuine remorse for the way he had acted."
+    },
+    {
+      "word": "Goodwill",
+      "phonetic": "[ˌɡʊdˈwɪl]",
+      "definition": "Friendly, helpful, or cooperative feelings or attitude.",
+      "analysis": "名詞，意為「善意；好意；友好親善的態度」。",
+      "example": "The trip was organized as a gesture of goodwill."
+    },
+    {
+      "word": "Inconsequential",
+      "phonetic": "[ɪnˌkɑːnsəˈkwenʃl]",
+      "definition": "Not important or significant; trivial.",
+      "analysis": "形容詞，意為「微不足道的；不重要的」。",
+      "example": "They discussed inconsequential matters like the weather."
+    },
+    {
+      "word": "Confided",
+      "phonetic": "[kənˈfaɪdɪd]",
+      "definition": "Shared a secret or personal matter in trust.",
+      "analysis": "動詞過去式，意為「吐露心聲；把秘密傾訴（給某人）」。常搭配 `to` 使用。",
+      "example": "She confided her fears to her closest friend."
+    },
+    {
+      "word": "Perfumed",
+      "phonetic": "[pərˈfjuːmd]",
+      "definition": "Having a pleasant, sweet smell; scented.",
+      "analysis": "形容詞，意為「散發香味的；噴了香水的」。",
+      "example": "The air in the garden was perfumed with blooming roses."
+    },
+    {
+      "word": "Tenderness",
+      "phonetic": "[ˈtendərnəs]",
+      "definition": "Gentleness, kindness, and affection.",
+      "analysis": "名詞，意為「溫柔；親愛；柔情」。",
+      "example": "He spoke to the child with great tenderness."
+    },
+    {
+      "word": "Pretension",
+      "phonetic": "[prɪˈtenʃn]",
+      "definition": "A claim or attempt to make oneself appear more important.",
+      "analysis": "名詞，意為「做作；自負；假裝；主張」。",
+      "example": "His humble behavior is free of any pretension."
+    },
+    {
+      "word": "Contradictory",
+      "phonetic": "[ˌkɑːntrəˈdɪktəri]",
+      "definition": "Mutually opposed or inconsistent; conflicting.",
+      "analysis": "形容詞，意為「矛盾的；對立的」。形容說詞或行為互相抵觸。",
+      "example": "The witnesses gave contradictory accounts of the accident."
+    },
+    {
+      "word": "Extinct",
+      "phonetic": "[ɪkˈstɪŋkt]",
+      "definition": "No longer in existence, or no longer active (as a volcano).",
+      "analysis": "形容詞，意為「絕種的；（火山）死火山的/已熄滅的」。在《小王子》中指死火山。",
+      "example": "Scientists studied the crater of the extinct volcano."
+    },
+    {
+      "word": "Eruption",
+      "phonetic": "[ɪˈrʌpʃn]",
+      "definition": "A sudden outbreak or explosion, as of a volcano.",
+      "analysis": "名詞，意為「火山爆發；爆發」。",
+      "example": "The volcanic eruption sent ash high into the sky."
+    },
+    {
+      "word": "Chimney",
+      "phonetic": "[ˈtʃɪmni]",
+      "definition": "A vertical pipe for conducting smoke/gas away from a fire.",
+      "analysis": "名詞，意為「煙囪」。在《小王子》中亦可用來形容火山噴發口。",
+      "example": "Smoke rose gently from the cottage chimney."
+    },
+    {
+      "word": "Uprooted",
+      "phonetic": "[ˌʌpˈruːtɪd]",
+      "definition": "Pulled out of the ground by the roots; removed from a native place.",
+      "analysis": "形容詞/動詞過去式，意為「連根拔起的；被迫離開家園的」。",
+      "example": "The severe storm left several large trees uprooted."
+    },
+    {
+      "word": "Silly",
+      "phonetic": "[ˈsɪli]",
+      "definition": "Having or showing a lack of common sense or judgment; foolish.",
+      "analysis": "形容詞，意為「愚蠢的；傻的；可笑的」。",
+      "example": "Don't be silly, everything is going to be fine."
+    },
+    {
+      "word": "Reproaches",
+      "phonetic": "[rɪˈproʊtʃɪz]",
+      "definition": "Expressions of disapproval, criticism, or disappointment.",
+      "analysis": "名詞（複數）/動詞，意為「責備；指責；責難」。",
+      "example": "His soft words were free from any reproaches."
+    },
+    {
+      "word": "Bewildered",
+      "phonetic": "[bɪˈwɪldərd]",
+      "definition": "Completely puzzled or confused; perplexed.",
+      "analysis": "形容詞，意為「困惑不解的；茫然的」。形容摸不著頭腦的狀態。",
+      "example": "He looked bewildered by the complicated instructions."
+    },
+    {
+      "word": "Caterpillars",
+      "phonetic": "[ˈkætərpɪlərz]",
+      "definition": "The worm-like larvae of butterflies or moths.",
+      "analysis": "名詞（複數），意為「毛毛蟲」。",
+      "example": "The caterpillars were chewing on the fresh green leaves."
+    },
+    {
+      "word": "Apparently",
+      "phonetic": "[əˈpærəntli]",
+      "definition": "As far as one can tell; seemingly; evidently.",
+      "analysis": "副詞，意為「顯然地；看起來；據說」。",
+      "example": "Apparently, the train has been delayed due to technical issues."
+    },
+    {
+      "word": "Irritating",
+      "phonetic": "[ˈɪrɪteɪtɪŋ]",
+      "definition": "Causing annoyance, impatience, or mild anger.",
+      "analysis": "形容詞，意為「令人惱火的；煩人的」。",
+      "example": "The constant ticking noise was very irritating."
+    },
+    {
+      "word": "Vicinity",
+      "phonetic": "[vəˈsɪnəti]",
+      "definition": "The area or region near or surrounding a place.",
+      "analysis": "名詞，意為「鄰近地區；附近」。常用短語 `in the vicinity of`。",
+      "example": "There are several good restaurants in the immediate vicinity."
+    },
+    {
+      "word": "Etiquette",
+      "phonetic": "[ˈetɪkət]",
+      "definition": "The customary code of polite behavior in society or among members of a profession.",
+      "analysis": "名詞，意為「禮儀；禮節；社交規範」。",
+      "example": "He was careful to observe the strict etiquette of the royal court."
+    },
+    {
+      "word": "Monarch",
+      "phonetic": "[ˈmɑːnərk]",
+      "definition": "A sovereign head of state, especially a king, queen, or emperor.",
+      "analysis": "名詞，意為「君主；帝王」。在《小王子》中指第一個星球上的國王。",
+      "example": "The country was ruled by an absolute monarch."
+    },
+    {
+      "word": "Intimidate",
+      "phonetic": "[ɪnˈtɪmɪdeɪt]",
+      "definition": "Frighten or overawe someone, especially in order to make them do what one wants.",
+      "analysis": "動詞，意為「恐嚇；威脅；使威嚇/膽怯」。",
+      "example": "He tried to intimidate the witnesses into staying silent."
+    },
+    {
+      "word": "Sputtering",
+      "phonetic": "[ˈspʌtərɪŋ]",
+      "definition": "Making a series of soft explosive sounds; speaking incoherently in confusion or anger.",
+      "analysis": "動詞/分詞，意為「發出劈啪聲；（因憤怒/困惑而）結結巴巴地講話」。",
+      "example": "The engine was sputtering before it finally died."
+    },
+    {
+      "word": "Disobedience",
+      "phonetic": "[ˌdɪsəˈbiːdiəns]",
+      "definition": "Refusal to obey rules or someone in authority.",
+      "analysis": "名詞，意為「不服從；不順從；違抗」。",
+      "example": "He would not tolerate any disobedience from his officers."
+    },
+    {
+      "word": "Seagull",
+      "phonetic": "[ˈsiːɡʌl]",
+      "definition": "A popular seabird with long wings and white, gray, and black feathers.",
+      "analysis": "名詞，意為「海鷗」。",
+      "example": "A seagull swooped down to snatch food from the beach."
+    },
+    {
+      "word": "Obey",
+      "phonetic": "[əˈbeɪ]",
+      "definition": "Comply with the command, direction, or request of an authority.",
+      "analysis": "動詞，意為「服從；聽從；遵守」。",
+      "example": "Soldiers are expected to obey orders without question."
+    },
+    {
+      "word": "Timidly inquired",
+      "phonetic": "[ˈtɪmɪdli ɪnˈkwaɪərd]",
+      "definition": "Asked a question in a shy, hesitant, or fearful manner.",
+      "analysis": "短語，意為「膽怯地詢問；怯生生問道」。",
+      "example": "'May I sit down?' she timidly inquired."
+    },
+    {
+      "word": "Hastened",
+      "phonetic": "[ˈheɪsnd]",
+      "definition": "Moved or acted quickly; hurried.",
+      "analysis": "動詞過去式，意為「急忙；連忙；加速」。",
+      "example": "He hastened to explain that he didn't mean any harm."
+    },
+    {
+      "word": "Discreet",
+      "phonetic": "[dɪˈskriːt]",
+      "definition": "Careful and circumspect in one's speech or actions, especially to avoid offence or draw attention.",
+      "analysis": "形容詞，意為「謹慎的；考慮周到的；不引人注目的」。",
+      "example": "They conducted a discreet inquiry into the matter."
+    },
+    {
+      "word": "Insubordination",
+      "phonetic": "[ˌɪnsəˌbɔːrdnˈeɪʃn]",
+      "definition": "Defiance of authority; refusal to obey orders.",
+      "analysis": "名詞，意為「反抗；不順從；抗命」。",
+      "example": "The officer was fired for insubordination."
+    },
+    {
+      "word": "Forsaken",
+      "phonetic": "[fərˈseɪkən]",
+      "definition": "Abandoned or deserted.",
+      "analysis": "形容詞/分詞，意為「被被遺棄的；被拋棄的」。",
+      "example": "The old mansion looked lonely and forsaken."
+    },
+    {
+      "word": "Entitled",
+      "phonetic": "[ɪnˈtaɪtld]",
+      "definition": "Believing oneself to be inherently deserving of privileges or special treatment.",
+      "analysis": "形容詞/動詞過去式，意為「有資格的；授權的；（自以為）有特別權利的」。",
+      "example": "You are entitled to express your own opinion."
+    },
+    {
+      "word": "Science",
+      "phonetic": "[ˈsaɪəns]",
+      "definition": "The systematic study of the structure and behavior of the physical world through observation.",
+      "analysis": "名詞，意為「科學；學問」。",
+      "example": "Space exploration is a fascinating branch of science."
+    },
+    {
+      "word": "Carriage",
+      "phonetic": "[ˈkærɪdʒ]",
+      "definition": "A four-wheeled passenger vehicle pulled by horses; demeanor.",
+      "analysis": "名詞，意為「四輪馬車；姿態/舉止」。",
+      "example": "The king arrived at the palace in a golden carriage."
+    },
+    {
+      "word": "Condemning",
+      "phonetic": "[kənˈdemɪŋ]",
+      "definition": "Expressing complete disapproval of; sentencing someone to punishment.",
+      "analysis": "動詞分詞/形容詞，意為「譴責；判刑；宣判…有罪」。",
+      "example": "The statement was criticized for condemning the innocent."
+    },
+    {
+      "word": "Aggrieve",
+      "phonetic": "[əˈɡriːv]",
+      "definition": "To cause distress, resentment, or injury to someone.",
+      "analysis": "動詞，意為「使苦惱；使委屈；傷害」。常以被動態 `aggrieved` 出現。",
+      "example": "He felt deeply aggrieved by the unfair decision."
+    },
+    {
+      "word": "Acclamation",
+      "phonetic": "[ˌækləˈmeɪʃn]",
+      "definition": "Loud and enthusiastic approval or praise.",
+      "analysis": "名詞，意為「歡呼；喝采；熱烈讚許」。",
+      "example": "The new leader was elected by acclamation."
+    },
+    {
+      "word": "Acknowledgment",
+      "phonetic": "[əkˈnɑːlɪdʒmənt]",
+      "definition": "Acceptance or recognition of the truth or existence of something.",
+      "analysis": "名詞，意為「承認；致謝；確認」。",
+      "example": "He nodded his head in silent acknowledgment."
+    },
+    {
+      "word": "Monotony",
+      "phonetic": "[məˈnɑːtəni]",
+      "definition": "Lack of variety and interest; tedious repetition and routine.",
+      "analysis": "名詞，意為「單調；無聊；千篇一律」。",
+      "example": "She wanted to break the monotony of her daily life."
+    },
+    {
+      "word": "Drunkard",
+      "phonetic": "[ˈdrʌŋkərd]",
+      "definition": "A person who is habitually drunk.",
+      "analysis": "名詞，意為「酒鬼；醉漢」。在《小王子》中指第三個星球上的酒鬼。",
+      "example": "The drunkard sat alone on the bench, muttering to himself."
+    },
+    {
+      "word": "Confessed",
+      "phonetic": "[kənˈfest]",
+      "definition": "Admitted to having done something wrong, embarrassing, or secret.",
+      "analysis": "動詞過去式，意為「坦白；承認；供認」。",
+      "example": "He confessed that he had broken the glass accidentally."
+    },
+    {
+      "word": "Trifles",
+      "phonetic": "[ˈtraɪflz]",
+      "definition": "Things of little value or importance.",
+      "analysis": "名詞（複數），意為「瑣事；微不足道的小事」。",
+      "example": "They shouldn't waste their precious time arguing over trifles."
+    },
+    {
+      "word": "Interrupted",
+      "phonetic": "[ˌɪntəˈrʌptɪd]",
+      "definition": "Stopped continuous progress; cut off someone speaking.",
+      "analysis": "動詞過去式/形容詞，意為「打斷；中斷」。",
+      "example": "Sorry to have interrupted your speech."
+    },
+    {
+      "word": "Rheumatism",
+      "phonetic": "[ˈruːmətɪzəm]",
+      "definition": "A medical condition causing pain and stiffness in joints and muscles.",
+      "analysis": "名詞，意為「風濕病」。",
+      "example": "The old man suffered from rheumatism in cold weather."
+    },
+    {
+      "word": "Retorted",
+      "phonetic": "[rɪˈtɔːrtɪd]",
+      "definition": "Answered back sharply or wittily in retaliation.",
+      "analysis": "動詞過去式，意為「反駁；回嘴」。",
+      "example": "'That's none of your business!' she retorted angrily."
+    },
+    {
+      "word": "Grumpily",
+      "phonetic": "[ˈɡrʌmpɪli]",
+      "definition": "In a bad-tempered, irritable, or sulky manner.",
+      "analysis": "副詞，意為「脾氣暴躁地；性格怪癖地；抱怨地」。",
+      "example": "He answered grumpily before turning his back."
+    },
+    {
+      "word": "Poetic",
+      "phonetic": "[poʊˈetɪk]",
+      "definition": "Having a quality or style characteristic of poetry; graceful and romantic.",
+      "analysis": "形容詞，意為「詩意地；詩歌的；富有浪漫色彩的」。",
+      "example": "The novel is known for its beautiful and poetic language."
     }
   ]
 }
