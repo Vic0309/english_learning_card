@@ -58,7 +58,35 @@
   let isPaused = false;
   let currentIndex = 0;
   let currentUtterance = null;
+  let wakeLock = null; // 螢幕防休眠鎖定物件
   const synth = window.speechSynthesis;
+
+  // 1. 請求螢幕保持開啟 (防鎖屏)
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try {
+        wakeLock = await navigator.wakeLock.request('screen');
+      } catch (err) {
+        console.log('Wake Lock 啟用失敗:', err.message);
+      }
+    }
+  }
+
+  // 2. 釋放螢幕鎖定
+  function releaseWakeLock() {
+    if (wakeLock !== null) {
+      wakeLock.release().then(() => {
+        wakeLock = null;
+      });
+    }
+  }
+
+  // 3. 當使用者切換分頁再切回來時，若還在播放中則重新申請防鎖屏
+  document.addEventListener('visibilitychange', async () => {
+    if (wakeLock !== null && document.visibilityState === 'visible' && isPlaying && !isPaused) {
+      await requestWakeLock();
+    }
+  });
 
   // 載入書籍清單
   async function init() {
@@ -89,7 +117,7 @@
     }
   }
 
-  // 渲染表格（點擊 🔊 或整列都可以直接從該單字開始輪播）
+  // 渲染表格
   function renderTable() {
     const tbody = document.getElementById('tableBody');
     tbody.innerHTML = currentVocabList.map((item, index) => `
@@ -122,7 +150,7 @@
     return new Promise((resolve, reject) => {
       if (!isPlaying || isPaused) return reject(new Error('Interrupted'));
 
-      synth.cancel(); // 播放前先清空佇列，確保順暢
+      synth.cancel();
 
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = lang;
@@ -143,38 +171,34 @@
     });
   }
 
-  // 唸完一個單字的完整順序：Word ➔ Definition ➔ Example ➔ Chinese Analysis
+  // 唸完一個單字的完整順序
   async function speakVocabItem(item) {
-    // 1. 唸單字 (英文)
     await speakText(item.word, 'en-US', 0.85);
     await delay(400);
 
-    // 2. 唸 Definition (英文)
     await speakText(item.definition, 'en-US', 0.9);
     await delay(400);
 
-    // 3. 唸英文例句 (英文)
     await speakText(item.example, 'en-US', 0.9);
     await delay(500);
 
-    // 4. 唸中文解析/翻譯 (中文)
     await speakText(item.analysis, 'zh-TW', 1.0);
     await delay(1500);
   }
 
   // 核心功能：從指定單字開始繼續/輪播
   async function playFromIndex(index) {
-    // 先停止當前播放
     synth.cancel();
     isPlaying = false;
     isPaused = false;
 
-    // 設定新的起點
     currentIndex = index;
     isPlaying = true;
+    
+    // 啟用防鎖屏
+    await requestWakeLock();
     updateUI();
 
-    // 啟動播放迴圈
     while (currentIndex < currentVocabList.length && isPlaying && !isPaused) {
       highlightRow(currentIndex);
       const item = currentVocabList[currentIndex];
@@ -195,7 +219,7 @@
     }
   }
 
-  // 開車連播模式（預設從第 0 個或目前暫停位置開始）
+  // 開車連播模式
   function startAutoPlay() {
     if (isPlaying && !isPaused) return;
 
@@ -212,12 +236,11 @@
     if (!isPlaying && !isPaused) return;
 
     if (!isPaused) {
-      // 點擊「暫停」
       isPaused = true;
       synth.cancel();
+      releaseWakeLock(); // 暫停時釋放螢幕鎖定
       updateUI();
     } else {
-      // 點擊「繼續播放」
       isPaused = false;
       playFromIndex(currentIndex);
     }
@@ -229,6 +252,7 @@
     isPaused = false;
     currentIndex = 0;
     synth.cancel();
+    releaseWakeLock(); // 停止時釋放螢幕鎖定
     highlightRow(-1);
     updateUI();
   }
