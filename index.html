@@ -58,17 +58,26 @@
   let isPaused = false;
   let currentIndex = 0;
   let currentUtterance = null;
-  let wakeLock = null; // 螢幕防休眠鎖定物件
+  let wakeLock = null;
   const synth = window.speechSynthesis;
 
-  // 1. 請求螢幕保持開啟 (防鎖屏)
-  async function requestWakeLock() {
+  // iOS 語音解鎖機制：在點擊事件觸發時第一時間播放無聲/空白語音
+  function unlockAudio() {
+    if (synth && synth.speak) {
+      const silentUtterance = new SpeechSynthesisUtterance('');
+      silentUtterance.volume = 0;
+      synth.speak(silentUtterance);
+    }
+  }
+
+  // 1. 請求螢幕保持開啟 (防鎖屏) - 採安全背景載入
+  function requestWakeLock() {
     if ('wakeLock' in navigator) {
-      try {
-        wakeLock = await navigator.wakeLock.request('screen');
-      } catch (err) {
-        console.log('Wake Lock 啟用失敗:', err.message);
-      }
+      navigator.wakeLock.request('screen').then(lock => {
+        wakeLock = lock;
+      }).catch(err => {
+        console.log('Wake Lock 啟用未成功 (不影響播放):', err.message);
+      });
     }
   }
 
@@ -77,14 +86,14 @@
     if (wakeLock !== null) {
       wakeLock.release().then(() => {
         wakeLock = null;
-      });
+      }).catch(() => {});
     }
   }
 
-  // 3. 當使用者切換分頁再切回來時，若還在播放中則重新申請防鎖屏
-  document.addEventListener('visibilitychange', async () => {
+  // 3. 切換分頁事件
+  document.addEventListener('visibilitychange', () => {
     if (wakeLock !== null && document.visibilityState === 'visible' && isPlaying && !isPaused) {
-      await requestWakeLock();
+      requestWakeLock();
     }
   });
 
@@ -188,6 +197,7 @@
 
   // 核心功能：從指定單字開始繼續/輪播
   async function playFromIndex(index) {
+    unlockAudio(); // 第一時間解鎖 iOS 語音引擎
     synth.cancel();
     isPlaying = false;
     isPaused = false;
@@ -195,8 +205,7 @@
     currentIndex = index;
     isPlaying = true;
     
-    // 啟用防鎖屏
-    await requestWakeLock();
+    requestWakeLock(); // 防鎖屏 (非阻塞)
     updateUI();
 
     while (currentIndex < currentVocabList.length && isPlaying && !isPaused) {
@@ -221,6 +230,7 @@
 
   // 開車連播模式
   function startAutoPlay() {
+    unlockAudio();
     if (isPlaying && !isPaused) return;
 
     if (isPaused) {
@@ -233,12 +243,13 @@
 
   // 暫停 / 繼續 切換
   function togglePause() {
+    unlockAudio();
     if (!isPlaying && !isPaused) return;
 
     if (!isPaused) {
       isPaused = true;
       synth.cancel();
-      releaseWakeLock(); // 暫停時釋放螢幕鎖定
+      releaseWakeLock();
       updateUI();
     } else {
       isPaused = false;
@@ -252,7 +263,7 @@
     isPaused = false;
     currentIndex = 0;
     synth.cancel();
-    releaseWakeLock(); // 停止時釋放螢幕鎖定
+    releaseWakeLock();
     highlightRow(-1);
     updateUI();
   }
