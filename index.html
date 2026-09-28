@@ -2,57 +2,172 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 確保手機 Safari 放大比例正確 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>我的英文單字庫 (Drive & Learn)</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 20px; background: #f8f9fa; }
-    .header { display: flex; gap: 15px; margin-bottom: 20px; align-items: center; }
-    select { padding: 10px; font-size: 16px; border-radius: 8px; }
-    
-    /* 開車模式控制器 */
-    .drive-control { background: #007aff; color: white; padding: 15px; border-radius: 12px; margin-bottom: 20px; text-align: center; }
-    .btn { padding: 10px 20px; font-size: 16px; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; }
-    .btn-play { background: #34c759; color: white; }
-    .btn-pause { background: #ff9500; color: white; margin-left: 10px; }
-    .btn-stop { background: #ff3b30; color: white; margin-left: 10px; }
+    /* 全局基底設定 */
+    * { box-sizing: border-box; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+      margin: 0; 
+      padding: 15px; 
+      background: #f8f9fa; 
+      color: #333;
+    }
 
-    /* 表格樣式 */
-    table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-    th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #ddd; }
-    th { background: #f1f3f5; }
-    .playing-row { background-color: #e7f5ff !important; font-weight: bold; }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    /* 書籍選擇區 */
+    .header { 
+      display: flex; 
+      gap: 10px; 
+      margin-bottom: 15px; 
+      align-items: center; 
+      background: white;
+      padding: 12px 15px;
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    select { 
+      flex: 1;
+      padding: 8px 12px; 
+      font-size: 16px; 
+      border-radius: 8px; 
+      border: 1px solid #ccc;
+      background-color: #fff;
+    }
+
+    /* 開車模式控制器 - 手機友好的 Flexbox 佈局 */
+    .drive-control { 
+      background: #007aff; 
+      color: white; 
+      padding: 15px; 
+      border-radius: 12px; 
+      margin-bottom: 15px; 
+      text-align: center; 
+      box-shadow: 0 2px 8px rgba(0,122,255,0.25);
+    }
+    .drive-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: block;
+    }
+    .btn-group {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      flex-wrap: wrap; /* 空間不夠時自動換行 */
+    }
+    .btn { 
+      padding: 10px 16px; 
+      font-size: 15px; 
+      border: none; 
+      border-radius: 8px; 
+      cursor: pointer; 
+      font-weight: bold; 
+      flex: 1;
+      min-width: 100px;
+      transition: background 0.2s;
+    }
+    .btn-play { background: #34c759; color: white; }
+    .btn-pause { background: #ff9500; color: white; }
+    .btn-stop { background: #ff3b30; color: white; }
+
+    /* 表格橫向滾動容器 - 解決手機擠壓表格主因 */
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch; /* 讓 iOS Safari 滾動更流暢 */
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    /* 表格基本設定 */
+    table { 
+      width: 100%; 
+      border-collapse: collapse; 
+      min-width: 650px; /* 保障內容不會壓縮變形 */
+    }
+    th, td { 
+      padding: 12px 10px; 
+      text-align: left; 
+      border-bottom: 1px solid #eee; 
+      vertical-align: top;
+      word-break: break-word; /* 允許文字自動換行 */
+    }
+    th { 
+      background: #f1f3f5; 
+      font-size: 14px;
+      color: #495057;
+      white-space: nowrap;
+    }
+    .audio-btn {
+      background: #e9ecef;
+      border: none;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .playing-row { 
+      background-color: #e7f5ff !important; 
+    }
+
+    /* 📱 手機微調 (螢幕寬度小於 600px 時套用) */
+    @media (max-width: 600px) {
+      body { padding: 10px; }
+      .drive-control { padding: 12px; }
+      .btn { padding: 12px 10px; font-size: 14px; } /* 手機按鈕放大好點擊 */
+    }
   </style>
 </head>
 <body>
 
+<div class="container">
   <div class="header">
-    <label for="bookSelect"><strong>選擇書籍：</strong></label>
+    <label for="bookSelect"><strong>書籍：</strong></label>
     <select id="bookSelect" onchange="loadSelectedBook()"></select>
   </div>
 
   <!-- 開車模式 / 連續播放 -->
   <div class="drive-control">
-    <span style="font-size: 18px; margin-right: 15px;">🚗 開車/連播模式：</span>
-    <button id="playBtn" class="btn btn-play" onclick="startAutoPlay()">▶ 開始全部輪播</button>
-    <button id="pauseBtn" class="btn btn-pause" onclick="togglePause()" style="display:none;">⏸ 暫停播放</button>
-    <button class="btn btn-stop" onclick="stopAutoPlay()">⏹ 停止播放</button>
-    <div id="nowPlayingText" style="margin-top: 10px; font-size: 14px; opacity: 0.9;">狀態：未播放</div>
+    <span class="drive-title">🚗 開車/連播模式</span>
+    <div class="btn-group">
+      <button id="playBtn" class="btn btn-play" onclick="startAutoPlay()">▶ 開始輪播</button>
+      <button id="pauseBtn" class="btn btn-pause" onclick="togglePause()" style="display:none;">⏸ 暫停</button>
+      <button class="btn btn-stop" onclick="stopAutoPlay()">⏹ 停止</button>
+    </div>
+    <div id="nowPlayingText" style="margin-top: 10px; font-size: 13px; opacity: 0.95;">狀態：未播放</div>
   </div>
 
-  <table id="vocabTable">
-    <thead>
-      <tr>
-        <th>語音</th>
-        <th>Word</th>
-        <th>Phonetic (KK)</th>
-        <th>English Definition</th>
-        <th>深入解析與使用 / 例句</th>
-      </tr>
-    </thead>
-    <tbody id="tableBody"></tbody>
-  </table>
+  <!-- 包裹層：防止表格把手機螢幕撐爆 -->
+  <div class="table-container">
+    <table id="vocabTable">
+      <thead>
+        <tr>
+          <th style="width: 50px;">語音</th>
+          <th style="width: 110px;">Word</th>
+          <th style="width: 110px;">Phonetic</th>
+          <th style="width: 30%;">Definition</th>
+          <th>深入解析與使用 / 例句</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+</div>
 
-  <script>
+<script>
   let currentVocabList = [];
   let isPlaying = false;
   let isPaused = false;
@@ -61,7 +176,7 @@
   let wakeLock = null;
   const synth = window.speechSynthesis;
 
-  // iOS 語音解鎖機制：在點擊事件觸發時第一時間播放無聲/空白語音
+  // iOS 語音解鎖機制
   function unlockAudio() {
     if (synth && synth.speak) {
       const silentUtterance = new SpeechSynthesisUtterance('');
@@ -70,27 +185,23 @@
     }
   }
 
-  // 1. 請求螢幕保持開啟 (防鎖屏) - 採安全背景載入
+  // 防鎖屏
   function requestWakeLock() {
     if ('wakeLock' in navigator) {
       navigator.wakeLock.request('screen').then(lock => {
         wakeLock = lock;
       }).catch(err => {
-        console.log('Wake Lock 啟用未成功 (不影響播放):', err.message);
+        console.log('Wake Lock 啟用未成功:', err.message);
       });
     }
   }
 
-  // 2. 釋放螢幕鎖定
   function releaseWakeLock() {
     if (wakeLock !== null) {
-      wakeLock.release().then(() => {
-        wakeLock = null;
-      }).catch(() => {});
+      wakeLock.release().then(() => { wakeLock = null; }).catch(() => {});
     }
   }
 
-  // 3. 切換分頁事件
   document.addEventListener('visibilitychange', () => {
     if (wakeLock !== null && document.visibilityState === 'visible' && isPlaying && !isPaused) {
       requestWakeLock();
@@ -131,11 +242,14 @@
     const tbody = document.getElementById('tableBody');
     tbody.innerHTML = currentVocabList.map((item, index) => `
       <tr id="row-${index}" onclick="playFromIndex(${index})" style="cursor: pointer;">
-        <td><button onclick="event.stopPropagation(); playFromIndex(${index});">🔊</button></td>
+        <td><button class="audio-btn" onclick="event.stopPropagation(); playFromIndex(${index});">🔊</button></td>
         <td><strong>${item.word}</strong></td>
-        <td>${item.phonetic}</td>
-        <td>${item.definition}</td>
-        <td>${item.analysis}<br><small style="color:#666">例: ${item.example}</small></td>
+        <td style="color: #666; font-size: 13px;">${item.phonetic}</td>
+        <td style="font-size: 14px;">${item.definition}</td>
+        <td style="font-size: 14px;">
+          ${item.analysis}
+          <div style="color:#007aff; margin-top: 4px; font-size: 13px;">例: ${item.example}</div>
+        </td>
       </tr>
     `).join('');
   }
@@ -180,7 +294,7 @@
     });
   }
 
-  // 唸完一個單字的完整順序
+  // 唸單字順序
   async function speakVocabItem(item) {
     await speakText(item.word, 'en-US', 0.85);
     await delay(400);
@@ -197,7 +311,7 @@
 
   // 核心功能：從指定單字開始繼續/輪播
   async function playFromIndex(index) {
-    unlockAudio(); // 第一時間解鎖 iOS 語音引擎
+    unlockAudio();
     synth.cancel();
     isPlaying = false;
     isPaused = false;
@@ -205,7 +319,7 @@
     currentIndex = index;
     isPlaying = true;
     
-    requestWakeLock(); // 防鎖屏 (非阻塞)
+    requestWakeLock();
     updateUI();
 
     while (currentIndex < currentVocabList.length && isPlaying && !isPaused) {
@@ -287,17 +401,17 @@
     const statusText = document.getElementById('nowPlayingText');
 
     if (!isPlaying && !isPaused) {
-      playBtn.innerText = '▶ 開始全部輪播';
+      playBtn.innerText = '▶ 開始輪播';
       playBtn.style.display = 'inline-block';
       pauseBtn.style.display = 'none';
       statusText.innerText = '狀態：未播放';
     } else if (isPaused) {
-      pauseBtn.innerText = '▶ 繼續播放';
+      pauseBtn.innerText = '▶ 繼續';
       pauseBtn.style.display = 'inline-block';
       playBtn.style.display = 'none';
       statusText.innerText = `狀態：已暫停 (${currentVocabList[currentIndex]?.word || ''})`;
     } else {
-      pauseBtn.innerText = '⏸ 暫停播放';
+      pauseBtn.innerText = '⏸ 暫停';
       pauseBtn.style.display = 'inline-block';
       playBtn.style.display = 'none';
       statusText.innerText = `正在播放 (${currentIndex + 1}/${currentVocabList.length}): ${currentVocabList[currentIndex]?.word || ''}`;
@@ -305,6 +419,6 @@
   }
 
   init();
-  </script>
+</script>
 </body>
 </html>
