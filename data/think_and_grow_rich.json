@@ -1,0 +1,755 @@
+{
+  "bookId": "think_and_grow_rich",
+  "bookTitle": "Think and Grow Rich (思考致富)",
+  "vocabulary": [
+    {
+      "word": "Merely",
+      "phonetic": "[ˈmɪrli]",
+      "definition": "Just; only; no more than.",
+      "analysis": "副詞，意為「僅僅；只不過」。常用於強調事物的單純或微不足道。",
+      "example": "He was merely stating his opinion, not forcing a decision."
+    },
+    {
+      "word": "Deprive",
+      "phonetic": "[dɪˈpraɪv]",
+      "definition": "Deny a person or place the possession or use of something.",
+      "analysis": "動詞，意為「剝奪；使喪失」。常與 of 連用（deprive someone of something）。",
+      "example": "Poverty should not deprive anyone of the opportunity to learn."
+    },
+    {
+      "word": "Manuscript",
+      "phonetic": "[ˈmænjuskrɪpt]",
+      "definition": "A book, document, or piece of music written by hand rather than typed or printed.",
+      "analysis": "名詞，意為「手稿；原稿」。出版或印刷前的原始文字作品。",
+      "example": "The author spent years revising the manuscript before publication."
+    },
+    {
+      "word": "Surmount",
+      "phonetic": "[sərˈmaʊnt]",
+      "definition": "Overcome a difficulty or obstacle.",
+      "analysis": "動詞，意為「克服；戰勝（困難、障礙）」。成功超越逆境。",
+      "example": "She managed to surmount all financial obstacles through persistence."
+    },
+    {
+      "word": "Handicapped",
+      "phonetic": "[ˈhændikæpt]",
+      "definition": "Having a physical or mental disability; placed at a disadvantage.",
+      "analysis": "形容詞，意為「殘疾的；處於不利地位的」。描繪受自身條件限制者。",
+      "example": "He refused to let his physical condition make him feel handicapped."
+    },
+    {
+      "word": "Affliction",
+      "phonetic": "[əˈflɪkʃn]",
+      "definition": "Something that causes pain or suffering.",
+      "analysis": "名詞，意為「折磨；苦難；病痛」。困擾身心的巨大逆境。",
+      "example": "Courage helped him turn his physical affliction into an advantage."
+    },
+    {
+      "word": "Extensively",
+      "phonetic": "[ɪkˈstensɪvli]",
+      "definition": "In a way that covers or affects a large area or scope; widely.",
+      "analysis": "副詞，意為「廣泛地；深入地」。形容涵蓋範圍極廣。",
+      "example": "The researcher interviewed successful leaders extensively."
+    },
+    {
+      "word": "Peculiar",
+      "phonetic": "[pɪˈkjuːliər]",
+      "definition": "Strange or odd; unusual; belonging exclusively to a particular person or thing.",
+      "analysis": "形容詞，意為「古怪的；獨特的；特有的」。",
+      "example": "Successful people often possess a peculiar determination."
+    },
+    {
+      "word": "Intentionally",
+      "phonetic": "[ɪnˈtenʃənəli]",
+      "definition": "Deliberately; on purpose.",
+      "analysis": "副詞，意為「故意地；蓄意地；刻意地」。有明確目標地行動。",
+      "example": "He intentionally directed his thoughts toward reaching his goal."
+    },
+    {
+      "word": "Serves",
+      "phonetic": "[sɜːrvz]",
+      "definition": "Performs duties; satisfies a need; acts as a tool.",
+      "analysis": "動詞（單數第三人稱），意為「服務；發揮作用；起…效果」。",
+      "example": "Defeat often serves as a lesson for eventual success."
+    },
+    {
+      "word": "Possession",
+      "phonetic": "[pəˈzeʃn]",
+      "definition": "The state of having, owning, or controlling something.",
+      "analysis": "名詞，意為「擁有；財產；所有物」。",
+      "example": "Wealth is the natural possession of those who master their minds."
+    },
+    {
+      "word": "Locomotive",
+      "phonetic": "[ˌloʊkəˈmoʊtɪv]",
+      "definition": "A powered railway vehicle used for pulling trains; powerful engine.",
+      "analysis": "名詞，意為「火車頭；動力機車」。常用於比喻推動事業的巨大動力。",
+      "example": "Desire is the internal locomotive that drives achievement."
+    },
+    {
+      "word": "Epiphany",
+      "phonetic": "[ɪˈpɪfəni]",
+      "definition": "A moment of sudden and great revelation or realization.",
+      "analysis": "名詞，意為「頓悟；靈光乍現」。思想上突破性的悟道時刻。",
+      "example": "He experienced an epiphany that changed his entire career path."
+    },
+    {
+      "word": "Mystic sign",
+      "phonetic": "[ˈmɪstɪk saɪn]",
+      "definition": "A symbol or mark possessing mysterious, spiritual, or supernatural meaning.",
+      "analysis": "短語，意為「神祕的徵兆／符號」。象徵命運或潛意識啟示。",
+      "example": "He saw the unexpected meeting as a mystic sign of impending success."
+    },
+    {
+      "word": "Convey",
+      "phonetic": "[kənˈveɪ]",
+      "definition": "Transport or carry to a place; communicate an idea or feeling.",
+      "analysis": "動詞，意為「傳達；表達；輸送」。將想法或情感轉達給他人。",
+      "example": "Words alone cannot convey the burning power of true ambition."
+    },
+    {
+      "word": "Stimulus",
+      "phonetic": "[ˈstɪmjələs]",
+      "definition": "A thing or event that evokes a specific functional reaction.",
+      "analysis": "名詞，意為「刺激；刺激物；動力來源」。激發行動的因素。",
+      "example": "Competition acts as a powerful stimulus to higher performance."
+    },
+    {
+      "word": "Pursued",
+      "phonetic": "[pərˈsuːd]",
+      "definition": "Followed or chased in order to catch or attain.",
+      "analysis": "動詞過去式，意為「追求；追逐；堅持不懈地從事」。",
+      "example": "He relentlessly pursued his ambition despite continuous failure."
+    },
+    {
+      "word": "Prosperity",
+      "phonetic": "[prɑːˈsperəti]",
+      "definition": "The state of being prosperous, successful, and flourishing financially.",
+      "analysis": "名詞，意為「繁榮；昌盛；成功致富」。物質與事業的豐盛。",
+      "example": "Definiteness of purpose is the first step toward prosperity."
+    },
+    {
+      "word": "Rebellious",
+      "phonetic": "[rɪˈbeljəs]",
+      "definition": "Showing a desire to resist authority, control, or convention.",
+      "analysis": "形容詞，意為「叛逆的；反抗的；不服從傳統的」。",
+      "example": "A rebellious spirit often fuels innovation and change."
+    },
+    {
+      "word": "Pragmatic",
+      "phonetic": "[præɡˈmætɪk]",
+      "definition": "Dealing with things sensibly and realistically based on practical considerations.",
+      "analysis": "形容詞，意為「務實的；重實效的；實用主義的」。",
+      "example": "He developed a pragmatic approach to solving business challenges."
+    },
+    {
+      "word": "Obsessed",
+      "phonetic": "[əbˈsest]",
+      "definition": "Preoccupied or filled with a single idea or thought constantly.",
+      "analysis": "形容詞/動詞過去式，意為「著迷的；心無旁騖的；被沉迷佔據的」。",
+      "example": "To win, one must become obsessively focused on the goal."
+    },
+    {
+      "word": "Acclaimed",
+      "phonetic": "[əˈkleɪmd]",
+      "definition": "Publicly praised or celebrated enthusiastically.",
+      "analysis": "形容詞/動詞過去式，意為「備受推崇的；廣受好評的」。",
+      "example": "He became an acclaimed expert in business strategy."
+    },
+    {
+      "word": "Magnate",
+      "phonetic": "[ˈmæɡneɪt]",
+      "definition": "A wealthy and influential person, especially in business or industry.",
+      "analysis": "名詞，意為「巨頭；大亨；實業家」。行業中極具影響力的人物。",
+      "example": "Andrew Carnegie was a legendary steel magnate."
+    },
+    {
+      "word": "Commission",
+      "phonetic": "[kəˈmɪʃn]",
+      "definition": "An instruction, command, or duty given to a person; payment based on sales.",
+      "analysis": "名詞/動詞，意為「委託；任務；佣金」。獲委派進行重要工作。",
+      "example": "He accepted the commission to study the secrets of successful men."
+    },
+    {
+      "word": "Formulate",
+      "phonetic": "[ˈfɔːrmjuleɪt]",
+      "definition": "Create or devise systematically a strategy, plan, or formula.",
+      "analysis": "動詞，意為「構想；制定；系統化地規劃」。",
+      "example": "It is essential to formulate a clear plan for reaching your goal."
+    },
+    {
+      "word": "Monumental",
+      "phonetic": "[ˌmɑːnjuˈmentl]",
+      "definition": "Great in importance, extent, or size; monumental.",
+      "analysis": "形容詞，意為「不朽的；極其重大的；里程碑式的」。",
+      "example": "Writing this book was a monumental undertaking that took twenty years."
+    },
+    {
+      "word": "Refurbished",
+      "phonetic": "[ˌriːˈfɜːrbɪʃt]",
+      "definition": "Renovated and redecorated to improve appearance or functionality.",
+      "analysis": "形容詞/動詞過去式，意為「翻新；修復整整；重新裝修」。",
+      "example": "The edition contains refurbished insights updated for modern readers."
+    },
+    {
+      "word": "Anecdote",
+      "phonetic": "[ˈænɪkdoʊt]",
+      "definition": "A short and amusing or interesting story about a real incident or person.",
+      "analysis": "名詞，意為「軼事；奇聞小故事」。用來點出道理的人物真實小故事。",
+      "example": "The author shares an inspiring anecdote about Darby's gold mine."
+    },
+    {
+      "word": "Exemplify",
+      "phonetic": "[ɪɡˈzemplɪfaɪ]",
+      "definition": "Be a typical example of; illustrate by giving an example.",
+      "analysis": "動詞，意為「是…的典範；例證說明」。做為具體示範。",
+      "example": "Henry Ford's actions exemplify the principle of persistence."
+    },
+    {
+      "word": "Promulgated",
+      "phonetic": "[ˈprɑːmlɡeɪtɪd]",
+      "definition": "Promoted or made widely known an idea or cause.",
+      "analysis": "動詞過去式，意為「公佈；頒布；廣為傳播（理念、法律）」。",
+      "example": "The philosophy of achievement was promulgated around the world."
+    },
+    {
+      "word": "Contemporary",
+      "phonetic": "[kənˈtempəreri]",
+      "definition": "Living or occurring at the same time; modern.",
+      "analysis": "形容詞/名詞，意為「當代的；同時代的人」。",
+      "example": "Thomas Edison was a contemporary of Henry Ford."
+    },
+    {
+      "word": "Precept",
+      "phonetic": "[ˈpriːsept]",
+      "definition": "A general rule intended to regulate behavior or thought.",
+      "analysis": "名詞，意為「格言；戒律；指導原則」。指引行動的核心法則。",
+      "example": "He practiced the precepts of success throughout his career."
+    },
+    {
+      "word": "Harmony",
+      "phonetic": "[ˈhɑːrməni]",
+      "definition": "Agreement or concord; pleasant combination of elements.",
+      "analysis": "名詞，意為「和諧；融洽；一致」。團隊合作的核心氛圍（智囊團和諧）。",
+      "example": "The Master Mind alliance operates on the principle of complete harmony."
+    },
+    {
+      "word": "Persistence",
+      "phonetic": "[pərˈsɪstəns]",
+      "definition": "Firm or obstinate continuance in a course of action in spite of difficulty.",
+      "analysis": "名詞，意為「堅持不懈；毅力」。本書最核心的成功要素之一。",
+      "example": "Persistence is a state of mind, so it can be cultivated."
+    },
+    {
+      "word": "Defeated",
+      "phonetic": "[dɪˈfiːtɪd]",
+      "definition": "Having been beaten in a battle or contest; overcome.",
+      "analysis": "形容詞/動詞過去式，意為「被打敗的；遭遇挫折的」。",
+      "example": "Temporary defeat should never be accepted as permanent failure."
+    },
+    {
+      "word": "Coveted goal",
+      "phonetic": "[ˈkʌvɪtɪd ɡoʊl]",
+      "definition": "A target or ambition that is greatly desired and yearned for.",
+      "analysis": "短語，意為「夢寐以求的目標」。人人渴望達成的宏願。",
+      "example": "Through intense desire, he reached his coveted goal."
+    },
+    {
+      "word": "Intensifying",
+      "phonetic": "[ɪnˈtensɪfaɪɪŋ]",
+      "definition": "Becoming or making greater, stronger, or more extreme.",
+      "analysis": "動詞/分詞，意為「加劇；加強；使深化」。強化內心企圖心。",
+      "example": "He spent every day intensifying his burning desire for success."
+    },
+    {
+      "word": "Accomplish",
+      "phonetic": "[əˈkɑːmplɪʃ]",
+      "definition": "Achieve or complete successfully.",
+      "analysis": "動詞，意為「完成；實現；達成」。實現艱難的任務或夢想。",
+      "example": "With a clear plan, you can accomplish whatever the mind conceives."
+    },
+    {
+      "word": "Definite purpose",
+      "phonetic": "[ˈdefɪnət ˈpɜːrpəs]",
+      "definition": "A clearly defined, specific objective or mission.",
+      "analysis": "短語，意為「明確的目標/旨趣」。拿破崙·希爾成功的第 1 大原則。",
+      "example": "The starting point of all achievement is a definite purpose."
+    },
+    {
+      "word": "All-consuming obsession",
+      "phonetic": "[ɔːl kənˈsuːmɪŋ əbˈseʃn]",
+      "definition": "An intense passion or desire that completely dominates thoughts.",
+      "analysis": "短語，意為「吞噬一切的強烈執念／狂熱」。極度聚焦無可替代的企圖心。",
+      "example": "His ambition became an all-consuming obsession that fueled his progress."
+    },
+    {
+      "word": "Sly habit",
+      "phonetic": "[slaɪ ˈhæbɪt]",
+      "definition": "A secretive, cunning, or insidious subconscious routine.",
+      "analysis": "短語，意為「狡黠狡猾的習慣／潛移默化的壞習慣」。特指拖延或自滿。",
+      "example": "Procrastination is a sly habit that creeps up without warning."
+    },
+    {
+      "word": "Disguised",
+      "phonetic": "[dɪsˈɡaɪzd]",
+      "definition": "Giving a different appearance in order to conceal the identity.",
+      "analysis": "形容詞/動詞過去式，意為「偽裝的；掩飾的」。機遇常偽裝成不幸。",
+      "example": "Opportunity often comes disguised in the form of temporary defeat."
+    },
+    {
+      "word": "Perfected",
+      "phonetic": "[pərˈfektɪd]",
+      "definition": "Made completely free from faults or defects; refined.",
+      "analysis": "動詞過去式，意為「完善；磨練完美；精通」。",
+      "example": "He perfected his sales techniques through continuous practice."
+    },
+    {
+      "word": "Enthusiastic",
+      "phonetic": "[ɪnˌθuːziˈæstɪk]",
+      "definition": "Having or showing intense and eager enjoyment, interest, or approval.",
+      "analysis": "形容詞，意為「熱情的；狂熱的；滿腔熱忱的」。充滿感染力的心態。",
+      "example": "An enthusiastic attitude inspires confidence in others."
+    },
+    {
+      "word": "Crawled",
+      "phonetic": "[krɔːld]",
+      "definition": "Moved forward on the hands and knees or slowly.",
+      "analysis": "動詞過去式，意為「爬行；緩慢前進」。特指極度艱難匍匐滑行。",
+      "example": "The injured miner crawled out from under the collapsed rocks."
+    },
+    {
+      "word": "Shovel",
+      "phonetic": "[ˈʃʌvl]",
+      "definition": "A tool used for digging, lifting, and moving bulk materials.",
+      "analysis": "名詞/動詞，意為「鏟子；用鏟子掘土」。開礦挖金故事中的核心道具。",
+      "example": "They bought a shovel and began digging for gold ore."
+    },
+    {
+      "word": "Lust",
+      "phonetic": "[lʌst]",
+      "definition": "A strong, passionate desire for something (such as wealth or power).",
+      "analysis": "名詞/動詞，意為「強烈慾望；渴望；貪求」。對財富名利的極度渴望。",
+      "example": "A blind lust for gold without a strategy leads to regret."
+    },
+    {
+      "word": "Ore",
+      "phonetic": "[ɔːr]",
+      "definition": "A naturally occurring solid material from which a metal can be extracted.",
+      "analysis": "名詞，意為「礦石；礦砂」。含有貴重金屬的天然礦石。",
+      "example": "The miners struck a rich vein of gold ore."
+    },
+    {
+      "word": "Smelter",
+      "phonetic": "[ˈsmeltər]",
+      "definition": "An installation for smelting metal from its ore.",
+      "analysis": "名詞，意為「冶鍊廠；提煉爐」。將礦石熔煉提純金屬的設施。",
+      "example": "They shipped carloads of ore to the smelting plant."
+    },
+    {
+      "word": "Vein",
+      "phonetic": "[veɪn]",
+      "definition": "A fracture in rock containing a deposit of mineral ore.",
+      "analysis": "名詞，意為「礦脈；靜脈」。指地下蘊藏豐富礦產的金礦脈。",
+      "example": "They stopped digging just three feet from the gold vein."
+    },
+    {
+      "word": "Counsel",
+      "phonetic": "[ˈkaʊnsl]",
+      "definition": "Advice or guidance given formally; consult with experts.",
+      "analysis": "名詞/動詞，意為「諮詢；忠告；商議建議」。尋求專業意見。",
+      "example": "Seek counsel from those who have already achieved what you desire."
+    },
+    {
+      "word": "Faith",
+      "phonetic": "[feɪθ]",
+      "definition": "Complete trust or confidence in someone or something; belief.",
+      "analysis": "名詞，意為「信念；信仰；信心」。拿破崙·希爾成功的第 2 大原則。",
+      "example": "Faith is the visualizer and the primary element of all accomplishment."
+    },
+    {
+      "word": "Transmuted",
+      "phonetic": "[trænzˈmjuːtɪd]",
+      "definition": "Changed or transformed in form, nature, or substance.",
+      "analysis": "動詞過去式，意為「轉化；蛻變；變質（將慾望轉化為財富）」。",
+      "example": "Energy must be transmuted into constructive physical action."
+    },
+    {
+      "word": "Owe",
+      "phonetic": "[oʊ]",
+      "definition": "Have an obligation to pay or repay in return for something received.",
+      "analysis": "動詞，意為「欠（債）；將…歸功於」。歸因於特定人事物。",
+      "example": "I owe my success to my refusal to accept defeat."
+    },
+    {
+      "word": "Stickability",
+      "phonetic": "[stɪkəˈbɪləti]",
+      "definition": "The capacity to persevere and stick with a task or purpose.",
+      "analysis": "名詞（口語造詞），意為「堅持到底的能力；不屈不撓的黏性」。",
+      "example": "A major key to riches is developing unshakeable stickability."
+    },
+    {
+      "word": "Quitability",
+      "phonetic": "[kwɪtəˈbɪləti]",
+      "definition": "The tendency or inclination to give up or quit easily.",
+      "analysis": "名詞（造詞），意為「輕言放棄的傾向；易放棄的習性」。",
+      "example": "Most people fail because of their inherent quitability when obstacle strikes."
+    },
+    {
+      "word": "Irony",
+      "phonetic": "[ˈaɪrəni]",
+      "definition": "The expression of one's meaning using language that normally signifies the opposite; unexpected paradox.",
+      "analysis": "名詞，意為「諷刺；啼笑皆非的巧合；反諷」。",
+      "example": "The supreme irony was that gold was found just three feet away."
+    },
+    {
+      "word": "Cunning",
+      "phonetic": "[ˈkʌnɪŋ]",
+      "definition": "Having or showing skill in achieving one's ends by deceit or evasion.",
+      "analysis": "形容詞/名詞，意為「狡猾的；精明的；巧妙的」。",
+      "example": "Opportunity is cunning and hides in unexpected places."
+    },
+    {
+      "word": "Grind",
+      "phonetic": "[ɡraɪnd]",
+      "definition": "Hard, dull, or tiring work; crush into small particles.",
+      "analysis": "名詞/動詞，意為「苦差事；磨練；碾碎」。形容艱苦磨人的工作。",
+      "example": "Success requires dedication beyond the daily grind."
+    },
+    {
+      "word": "Tenant",
+      "phonetic": "[ˈtenənt]",
+      "definition": "A person who occupies land or property rented from a landlord.",
+      "analysis": "名詞，意為「租客；房客；佃農」。故事中租用農地者。",
+      "example": "The landlord went to collect rent from the poor tenant."
+    },
+    {
+      "word": "Meekly",
+      "phonetic": "[ˈmiːkli]",
+      "definition": "In a quiet, gentle, and submissive manner.",
+      "analysis": "副詞，意為「溫順地；逆來順受地；軟弱地」。形容膽怯不敢反抗。",
+      "example": "The boy stood meekly before his strict master."
+    },
+    {
+      "word": "Retorted",
+      "phonetic": "[rɪˈtɔːrtɪd]",
+      "definition": "Replied sharply or angrily in retaliation.",
+      "analysis": "動詞過去式，意為「反駁；頂撞；尖銳地回嘴」。",
+      "example": "'My mother needs that money!' the little girl retorted courageously."
+    },
+    {
+      "word": "Barrel stave",
+      "phonetic": "[ˈbærəl steɪv]",
+      "definition": "A narrow strip of wood that forms the sides of a wooden barrel.",
+      "analysis": "短語，意為「木桶箍板；木桶木條」。小女孩拿來防衛的木板棒。",
+      "example": "She picked up a heavy barrel stave to defend her rights."
+    },
+    {
+      "word": "Indicated",
+      "phonetic": "[ˈɪndɪkeɪtɪd]",
+      "definition": "Pointed out; shown; made known.",
+      "analysis": "動詞過去式，意為「指出；指示；表明」。",
+      "example": "The gesture indicated that she would not step back."
+    },
+    {
+      "word": "Fierce temper",
+      "phonetic": "[fɪrs ˈtempər]",
+      "definition": "An intense, violent, or easily provoked anger.",
+      "analysis": "短語，意為「火爆的脾氣；強烈的暴脾氣」。性情極度暴躁。",
+      "example": "Despite his fierce temper, the white landlord was completely stunned."
+    },
+    {
+      "word": "Conquered",
+      "phonetic": "[ˈkɑːŋkərd]",
+      "definition": "Overcame and took control of by force; vanquished.",
+      "analysis": "動詞過去式，意為「征服；克服；戰勝」。徹底壓制對手。",
+      "example": "The small child conquered the large man with sheer willpower."
+    },
+    {
+      "word": "Pondering",
+      "phonetic": "[ˈpɑːndərɪŋ]",
+      "definition": "Thinking about something carefully, especially before making a decision.",
+      "analysis": "動詞/分詞，意為「沉思；琢磨；深思熟慮」。深思背後的哲理。",
+      "example": "He spent hours pondering the cause of her surprising victory."
+    },
+    {
+      "word": "Awe",
+      "phonetic": "[ɔː]",
+      "definition": "A feeling of reverential respect mixed with fear or wonder.",
+      "analysis": "名詞/動詞，意為「敬畏；震驚驚嘆」。因強大力量產生的震懾感。",
+      "example": "The landlord watched the resolute child in complete awe."
+    },
+    {
+      "word": "Whipping",
+      "phonetic": "[ˈwɪpɪŋ]",
+      "definition": "A beating with a whip or strap as a punishment.",
+      "analysis": "名詞，意為「鞭打；體罰」。舊時代殘酷的懲罰。",
+      "example": "She risked a severe whipping by standing her ground."
+    },
+    {
+      "word": "Sharecropper deliberately",
+      "phonetic": "[ˈʃerkrɑːpər dɪˈlɪbərətli]",
+      "definition": "A tenant farmer who gives a share of crops as rent acting intentionally.",
+      "analysis": "短語，意為「佃農蓄意地／故意地」。佃農刻意採取的行動。",
+      "example": "The sharecropper deliberately stood firm to demand what was due."
+    },
+    {
+      "word": "Docile",
+      "phonetic": "[ˈdɑːsl]",
+      "definition": "Ready to accept control or instruction; submissive.",
+      "analysis": "形容詞，意為「溫順的；易駕馭的；聽話的」。缺乏抵抗意志的性格。",
+      "example": "He expected the child to be docile and obedient."
+    },
+    {
+      "word": "Stumbled upon",
+      "phonetic": "[ˈstʌmbld əˈpɑːn]",
+      "definition": "Discovered something unexpectedly or by chance.",
+      "analysis": "動詞短語（過去式），意為「偶然發現；無意中撞見」。意外揭開道理。",
+      "example": "He stumbled upon a major psychological principle during that fight."
+    },
+    {
+      "word": "Rescue",
+      "phonetic": "[ˈreskjuː]",
+      "definition": "Save someone from a dangerous or difficult situation.",
+      "analysis": "動詞/名詞，意為「救援；解救；拯救」。從困境中脫險。",
+      "example": "His burning desire came to his rescue when defeat was imminent."
+    },
+    {
+      "word": "Receptive",
+      "phonetic": "[rɪˈseptɪv]",
+      "definition": "Willing to consider or accept new suggestions and ideas.",
+      "analysis": "形容詞，意為「善於接受的；能接納的；開明的」。敞開心扉吸收思想。",
+      "example": "The mind must be receptive to opportunity when it arrives."
+    },
+    {
+      "word": "Irresistible power",
+      "phonetic": "[ˌɪrɪˈzɪstəbl ˈpaʊər]",
+      "definition": "A force too great or convincing to be resisted.",
+      "analysis": "短語，意為「不可抗拒的力量」。無法阻止或撼動的強大能量。",
+      "example": "Perseverance backed by desire creates an irresistible power."
+    },
+    {
+      "word": "Unwittingly",
+      "phonetic": "[ʌnˈwɪtɪŋli]",
+      "definition": "Without being aware; unintentionally.",
+      "analysis": "副詞，意為「無意地；不知不覺地；未察覺地」。",
+      "example": "The little girl unwittingly used the law of mental dominance."
+    },
+    {
+      "word": "Prospect",
+      "phonetic": "[ˈprɑːspekt]",
+      "definition": "The possibility or likelihood of some future event occurring; potential client.",
+      "analysis": "名詞/動詞，意為「前景；希望；勘探；潛在客戶」。未來的可能性。",
+      "example": "Every refusal brings you closer to a successful prospect."
+    },
+    {
+      "word": "Defiance",
+      "phonetic": "[dɪˈfaɪəns]",
+      "definition": "Open resistance; bold disobedience.",
+      "analysis": "名詞，意為「挑釁；反抗；公然蔑視」。不屈服的果敢態度。",
+      "example": "Her act of defiant bravery forced the master to back down."
+    },
+    {
+      "word": "Imponderable",
+      "phonetic": "[ɪmˈpɑːndərəbl]",
+      "definition": "A factor that is difficult or impossible to estimate or assess.",
+      "analysis": "名詞/形容詞，意為「無法精確估量的因素；不可思議的事物」。潛意識無形的力量。",
+      "example": "Human desire contains an imponderable power that defies logic."
+    },
+    {
+      "word": "Destiny",
+      "phonetic": "[ˈdestəni]",
+      "definition": "The events that will necessarily happen to a particular person in the future.",
+      "analysis": "名詞，意為「命運；宿命」。思想型塑出來的未來人生。",
+      "example": "You are the master of your own destiny through mind control."
+    },
+    {
+      "word": "Inclination",
+      "phonetic": "[ˌɪnklɪˈneɪʃn]",
+      "definition": "A person's natural tendency or urge to act or feel in a particular way.",
+      "analysis": "名詞，意為「傾向；意願；嗜好」。自然的內心趨勢。",
+      "example": "Follow your natural inclination toward your true passion."
+    },
+    {
+      "word": "Entitled",
+      "phonetic": "[ɪnˈtaɪtld]",
+      "definition": "Believing oneself to be inherently deserving of privileges.",
+      "analysis": "形容詞，意為「有資格的；授權的；有權享受的」。",
+      "example": "You are entitled to riches if you pay the price in effort."
+    },
+    {
+      "word": "Weakness",
+      "phonetic": "[ˈwiːknəs]",
+      "definition": "The state or condition of lacking strength or power.",
+      "analysis": "名詞，意為「弱點；軟弱；缺點」。心智未受訓練的劣勢。",
+      "example": "Recognizing your own weakness is the first step to overcoming it."
+    },
+    {
+      "word": "Mankind",
+      "phonetic": "[mænˈkaɪnd]",
+      "definition": "The human race collectively.",
+      "analysis": "名詞，意為「人類；全人類」。",
+      "example": "The common weakness of mankind is the habit of making excuses."
+    },
+    {
+      "word": "Neat",
+      "phonetic": "[niːt]",
+      "definition": "Arranged in a tidy way; clever and simple.",
+      "analysis": "形容詞，意為「整潔的；俐落的；巧妙精簡的」（註：原字副詞為 neatly）。",
+      "example": "He summed up his philosophy in a neat and clear sentence."
+    },
+    {
+      "word": "Success conscious",
+      "phonetic": "[səkˈses ˈkɑːnʃəs]",
+      "definition": "Having a mind trained to recognize and attract opportunities for success.",
+      "analysis": "短語，意為「具備成功意識的」。心智只專注於成功而非失敗。",
+      "example": "One must become success conscious before wealth will flow."
+    },
+    {
+      "word": "Impression",
+      "phonetic": "[ɪmˈpreʃn]",
+      "definition": "An idea, feeling, or opinion about something, formed without conscious thought.",
+      "analysis": "名詞，意為「印象；感受；烙印（在潛意識的訊息）」。",
+      "example": "Repeated thoughts leave a deep impression on the subconscious mind."
+    },
+    {
+      "word": "Misery",
+      "phonetic": "[ˈmɪzəri]",
+      "definition": "A state or feeling of great distress or discomfort of mind or body.",
+      "analysis": "名詞，意為「悲慘；不幸；痛苦折磨」。失敗意識帶來的環境。",
+      "example": "Focusing on failure leads directly to poverty and misery."
+    },
+    {
+      "word": "Modest",
+      "phonetic": "[ˈmɑːdɪst]",
+      "definition": "Unassuming or moderate in the estimation of one's abilities or achievements.",
+      "analysis": "形容詞，意為「謙遜的；適度的；微小的（金額或目標）」。",
+      "example": "He started with a modest sum of money and built an empire."
+    },
+    {
+      "word": "Reluctant",
+      "phonetic": "[rɪˈlʌktənt]",
+      "definition": "Unwilling and hesitant; disinclined.",
+      "analysis": "形容詞，意為「不情願的；勉強的；遲疑的」。",
+      "example": "Many people are reluctant to change their traditional habits."
+    },
+    {
+      "word": "Conceivable",
+      "phonetic": "[kənˈsiːvəbl]",
+      "definition": "Capable of being imagined or grasped mentally.",
+      "analysis": "形容詞，意為「可想像的；可理解構想的」。",
+      "example": "Whatever the mind can conceive and believe, it can achieve."
+    },
+    {
+      "word": "Stupendous",
+      "phonetic": "[stuːˈpendəs]",
+      "definition": "Extremely impressive or daunting; amazingly large.",
+      "analysis": "形容詞，意為「驚人的；巨大的；令人目瞪口呆的」。巨大成就。",
+      "example": "Henry Ford built a stupendous fortune through a single principle."
+    },
+    {
+      "word": "Ether",
+      "phonetic": "[ˈiːθər]",
+      "definition": "The clear sky or upper regions of air; universal medium in old physics.",
+      "analysis": "名詞，意為「以太；大氣/無形宇宙介質」。形容思想波傳播的無形介質。",
+      "example": "Thought vibrations travel through the ether to influence other minds."
+    },
+    {
+      "word": "Inconceivably",
+      "phonetic": "[ˌɪnkənˈsiːvəbli]",
+      "definition": "In a way that is impossible to comprehend or imagine.",
+      "analysis": "副詞，意為「難以置信地；不可思議地；無法想像地」。",
+      "example": "The power of the human brain is inconceivably vast."
+    },
+    {
+      "word": "Equivalent",
+      "phonetic": "[ɪˈkwɪvələnt]",
+      "definition": "Equal in value, amount, function, or meaning.",
+      "analysis": "名詞/形容詞，意為「等價物；相當的；同等的」。代價與收穫對等。",
+      "example": "Every failure carries the seed of an equivalent advantage."
+    },
+    {
+      "word": "Discriminate",
+      "phonetic": "[dɪˈskrɪmɪneɪt]",
+      "definition": "Recognize a distinction; differentiate; treat unfairly.",
+      "analysis": "動詞，意為「區分；辨別；歧視」。法則不分貧富公平運作。",
+      "example": "Nature does not discriminate between righteous and selfish ambition."
+    },
+    {
+      "word": "Emphasis",
+      "phonetic": "[ˈemfəsɪs]",
+      "definition": "Special importance, value, or prominence given to something.",
+      "analysis": "名詞，意為「強調；重點」。將注意力集中於特定關鍵。",
+      "example": "The author places strong emphasis on auto-suggestion."
+    },
+    {
+      "word": "Destructive",
+      "phonetic": "[dɪˈstrʌktɪv]",
+      "definition": "Causing much damage or harm.",
+      "analysis": "形容詞，意為「破壞性的；毀滅性的」。消極思想的負面影響。",
+      "example": "Negative thoughts have a destructive effect on personal confidence."
+    },
+    {
+      "word": "Magnetized",
+      "phonetic": "[ˈmæɡnətaɪzd]",
+      "definition": "Given magnetic properties; strongly attracted to a purpose.",
+      "analysis": "形容詞/動詞過去式，意為「磁化的；具備吸引力的」。讓心智充滿渴望磁場。",
+      "example": "A mind magnetized with desire attracts riches naturally."
+    },
+    {
+      "word": "Harmonize",
+      "phonetic": "[ˈhɑːrmənaɪz]",
+      "definition": "Make consistent or compatible; combine agreeably.",
+      "analysis": "動詞，意為「使和諧；協調；與…相符」。與成功法則調和。",
+      "example": "Your thoughts must harmonize with your ultimate life goal."
+    },
+    {
+      "word": "Abundance",
+      "phonetic": "[əˈbʌndəns]",
+      "definition": "A very large quantity of something; wealth.",
+      "analysis": "名詞，意為「豐富；充裕；富足」。心靈與物質的豐盛。",
+      "example": "The universe offers abundance to those who prepare their minds."
+    },
+    {
+      "word": "Acquiring",
+      "phonetic": "[əˈkwaɪərɪŋ]",
+      "definition": "Buying or obtaining an asset or object for oneself.",
+      "analysis": "動詞/分詞，意為「取得；獲得；積聚（財富）」。",
+      "example": "Developing specialized knowledge is key to acquiring wealth."
+    },
+    {
+      "word": "Stating",
+      "phonetic": "[ˈsteɪtɪŋ]",
+      "definition": "Expressing something definitely or clearly in speech or writing.",
+      "analysis": "動詞/分詞，意為「陳述；明確聲明」。明確寫下目標口號。",
+      "example": "Write a clear statement stating the exact amount of money you desire."
+    },
+    {
+      "word": "Acclaim",
+      "phonetic": "[əˈkleɪm]",
+      "definition": "Praise enthusiastically and publicly.",
+      "analysis": "動詞/名詞，意為「推崇；喝采；稱讚」。社會給予的功績讚許。",
+      "example": "His groundbreaking method brought him worldwide acclaim."
+    },
+    {
+      "word": "Diminished",
+      "phonetic": "[dɪˈmɪnɪʃt]",
+      "definition": "Made smaller or less; weakened.",
+      "analysis": "動詞過去式/形容詞，意為「減少的；被削弱的；降低的」。",
+      "example": "His doubts diminished as his faith grew stronger."
+    },
+    {
+      "word": "Merchandise",
+      "phonetic": "[ˈmɜːrtʃəndaɪs]",
+      "definition": "Goods to be bought and sold.",
+      "analysis": "名詞/動詞，意為「商品；貨物」。事業交易中的物質價值。",
+      "example": "Service is the merchandise you offer in exchange for financial return."
+    },
+    {
+      "word": "Generously accredit",
+      "phonetic": "[ˈdʒenərəsli əˈkredɪt]",
+      "definition": "Freely give credit or recognition to someone for an achievement.",
+      "analysis": "短語，意為「大方地歸功於；不吝嗇給予功勞讚譽」。",
+      "example": "A great leader will generously accredit his team for victories."
+    }
+  ]
+}
