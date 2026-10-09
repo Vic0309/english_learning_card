@@ -8,6 +8,11 @@
     "id": "encanto",
     "title": "Encanto (魔法滿屋)",
     "file": "data/encanto.json"
+  },
+  {
+    "id": "think_and_grow_rich",
+    "title": "Think and Grow Rich (思考致富)",
+    "file": "data/think_and_grow_rich.json"
   }
   
 ]
