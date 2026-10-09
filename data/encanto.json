@@ -1,0 +1,1385 @@
+{
+  "bookId": "encanto",
+  "bookTitle": "Encanto (魔法滿屋)",
+  "vocabulary": [
+    {
+      "word": "Danced off",
+      "phonetic": "[dænst ɔːf]",
+      "definition": "Left or departed in a lively, dancing manner.",
+      "analysis": "動詞短語（過去式），意為「跳著舞離開；輕快地走開」。描述歡快地離去。",
+      "example": "She danced off into the street, filled with happiness."
+    },
+    {
+      "word": "Wondrous",
+      "phonetic": "[ˈwʌndrəs]",
+      "definition": "Inspiring a feeling of wonder or delight; marvelous.",
+      "analysis": "形容詞，意為「奇妙的；令人驚嘆的」。常用於描繪充滿魔法或奇蹟的事物。",
+      "example": "The miracle brought a wondrous light to the entire valley."
+    },
+    {
+      "word": "Rippling",
+      "phonetic": "[ˈrɪplɪŋ]",
+      "definition": "Moving in small waves or a series of gentle curves.",
+      "analysis": "形容詞/分詞，意為「起漣漪的；波浪般起伏的」。描繪水面、肌肉或光芒起伏飄動。",
+      "example": "A rippling effect spread across the glowing magical door."
+    },
+    {
+      "word": "Miracle",
+      "phonetic": "[ˈmɪrəkl]",
+      "definition": "An extraordinary event indicating divine or magical intervention.",
+      "analysis": "名詞，意為「奇蹟」。《魔法滿屋》故事的核心元素，指守護家族的魔法奇蹟。",
+      "example": "The candle blessed the Madrigal family with a magical miracle."
+    },
+    {
+      "word": "Flick",
+      "phonetic": "[flɪk]",
+      "definition": "A sudden, quick movement or light touch.",
+      "analysis": "動詞/名詞，意為「輕彈；輕拂；快速擺動」。描述輕巧快速的動作。",
+      "example": "With a flick of her wrist, flowers bloomed all over the room."
+    },
+    {
+      "word": "Gaze-down",
+      "phonetic": "[ɡeɪz daʊn]",
+      "definition": "Look steadily and intently downward at something or someone.",
+      "analysis": "動詞短語/名詞，意為「向下凝視；俯視」。",
+      "example": "Abuela would gaze-down warmly at the glowing candle."
+    },
+    {
+      "word": "Adoration",
+      "phonetic": "[ˌædəˈreɪʃn]",
+      "definition": "Deep love, devotion, and respect.",
+      "analysis": "名詞，意為「崇拜；愛慕；深愛」。描繪充滿愛意的敬仰感情。",
+      "example": "The children looked at Luisa with eyes full of adoration."
+    },
+    {
+      "word": "Glimmered",
+      "phonetic": "[ˈɡlɪmərd]",
+      "definition": "Shone faintly with a wavering light.",
+      "analysis": "動詞過去式，意為「發出微光；閃爍」。形容微弱而閃耀的光芒。",
+      "example": "The golden magical door glimmered softly in the dark."
+    },
+    {
+      "word": "Blaze",
+      "phonetic": "[bleɪz]",
+      "definition": "A very large or fiercely burning fire; a bright flame.",
+      "analysis": "名詞/動詞，意為「烈火；燦爛的光輝；熊熊燃燒」。",
+      "example": "The magic candle burned with a bright and steady blaze."
+    },
+    {
+      "word": "Flee",
+      "phonetic": "[fliː]",
+      "definition": "Run away from a place or situation of danger.",
+      "analysis": "動詞，意為「逃離；逃跑」。故事中阿嬤帶領村民逃離家鄉苦難。",
+      "example": "They had to flee their home in the middle of the night."
+    },
+    {
+      "word": "Shimmered",
+      "phonetic": "[ˈʃɪmərd]",
+      "definition": "Shone with a soft, slightly wavering light.",
+      "analysis": "動詞過去式，意為「閃爍著柔光；微微晃動發光」。",
+      "example": "Isabela's dress shimmered with colorful flower petals."
+    },
+    {
+      "word": "Snuggle",
+      "phonetic": "[ˈsnʌɡl]",
+      "definition": "Settle or move into a warm, comfortable position, often close to someone.",
+      "analysis": "動詞，意為「依偎；緊抱；舒適地依偎著」。",
+      "example": "Little Mirabel liked to snuggle close to her grandmother."
+    },
+    {
+      "word": "Glance back",
+      "phonetic": "[ɡlæns bæk]",
+      "definition": "Look briefly behind oneself.",
+      "analysis": "動詞短語，意為「回頭看一眼；回視」。",
+      "example": "She took a quick glance back at the house before leaving."
+    },
+    {
+      "word": "Grief",
+      "phonetic": "[ɡriːf]",
+      "definition": "Deep sorrow, especially that caused by someone's death.",
+      "analysis": "名詞，意為「悲傷；悲痛」。描述失去至親時的巨大哀傷。",
+      "example": "Abuela turned her grief into strength to protect her family."
+    },
+    {
+      "word": "Dwindle",
+      "phonetic": "[ˈdwɪndl]",
+      "definition": "Gradually diminish in size, amount, or strength.",
+      "analysis": "動詞，意為「逐漸減少；衰退；變微弱」。描繪魔法逐漸消退消失。",
+      "example": "Without hope, the magic flame would begin to dwindle."
+    },
+    {
+      "word": "Knelt",
+      "phonetic": "[nelt]",
+      "definition": "Fell or rested on the knees.",
+      "analysis": "動詞過去式（原形 kneel），意為「跪下」。",
+      "example": "She knelt by the river to collect some fresh water."
+    },
+    {
+      "word": "Swirl",
+      "phonetic": "[swɜːrl]",
+      "definition": "Move in a twisting or spiraling pattern.",
+      "analysis": "動詞/名詞，意為「漩渦般旋轉；盤旋」。描繪魔法氣流或花瓣旋轉飄舞。",
+      "example": "Wind made the autumn leaves swirl around Casita."
+    },
+    {
+      "word": "Confront",
+      "phonetic": "[kənˈfrʌnt]",
+      "definition": "Meet someone face to face with hostile or argumentative intent; face up to.",
+      "analysis": "動詞，意為「對質；直面；對抗」。直面難關或對抗衝突。",
+      "example": "Mirabel decided to confront her fears and save the miracle."
+    },
+    {
+      "word": "Banish",
+      "phonetic": "[ˈbænɪʃ]",
+      "definition": "Send someone away from a country or place as an official punishment; drive away.",
+      "analysis": "動詞，意為「驅逐；消除；摒除」。",
+      "example": "They tried to banish all negative thoughts from their minds."
+    },
+    {
+      "word": "Rumble",
+      "phonetic": "[ˈrʌmbl]",
+      "definition": "Make a continuous deep resonant sound.",
+      "analysis": "動詞/名詞，意為「隆隆響；發出沉悶的轟鳴聲」。常用於形容地震或房子震動。",
+      "example": "A sudden rumble shook the foundation of the house."
+    },
+    {
+      "word": "Mountain rose",
+      "phonetic": "[ˈmaʊntn roʊz]",
+      "definition": "A rose that grows in mountainous areas, or mountains lifting up.",
+      "analysis": "名詞短語，意為「高山聳立；山玫瑰」。描繪環繞小鎮遮蔽危險的高山拔地而起。",
+      "example": "Protecting mountains rose up to enclose the safe valley."
+    },
+    {
+      "word": "Refuge",
+      "phonetic": "[ˈrefjuːdʒ]",
+      "definition": "A condition of being safe or sheltered from pursuit, danger, or trouble.",
+      "analysis": "名詞，意為「避難所；庇護所」。指這座充滿魔法的神秘小鎮與屋子（註：原文拼寫為 refuge）。",
+      "example": "Encanto became a safe refuge for all the escaping families."
+    },
+    {
+      "word": "Casita",
+      "phonetic": "[kæˈsiːtə]",
+      "definition": "Spanish for 'little house', referring to the lively sentient Madrigal home.",
+      "analysis": "西班牙語專有名詞，意為「神奇小屋／卡西塔」。馬德里加家族具有生命的魔法房子。",
+      "example": "Casita communicated by waving its window shutters and moving tiles."
+    },
+    {
+      "word": "Shelter",
+      "phonetic": "[ˈʃeltər]",
+      "definition": "A place giving temporary protection from bad weather or danger.",
+      "analysis": "名詞/動詞，意為「遮蔽處；庇護；提供遮蔽」。",
+      "example": "Casita provided warm shelter for the entire family."
+    },
+    {
+      "word": "Magnificent",
+      "phonetic": "[mæɡˈnɪfɪsnt]",
+      "definition": "Extremely beautiful, elaborate, or impressive.",
+      "analysis": "形容詞，意為「壯麗的；極好的；宏偉的」。",
+      "example": "The family house was a magnificent structure built by magic."
+    },
+    {
+      "word": "Triplet",
+      "phonetic": "[ˈtrɪplət]",
+      "definition": "One of three children born at the same birth.",
+      "analysis": "名詞，意為「三胞胎之一」。指阿嬤的三個子女（Julieta, Pepa, Bruno）。",
+      "example": "Julieta, Pepa, and Bruno were the miracle triplets."
+    },
+    {
+      "word": "Spectacular casa",
+      "phonetic": "[spekˈtækjələr ˈkɑːsə]",
+      "definition": "An extraordinarily impressive house.",
+      "analysis": "短語，意為「壯觀神奇的宅邸」。",
+      "example": "Visitors marvelled at the spectacular casa standing in the mountains."
+    },
+    {
+      "word": "Window shutter",
+      "phonetic": "[ˈwɪndoʊ ˈʃʌtər]",
+      "definition": "A pair of hinged panels fixed inside or outside a window.",
+      "analysis": "名詞短語，意為「百葉窗；窗扇」。魔法房子常用拍動窗扇來打招呼。",
+      "example": "The window shutter flapped happily to greet Mirabel."
+    },
+    {
+      "word": "Flapping",
+      "phonetic": "[ˈflæpɪŋ]",
+      "definition": "Moving up and down or side to side with a flying motion.",
+      "analysis": "動詞/分詞，意為「拍動；擺動」。",
+      "example": "The house expressed its excitement by flapping its wooden shutters."
+    },
+    {
+      "word": "Squealed",
+      "phonetic": "[skwiːld]",
+      "definition": "Made a long, high-pitched cry or noise.",
+      "analysis": "動詞過去式，意為「尖叫；發出歡快的尖叫聲」。形容興奮高喊。",
+      "example": "The children squealed with joy when they received their magic powers."
+    },
+    {
+      "word": "Paradise",
+      "phonetic": "[ˈpærədaɪs]",
+      "definition": "An ideal or idyllic place or state; heaven.",
+      "analysis": "名詞，意為「天堂；樂園」。形容 Encanto 絕美世外桃源般的環境。",
+      "example": "The hidden valley felt like a peaceful paradise."
+    },
+    {
+      "word": "Wilderness",
+      "phonetic": "[ˈwɪldərnəs]",
+      "definition": "An uncultivated, uninhabited, and wild region.",
+      "analysis": "名詞，意為「荒野；原始野外」。",
+      "example": "Beyond the steep mountains lay a vast and dangerous wilderness."
+    },
+    {
+      "word": "Wax palm tree",
+      "phonetic": "[wæks pɑːm triː]",
+      "definition": "A very tall palm tree native to Colombia (Ceroxylon quindiuense).",
+      "analysis": "名詞短語，意為「臘棕櫚樹」。哥倫比亞國樹，故事背景具代表性的植物。",
+      "example": "Tall wax palm trees towered over the Encanto valley."
+    },
+    {
+      "word": "Lush fruit tree",
+      "phonetic": "[lʌʃ fruːt triː]",
+      "definition": "A fruit tree growing luxuriantly and bearing abundant fruit.",
+      "analysis": "名詞短語，意為「茂盛結實的果樹」。描繪充滿生機繁茂的果園景象。",
+      "example": "The yard was filled with lush fruit trees hanging heavy with food."
+    },
+    {
+      "word": "Colorful flowers bloomed",
+      "phonetic": "[ˈkʌlərfl ˈflaʊərz bluːmd]",
+      "definition": "Vibrant blossoms opened and flourished.",
+      "analysis": "短語，意為「鮮艷的花朵綻放」。描述 Isabela 魔力顯現時的景色。",
+      "example": "Wherever Isabela walked, colorful flowers bloomed instantly."
+    },
+    {
+      "word": "In awe at",
+      "phonetic": "[ɪn ɔː æt]",
+      "definition": "Filled with a feeling of reverential respect mixed with wonder.",
+      "analysis": "短語，意為「對…感到驚嘆/敬畏」。",
+      "example": "The townspeople stood in awe at the family's magical gifts."
+    },
+    {
+      "word": "Burst with pride",
+      "phonetic": "[bɜːrst wɪð praɪd]",
+      "definition": "Feel extremely proud of someone or an achievement.",
+      "analysis": "動詞短語，意為「感到無比自豪；驕傲無比」。",
+      "example": "Abuela seemed to burst with pride during every ceremony."
+    },
+    {
+      "word": "Bent down",
+      "phonetic": "[bent daʊn]",
+      "definition": "Lowered the body forward and downward.",
+      "analysis": "動詞短語（過去式），意為「彎下腰」。",
+      "example": "She bent down to whisper a secret to little Mirabel."
+    },
+    {
+      "word": "Oozing love",
+      "phonetic": "[ˈuːzɪŋ lʌv]",
+      "definition": "Exuding or showing affection and care abundantly.",
+      "analysis": "短語，意為「洋溢著愛意；充溢著溫情」。",
+      "example": "Julieta looked at her daughter with eyes oozing love."
+    },
+    {
+      "word": "Eager",
+      "phonetic": "[ˈiːɡər]",
+      "definition": "Strongly wanting to do or have something; enthusiastic.",
+      "analysis": "形容詞，意為「熱切的；渴望的；迫不及待的」。",
+      "example": "Little Antonio was eager to discover what his gift would be."
+    },
+    {
+      "word": "Tackle",
+      "phonetic": "[ˈtækl]",
+      "definition": "Make determined efforts to deal with a problem or task; throw oneself upon.",
+      "analysis": "動詞，意為「撲倒；著手處理」。形容熱情撲上去擁抱或解決困難。",
+      "example": "The playful kids ran up to tackle Antonio with hugs."
+    },
+    {
+      "word": "Barely",
+      "phonetic": "[ˈberli]",
+      "definition": "Only just; almost not.",
+      "analysis": "副詞，意為「幾乎沒有；僅僅；勉強」。",
+      "example": "She could barely contain her excitement for the ceremony."
+    },
+    {
+      "word": "Keep up",
+      "phonetic": "[kiːp ʌp]",
+      "definition": "Move or progress at the same rate as someone or something.",
+      "analysis": "動詞短語，意為「跟上；保持步調一致」。",
+      "example": "Mirabel tried hard to keep up with her talented family."
+    },
+    {
+      "word": "Nightgown",
+      "phonetic": "[ˈnaɪtɡaʊn]",
+      "definition": "A loose dress worn by women or girls for sleeping.",
+      "analysis": "名詞，意為「睡袍；睡衣」。",
+      "example": "She sat on her bed wearing a simple embroidered nightgown."
+    },
+    {
+      "word": "Embroider",
+      "phonetic": "[ɪmˈbrɔɪdər]",
+      "definition": "Decorate cloth by sewing patterns on it with thread.",
+      "analysis": "動詞，意為「刺繡；繡花」。Mirabel 的特色手藝，在她自己的裙子上刺繡。",
+      "example": "Mirabel loved to embroider colorful patterns on her clothing."
+    },
+    {
+      "word": "Blouse",
+      "phonetic": "[blaʊs]",
+      "definition": "A woman's upper garment resembling a shirt.",
+      "analysis": "名詞，意為「女用襯衫；上衣」。",
+      "example": "Her white blouse was decorated with butterfly embroidery."
+    },
+    {
+      "word": "Exhaled",
+      "phonetic": "[eksˈheɪld]",
+      "definition": "Breathed out air from the lungs.",
+      "analysis": "動詞過去式，意為「呼氣；吐氣」。形容放鬆或嘆氣釋放壓力。",
+      "example": "She exhaled slowly to calm her nervous feeling."
+    },
+    {
+      "word": "Propel",
+      "phonetic": "[prəˈpel]",
+      "definition": "Drive or push something forward.",
+      "analysis": "動詞，意為「推進；驅使」。描述藉由某種力量向前推動。",
+      "example": "Luisa used her massive strength to propel the giant heavy boulder."
+    },
+    {
+      "word": "Portrait",
+      "phonetic": "[ˈpɔːrtrət]",
+      "definition": "A painting, drawing, or photograph of a person.",
+      "analysis": "名詞，意為「肖像畫；畫像」。門上鑲嵌的家族成員魔法畫像。",
+      "example": "Each magical door revealed a glowing portrait of its owner."
+    },
+    {
+      "word": "Muttering",
+      "phonetic": "[ˈmʌtərɪŋ]",
+      "definition": "Saying something in a low or barely audible voice, often in dissatisfaction.",
+      "analysis": "動詞/分詞，意為「咕噥；喃喃自語」。因緊張或不滿碎碎唸。",
+      "example": "Bruno spent years muttering predictions under his breath."
+    },
+    {
+      "word": "Mumbling",
+      "phonetic": "[ˈmʌmblɪŋ]",
+      "definition": "Speaking quietly and unclearly so that the words are difficult to understand.",
+      "analysis": "動詞/分詞，意為「含糊不清地說話；嘀咕」。",
+      "example": "He walked down the hall, mumbling nervous words to himself."
+    },
+    {
+      "word": "Hesitantly",
+      "phonetic": "[ˈhezɪtəntli]",
+      "definition": "In a tentative or unsure manner; with hesitation.",
+      "analysis": "副詞，意為「猶豫不決地；遲疑地」。描述不確定、怯生生的動作。",
+      "example": "Mirabel hesitantly reached her hand out toward the magic door handle."
+    },
+    {
+      "word": "Hurricane",
+      "phonetic": "[ˈhɜːrəkeɪn]",
+      "definition": "A storm with a violent wind, in particular a tropical cyclone.",
+      "analysis": "名詞，意為「颶風；暴風雨」。Pepa 情緒失控時產生的強大氣旋風暴。",
+      "example": "When Pepa felt stressed, a hurricane would form over her head."
+    },
+    {
+      "word": "Whooshing",
+      "phonetic": "[wuːʃɪŋ]",
+      "definition": "Moving quickly with a rushing or hissing sound.",
+      "analysis": "動詞/分詞，意為「發出呼呼聲疾馳；咻咻作響」。描繪強風風聲。",
+      "example": "A whooshing gust of wind blew all the loose papers into the air."
+    },
+    {
+      "word": "Swoosh",
+      "phonetic": "[swuːʃ]",
+      "definition": "Move with a rushing, sound of air or water.",
+      "analysis": "動詞/名詞，意為「飛掠聲；呼地划過」。形容物件快速划過空氣發出的聲音。",
+      "example": "With a swoosh, Isabela swung across the room on a flower vine."
+    },
+    {
+      "word": "Hypothetically",
+      "phonetic": "[ˌhaɪpəˈθetɪkli]",
+      "definition": "By imagining a possible situation rather than talking about facts.",
+      "analysis": "副詞，意為「假設性地；理論上地」。常用於提出假設性問題。",
+      "example": "Hypothetically speaking, what if the magic house was falling apart?"
+    },
+    {
+      "word": "Snap",
+      "phonetic": "[snæp]",
+      "definition": "Break suddenly with a sharp cracking sound; make a sharp clicking noise.",
+      "analysis": "動詞/名詞，意為「啪地一聲折斷；拍彈手指；厲聲說道」。",
+      "example": "The dry twig broke with a sharp snap under her foot."
+    },
+    {
+      "word": "Shoo",
+      "phonetic": "[ʃuː]",
+      "definition": "Make a frequent exclamation to drive away animals or people.",
+      "analysis": "動詞/感嘆詞，意為「噓！趕走；揮手驅趕」。揮手示意別人走開。",
+      "example": "She tried to shoo the annoying toucan out of her room."
+    },
+    {
+      "word": "Tumble",
+      "phonetic": "[ˈtʌmbl]",
+      "definition": "Fall suddenly, clumsily, or headlong.",
+      "analysis": "動詞/名詞，意為「滾落；跌倒；翻滾」。描繪不小心滑倒摔下。",
+      "example": "The loose tiles began to tumble off the sloping roof."
+    },
+    {
+      "word": "Cuddle",
+      "phonetic": "[ˈkʌdl]",
+      "definition": "Hold close in one's arms as a way of showing love and affection.",
+      "analysis": "動詞/名詞，意為「擁抱；依偎；親暱撫摸」。",
+      "example": "Antonio liked to cuddle with his jaguar friend."
+    },
+    {
+      "word": "Beneath",
+      "phonetic": "[bɪˈniːθ]",
+      "definition": "In or to a lower position than; under.",
+      "analysis": "介詞/副詞，意為「在…下方；在…底下」。",
+      "example": "Deep cracks were forming beneath the surface of the floor."
+    },
+    {
+      "word": "Rattle",
+      "phonetic": "[ˈrætl]",
+      "definition": "Make a rapid succession of short, sharp knocking sounds.",
+      "analysis": "動詞/名詞，意為「發出格格/咔噠聲；震顫」。屋頂瓦片晃動喀喀作響。",
+      "example": "The earthquake caused the dishes in the kitchen to rattle."
+    },
+    {
+      "word": "Nod",
+      "phonetic": "[nɑːd]",
+      "definition": "Lower and raise one's head slightly and briefly as a sign of agreement or greeting.",
+      "analysis": "動詞/名詞，意為「點頭」。表達同意或示意點頭。",
+      "example": "Casita gave a friendly nod by moving its front door stairs."
+    },
+    {
+      "word": "Scooch",
+      "phonetic": "[skuːtʃ]",
+      "definition": "Move or slide oneself in a seated position.",
+      "analysis": "動詞，意為「微調坐姿；挪動；挪開」。口語中挪動身體讓出位置。",
+      "example": "Can you scooch over a bit so I can sit down?"
+    },
+    {
+      "word": "Dangle over",
+      "phonetic": "[ˈdæŋɡl ˈoʊvər]",
+      "definition": "Hang or swing loosely over something.",
+      "analysis": "動詞短語，意為「懸掛在…上方；垂吊著」。",
+      "example": "Bright lanterns were set to dangle over the courtyard."
+    },
+    {
+      "word": "Stencil",
+      "phonetic": "[ˈstensl]",
+      "definition": "A thin sheet with a pattern cut out, used to apply designs to a surface.",
+      "analysis": "名詞/動詞，意為「型版；用型版刷印製圖案」。形容衣服上的刷印圖樣。",
+      "example": "Mirabel used a handmade stencil to print butterflies on her skirt."
+    },
+    {
+      "word": "Extraordinary",
+      "phonetic": "[ɪkˈstrɔːrdəneri]",
+      "definition": "Very unusual or remarkable; exceptional.",
+      "analysis": "形容詞，意為「非凡的；卓越的；奇特的」。常用於讚美魔法家族的非凡天賦。",
+      "example": "Every member of the Madrigal family was blessed with an extraordinary gift."
+    },
+    {
+      "word": "Briefly",
+      "phonetic": "[ˈbriːfli]",
+      "definition": "For a short time; fleetingly.",
+      "analysis": "副詞，意為「簡短地；短暫地」。描述時間很短促。",
+      "example": "She paused briefly at the doorway before entering."
+    },
+    {
+      "word": "Hallway",
+      "phonetic": "[ˈhɔːlweɪ]",
+      "definition": "A corridor or passage in a building.",
+      "analysis": "名詞，意為「走廊；過道」。通往各房間的魔法長廊。",
+      "example": "Glowing doors lined the upper hallway of Casita."
+    },
+    {
+      "word": "Staircase",
+      "phonetic": "[ˈsterkeɪs]",
+      "definition": "A set of stairs and its surrounding structure.",
+      "analysis": "名詞，意為「樓梯；樓梯間」。",
+      "example": "Casita transformed its staircase into a smooth slide for the kids."
+    },
+    {
+      "word": "We nailed it",
+      "phonetic": "[wiː neɪld ɪt]",
+      "definition": "We performed or executed something perfectly.",
+      "analysis": "俚語/短語，意為「我們搞定了！我們做得太棒了！」。讚美表現完美到位。",
+      "example": "After finishing the show, Camilo cheered, 'We nailed it!'"
+    },
+    {
+      "word": "Bellowing",
+      "phonetic": "[ˈbeloʊɪŋ]",
+      "definition": "Emitting a deep loud roar, typically in pain or anger.",
+      "analysis": "動詞/分詞，意為「吼叫；怒吼；大聲咆哮」。形容宏亮巨大的喊叫聲。",
+      "example": "A bellowing voice echoed down the hall during the argument."
+    },
+    {
+      "word": "Blurt",
+      "phonetic": "[blɜːrt]",
+      "definition": "Say something suddenly and tactlessly.",
+      "analysis": "動詞，意為「脫口而出；脫口說出」。常搭配 `out`（blurt out）。",
+      "example": "Mirabel didn't mean to blurt out the secret prediction in front of everyone."
+    },
+    {
+      "word": "Shoved away",
+      "phonetic": "[ʃʌvd əˈweɪ]",
+      "definition": "Pushed someone or something roughly out of the way.",
+      "analysis": "動詞短語（過去式），意為「粗魯地推開；甩開」。",
+      "example": "She shoved away the heavy boxes obstructing the door."
+    },
+    {
+      "word": "Stuff",
+      "phonetic": "[stʌf]",
+      "definition": "Matter, articles, or activities of a specified or unspecified kind.",
+      "analysis": "名詞（口語），意為「東西；物品；事情」。廣泛泛指各種雜物事物。",
+      "example": "Put all your magical stuff back into the chest."
+    },
+    {
+      "word": "Exceptional",
+      "phonetic": "[ɪkˈsepʃənl]",
+      "definition": "Unusually good; outstanding; extraordinary.",
+      "analysis": "形容詞，意為「傑出的；卓越非凡的；例外的」。",
+      "example": "The family possessed exceptional abilities that helped the town."
+    },
+    {
+      "word": "Bee sting",
+      "phonetic": "[biː stɪŋ]",
+      "definition": "A wound produced by the sting of a bee.",
+      "analysis": "名詞短語，意為「蜜蜂螫傷」。父親 Agustín 容易過敏經常被蜂螫。",
+      "example": "Agustín suffered a painful bee sting on his nose."
+    },
+    {
+      "word": "Pounding",
+      "phonetic": "[ˈpaʊndɪŋ]",
+      "definition": "Repeated and heavy striking or hitting; thumping beat.",
+      "analysis": "形容詞/動詞分詞，意為「劇烈跳動的；猛烈敲擊的」。形容心跳加速或重擊聲。",
+      "example": "Her heart was pounding fast in nervous anticipation."
+    },
+    {
+      "word": "Red welt",
+      "phonetic": "[red welt]",
+      "definition": "A red raised mark on the skin caused by a blow or sting.",
+      "analysis": "名詞短語，意為「紅腫塊；紅腫傷痕」。被蚊蟲叮咬或打傷隆起的紅痕。",
+      "example": "The bee sting left a big red welt on his swollen face."
+    },
+    {
+      "word": "Swollen face",
+      "phonetic": "[ˈswoʊlən feɪs]",
+      "definition": "A face that is puffed up or enlarged due to injury or allergy.",
+      "analysis": "名詞短語，意為「腫脹的面孔」。過敏或蜂螫導致臉部腫大。",
+      "example": "Agustín ate a magical food to heal his swollen face."
+    },
+    {
+      "word": "Shuffle",
+      "phonetic": "[ˈʃʌfl]",
+      "definition": "Walk by dragging one's feet along or without lifting them completely.",
+      "analysis": "動詞/名詞，意為「拖著腳步走；洗牌」。描繪疲憊或默默低頭拖著腳走。",
+      "example": "Bruno would shuffle through the dark passages hidden behind walls."
+    },
+    {
+      "word": "Tiles",
+      "phonetic": "[taɪlz]",
+      "definition": "Thin rectangular slabs of baked clay used for covering roofs, floors, or walls.",
+      "analysis": "名詞（複數），意為「瓦片；地磚」。Casita 房子地板磚與屋頂瓦片。",
+      "example": "The floor tiles clinked rhythmically to welcome the family."
+    },
+    {
+      "word": "Dumped",
+      "phonetic": "[dʌmpt]",
+      "definition": "Deposited or discarded heavily or carelessly.",
+      "analysis": "動詞過去式，意為「傾倒；丟下；卸下」。重重扔下或倒出物品。",
+      "example": "Luisa dumped a pile of heavy donkeys onto the ground."
+    },
+    {
+      "word": "Grunt",
+      "phonetic": "[ɡrʌnt]",
+      "definition": "Make a low, short guttural sound.",
+      "analysis": "動詞/名詞，意為「發出咕嚕聲/哼聲；發力悶哼」。用力搬重物發出的呼氣哼聲。",
+      "example": "Luisa gave a low grunt as she lifted the heavy stone bridge."
+    },
+    {
+      "word": "Hauled",
+      "phonetic": "[hɔːld]",
+      "definition": "Pulled or dragged with effort or force.",
+      "analysis": "動詞過去式，意為「拖拉；搬運；費力拉動」。形容拉動沈重物品。",
+      "example": "She hauled the huge piano up the stairs without breaking a sweat."
+    },
+    {
+      "word": "Sloppy",
+      "phonetic": "[ˈslɑːpi]",
+      "definition": "Careless and unsystematic; excessively casual or messy.",
+      "analysis": "形容詞，意為「馬虎邋遢的；草率的」。描繪不整潔或做事粗糙。",
+      "example": "He apologized for his sloppy handwriting on the note."
+    },
+    {
+      "word": "Elegant",
+      "phonetic": "[ˈelɪɡənt]",
+      "definition": "Pleasingly graceful and stylish in appearance or manner.",
+      "analysis": "形容詞，意為「優雅的；高雅典雅的」。描繪 Isabela 高貴完美舉止。",
+      "example": "Isabela walked down the stairs in an elegant, perfect dress."
+    },
+    {
+      "word": "Implore",
+      "phonetic": "[ɪmˈplɔːr]",
+      "definition": "Beg someone earnestly or desperately to do something.",
+      "analysis": "動詞，意為「懇求；哀求」。極度渴望地求助或請求。",
+      "example": "I implore you to give our family one more chance."
+    },
+    {
+      "word": "Praised",
+      "phonetic": "[preɪzd]",
+      "definition": "Expressed warm approval or admiration of.",
+      "analysis": "動詞過去式，意為「讚美；表揚；稱讚」。",
+      "example": "Abuela praised Pepa for keeping the weather bright and sunny."
+    },
+    {
+      "word": "Petals fluttered",
+      "phonetic": "[ˈpetlz ˈflʌtərd]",
+      "definition": "Flower petals moved lightly and quickly through the air.",
+      "analysis": "短語，意為「花瓣飄動/翩翩飄落」。形容花朵散落隨風飄舞。",
+      "example": "Pink petals fluttered down as Isabela entered the room."
+    },
+    {
+      "word": "Flowery vine",
+      "phonetic": "[ˈflaʊəri vaɪn]",
+      "definition": "A climbing plant bearing flowers.",
+      "analysis": "名詞短語，意為「開花的藤蔓」。",
+      "example": "She created a long flowery vine to swing across the house."
+    },
+    {
+      "word": "Ascending",
+      "phonetic": "[əˈsendɪŋ]",
+      "definition": "Moving upward; rising.",
+      "analysis": "形容詞/分詞，意為「上升的；向上的」。向下或向上延伸攀升。",
+      "example": "They walked up the ascending staircase into the tower."
+    },
+    {
+      "word": "Descending",
+      "phonetic": "[dɪˈsendɪŋ]",
+      "definition": "Moving downward; falling.",
+      "analysis": "形容詞/分詞，意為「下降的；向下的」。向上或向下下降降落。",
+      "example": "The descending sun cast long shadows over the village."
+    },
+    {
+      "word": "Tornado",
+      "phonetic": "[tɔːrˈneɪdoʊ]",
+      "definition": "A mobile, destructive vortex of violently rotating winds.",
+      "analysis": "名詞，意為「龍捲風」。Pepa 極度憤怒慌張時颳起的風暴旋風。",
+      "example": "Pepa accidentally summoned a small tornado in the living room."
+    },
+    {
+      "word": "Pleaded",
+      "phonetic": "[ˈpliːdɪd]",
+      "definition": "Made an emotional appeal; begged.",
+      "analysis": "動詞過去式，意為「懇求；申辯；拉著哀求」。",
+      "example": "'Please listen to me,' Mirabel pleaded with her sister."
+    },
+    {
+      "word": "Pacing back and forth",
+      "phonetic": "[ˈpeɪsɪŋ bæk ænd fɔːrθ]",
+      "definition": "Walking continuously up and down a room in anxiety or thought.",
+      "analysis": "短語，意為「焦急地來回踱步」。焦慮焦急時不停來回走動。",
+      "example": "She kept pacing back and forth waiting for news."
+    },
+    {
+      "word": "Blowing away",
+      "phonetic": "[ˈbloʊɪŋ əˈweɪ]",
+      "definition": "Being carried off or scattered by the wind.",
+      "analysis": "短語，意為「吹走；吹飛」。形容物品被狂風刮走吹散。",
+      "example": "The strong wind was blowing away all the outdoor decorations."
+    },
+    {
+      "word": "Hover over",
+      "phonetic": "[ˈhʌvər ˈoʊvər]",
+      "definition": "Remain in one place in the air near or above something.",
+      "analysis": "動詞短語，意為「盤旋在…上方；臨近籠罩」。描述雲朵或鳥懸停空降。",
+      "example": "A dark raincloud continued to hover over Pepa's head."
+    },
+    {
+      "word": "Hauling",
+      "phonetic": "[ˈhɔːlɪŋ]",
+      "definition": "Pulling or dragging with effort or force.",
+      "analysis": "動詞/分詞，意為「拖拉；運送；用力拉搬」。",
+      "example": "Luisa was busy hauling church bells across town."
+    },
+    {
+      "word": "Banner",
+      "phonetic": "[ˈbænər]",
+      "definition": "A long strip of cloth bearing a slogan or design carried in a demonstration or hung in a public place.",
+      "analysis": "名詞，意為「橫幅；旗幟」。派對慶典懸掛的歡慶橫幅布條。",
+      "example": "They hung a colorful banner celebrating Antonio's special night."
+    },
+    {
+      "word": "Chattered",
+      "phonetic": "[ˈtʃætərd]",
+      "definition": "Talked informally about unimportant matters; clicked teeth rapidly.",
+      "analysis": "動詞過去式，意為「喋喋不休；咔嗒作響打顫」。形容聊天或牙齒打顫。",
+      "example": "The excited children chattered incessantly about their gifts."
+    },
+    {
+      "word": "Struggling",
+      "phonetic": "[ˈstrʌɡlɪŋ]",
+      "definition": "Making forceful or violent efforts to get free of restraint or task.",
+      "analysis": "形容詞/分詞，意為「掙扎的；吃力的；陷入苦戰的」。描述極其艱難地努力抗爭。",
+      "example": "Mirabel was struggling to find her own place in the family."
+    },
+    {
+      "word": "In full swing",
+      "phonetic": "[ɪn fʊl swɪŋ]",
+      "definition": "At the height of activity or enthusiasm.",
+      "analysis": "短語，意為「在全速進行中；熱烈展開中」。活動熱鬧高潮階段。",
+      "example": "The party was in full swing with dancing and singing everywhere."
+    },
+    {
+      "word": "Denial",
+      "phonetic": "[dɪˈnaɪəl]",
+      "definition": "The action of declaring something to be untrue; refusal to accept reality.",
+      "analysis": "名詞，意為「否認；逃避現實；不願承認」。心理防衛否認現實。",
+      "example": "Abuela remained in denial about the cracks appearing in the house."
+    },
+    {
+      "word": "Shrug",
+      "phonetic": "[ʃrʌɡ]",
+      "definition": "Raise one's shoulders slightly and momentarily to express doubt, ignorance, or indifference.",
+      "analysis": "動詞/名詞，意為「聳肩」。表示不在乎、不知道或無奈。",
+      "example": "Camilo gave a quick shrug when asked who ate the last treat."
+    },
+    {
+      "word": "Cheesy smile",
+      "phonetic": "[ˈtʃiːzi smaɪl]",
+      "definition": "A forced, insincere, or overly exaggerated smile.",
+      "analysis": "名詞短語，意為「假笑；做作誇張的笑容」。強顏歡笑假裝無事發生。",
+      "example": "He put on a cheesy smile to cover up his mistake."
+    },
+    {
+      "word": "Bummer",
+      "phonetic": "[ˈbʌmər]",
+      "definition": "A thing that is annoying or disappointing.",
+      "analysis": "名詞（口語俚語），意為「令人掃興的事；倒霉事」。感到可惜遺憾的口語表現。",
+      "example": "It was a real bummer that it started raining during the party."
+    },
+    {
+      "word": "Donkey",
+      "phonetic": "[ˈdɑːŋki]",
+      "definition": "A domesticated hoofed mammal of the horse family with long ears.",
+      "analysis": "名詞，意為「驢子」。Luisa 常需幫忙抓回逃跑的驢群。",
+      "example": "Luisa effortlessly carried six donkeys on her shoulders."
+    },
+    {
+      "word": "Spin",
+      "phonetic": "[spɪn]",
+      "definition": "Turn or cause to turn or whirl rapidly around an axis.",
+      "analysis": "動詞/名詞，意為「旋轉；旋轉舞動」。",
+      "example": "Isabela made her dress spin as she danced gracefully."
+    },
+    {
+      "word": "Dupe",
+      "phonetic": "[duːp]",
+      "definition": "Deceive; trick someone; a victim of deception.",
+      "analysis": "動詞/名詞，意為「欺騙；蒙蔽；傻瓜」。欺騙誤導他人。",
+      "example": "He felt like a dupe after believing the fake story."
+    },
+    {
+      "word": "Peer over at",
+      "phonetic": "[pɪr ˈoʊvər æt]",
+      "definition": "Look keenly or with difficulty over something toward a direction.",
+      "analysis": "動詞短語，意為「越過…打量/窺視」。探頭越過物件看過去。",
+      "example": "She would peer over at the magical candle to see if it was still burning."
+    },
+    {
+      "word": "Wince",
+      "phonetic": "[wɪns]",
+      "definition": "Give a slight involuntary grimace or shrinking movement of the body out of pain or distress.",
+      "analysis": "動詞/名詞，意為「齜牙咧嘴；畏縮；因痛苦皺眉」。形容因刺痛發聲畏縮。",
+      "example": "Mirabel gave a wince when her mother touched her injured hand."
+    },
+    {
+      "word": "Nowhere",
+      "phonetic": "[ˈnoʊwer]",
+      "definition": "Not in or to any place.",
+      "analysis": "副詞/代詞，意為「無處；哪裡都不」。無處可去或找不到下落。",
+      "example": "Bruno was nowhere to be found in the entire village."
+    },
+    {
+      "word": "Doorway",
+      "phonetic": "[ˈdɔːrweɪ]",
+      "definition": "An entrance to a room or building through a door.",
+      "analysis": "名詞，意為「門口；門道入口」。通往房間與內部的通道。",
+      "example": "She stood silently in the doorway, watching the party."
+    },
+    {
+      "word": "Stall",
+      "phonetic": "[stɔːl]",
+      "definition": "A stand, booth, or compartment; stop or delay progress.",
+      "analysis": "名詞/動詞，意為「攤位；馬廄/拖延；熄火」。托延時間避開話題。",
+      "example": "She tried to stall Abuela so Luisa could rest."
+    },
+    {
+      "word": "Grin",
+      "phonetic": "[ɡrɪn]",
+      "definition": "Smile broadly showing teeth.",
+      "analysis": "動詞/名詞，意為「露齒笑；咧嘴笑」。咧嘴露齒歡笑。",
+      "example": "Camilo gave a mischievous grin before transforming."
+    },
+    {
+      "word": "Biceps",
+      "phonetic": "[ˈbaɪseps]",
+      "definition": "A large muscle in the front of the upper arm.",
+      "analysis": "名詞，意為「二頭肌；手臂肌肉」。展現 Luisa 力量龐大優勢。",
+      "example": "Luisa flexed her massive biceps to show her strength."
+    },
+    {
+      "word": "Boarded up",
+      "phonetic": "[ˈbɔːrdɪd ʌp]",
+      "definition": "Covered or closed with wooden boards.",
+      "analysis": "短語/形容詞，意為「用木板封閉的；板封的」。封死關閉廢棄建築區。",
+      "example": "The mysterious tower doorway was boarded up long ago."
+    },
+    {
+      "word": "Googly lovey-dovey eyes",
+      "phonetic": "[ˈɡuːɡli ˈlʌvi ˈdʌvi aɪz]",
+      "definition": "Exaggerated, excessively affectionate or enamored facial expression.",
+      "analysis": "短語，意為「充滿愛意的滾動大眼睛；深情款款的眼神」。誇張愛慕神情。",
+      "example": "Mariano made googly lovey-dovey eyes at Isabela during dinner."
+    },
+    {
+      "word": "Dainty fingertips",
+      "phonetic": "[ˈdeɪnti ˈfɪŋɡərtɪps]",
+      "definition": "Delicate, small, and graceful tips of fingers.",
+      "analysis": "名詞短語，意為「纖纖手指；秀氣的手指頭」。描繪優雅細緻指尖。",
+      "example": "Isabela touched the flower with her dainty fingertips."
+    },
+    {
+      "word": "Whisper",
+      "phonetic": "[ˈwɪspər]",
+      "definition": "Speak very softly using one's breath rather than one's vocal cords.",
+      "analysis": "動詞/名詞，意為「私語；耳語；耳邊低語」。極其輕聲細語。",
+      "example": "They began to whisper so Abuela wouldn't hear them."
+    },
+    {
+      "word": "Huddle",
+      "phonetic": "[ˈhʌdl]",
+      "definition": "Crowd together; nestle closely.",
+      "analysis": "動詞/名詞，意為「擠成一團；聚集在一起討論」。密談或防寒聚攏。",
+      "example": "The family gathered in a tight huddle to discuss the secret."
+    },
+    {
+      "word": "Disbelief",
+      "phonetic": "[ˌdɪsbɪˈliːf]",
+      "definition": "Inability or refusal to accept that something is true or real.",
+      "analysis": "名詞，意為「難以置信；不相信；懷疑」。不敢相信眼前畫面。",
+      "example": "She shook her head in complete disbelief at what she saw."
+    },
+    {
+      "word": "Yearn",
+      "phonetic": "[jɜːrn]",
+      "definition": "Have an intense feeling of longing for something.",
+      "analysis": "動詞，意為「渴望；熱望；期盼」。內心深處渴望期待（常用 yearn for）。",
+      "example": "Deep down, Mirabel would yearn to be accepted for who she was."
+    },
+    {
+      "word": "Hustled",
+      "phonetic": "[ˈhʌsld]",
+      "definition": "Pushed roughly; moved hurried and briskly.",
+      "analysis": "動詞過去式，意為「催促；忙碌催促移動；強拉」。忙碌快步推進。",
+      "example": "They hustled through the crowd to catch up with the procession."
+    },
+    {
+      "word": "Revered",
+      "phonetic": "[rɪˈvɪrd]",
+      "definition": "Feel deep respect or admiration for.",
+      "analysis": "形容詞/動詞過去式，意為「受崇敬的；受尊崇敬仰的」。極有威望尊嚴。",
+      "example": "Abuela was a revered figure in the entire Encanto community."
+    },
+    {
+      "word": "Hormigas santandereanas",
+      "phonetic": "[orˈmiɣas santandeˈɾeanas]",
+      "definition": "Colombian giant leaf-cutter ants eaten as a traditional delicacy.",
+      "analysis": "西班牙語專有名詞，意為「哥倫比亞桑坦德大頭蟻/油炸大蟻」。在地特色美食。",
+      "example": "Food stands served roasted hormigas santandereanas at the market."
+    },
+    {
+      "word": "Haggle",
+      "phonetic": "[ˈhæɡl]",
+      "definition": "Dispute or bargain persistently, especially over the cost of something.",
+      "analysis": "動詞，意為「討價還價；爭論價格」。菜市場講價互動。",
+      "example": "The townspeople loved to haggle over prices with the vendors."
+    },
+    {
+      "word": "Rowdy game of tejo",
+      "phonetic": "[ˈraʊdi ɡeɪm ʌv ˈtehoʊ]",
+      "definition": "A noisy, disorderly traditional Colombian sport involving throwing metal discs at targets.",
+      "analysis": "短語，意為「熱鬧吵雜的特霍金屬盤擲靶遊戲」。哥倫比亞傳統競技運動。",
+      "example": "Men cheered loudly during a rowdy game of tejo near the square."
+    },
+    {
+      "word": "Jersey",
+      "phonetic": "[ˈdʒɜːrzi]",
+      "definition": "A distinctive knitted shirt worn by players in sports.",
+      "analysis": "名詞，意為「運動衫；球衣」。體育或休閒著裝。",
+      "example": "He wore a colorful sports jersey while playing with friends."
+    },
+    {
+      "word": "Serve",
+      "phonetic": "[sɜːrv]",
+      "definition": "Perform duties or services for; present food or drink to.",
+      "analysis": "動詞，意為「服務；端上食物；端出」。提供飲食食物。",
+      "example": "Julieta would serve her magical cooked dishes to heal the sick."
+    },
+    {
+      "word": "Maladies",
+      "phonetic": "[ˈmælədiz]",
+      "definition": "Diseases or ailments.",
+      "analysis": "名詞（複數），意為「疾病；病痛；小恙」。各種小病小痛。",
+      "example": "Her magical cooking could cure all kinds of physical maladies."
+    },
+    {
+      "word": "Arepas",
+      "phonetic": "[əˈreɪpəs]",
+      "definition": "Traditional South American cornmeal cakes.",
+      "analysis": "西班牙語名詞，意為「哥倫比亞玉米餅/阿雷巴餅」。媽媽 Julieta 經常烤製的治癒美食。",
+      "example": "A single bite of her cheese arepas cured his broken arm."
+    },
+    {
+      "word": "Heal",
+      "phonetic": "[hiːl]",
+      "definition": "Cause to become sound or healthy again.",
+      "analysis": "動詞，意為「治癒；康復；醫治」。Julieta 的神奇天賦。",
+      "example": "Food prepared with love had the power to heal any injury."
+    },
+    {
+      "word": "Mural",
+      "phonetic": "[ˈmjʊrəl]",
+      "definition": "A painting or other artwork executed directly on a wall.",
+      "analysis": "名詞，意為「壁畫」。小鎮建築牆壁上描繪馬德里加家族魔法的巨幅壁畫。",
+      "example": "A giant mural of the family decorated the center of the town square."
+    },
+    {
+      "word": "Snatch",
+      "phonetic": "[snætʃ]",
+      "definition": "Quickly seize or take in a rude or eager way.",
+      "analysis": "動詞/名詞，意為「一把奪過；搶走」。快速抓取奪走。",
+      "example": "The mischievous monkey tried to snatch a piece of fruit."
+    },
+    {
+      "word": "Shriek",
+      "phonetic": "[ʃriːk]",
+      "definition": "Utter a high-pitched piercing cry or sound.",
+      "analysis": "動詞/名詞，意為「尖叫；發出刺耳叫聲」。震驚尖叫發聲。",
+      "example": "She gave a loud shriek when she saw a rat in the kitchen."
+    },
+    {
+      "word": "Jump in",
+      "phonetic": "[dʒʌmp ɪn]",
+      "definition": "Join in an activity, conversation, or situation quickly.",
+      "analysis": "動詞短語，意為「跳入；插嘴；加入談話或活動」。",
+      "example": "Mirabel was excited to jump in and help with the decorations."
+    },
+    {
+      "word": "Screech",
+      "phonetic": "[skriːtʃ]",
+      "definition": "Make a loud, harsh, piercing cry.",
+      "analysis": "動詞/名詞，意為「尖銳叫聲；煞車刺耳聲」。強烈尖銳叫喊。",
+      "example": "The colorful parrot let out a noisy screech from the tree."
+    },
+    {
+      "word": "Stroll by",
+      "phonetic": "[stroʊl baɪ]",
+      "definition": "Walk along in a slow, relaxed way past something.",
+      "analysis": "動詞短語，意為「悠閒散步經過；漫步走過」。",
+      "example": "Townspeople loved to stroll by Casita to see what magic was happening."
+    },
+    {
+      "word": "Hoist",
+      "phonetic": "[hɔɪst]",
+      "definition": "Raise or lift something, especially using ropes or effort.",
+      "analysis": "動詞/名詞，意為「吊起；舉起；抬高」。大力抬升吊起重物。",
+      "example": "Luisa helped hoist the massive wooden bridge into place."
+    },
+    {
+      "word": "Teased",
+      "phonetic": "[tiːzd]",
+      "definition": "Made fun of or attempted to provoke in a playful way.",
+      "analysis": "動詞過去式，意為「取笑；開玩笑打趣；嘲弄」。親友親暱戲謔打趣。",
+      "example": "Her cousins teasingly poked fun at her clumsy dancing."
+    },
+    {
+      "word": "Chimed in",
+      "phonetic": "[tʃaɪmd ɪn]",
+      "definition": "Interrupted or joined a conversation politely or musically.",
+      "analysis": "動詞短語（過去式），意為「插話；搭腔；附和發言」。補充對話。",
+      "example": "'And don't forget about my gift!' Camilo chimed in enthusiastically."
+    },
+    {
+      "word": "Madrigal",
+      "phonetic": "[ˈmædrɪɡəl]",
+      "definition": "The surname of the miraculous main family in Encanto.",
+      "analysis": "專有名詞/姓氏，意為「馬德里加（家族）」。故事核心家族名。",
+      "example": "The legendary Madrigal family was known throughout the land."
+    },
+    {
+      "word": "Salute",
+      "phonetic": "[səˈluːt]",
+      "definition": "A gesture of respect or polite greeting.",
+      "analysis": "動詞/名詞，意為「敬禮；致意；招手向…致敬」。尊崇敬意姿態。",
+      "example": "Townsfolk would wave and salute whenever they met Abuela."
+    },
+    {
+      "word": "Glow",
+      "phonetic": "[ɡloʊ]",
+      "definition": "Give out a steady light without flame; show warm emotion.",
+      "analysis": "動詞/名詞，意為「發光；發亮；紅光滿面」。溫暖明亮發光。",
+      "example": "The magic candle flickered with a warm, steady golden glow."
+    },
+    {
+      "word": "Scurry",
+      "phonetic": "[ˈskɜːri]",
+      "definition": "Move hurriedly with short quick steps.",
+      "analysis": "動詞/名詞，意為「急促小跑；慌張奔跑」。老鼠或小動物快速滑步。",
+      "example": "Rats began to scurry out from the dark cracks behind the walls."
+    },
+    {
+      "word": "Graciously",
+      "phonetic": "[ˈɡreɪʃəsli]",
+      "definition": "In a courteous, kind, and pleasant manner.",
+      "analysis": "副詞，意為「優雅地；客氣和藹地；有禮貌地」。高雅禮貌應對。",
+      "example": "Isabela graciously accepted the flower bouquet presented to her."
+    },
+    {
+      "word": "Amusement",
+      "phonetic": "[əˈmjuːzmənt]",
+      "definition": "The state or experience of finding something funny or entertaining.",
+      "analysis": "名詞，意為「娛樂；樂趣；好笑樂不可支」。感到有趣好笑。",
+      "example": "Camilo loved making shape-shifting jokes for everyone's amusement."
+    },
+    {
+      "word": "Stammer",
+      "phonetic": "[ˈstæmər]",
+      "definition": "Speak with sudden involuntary pauses and a tendency to repeat initial letters.",
+      "analysis": "動詞/名詞，意為「結巴；口吃；結結巴巴發聲」。緊張時說話不流利。",
+      "example": "Mirabel began to stammer when Abuela asked her what happened."
+    },
+    {
+      "word": "Cobweb",
+      "phonetic": "[ˈkɑːbweb]",
+      "definition": "A spider's web, especially when old and covered with dust.",
+      "analysis": "名詞，意為「蜘蛛網」。古老或暗室積灰的蛛網。",
+      "example": "Bruno's hidden room behind the walls was full of dusty cobwebs."
+    },
+    {
+      "word": "Doily",
+      "phonetic": "[ˈdɔɪli]",
+      "definition": "A small ornamental mat made of lace or paper.",
+      "analysis": "名詞，意為「蕾絲花邊小墊子」。裝飾桌面的精細小襯墊。",
+      "example": "A delicate white doily was placed under the tea set."
+    },
+    {
+      "word": "Startling",
+      "phonetic": "[ˈstɑːrtlɪŋ]",
+      "definition": "Very surprising, astonishing, or remarkable.",
+      "analysis": "形容詞，意為「令人驚嚇的；驚人的；吃驚的」。突如其來震驚景象。",
+      "example": "She made a startling discovery inside Bruno's vision tower."
+    },
+    {
+      "word": "Lit candle",
+      "phonetic": "[lɪt ˈkændl]",
+      "definition": "A candle that is currently burning with a flame.",
+      "analysis": "名詞短語，意為「燃燒著的蠟燭」。奇蹟之光的具象化展現。",
+      "example": "Abuela held the lit candle carefully close to her heart."
+    },
+    {
+      "word": "Spectacle",
+      "phonetic": "[ˈspektəkl]",
+      "definition": "A visually striking performance or display.",
+      "analysis": "名詞，意為「奇觀；壯觀場面；精彩演出」。令人矚目的宏大展示。",
+      "example": "The gift ceremony was a grand spectacle enjoyed by the entire town."
+    },
+    {
+      "word": "Sighed",
+      "phonetic": "[saɪd]",
+      "definition": "Emitted a long, deep, audible breath expressing sadness, relief, or exhaustion.",
+      "analysis": "動詞過去式，意為「嘆氣；嘆息」。抒發無奈、疲憊或鬆一口氣。",
+      "example": "Mirabel sighed deeply after failing to open her door."
+    },
+    {
+      "word": "Desperation",
+      "phonetic": "[ˌdespəˈreɪʃn]",
+      "definition": "A state of despair, typically one which results in rash or extreme behavior.",
+      "analysis": "名詞，意為「絕望；拼死一搏；孤注一擲」。走投無路的迫切感。",
+      "example": "In desperation, she climbed the dangerous stairs of Bruno's room."
+    },
+    {
+      "word": "Gust of wind",
+      "phonetic": "[ɡʌst ʌv wɪnd]",
+      "definition": "A sudden brief rush of wind.",
+      "analysis": "名詞短語，意為「陣風；一陣強風」。",
+      "example": "A powerful gust of wind blew open the balcony windows."
+    },
+    {
+      "word": "Humorous",
+      "phonetic": "[ˈhjuːmərəs]",
+      "definition": "Causing lighthearted laughter and amusement; funny.",
+      "analysis": "形容詞，意為「幽默風趣的；好笑逗樂的」。惹人發笑幽默色彩。",
+      "example": "Camilo was known for his humorous impersonations of family members."
+    },
+    {
+      "word": "Chuckled",
+      "phonetic": "[ˈtʃʌkld]",
+      "definition": "Laughed quietly or inwardly.",
+      "analysis": "動詞過去式，意為「輕聲笑；咯咯地笑」。暗自發笑輕笑。",
+      "example": "Bruno chuckled nervously as he fed his rat friends."
+    },
+    {
+      "word": "Bonked",
+      "phonetic": "[bɑːŋkt]",
+      "definition": "Hit or struck softly on the head or body.",
+      "analysis": "動詞過去式（口語），意為「敲到；撞到頭（發出砰聲）」。碰撞輕傷聲響。",
+      "example": "He bonked his head on the low wooden beam while walking."
+    },
+    {
+      "word": "Fumble",
+      "phonetic": "[ˈfʌmbl]",
+      "definition": "Use the hands clumsily while doing or handling something.",
+      "analysis": "動詞/名詞，意為「笨手笨腳地摸索；笨拙地拿取」。手忙腳亂拿取物件。",
+      "example": "Mirabel made a fumble for the glass key in the dark."
+    },
+    {
+      "word": "Jug",
+      "phonetic": "[dʒʌɡ]",
+      "definition": "A cylindrical container with a handle and a lip, used for holding liquids.",
+      "analysis": "名詞，意為「大水壺；罐；壺」。裝水或飲料的容器。",
+      "example": "She poured fresh juice from a big ceramic jug."
+    },
+    {
+      "word": "Toasted",
+      "phonetic": "[ˈtoʊstɪd]",
+      "definition": "Drink to the health or success of someone; cooked by exposure to heat.",
+      "analysis": "動詞過去式/形容詞，意為「舉杯祝酒；烤過的」。宴會敬酒致意。",
+      "example": "The family toasted to Antonio's successful ceremony."
+    },
+    {
+      "word": "Don’t you dare",
+      "phonetic": "[doʊnt juː der]",
+      "definition": "Used to warn someone strongly not to do something.",
+      "analysis": "短語，意為「你敢！你試試看！」。嚴厲警告警告口吻。",
+      "example": "'Don't you dare ruin this night!' whispered Abuela."
+    },
+    {
+      "word": "Unwavering",
+      "phonetic": "[ʌnˈweɪvərɪŋ]",
+      "definition": "Steady or resolute; not wavering or faltering.",
+      "analysis": "形容詞，意為「堅定不移的；不搖晃動搖的」。極為堅韌意志信條。",
+      "example": "Her devotion to the family was unwavering despite difficulties."
+    },
+    {
+      "word": "Poke",
+      "phonetic": "[poʊk]",
+      "definition": "Jab or prod someone or something with a finger or pointed object.",
+      "analysis": "動詞/名詞，意為「戳；刺；手指戳一下」。用手指或尖物戳觸。",
+      "example": "She gave Bruno a gentle poke on his arm to wake him up."
+    },
+    {
+      "word": "Heeded",
+      "phonetic": "[ˈhiːdɪd]",
+      "definition": "Paid attention to; took notice of advice or warning.",
+      "analysis": "動詞過去式，意為「聽從；留心；採納警告」。認真對待警示。",
+      "example": "Nobody heeded Bruno's prophetic warnings until it was too late."
+    },
+    {
+      "word": "Sidled",
+      "phonetic": "[ˈsaɪdld]",
+      "definition": "Walked in a furtive, unobtrusive, or timid manner, especially sideways.",
+      "analysis": "動詞過去式，意為「悄悄側身走；偷摸靠近」。小心翼翼移動姿態。",
+      "example": "Bruno sidled nervously along the narrow dusty hallway."
+    },
+    {
+      "word": "Boasted",
+      "phonetic": "[ˈboʊstɪd]",
+      "definition": "Talked with excessive pride and self-satisfaction about one's achievements.",
+      "analysis": "動詞過去式，意為「吹噓；誇耀；誇口自豪」。自我誇耀讚美。",
+      "example": "He boasted about his ability to grow a hundred roses at once."
+    },
+    {
+      "word": "Horrific",
+      "phonetic": "[həˈrɪfɪk]",
+      "definition": "Causing horror; extremely shocking or distressing.",
+      "analysis": "形容詞，意為「極可怕的；恐怖駭人的」。形容令人震驚可怕的預言景象。",
+      "example": "She was frightened by the horrific vision of cracks destroying the home."
+    },
+    {
+      "word": "Feasting",
+      "phonetic": "[ˈfiːstɪŋ]",
+      "definition": "Eating and drinking sumptuously and in large quantities.",
+      "analysis": "動詞/分詞，意為「享用盛宴；大吃大喝」。慶典歡聚饗宴。",
+      "example": "The whole village enjoyed feasting on Julieta's delicious meals."
+    },
+    {
+      "word": "Prowled",
+      "phonetic": "[praʊld]",
+      "definition": "Moved stealthily or restlessness as if searching for prey.",
+      "analysis": "動詞過去式，意為「潛行；巡遊尋找；隱秘巡視」。猛獸靜音搜尋姿態。",
+      "example": "Antonio's jaguar prowled silently through the tall indoor trees."
+    },
+    {
+      "word": "Sprinkle",
+      "phonetic": "[ˈsprɪŋkl]",
+      "definition": "Scatter small drops or particles over an object or surface.",
+      "analysis": "動詞/名詞，意為「灑；撒；噴灑微量粒」。均勻點綴灑落微小粒子。",
+      "example": "Isabela made tiny flowers sprinkle down from the ceiling."
+    },
+    {
+      "word": "Drizzle",
+      "phonetic": "[ˈdrɪzl]",
+      "definition": "Light rain falling in very fine drops.",
+      "analysis": "名詞/動詞，意為「細雨；下毛毛雨」。Pepa 心情低落時產生的濛濛細雨。",
+      "example": "A miserable drizzle began to fall over Pepa's umbrella."
+    },
+    {
+      "word": "Fading",
+      "phonetic": "[ˈfeɪdɪŋ]",
+      "definition": "Gradually growing faint and disappearing.",
+      "analysis": "形容詞/分詞，意為「褪色的；逐漸消逝微弱的」。魔法光芒逐漸褪去弱化。",
+      "example": "The glowing lines on the magic door were fading fast."
+    },
+    {
+      "word": "Sobbing",
+      "phonetic": "[ˈsɑːbɪŋ]",
+      "definition": "Crying noisily, taking sudden sharp breaths.",
+      "analysis": "動詞/分詞，意為「抽泣；啜泣」。傷心落淚抽泣聲音。",
+      "example": "Mirabel found Luisa sobbing under her bed out of stress."
+    },
+    {
+      "word": "Relief",
+      "phonetic": "[rɪˈliːf]",
+      "definition": "A feeling of reassurance and relaxation following release from anxiety.",
+      "analysis": "名詞，意為「寬慰；輕鬆；如釋重負」。壓力釋放解脫感。",
+      "example": "She felt a wave of relief when she saw the candle was still lit."
+    },
+    {
+      "word": "Mortify",
+      "phonetic": "[ˈmɔːrtɪfaɪ]",
+      "definition": "Cause someone to feel embarrassed, ashamed, or humiliated.",
+      "analysis": "動詞，意為「使非常尷尬受辱；使無地自容」。非常出醜羞愧尷尬。",
+      "example": "I didn't mean to mortify you in front of the whole town."
+    },
+    {
+      "word": "Bawling",
+      "phonetic": "[ˈbɔːlɪŋ]",
+      "definition": "Shouting or crying noisily and unrestrainedly.",
+      "analysis": "動詞/分詞，意為「大哭；大聲痛哭；咆哮大哭」。嚎啕大哭或大吼。",
+      "example": "The baby started bawling when the sudden storm startled her."
+    },
+    {
+      "word": "Chomp",
+      "phonetic": "[tʃɑːmp]",
+      "definition": "Munch or chew food noisily or vigorously.",
+      "analysis": "動詞/名詞，意為「大口咀嚼；咯吱咯吱啃咬」。大口用力咬嚼食物。",
+      "example": "The donkey took a huge chomp out of the green apple."
+    },
+    {
+      "word": "Staggering",
+      "phonetic": "[ˈstæɡərɪŋ]",
+      "definition": "Deeply shocking or surprising; walking unsteadily as if about to fall.",
+      "analysis": "形容詞/分詞，意為「令人震驚驚呆的；搖搖晃晃踱步的」。震撼難以置信。",
+      "example": "The news of the crumbling house was a staggering realization."
+    },
+    {
+      "word": "Wailed",
+      "phonetic": "[weɪld]",
+      "definition": "Made a prolonged high-pitched cry of pain, grief, or anger.",
+      "analysis": "動詞過去式，意為「嚎啕大哭；慟哭哀嚎」。發出悲痛哀叫啼哭。",
+      "example": "'The magic is dying!' she wailed in desperation."
+    },
+    {
+      "word": "Suspicion",
+      "phonetic": "[səˈspɪʃn]",
+      "definition": "A feeling or thought that something is possible, likely, or true.",
+      "analysis": "名詞，意為「猜疑；懷疑；疑心」。對某事有所猜忌疑心。",
+      "example": "Abuela watched Mirabel with growing suspicion."
+    },
+    {
+      "word": "Trap",
+      "phonetic": "[træp]",
+      "definition": "A device or enclosure designed to catch animals; trick or situation.",
+      "analysis": "名詞/動詞，意為「陷阱；圈套/困住；誘捕」。困在艱難境地。",
+      "example": "Mirabel found herself trapped in the collapsing tower of sand."
+    },
+    {
+      "word": "Threaten",
+      "phonetic": "[ˈθretn]",
+      "definition": "State one's intention to take hostile action; endanger.",
+      "analysis": "動詞，意為「威脅；危及；恐嚇」。威脅危害安全性命。",
+      "example": "Dark cracks threaten to destroy the foundation of the house."
+    },
+    {
+      "word": "Tidal",
+      "phonetic": "[ˈtaɪdl]",
+      "definition": "Relating to or affected by tides; giant rising wave like.",
+      "analysis": "形容詞，意為「潮汐的；澎湃如巨浪般的」。巨浪洶湧澎湃氣勢。",
+      "example": "A tidal wave of green sand rushed down the vision chamber."
+    },
+    {
+      "word": "Jiggled",
+      "phonetic": "[ˈdʒɪɡld]",
+      "definition": "Moved or caused to move up and down or side to side with short rapid movements.",
+      "analysis": "動詞過去式，意為「微震；晃動；咔嗒晃動門把」。快速抖動或晃動鍵把。",
+      "example": "She jiggled the doorknob, but the room remained locked."
+    },
+    {
+      "word": "Budge",
+      "phonetic": "[bʌdʒ]",
+      "definition": "Make or cause to make the slightest movement.",
+      "analysis": "動詞，意為「挪動；絲毫移動」。常否定（won't budge/couldn't budge）表達不動如山。",
+      "example": "No matter how hard she pulled, the heavy door wouldn't budge."
+    },
+    {
+      "word": "Preoccupied",
+      "phonetic": "[priˈɑːkjupaɪd]",
+      "definition": "Engrossed in thought; distracted.",
+      "analysis": "形容詞，意為「心事重重的；心不在焉全神貫注的」。滿心憂慮分神。",
+      "example": "Luisa looked preoccupied with her fading strength all day."
+    },
+    {
+      "word": "Sweep",
+      "phonetic": "[swiːp]",
+      "definition": "Clean an area by brushing away dirt; move swiftly and smoothly.",
+      "analysis": "動詞/名詞，意為「打掃；席捲；打掃乾淨/清掃」。清掃或掠過橫掃。",
+      "example": "Casita helped sweep the dusty floors using its broom moving by itself."
+    },
+    {
+      "word": "Scattered",
+      "phonetic": "[ˈskætərd]",
+      "definition": "Thrown or placed randomly over a wide area.",
+      "analysis": "形容詞/動詞過去式，意為「散亂的；散落各處的」。零散分佈撒落零亂。",
+      "example": "Emerald glass shards were scattered all over the sandy floor."
+    },
+    {
+      "word": "Sculpture",
+      "phonetic": "[ˈskʌlptʃər]",
+      "definition": "The art of making two or three-dimensional representative shapes.",
+      "analysis": "名詞/動詞，意為「雕塑；雕像」。雕刻藝術品。",
+      "example": "A stone sculpture of Abuelo Pedro stood peacefully in the yard."
+    },
+    {
+      "word": "Emerald",
+      "phonetic": "[ˈemərəld]",
+      "definition": "A bright green precious stone; luminous green color.",
+      "analysis": "名詞/形容詞，意為「祖母綠；翡翠綠」。Bruno 預言玻璃片的招牌色澤。",
+      "example": "Bruno's prophetical vision manifested in a glowing emerald glass slab."
+    },
+    {
+      "word": "Shard",
+      "phonetic": "[ʃɑːrd]",
+      "definition": "A piece of broken ceramic, metal, glass, or rock.",
+      "analysis": "名詞，意為「（玻璃/陶瓷等）碎片」。破碎散落的玻璃片。",
+      "example": "Mirabel carefully picked up a glowing green glass shard."
+    },
+    {
+      "word": "Fling",
+      "phonetic": "[flɪŋ]",
+      "definition": "Throw or hurl forcefully, carelessly, or casually.",
+      "analysis": "動詞，意為「拋擲；用力扔甩」。大力揮擲拋出物件。",
+      "example": "In anger, she decided to fling the green vision piece into her bag."
+    },
+    {
+      "word": "Submerge",
+      "phonetic": "[səbˈmɜːrdʒ]",
+      "definition": "Cause to be under water; completely cover or obscure.",
+      "analysis": "動詞，意為「浸沒；淹沒；沉浸」。被沙土或液體完全覆蓋淹沒。",
+      "example": "The rising mountain of green sand threatened to submerge the entrance."
+    }
+  ]
+}
