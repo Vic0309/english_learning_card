@@ -3,5 +3,11 @@
     "id": "the_little_prince",
     "title": "The Little Prince (小王子)",
     "file": "data/the_little_prince.json"
+  },
+  {
+    "id": "encanto",
+    "title": ""Encanto (魔法滿屋)",
+    "file": "data/encanto.json"
   }
+  
 ]
