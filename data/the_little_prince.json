@@ -841,6 +841,419 @@
       "definition": "Having a quality or style characteristic of poetry; graceful and romantic.",
       "analysis": "形容詞，意為「詩意地；詩歌的；富有浪漫色彩的」。",
       "example": "The novel is known for its beautiful and poetic language."
+    },
+    {
+      "word": "Handkerchief",
+      "phonetic": "[ˈhæŋkərtʃɪf]",
+      "definition": "A square piece of cloth used for wiping the nose or face.",
+      "analysis": "名詞，意為「手帕」。在故事中常用於擦拭眼淚或清潔。",
+      "example": "He pulled a silk handkerchief from his pocket to wipe his forehead."
+    },
+    {
+      "word": "Affairs",
+      "phonetic": "[əˈferz]",
+      "definition": "Matters of commercial, professional, or personal concern.",
+      "analysis": "名詞（複數），意為「事務；事情」。在《小王子》中指大人們自以為重要的事情。",
+      "example": "The businessman claimed to be busy with serious affairs."
+    },
+    {
+      "word": "Growing fonder",
+      "phonetic": "[ˈɡroʊɪŋ ˈfɑːndər]",
+      "definition": "Developing a stronger affection or liking for someone or something.",
+      "analysis": "短語，意為「越來越喜歡；情感漸深」。常搭配 `of` 使用。",
+      "example": "Absence makes the heart grow fonder."
+    },
+    {
+      "word": "Revolves",
+      "phonetic": "[rɪˈvɑːlvz]",
+      "definition": "Moves in a circular orbit around an axis or center.",
+      "analysis": "動詞（單數第三人稱），意為「旋轉；環繞」。常用於描述星球或天體繞行。",
+      "example": "The small planet revolves around its sun."
+    },
+    {
+      "word": "Faithful",
+      "phonetic": "[ˈfeɪθfl]",
+      "definition": "Remaining loyal and steadfast; true to facts or original.",
+      "analysis": "形容詞，意為「忠誠的；恪盡職守的」。描繪點燈人忠實執行任務的態度。",
+      "example": "The streetlamp lighter was faithful to his orders."
+    },
+    {
+      "word": "Stride",
+      "phonetic": "[straɪd]",
+      "definition": "Walk with long, decisive steps.",
+      "analysis": "名詞/動詞，意為「大步走；邁步」。描述自信或有目的性的步伐。",
+      "example": "He walked across the room with a confident stride."
+    },
+    {
+      "word": "Despised",
+      "phonetic": "[dɪˈspaɪzd]",
+      "definition": "Feel contempt or a deep repugnance for.",
+      "analysis": "動詞過去式/形容詞，意為「被輕視的；受蔑視的」。",
+      "example": "The lamp lighter was despised by all the arrogant people."
+    },
+    {
+      "word": "Heaved",
+      "phonetic": "[hiːvd]",
+      "definition": "Lifted or hauled something heavy with great effort; breathed noisily.",
+      "analysis": "動詞過去式，意為「用力舉起；長舒一口氣」。",
+      "example": "He heaved a deep sigh of disappointment."
+    },
+    {
+      "word": "Disaster",
+      "phonetic": "[dɪˈzæstər]",
+      "definition": "A sudden event that causes great damage or distress.",
+      "analysis": "名詞，意為「災難；不幸」。形容嚴重不良後果的事件。",
+      "example": "It would be a complete disaster if the flower withered."
+    },
+    {
+      "word": "Furnish",
+      "phonetic": "[ˈfɜːrnɪʃ]",
+      "definition": "Provide or supply with what is needed; equip with furniture.",
+      "analysis": "動詞，意為「提供；裝備；佈置家具」。",
+      "example": "Geographers furnish information about mountains and oceans."
+    },
+    {
+      "word": "Prettiest",
+      "phonetic": "[ˈprɪtiɪst]",
+      "definition": "Most attractive or pleasing in a delicate way.",
+      "analysis": "形容詞最高級，意為「最漂亮的；最美麗的」。",
+      "example": "She was the prettiest rose in the entire garden."
+    },
+    {
+      "word": "Ephemeral",
+      "phonetic": "[ɪˈfemərəl]",
+      "definition": "Lasting for a very short time; fleeting.",
+      "analysis": "形容詞，意為「轉瞬即逝的；短暫的」。地理學家用來形容花朵生命的易逝。",
+      "example": "The beauty of a flower is purely ephemeral."
+    },
+    {
+      "word": "Drained",
+      "phonetic": "[dreɪnd]",
+      "definition": "Deprived of strength or vitality; emptied of liquid.",
+      "analysis": "形容詞/動詞過去式，意為「精疲力竭的；被耗盡的」。",
+      "example": "He felt completely drained after walking through the desert."
+    },
+    {
+      "word": "Eternal",
+      "phonetic": "[ɪˈtɜːrnl]",
+      "definition": "Lasting or existing forever; without end.",
+      "analysis": "形容詞，意為「永恆的；不朽的」。地理學家稱高山是永恆不變的。",
+      "example": "Mountains seem eternal compared to delicate plants."
+    },
+    {
+      "word": "Threatened",
+      "phonetic": "[ˈθretnd]",
+      "definition": "In danger of being harmed or destroyed.",
+      "analysis": "形容詞/動詞過去式，意為「受到威脅的；處於危險中的」。",
+      "example": "The rose was threatened with imminent disappearance."
+    },
+    {
+      "word": "Imminent",
+      "phonetic": "[ˈɪmɪnənt]",
+      "definition": "About to happen; impending.",
+      "analysis": "形容詞，意為「即將發生的；逼近的」。常用於形容危險或緊迫的情況。",
+      "example": "They prepared for the imminent storm."
+    },
+    {
+      "word": "Disappearance",
+      "phonetic": "[ˌdɪsəˈpɪrəns]",
+      "definition": "An act of someone or something ceasing to be visible or present.",
+      "analysis": "名詞，意為「消失；失蹤」。",
+      "example": "The prince grieved over the possible disappearance of his rose."
+    },
+    {
+      "word": "Plucked up",
+      "phonetic": "[plʌkt ʌp]",
+      "definition": "Gathered or summoned up courage; pulled out.",
+      "analysis": "動詞短語（過去式），意為「鼓起（勇氣）；拔起」。",
+      "example": "He plucked up his courage to ask the question."
+    },
+    {
+      "word": "Veritable army",
+      "phonetic": "[ˈverɪtəbl ˈɑːrmi]",
+      "definition": "An actual or genuine large number of people or things organized.",
+      "analysis": "名詞短語，意為「名副其實的大軍」。形容數量非常龐大整齊。",
+      "example": "There was a veritable army of streetlamp lighters on Earth."
+    },
+    {
+      "word": "Splendid effect",
+      "phonetic": "[ˈsplendɪd ɪˈfekt]",
+      "definition": "A magnificent, impressive, or glorious impression.",
+      "analysis": "名詞短語，意為「壯麗的效果；極佳的視覺震撼」。",
+      "example": "The lighting of the lamps created a splendid effect from space."
+    },
+    {
+      "word": "Vanish",
+      "phonetic": "[ˈvænɪʃ]",
+      "definition": "Disappear suddenly and completely.",
+      "analysis": "動詞，意為「突然消失；不存在」。",
+      "example": "The snake seemed to vanish into the sand."
+    },
+    {
+      "word": "Uncoiled",
+      "phonetic": "[ˌʌnˈkɔɪld]",
+      "definition": "Unwound or straightened out from a coiled position.",
+      "analysis": "動詞過去式，意為「伸展開來；解開盤捲」。描繪蛇盤旋後伸直身軀的動作。",
+      "example": "The golden snake slowly uncoiled itself in the moonlight."
+    },
+    {
+      "word": "Golden bracelet",
+      "phonetic": "[ˈɡoʊldən ˈbreɪslət]",
+      "definition": "An ornamental band worn around the wrist made of gold.",
+      "analysis": "名詞短語，意為「金手鍊；金環」。形容小王子腳踝上如金色手環般的蛇。",
+      "example": "The snake lay like a golden bracelet around his ankle."
+    },
+    {
+      "word": "Innocent",
+      "phonetic": "[ˈɪnəsnt]",
+      "definition": "Not guilty of a crime or offense; pure and simple.",
+      "analysis": "形容詞，意為「天真無邪的；清白的」。形容小王子純潔無瑕的心靈。",
+      "example": "The boy had a gentle and innocent smile."
+    },
+    {
+      "word": "Granite earth",
+      "phonetic": "[ˈɡrænɪt ɜːrθ]",
+      "definition": "Hard, unyielding ground made of coarse rock.",
+      "analysis": "名詞短語，意為「堅硬的花崗岩大地/荒涼土地」。描述極其硬實的陸地環境。",
+      "example": "They stood on the cold, hard granite earth."
+    },
+    {
+      "word": "Caravan",
+      "phonetic": "[ˈkærəvæn]",
+      "definition": "A group of people, especially traders or pilgrims, traveling together.",
+      "analysis": "名詞，意為「商隊；旅隊」。沙漠中結伴同行穿越沙漠的隊伍。",
+      "example": "A long caravan crossed the silent desert."
+    },
+    {
+      "word": "Hamper",
+      "phonetic": "[ˈhæmpər]",
+      "definition": "Hinder or impede the movement or progress of.",
+      "analysis": "動詞，意為「妨礙；阻礙；牽制」。",
+      "example": "Heavy luggage will hamper your ability to travel fast."
+    },
+    {
+      "word": "Footstool",
+      "phonetic": "[ˈfʊtstuːl]",
+      "definition": "A low stool used for resting the feet upon when sitting.",
+      "analysis": "名詞，意為「腳踏；腳凳」。小王子把矮小的山丘比作腳踏。",
+      "example": "He sat on the chair with his feet resting on a small footstool."
+    },
+    {
+      "word": "Peculiar",
+      "phonetic": "[pɪˈkjuːliər]",
+      "definition": "Strange or odd; unusual.",
+      "analysis": "形容詞，意為「古怪的；奇特的」。形容地球或大人行為古怪特異。",
+      "example": "The little prince found the habits of adults very peculiar."
+    },
+    {
+      "word": "Wept",
+      "phonetic": "[wept]",
+      "definition": "Shed tears as an expression of distress, sorrow, or grief.",
+      "analysis": "動詞過去式（原形 weep），意為「哭泣；流淚」。",
+      "example": "He sat in the grass and wept bitterly."
+    },
+    {
+      "word": "I'm not tamed",
+      "phonetic": "[aɪm nɑːt teɪmd]",
+      "definition": "I have not been domesticated, cultivated, or bonded with.",
+      "analysis": "句子/短語，意為「我還沒被馴服/馴化」。狐狸經典台詞，意指尚未建立專屬牽絆。",
+      "example": "'I cannot play with you,' said the fox. 'I'm not tamed.'"
+    },
+    {
+      "word": "Monotonous",
+      "phonetic": "[məˈnɑːtənəs]",
+      "definition": "Dull, tedious, and repetitious; lacking in variety.",
+      "analysis": "形容詞，意為「單調乏味的；千篇一律的」。狐狸形容未建立牽絆前的日常生活。",
+      "example": "My life is very monotonous: I hunt chickens, men hunt me."
+    },
+    {
+      "word": "Burrow",
+      "phonetic": "[ˈbɜːroʊ]",
+      "definition": "A hole or tunnel dug by a small animal as a dwelling.",
+      "analysis": "名詞/動詞，意為「地洞；巢穴/挖洞」。狐狸躲藏的洞穴。",
+      "example": "The fox quickly ran back into its burrow."
+    },
+    {
+      "word": "Wheat",
+      "phonetic": "[wiːt]",
+      "definition": "A cereal grain plant cultivated for food.",
+      "analysis": "名詞，意為「小麥；麥子」。金色麥田會讓狐狸想起小王子的金髮。",
+      "example": "The golden wheat fields remind me of your hair."
+    },
+    {
+      "word": "Vineyard",
+      "phonetic": "[ˈvɪnjərd]",
+      "definition": "A plantation of grapevines, typically producing wine.",
+      "analysis": "名詞，意為「葡萄園」。",
+      "example": "They visited a beautiful vineyard in France."
+    },
+    {
+      "word": "Weep",
+      "phonetic": "[wiːp]",
+      "definition": "Shed tears; cry.",
+      "analysis": "動詞，意為「哭泣；流淚」。表示內心悲傷而落淚。",
+      "example": "It will make you weep when you have to say goodbye."
+    },
+    {
+      "word": "Humbled",
+      "phonetic": "[ˈhʌmbld]",
+      "definition": "Feeling modest or insignificant in estimate of oneself.",
+      "analysis": "形容詞/動詞過去式，意為「感到謙遜的；被折服的」。",
+      "example": "The prince felt humbled when he saw thousands of roses."
+    },
+    {
+      "word": "Passerby",
+      "phonetic": "[ˈpæsərbaɪ]",
+      "definition": "A person who walks by something or someone, especially by chance.",
+      "analysis": "名詞，意為「過客；路人」。指不了解玫瑰專屬價值的普通路人。",
+      "example": "An ordinary passerby would think my rose looked just like you."
+    },
+    {
+      "word": "Locomotive",
+      "phonetic": "[ˌloʊkəˈmoʊtɪv]",
+      "definition": "A powered railway vehicle used for pulling trains.",
+      "analysis": "名詞，意為「火車頭；機車」。扳道工掌管的大型列車機車。",
+      "example": "The express train was pulled by a roaring locomotive."
+    },
+    {
+      "word": "Pills",
+      "phonetic": "[pɪlz]",
+      "definition": "Small solid masses of medicine for swallowing whole.",
+      "analysis": "名詞（複數），意為「藥丸」。商人販賣省去解渴時間的止渴藥丸。",
+      "example": "He bought a box of pills that quench thirst."
+    },
+    {
+      "word": "Exasperated",
+      "phonetic": "[ɪɡˈzæspəreɪtɪd]",
+      "definition": "Intensely irritated and frustrated.",
+      "analysis": "形容詞，意為「被激怒的；極度惱火/惱怒的」。",
+      "example": "The narrator grew exasperated by the persistent questions."
+    },
+    {
+      "word": "Vastness",
+      "phonetic": "[ˈvæstnəs]",
+      "definition": "Immensity; huge extent or size.",
+      "analysis": "名詞，意為「浩瀚；廣闊無垠」。形容沙漠或星空的廣大無邊。",
+      "example": "The vastness of the desert felt overwhelming."
+    },
+    {
+      "word": "Feverish",
+      "phonetic": "[ˈfiːvərɪʃ]",
+      "definition": "Having or showing symptoms of a fever; excited and restless.",
+      "analysis": "形容詞，意為「發燒的；狂熱躁動的」。描述極度疲憊或發燒時的狀態。",
+      "example": "He walked through the night with a feverish determination."
+    },
+    {
+      "word": "Ridge",
+      "phonetic": "[rɪdʒ]",
+      "definition": "A long, narrow elevated crest of land.",
+      "analysis": "名詞，意為「山脊；沙丘脊線」。沙漠中高起的地方。",
+      "example": "They climbed to the top of the sand ridge."
+    },
+    {
+      "word": "Well",
+      "phonetic": "[wel]",
+      "definition": "A deep hole sunk into the earth to obtain water.",
+      "analysis": "名詞，意為「水井」。沙漠中尋找生命源泉的核心所在。",
+      "example": "Finding a well in the desert felt like a miracle."
+    },
+    {
+      "word": "Pulley",
+      "phonetic": "[ˈpʊli]",
+      "definition": "A wheel with a grooved rim around which a cord or chain passes to raise weights.",
+      "analysis": "名詞，意為「滑輪」。井上帶動水桶升降的裝置。",
+      "example": "The old pulley groaned as he pulled the rope."
+    },
+    {
+      "word": "Groaned",
+      "phonetic": "[ɡroʊnd]",
+      "definition": "Made a deep inarticulate sound in pain or despair; creaked under pressure.",
+      "analysis": "動詞過去式，意為「發出呻吟聲；發出咯吱異響」。形容久未使用的滑輪轉動發聲。",
+      "example": "The rusty weather vane groaned in the wind."
+    },
+    {
+      "word": "Hoisted",
+      "phonetic": "[ˈhɔɪstɪd]",
+      "definition": "Raised or lifted something, especially using ropes or pulleys.",
+      "analysis": "動詞過去式，意為「吊起；升起；用滑輪絞起」。",
+      "example": "He hoisted the heavy bucket of water to the edge of the well."
+    },
+    {
+      "word": "Glisten",
+      "phonetic": "[ˈɡlɪsn]",
+      "definition": "Shine glitteringly with a sparkling light, especially when wet.",
+      "analysis": "動詞，意為「閃耀；閃爍著光芒（常指潮濕的表面）」。",
+      "example": "The water seemed to glisten like a precious gift."
+    },
+    {
+      "word": "Muzzle",
+      "phonetic": "[ˈmʌzl]",
+      "definition": "A fastening put over an animal's mouth to prevent it from biting or eating.",
+      "analysis": "名詞，意為「嘴套；口套」。主角答應為羊畫的防咬嘴套。",
+      "example": "He drew a muzzle for the sheep to protect the flower."
+    },
+    {
+      "word": "Reassured",
+      "phonetic": "[ˌriːəˈʃʊrd]",
+      "definition": "Say or do something to remove the doubts or fears of someone.",
+      "analysis": "形容詞/動詞過去式，意為「感到放心的；被安撫的」。",
+      "example": "The child felt reassured after his mother comforted him."
+    },
+    {
+      "word": "Revolver",
+      "phonetic": "[rɪˈvɑːlvər]",
+      "definition": "A pistol with revolving cylinders containing several chambers.",
+      "analysis": "名詞，意為「左輪手槍」。在沙漠中用於自衛或生存警示。",
+      "example": "He carried a revolver in his belt while traveling."
+    },
+    {
+      "word": "Faint metallic",
+      "phonetic": "[feɪnt məˈtælɪk]",
+      "definition": "A barely audible sound characteristic of metal hitting metal.",
+      "analysis": "短語，意為「微弱的金屬碰撞聲」。形容蛇咬下時輕微的聲響。",
+      "example": "There was a faint metallic clink in the stillness of the desert."
+    },
+    {
+      "word": "Moistened",
+      "phonetic": "[ˈmɔɪsnd]",
+      "definition": "Made slightly wet or damp.",
+      "analysis": "動詞過去式，意為「弄濕；濕潤」。擦拭額頭汗水或潤濕雙唇。",
+      "example": "He moistened his dry lips with a sip of water."
+    },
+    {
+      "word": "Dropping headlong",
+      "phonetic": "[ˈdrɑːpɪŋ ˈhedlɔːŋ]",
+      "definition": "Falling with the head foremost; plunging recklessly.",
+      "analysis": "短語，意為「頭朝下栽倒；猛然倒下」。形容小王子倒下時的姿態。",
+      "example": "He fell gently like a tree, dropping headlong into the sand."
+    },
+    {
+      "word": "Abyss",
+      "phonetic": "[əˈbɪs]",
+      "definition": "A deep or seemingly bottomless chasm or void.",
+      "analysis": "名詞，意為「深淵；無底洞」。形容極度深邃無邊的空間。",
+      "example": "He stared down into the dark abyss."
+    },
+    {
+      "word": "Irreparable",
+      "phonetic": "[ɪˈrepərəbl]",
+      "definition": "Impossible to repair, rectify, or make good.",
+      "analysis": "形容詞，意為「無法彌補的；不可挽回的」。描述無法修復的傷痛或毀壞。",
+      "example": "The news caused irreparable grief to his heart."
+    },
+    {
+      "word": "Disheartened",
+      "phonetic": "[dɪsˈhɑːrtnd]",
+      "definition": "Having lost determination, confidence, or enthusiasm.",
+      "analysis": "形容詞，意為「沮喪的；灰心喪氣的」。形容遭受打擊後失去信心。",
+      "example": "Feelings of failure left him thoroughly disheartened."
+    },
+    {
+      "word": "Fatigue",
+      "phonetic": "[fəˈtiːɡ]",
+      "definition": "Extreme tiredness resulting from mental or physical exertion.",
+      "analysis": "名詞，意為「疲憊；精疲力竭」。長途跋涉帶來的身心勞累。",
+      "example": "He collapsed on the ground from sheer fatigue."
     }
   ]
 }
