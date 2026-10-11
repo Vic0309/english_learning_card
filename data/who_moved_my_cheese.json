@@ -1,0 +1,552 @@
+{
+  "bookId": "who_moved_my_cheese",
+  "bookTitle": "Who Moved My Cheese? (誰搬走了我的乳酪？)",
+  "vocabulary": [
+    {
+      "word": "Sniff",
+      "phonetic": "[snɪf]",
+      "definition": "Draw in air audibly through the nose to detect smell; notice early signs.",
+      "analysis": "動詞/名詞，意為「嗅；聞；察覺（變化）」。故事中老鼠「嗅嗅」（Sniff）象徵能提早察覺變化徵兆的人。",
+      "example": "Sniff can smell out the changes in the cheese station early on."
+    },
+    {
+      "word": "Scurry",
+      "phonetic": "[ˈskɜːri]",
+      "definition": "Move hurriedly with short quick steps.",
+      "analysis": "動詞/名詞，意為「急忙奔跑；快跑」。故事中老鼠「匆匆」（Scurry）象徵立刻採取行動的人。",
+      "example": "Scurry puts on his running shoes and quickly runs into the maze."
+    },
+    {
+      "word": "Hem",
+      "phonetic": "[hem]",
+      "definition": "To hesitate in speech; confine or enclose; resist change.",
+      "analysis": "動詞/名詞，意為「猶豫；圍住」。故事中的小矮人「哼哼」（Hem）象徵否認並抵抗變化的人。",
+      "example": "Hem refused to leave Cheese Station C, waiting for the cheese to return."
+    },
+    {
+      "word": "Haw",
+      "phonetic": "[hɔː]",
+      "definition": "Utter a sound of hesitation; turn or adapt slowly to change.",
+      "analysis": "動詞/名詞，意為「猶豫；轉向」。故事中的小矮人「哈哈」（Haw）象徵學會嘲笑自己並及時調整適應變化的人。",
+      "example": "Haw eventually laughed at his own foolish fear and ran into the maze."
+    },
+    {
+      "word": "Depicted",
+      "phonetic": "[dɪˈpɪktɪd]",
+      "definition": "Represented or shown by a drawing, painting, or other art form.",
+      "analysis": "動詞過去式，意為「描繪；描述；刻畫」。",
+      "example": "The simple story depicted the different ways people deal with change."
+    },
+    {
+      "word": "Intended",
+      "phonetic": "[ɪnˈtendɪd]",
+      "definition": "Planned, designed, or meant for a particular purpose.",
+      "analysis": "形容詞/動詞過去式，意為「預期的；打算的；旨意的」。",
+      "example": "The parable is intended to help people adapt to unexpected life changes."
+    },
+    {
+      "word": "Maze",
+      "phonetic": "[meɪz]",
+      "definition": "A network of paths and hedges designed as a puzzle through which one has to find a way.",
+      "analysis": "名詞，意為「迷宮」。故事中象徵我們尋找目標、工作或幸福的環境或職場。",
+      "example": "They spent hours every day searching for fresh cheese in the complex maze."
+    },
+    {
+      "word": "Thrilled",
+      "phonetic": "[θrɪld]",
+      "definition": "Extremely pleased and excited.",
+      "analysis": "形容詞，意為「非常興奮的；非常激動高興的」。",
+      "example": "They were thrilled when they discovered a giant pile of cheese."
+    },
+    {
+      "word": "Amusing",
+      "phonetic": "[əˈmjuːzɪŋ]",
+      "definition": "Causing laughter or providing entertainment; funny.",
+      "analysis": "形容詞，意為「有趣的；引人發笑的」。",
+      "example": "The story was both simple and amusing to read."
+    },
+    {
+      "word": "Metaphor",
+      "phonetic": "[ˈmetəfər]",
+      "definition": "A figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable.",
+      "analysis": "名詞，意為「暗喻；隱喻」。本書以乳酪隱喻我們追求的目標。",
+      "example": "In this story, 'Cheese' is a metaphor for what you want in life."
+    },
+    {
+      "word": "Revealed",
+      "phonetic": "[rɪˈviːld]",
+      "definition": "Made known to others; disclosed.",
+      "analysis": "動詞過去式，意為「揭示；透露；展現」。",
+      "example": "The seminar revealed deep truths about human behavior under stress."
+    },
+    {
+      "word": "Inducted into",
+      "phonetic": "[ɪnˈdʌktɪd ˈɪntə]",
+      "definition": "Formally introduced into a position, hall of fame, or organization.",
+      "analysis": "短語，意為「正式選入；引導進入；接納為成員」。",
+      "example": "He was inducted into the business hall of fame for his insights."
+    },
+    {
+      "word": "Possessive",
+      "phonetic": "[pəˈzesɪv]",
+      "definition": "Demanding someone's total attention and love, or unwilling to share belongings.",
+      "analysis": "形容詞，意為「占有欲強的；獨占的」。形容對現有成就過度執著。",
+      "example": "They became possessive of the cheese and took it for granted."
+    },
+    {
+      "word": "Parable",
+      "phonetic": "[ˈpærəbl]",
+      "definition": "A simple story used to illustrate a moral or spiritual lesson.",
+      "analysis": "名詞，意為「寓言故事」。用簡短故事傳達深刻道理。",
+      "example": "This classic parable has transformed many companies and careers."
+    },
+    {
+      "word": "Profound",
+      "phonetic": "[prəˈfaʊnd]",
+      "definition": "Very great or intense; having or showing great knowledge or insight.",
+      "analysis": "形容詞，意為「深刻的；深遠的」。形容道理極具啟發性。",
+      "example": "The simple lesson carried a profound impact on my mindset."
+    },
+    {
+      "word": "Reunion",
+      "phonetic": "[ˌriːˈjuːniən]",
+      "definition": "A gathering of people who have been parted or have been associated with each other in the past.",
+      "analysis": "名詞，意為「聚會；同學會；重聚」。故事開頭老同學的聚會。",
+      "example": "Former classmates discussed their lives at their high school reunion."
+    },
+    {
+      "word": "Manuscript",
+      "phonetic": "[ˈmænjuskrɪpt]",
+      "definition": "A book, document, or piece of music written by hand rather than typed or printed.",
+      "analysis": "名詞，意為「手稿；原稿」。出版前整理的文稿。",
+      "example": "Before it was published, the author passed the manuscript around to friends."
+    },
+    {
+      "word": "Stimulated",
+      "phonetic": "[ˈstɪmjuleɪtɪd]",
+      "definition": "Encouraged interest or activity in something; animated.",
+      "analysis": "動詞過去式，意為「激勵；刺激；激發」。激起思考與行動。",
+      "example": "The discussion stimulated many creative ideas among the team."
+    },
+    {
+      "word": "Settle into",
+      "phonetic": "[ˈsetl ˈɪntə]",
+      "definition": "Become comfortable in a new situation or place.",
+      "analysis": "動詞短語，意為「習慣於；安頓於；沉溺於（舒適圈）」。",
+      "example": "It is easy to settle into a comfortable routine and ignore signs of change."
+    },
+    {
+      "word": "Nourish",
+      "phonetic": "[ˈnɜːrɪʃ]",
+      "definition": "Provide with the food or other substances necessary for growth, health, and good condition.",
+      "analysis": "動詞，意為「滋養；撫育；養育」。乳酪能滋養身心。",
+      "example": "Finding new cheese nourished not just their bodies, but also their spirits."
+    },
+    {
+      "word": "Possessing",
+      "phonetic": "[pəˈzesɪŋ]",
+      "definition": "Having as belonging to one; owning.",
+      "analysis": "動詞/分詞，意為「擁有；持有；具有」。",
+      "example": "Possessing Cheese makes you happy, but holding onto old cheese leads to rot."
+    },
+    {
+      "word": "Instinct",
+      "phonetic": "[ˈɪnstɪŋkt]",
+      "definition": "An innate, typically fixed pattern of behavior in animals in response to certain stimuli.",
+      "analysis": "名詞，意為「本能；直覺」。老鼠靠本能直覺快速反應。",
+      "example": "The mice used their simple instincts rather than overanalyzing the situation."
+    },
+    {
+      "word": "Labyrinth",
+      "phonetic": "[ˈlæbərɪnθ]",
+      "definition": "A complicated irregular network of passages or paths in which it is difficult to find one's way.",
+      "analysis": "名詞，意為「迷宮；錯綜複雜的網絡」。同義於 maze。",
+      "example": "They wandered through the dark labyrinth in search of sustenance."
+    },
+    {
+      "word": "Corridor",
+      "phonetic": "[ˈkɔːrɪdɔːr]",
+      "definition": "A long passage in a building from which doors lead into rooms.",
+      "analysis": "名詞，意為「走廊；通道」。迷宮裡的通道道路。",
+      "example": "Haw cautiously stepped into the dark corridor of the unknown maze."
+    },
+    {
+      "word": "Chamber",
+      "phonetic": "[ˈtʃeɪmbər]",
+      "definition": "A large room used for formal or public events; an enclosed space.",
+      "analysis": "名詞，意為「房間；展廳；大廳」。迷宮裡存放乳酪的站點／空間。",
+      "example": "Cheese Station C was a giant chamber filled with delicious treats."
+    },
+    {
+      "word": "Blind alleys",
+      "phonetic": "[blaɪnd ˈæliz]",
+      "definition": "Alleys or paths that are closed at one end; dead ends.",
+      "analysis": "短語，意為「死胡同；盲巷」。比喻沒有結果的徒勞嘗試。",
+      "example": "Many corridors turned out to be blind alleys with no cheese inside."
+    },
+    {
+      "word": "Sophisticated",
+      "phonetic": "[səˈfɪstɪkeɪtɪd]",
+      "definition": "Having, revealing, or proceeding from a great deal of worldly experience and knowledge; complex.",
+      "analysis": "形容詞，意為「複雜的；精密的；高深老練的」。形容小矮人複雜的人類大腦。",
+      "example": "Humans have sophisticated brains filled with complex emotions and beliefs."
+    },
+    {
+      "word": "Beliefs",
+      "phonetic": "[bɪˈliːfs]",
+      "definition": "An acceptance that a statement is true or that something exists; conviction.",
+      "analysis": "名詞（複數），意為「信念；看法；信仰」。舊信念常阻礙我們前進。",
+      "example": "Old beliefs do not lead you to new cheese."
+    },
+    {
+      "word": "Nonetheless",
+      "phonetic": "[ˌnʌnðəˈles]",
+      "definition": "In spite of that; nevertheless.",
+      "analysis": "副詞，意為「儘管如此；然而；依然」。",
+      "example": "The maze was dangerous, but Haw stepped forward nonetheless."
+    },
+    {
+      "word": "Morsels",
+      "phonetic": "[ˈmɔːrslz]",
+      "definition": "Small pieces or mouthfuls of food.",
+      "analysis": "名詞（複數），意為「碎屑；小塊食物」。微小的乳酪碎片。",
+      "example": "He found a few small morsels of tasty cheese on the ground."
+    },
+    {
+      "word": "Awaited",
+      "phonetic": "[əˈweɪtɪd]",
+      "definition": "Waited for an event or person.",
+      "analysis": "動詞過去式，意為「等待著；預期」。正等待著被發現。",
+      "example": "A huge supply of fresh cheese awaited them at the end of the tunnel."
+    },
+    {
+      "word": "To last",
+      "phonetic": "[tə læst]",
+      "definition": "To continue in time; remain usable or sufficient.",
+      "analysis": "短語，意為「持續；足夠使用/支撐」。形容數量多到足以吃很久。",
+      "example": "They thought they had enough cheese to last a lifetime."
+    },
+    {
+      "word": "Pile of cheese",
+      "phonetic": "[paɪl ʌv tʃiːz]",
+      "definition": "A large quantity of cheese stacked together.",
+      "analysis": "短語，意為「一堆乳酪」。豐富的資源或目標成果。",
+      "example": "Every morning, they walked to Cheese Station C to enjoy the mountain pile of cheese."
+    },
+    {
+      "word": "Waddle home",
+      "phonetic": "[ˈwɑːdl hoʊm]",
+      "definition": "Walk home with short steps and a clumsy swaying motion.",
+      "analysis": "短語，意為「搖搖晃晃地走回家」。吃飽後滿足蹣跚回家的樣子。",
+      "example": "After eating their fill, they would waddle home comfortably every evening."
+    },
+    {
+      "word": "Arrogance of success",
+      "phonetic": "[ˈærəɡəns ʌv səkˈses]",
+      "definition": "Overbearing pride or self-importance stemming from achieving goals.",
+      "analysis": "短語，意為「成功的傲慢」。因一時順利而喪失警覺與危機感。",
+      "example": "The arrogance of success led them to take the cheese supply for granted."
+    },
+    {
+      "word": "Inevitable",
+      "phonetic": "[ɪnˈevɪtəbl]",
+      "definition": "Certain to happen; unavoidable.",
+      "analysis": "形容詞，意為「不可避免的；必然發生的」。變化是無法阻擋的。",
+      "example": "Change is inevitable, so you must prepare in advance."
+    },
+    {
+      "word": "Hollered",
+      "phonetic": "[ˈhɑːlərd]",
+      "definition": "Shouted or cried out loudly.",
+      "analysis": "動詞過去式，意為「大聲呼喊；吼叫」。驚恐憤怒地高聲叫喊。",
+      "example": "'Who moved my cheese?' Hem hollered in complete shock."
+    },
+    {
+      "word": "Granted",
+      "phonetic": "[ˈɡræntɪd]",
+      "definition": "Conceded; admitted as true; bestowed.",
+      "analysis": "動詞過去式/副詞，意為「假定；視為理所當然；給予」。把便利視為理所當然（take for granted）。",
+      "example": "They had taken the cheese for granted and were completely unprepared."
+    },
+    {
+      "word": "Permission granted",
+      "phonetic": "[pərˈmɪʃn ˈɡræntɪd]",
+      "definition": "Official agreement allowing someone to do something.",
+      "analysis": "短語，意為「獲得許可／准許」。得到同意進行行動。",
+      "example": "Permission granted to enter the restricted zone."
+    },
+    {
+      "word": "Cozy cottage",
+      "phonetic": "[ˈkoʊzi ˈkɑːtɪdʒ]",
+      "definition": "A small, comfortable, and warm house in the countryside.",
+      "analysis": "短語，意為「溫馨舒適的小木屋」。舒適圈的象徵。",
+      "example": "They moved their belongings closer to the station and built a cozy cottage."
+    },
+    {
+      "word": "Ranted",
+      "phonetic": "[ˈræntɪd]",
+      "definition": "Spoke or shouted at length in a wild, impassioned way.",
+      "analysis": "動詞過去式，意為「咆哮；大發雷霆；嚷嚷」。失控地抱怨批評。",
+      "example": "Hem ranted about the unfairness of the situation for hours."
+    },
+    {
+      "word": "Raved",
+      "phonetic": "[reɪvd]",
+      "definition": "Talked wildly or incoherently, as if mad or delirious.",
+      "analysis": "動詞過去式，意為「狂吼；胡言亂語；大怒」。常與 ranted 連用（ranted and raved）。",
+      "example": "He ranted and raved, demanding that the cheese be returned."
+    },
+    {
+      "word": "Injustice",
+      "phonetic": "[ɪnˈdʒʌstɪs]",
+      "definition": "Lack of fairness or justice.",
+      "analysis": "名詞，意為「不公平；不正義」。抱怨遭受不公對待。",
+      "example": "Hem felt that losing the cheese was a terrible injustice."
+    },
+    {
+      "word": "Immobilized",
+      "phonetic": "[ɪˈmoʊbəlaɪzd]",
+      "definition": "Prevented from moving or operating normally; paralyzed.",
+      "analysis": "動詞過去式/形容詞，意為「無法移動的；癱瘓的；被卡住的」。因恐懼而不敢行動。",
+      "example": "Fear immobilized Hem, keeping him tied to the empty station."
+    },
+    {
+      "word": "Entitled",
+      "phonetic": "[ɪnˈtaɪtld]",
+      "definition": "Believing oneself to be inherently deserving of privileges or special treatment.",
+      "analysis": "形容詞，意為「自以為有權獲得的；覺得應得的」。",
+      "example": "They felt entitled to the cheese, believing it belonged to them forever."
+    },
+    {
+      "word": "Squealed",
+      "phonetic": "[skwiːld]",
+      "definition": "Made a long, high-pitched cry or noise.",
+      "analysis": "動詞過去式，意為「尖叫；發出高亢叫聲」。因驚恐或憤怒發聲。",
+      "example": "He squealed in frustration as he stared at the empty floor."
+    },
+    {
+      "word": "Exclaimed",
+      "phonetic": "[ɪkˈskleɪmd]",
+      "definition": "Cried out suddenly and loudly, especially in surprise, anger, or excitement.",
+      "analysis": "動詞過去式，意為「驚呼；高聲喊道」。",
+      "example": "'It's not fair!' Hem exclaimed repeatedly."
+    },
+    {
+      "word": "Faded",
+      "phonetic": "[ˈfeɪdɪd]",
+      "definition": "Gradually grew faint and disappeared; lost color.",
+      "analysis": "動詞過去式/形容詞，意為「褪色的；逐漸消失的；衰退的」。希望或能量流失。",
+      "example": "Their energy faded as days passed without any food."
+    },
+    {
+      "word": "Irritable",
+      "phonetic": "[ˈɪrɪtəbl]",
+      "definition": "Having or showing a tendency to be easily annoyed or angered.",
+      "analysis": "形容詞，意為「易怒的；暴躁的；急躁的」。飢餓與焦慮讓人脾氣變差。",
+      "example": "Hunger and anger made both of them extremely irritable."
+    },
+    {
+      "word": "Chisel",
+      "phonetic": "[ˈtʃɪzl]",
+      "definition": "A long-bladed hand tool used to cut or shape wood or stone.",
+      "analysis": "名詞/動詞，意為「鑿子；用鑿子挖」。嘗試破牆尋找乳酪的工具。",
+      "example": "He brought a hammer and chisel to chip away at the station wall."
+    },
+    {
+      "word": "Reluctantly",
+      "phonetic": "[rɪˈlʌktəntli]",
+      "definition": "In an unwilling and hesitant way.",
+      "analysis": "副詞，意為「不情願地；勉強地；遲疑地」。",
+      "example": "Hem reluctantly put on his running shoes after days of hesitation."
+    },
+    {
+      "word": "Folly",
+      "phonetic": "[ˈfɑːli]",
+      "definition": "Lack of good sense; foolishness.",
+      "analysis": "名詞，意為「愚蠢；愚蠢的行為/想法」。",
+      "example": "Haw recognized the folly of waiting for an empty station to fill itself again."
+    },
+    {
+      "word": "Venturing",
+      "phonetic": "[ˈventʃərɪŋ]",
+      "definition": "Undertaking a risky or daring journey or course of action.",
+      "analysis": "動詞/分詞，意為「冒險前進；踏入未知」。敢於進入陌生迷宮探索。",
+      "example": "Venturing out into the maze opened up new possibilities."
+    },
+    {
+      "word": "Emaciated companion",
+      "phonetic": "[ɪˈmeɪʃieɪtɪd kəmˈpæniən]",
+      "definition": "A friend or partner who is abnormally thin or weak, especially because of illness or a lack of food.",
+      "analysis": "短語，意為「形容枯槁憔悴的同伴」。描述因飢餓而削瘦虛弱的夥伴。",
+      "example": "Haw looked back at his emaciated companion who refused to move."
+    },
+    {
+      "word": "Territory",
+      "phonetic": "[ˈterətɔːri]",
+      "definition": "An area of land under the jurisdiction of a ruler or state; an unknown area.",
+      "analysis": "名詞，意為「領土；地盤；領域」。未知的探索區域。",
+      "example": "Stepping into new territory can be frightening at first."
+    },
+    {
+      "word": "So could he",
+      "phonetic": "[soʊ kʊd hiː]",
+      "definition": "In the same way, he was capable of doing so too.",
+      "analysis": "短語，意為「他也可以／他也能辦到」。激勵自己突破的能力。",
+      "example": "If the mice could adapt, Haw realized so could he."
+    },
+    {
+      "word": "Anticipated",
+      "phonetic": "[ænˈtɪsɪpeɪtɪd]",
+      "definition": "Regarded as probable; expected or predicted.",
+      "analysis": "動詞過去式/形容詞，意為「預期；預先準備的」。提前預判變化。",
+      "example": "If he had anticipated the change, he wouldn't have been caught off guard."
+    },
+    {
+      "word": "Alert",
+      "phonetic": "[əˈlɜːrt]",
+      "definition": "Quick to notice any unusual or potentially dangerous circumstances; vigilant.",
+      "analysis": "形容詞/名詞/動詞，意為「警惕的；機敏的；保持警覺」。",
+      "example": "Stay alert so you can smell when the cheese is getting old."
+    },
+    {
+      "word": "Looked promising",
+      "phonetic": "[lʊkt ˈprɑːmɪsɪŋ]",
+      "definition": "Showed signs of future success or good results.",
+      "analysis": "短語，意為「看起來有希望；前景看好」。發現新希望的預兆。",
+      "example": "The dark corridor looked promising as he caught a faint smell of cheese."
+    },
+    {
+      "word": "Paralyzed",
+      "phonetic": "[ˈpærəlaɪzd]",
+      "definition": "Incapable of movement or action; frozen with fear.",
+      "analysis": "形容詞/動詞過去式，意為「癱瘓的；被嚇得不敢動彈的」。因過度分析而陷入動彈不得（paralysis by analysis）。",
+      "example": "Excessive fear can leave a person completely paralyzed."
+    },
+    {
+      "word": "Lurking",
+      "phonetic": "[ˈlɜːrkɪŋ]",
+      "definition": "Remaining in hidden or secret place so as to wait in ambush.",
+      "analysis": "動詞/分詞，意為「潛伏；暗中潛藏（危機或恐懼）」。潛伏在腦海中的不安。",
+      "example": "He realized that imaginary fears were lurking in his own mind."
+    },
+    {
+      "word": "Dismay",
+      "phonetic": "[dɪsˈmeɪ]",
+      "definition": "Consternation and distress, typically caused by something unexpected.",
+      "analysis": "名詞/動詞，意為「沮喪；驚慌；灰心失意」。遭遇挫折時的心情。",
+      "example": "To his dismay, the new station was also completely empty."
+    },
+    {
+      "word": "Farthest",
+      "phonetic": "[ˈfɑːrðɪst]",
+      "definition": "At or to the greatest distance in space or time.",
+      "analysis": "形容詞/副詞（最高級），意為「最遠的；最深處的」。探尋迷宮的最遠邊際。",
+      "example": "He traveled to the farthest corners of the maze to find fresh options."
+    },
+    {
+      "word": "Had been clouded",
+      "phonetic": "[hæd biːn klaʊdɪd]",
+      "definition": "Had become obscure, unclear, or confused by fear or emotion.",
+      "analysis": "短語，意為「被蒙蔽；變模糊/被遮蔽」。理性思維被恐懼蒙蔽。",
+      "example": "His judgment had been clouded by his fear of failure."
+    },
+    {
+      "word": "Savoring",
+      "phonetic": "[ˈseɪvərɪŋ]",
+      "definition": "Tasting or enjoying food or an experience completely and with appreciation.",
+      "analysis": "動詞/分詞，意為「細細品嚐；享受；體驗美味」。盡情享受成果。",
+      "example": "He pictured himself savoring delicious new varieties of cheese."
+    },
+    {
+      "word": "Startled",
+      "phonetic": "[ˈstɑːrtld]",
+      "definition": "Feeling or showing sudden shock or alarm.",
+      "analysis": "形容詞/動詞過去式，意為「吃驚的；受驚嚇的」。",
+      "example": "A loud noise in the dark tunnel left him startled for a moment."
+    },
+    {
+      "word": "Inhibitor",
+      "phonetic": "[ɪnˈhɪbɪtər]",
+      "definition": "A substance or factor that slows down or prevents a particular process or action.",
+      "analysis": "名詞，意為「抑制劑；阻礙因素」。恐懼是行動最大的阻礙。",
+      "example": "Fear can be a powerful inhibitor when you want to try something new."
+    },
+    {
+      "word": "Predicament",
+      "phonetic": "[prɪˈdɪkəmənt]",
+      "definition": "A difficult, unpleasant, or embarrassing situation.",
+      "analysis": "名詞，意為「困境；窘境；棘手的處境」。陷入沒有乳酪的死局。",
+      "example": "He laughed when he realized how ridiculous their predicament had become."
+    },
+    {
+      "word": "Encyclopedia",
+      "phonetic": "[ɪnˌsaɪkləˈpiːdiə]",
+      "definition": "A book or set of books giving information on many subjects or on many aspects of one subject.",
+      "analysis": "名詞，意為「百科全書」。形容包羅萬象的知識體系。",
+      "example": "You don't need an encyclopedia of knowledge to adapt to simple changes."
+    },
+    {
+      "word": "Groaned",
+      "phonetic": "[ɡroʊnd]",
+      "definition": "Made a deep inarticulate sound in pain, despair, or disapproval.",
+      "analysis": "動詞過去式，意為「呻吟；發出痛苦悲鳴」。發出痛苦呻吟聲。",
+      "example": "Hem groaned when Haw suggested going back into the maze."
+    },
+    {
+      "word": "Envisioned",
+      "phonetic": "[ɪnˈvɪʒnd]",
+      "definition": "Imagined as a future possibility; visualized.",
+      "analysis": "動詞過去式，意為「構想；在腦海中想像/願景」。在心中描繪成功畫面。",
+      "example": "Haw envisioned himself enjoying new cheese before he even found it."
+    },
+    {
+      "word": "Skeptic",
+      "phonetic": "[ˈskeptɪk]",
+      "definition": "A person inclined to question or doubt accepted opinions or new ideas.",
+      "analysis": "名詞，意為「懷疑論者；持懷疑態度的人」。不相信新改變的人。",
+      "example": "Hem was a skeptic who refused to believe new cheese existed."
+    },
+    {
+      "word": "Anchor",
+      "phonetic": "[ˈæŋkər]",
+      "definition": "A heavy object used to moor a vessel; a person or thing that provides stability or holding back.",
+      "analysis": "名詞/動詞，意為「錨；定心丸；阻礙前進的沉重負擔」。舊想法可能成為拖累前進的沉木。",
+      "example": "Holding onto old beliefs acts like a heavy anchor dragging you down."
+    },
+    {
+      "word": "Hesitant",
+      "phonetic": "[ˈhezɪtənt]",
+      "definition": "Tentative, unsure, or slow in acting or speaking.",
+      "analysis": "形容詞，意為「猶豫不決的；遲疑的」。因不確定而遲疑步伐。",
+      "example": "He was hesitant at first, but taking the first step gave him courage."
+    },
+    {
+      "word": "Grinned",
+      "phonetic": "[ɡrɪnd]",
+      "definition": "Smiled broadly, showing teeth.",
+      "analysis": "動詞過去式，意為「露齒笑；咧嘴笑」。充滿信心與輕鬆的微笑。",
+      "example": "Haw grinned as he wrote his new realization on the wall."
+    },
+    {
+      "word": "Frowning",
+      "phonetic": "[ˈfraʊnɪŋ]",
+      "definition": "Facial expression indicating disapproval, displeasure, or concentration by furrowing brows.",
+      "analysis": "動詞/分詞，意為「皺眉的；不悅的」。皺著眉頭表達不滿。",
+      "example": "Hem sat in the corner frowning, refusing to eat the new morsels."
+    },
+    {
+      "word": "Sophomore",
+      "phonetic": "[ˈsɑːfəmɔːr]",
+      "definition": "A student in the second year of a high school or college.",
+      "analysis": "名詞，意為「（高中或大學）二年級學生」。故事討論環節引述的角色階段。",
+      "example": "During his sophomore year, he learned to deal with sudden academic changes."
+    },
+    {
+      "word": "Peer pressure",
+      "phonetic": "[pɪr ˈpreʃər]",
+      "definition": "Influence from members of one's peer group to conform to their behaviors or attitudes.",
+      "analysis": "短語，意為「同儕壓力」。同伴態度對個人改變的影響。",
+      "example": "He resisted peer pressure and chose to explore new opportunities on his own."
+    }
+  ]
+}
