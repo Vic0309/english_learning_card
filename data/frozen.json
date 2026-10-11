@@ -1,0 +1,1560 @@
+{
+  "bookId": "frozen",
+  "bookTitle": "Frozen (冰雪奇緣)",
+  "vocabulary": [
+    {
+      "word": "Ice harvesters",
+      "phonetic": "[aɪs ˈhɑːrvɪstərz]",
+      "definition": "People who cut and collect natural ice from frozen lakes or rivers.",
+      "analysis": "短語，意為「採冰人／採冰隊」。電影開頭在冰湖上記冰、運冰的工作者（Kristoff 養父們的職業）。",
+      "example": "The ice harvesters sang rhythmically as they cut blocks from the frozen lake."
+    },
+    {
+      "word": "Reindeer",
+      "phonetic": "[ˈreɪndɪr]",
+      "definition": "A large deer with large antlers, native to northern regions.",
+      "analysis": "名詞（單複數同形），意為「馴鹿」。指 Kristoff 忠誠的好夥伴 Sven。",
+      "example": "Sven is a loyal reindeer who loves eating carrots."
+    },
+    {
+      "word": "Wagon",
+      "phonetic": "[ˈwæɡən]",
+      "definition": "A four-wheeled vehicle pulled by horses or oxen, used for transporting goods.",
+      "analysis": "名詞，意為「四輪馬車；貨運車」。用於運送冰塊等重物。",
+      "example": "They loaded the heavy ice blocks onto the wooden wagon."
+    },
+    {
+      "word": "Sled",
+      "phonetic": "[sled]",
+      "definition": "A vehicle drawn by horses or reindeer for traveling over snow or ice.",
+      "analysis": "名詞，意為「雪橇」。Kristoff 在雪地穿梭的核心交通工具。",
+      "example": "Kristoff took great pride in his brand-new sled."
+    },
+    {
+      "word": "Hurtling",
+      "phonetic": "[ˈhɜːrtlɪŋ]",
+      "definition": "Moving or cause to move at a great speed, typically in an uncontrolled manner.",
+      "analysis": "動詞/分詞，意為「疾馳；猛衝」。形容雪橇或物體急速飛馳。",
+      "example": "The sled was hurtling down the snowy mountain path."
+    },
+    {
+      "word": "Desperately",
+      "phonetic": "[ˈdespərətli]",
+      "definition": "In a way that shows hopelessness, panic, or extreme urgency.",
+      "analysis": "副詞，意為「拼命地；絕望地；急切地」。形容迫切尋求解決方案的心情。",
+      "example": "The king and queen searched desperately for a way to cure Anna."
+    },
+    {
+      "word": "Snorted",
+      "phonetic": "[snɔːrtɪd]",
+      "definition": "Made a sudden sound by forcing air through the nose to express irritation or amusement.",
+      "analysis": "動詞過去式，意為「噴氣；哼氣」。形容動物（如 Sven）發出鼻息聲。",
+      "example": "Sven snorted in agreement when Kristoff spoke to him."
+    },
+    {
+      "word": "Hoof",
+      "phonetic": "[huːf]",
+      "definition": "The horny part of the foot of an ungulate animal, such as a horse or reindeer.",
+      "analysis": "名詞（複數為 hooves），意為「（馬或馴鹿的）蹄」。",
+      "example": "The sound of hoof striking ice echoed through the quiet valley."
+    },
+    {
+      "word": "Wrestled",
+      "phonetic": "[ˈresld]",
+      "definition": "Struggled hand-to-hand with someone; fought to overcome a difficult force.",
+      "analysis": "動詞過去式，意為「格鬥；摔角；努力角力」。形容費勁控制車頭或重物。",
+      "example": "He wrestled with the sled steering handles to maintain control."
+    },
+    {
+      "word": "Steering",
+      "phonetic": "[ˈstɪrɪŋ]",
+      "definition": "The equipment or action used to control the direction of a vehicle.",
+      "analysis": "名詞/分詞，意為「操縱；方向控制」。掌控前進方向。",
+      "example": "Good steering is crucial when sliding down icy slopes."
+    },
+    {
+      "word": "Lantern",
+      "phonetic": "[ˈlæntərn]",
+      "definition": "A lamp with a transparent case protecting the flame inside.",
+      "analysis": "名詞，意為「提燈；燈籠」。黑夜或冰洞中照明的古老手提燈具。",
+      "example": "They held up a glowing lantern to light the dark mountain pathway."
+    },
+    {
+      "word": "Fjord",
+      "phonetic": "[fjɔːrd]",
+      "definition": "A long, narrow, deep inlet of the sea between high cliffs.",
+      "analysis": "名詞，意為「峽灣」。北歐挪威風光地形，Arendelle 王國坐落之處。",
+      "example": "The kingdom of Arendelle was built right along the edge of a breathtaking fjord."
+    },
+    {
+      "word": "Gossamer green light",
+      "phonetic": "[ˈɡɑːsəmər ɡriːn laɪt]",
+      "definition": "Delicate, light, and insubstantial green glowing illumination.",
+      "analysis": "短語，意為「如薄紗般輕柔飄渺的綠光」。描述極光（Northern Lights）的幻彩美感。",
+      "example": "The gossamer green light of the Northern Lights danced across the night sky."
+    },
+    {
+      "word": "Luster",
+      "phonetic": "[ˈlʌstər]",
+      "definition": "A gentle sheen or soft glow, especially that of a partly reflective surface.",
+      "analysis": "名詞，意為「光澤；柔和的光彩」。形容冰晶或珍珠的光芒。",
+      "example": "The fresh snow reflected the moonlight with a dazzling luster."
+    },
+    {
+      "word": "Giggled",
+      "phonetic": "[ˈɡɪɡld]",
+      "definition": "Laughed lightly and repeatedly in a silly or nervous way.",
+      "analysis": "動詞過去式，意為「咯咯地笑；嘻笑」。描繪幼年 Elsa 和 Anna 玩耍時的笑聲。",
+      "example": "The young princesses giggled as they built a snowman indoors."
+    },
+    {
+      "word": "Snowflake",
+      "phonetic": "[ˈsnoʊfleɪk]",
+      "definition": "A single feathery crystal of snow.",
+      "analysis": "名詞，意為「雪花」。",
+      "example": "Elsa created a giant floating snowflake over her hand."
+    },
+    {
+      "word": "What a twirl",
+      "phonetic": "[wʌt ə twɜːrl]",
+      "definition": "An exclamation describing a impressive, spinning or whirring motion.",
+      "analysis": "短語，意為「多麼精彩漂亮的旋轉啊！」。讚嘆舞蹈或旋轉姿勢。",
+      "example": "'What a twirl!' Anna shouted happily as she spun on the ice."
+    },
+    {
+      "word": "Summoned",
+      "phonetic": "[ˈsʌmənd]",
+      "definition": "Called upon to appear; brought forth a force or power.",
+      "analysis": "動詞過去式，意為「召喚；聚起（魔力或勇氣）」。形容 Elsa 召喚冰雪魔力。",
+      "example": "Elsa summoned her magical powers to form an icy playground."
+    },
+    {
+      "word": "Stomped her feet",
+      "phonetic": "[stɑːmpt hər fiːt]",
+      "definition": "Brought one's feet down heavily and noisily onto the ground.",
+      "analysis": "短語，意為「重重跺腳」。用腳猛力踩踏地面激發魔力。",
+      "example": "She stomped her feet, creating a wave of frost across the ballroom floor."
+    },
+    {
+      "word": "Ice swept",
+      "phonetic": "[aɪs swept]",
+      "definition": "Covered or moved rapidly across a surface by ice or frost.",
+      "analysis": "短語，意為「冰霜席捲／橫掃」。描繪冰霜快速蔓延。",
+      "example": "A layer of thin ice swept across the polished wooden floor."
+    },
+    {
+      "word": "Swooping",
+      "phonetic": "[ˈswuːpɪŋ]",
+      "definition": "Moving rapidly downward or through the air in a sweeping motion.",
+      "analysis": "動詞/分詞，意為「俯衝；飛掠」。形容滑行或鳥飛掠姿態。",
+      "example": "They went swooping down the snow slides Elsa conjured."
+    },
+    {
+      "word": "Soared up",
+      "phonetic": "[sɔːrd ʌp]",
+      "definition": "Flew or rose high into the air dynamically.",
+      "analysis": "動詞短語（過去式），意為「騰空高飛；直衝雲霄」。",
+      "example": "A fountain of snow soared up toward the high ceiling."
+    },
+    {
+      "word": "Tossed upward",
+      "phonetic": "[tɔːst ˈʌpwərd]",
+      "definition": "Thrown gently or casually into the air.",
+      "analysis": "短語，意為「向上拋起」。向上拋擲物件。",
+      "example": "Snowballs were tossed upward as the girls played."
+    },
+    {
+      "word": "Foot slipped",
+      "phonetic": "[fʊt slɪpt]",
+      "definition": "Lost balance because a foot slid on a smooth or wet surface.",
+      "analysis": "短語，意為「腳底滑了一下／失足」。滑倒導致事故發生的轉折點。",
+      "example": "Elsa's foot slipped on the slick ice, causing her magic to go out of control."
+    },
+    {
+      "word": "Went awry",
+      "phonetic": "[went əˈraɪ]",
+      "definition": "Deviated from the correct or expected course; went wrong.",
+      "analysis": "短語（過去式），意為「出了差錯；失控；走樣」。計畫或魔法失控。",
+      "example": "Her playful magic suddenly went awry, striking her sister."
+    },
+    {
+      "word": "Blast",
+      "phonetic": "[blæst]",
+      "definition": "A destructive wave of magic, air, or explosion.",
+      "analysis": "名詞/動詞，意為「魔法衝擊波；爆破；寒風吹襲」。",
+      "example": "A sudden blast of icy magic hit Anna directly in the head."
+    },
+    {
+      "word": "Gasped",
+      "phonetic": "[ɡæspt]",
+      "definition": "Inhaled suddenly with the mouth open, out of surprise, pain, or shock.",
+      "analysis": "動詞過去式，意為「倒吸一口涼氣；驚呼」。因震驚倒抽一口氣。",
+      "example": "The king and queen gasped in horror when they saw Anna collapse."
+    },
+    {
+      "word": "Shivering",
+      "phonetic": "[ˈʃɪvərɪŋ]",
+      "definition": "Shaking slightly and uncontrollably as a result of being cold, frightened, or excited.",
+      "analysis": "動詞/分詞，意為「打顫；發抖」。因嚴寒或害怕發抖。",
+      "example": "Anna lay shivering on the ground as white frost spread through her hair."
+    },
+    {
+      "word": "Icicle",
+      "phonetic": "[ˈaɪsɪkl]",
+      "definition": "A hanging, tapering piece of ice formed by the freezing of dripping water.",
+      "analysis": "名詞，意為「冰柱；冰錐」。",
+      "example": "Sharp icicles formed along the edges of the bedroom walls."
+    },
+    {
+      "word": "Troll",
+      "phonetic": "[troʊl]",
+      "definition": "A mythical, cave-dwelling rock creature in Norse folklore.",
+      "analysis": "名詞，意為「石怪；石巨魔」。住在 Valley of the Living Rock 的善良長老與族人。",
+      "example": "The wise old troll Grand Pabbie possessed ancient magical wisdom."
+    },
+    {
+      "word": "Bundled up",
+      "phonetic": "[ˈbʌndld ʌp]",
+      "definition": "Dressed warmly in many layers of clothing.",
+      "analysis": "短語（過去式），意為「包裹得嚴嚴實實；穿得暖暖的」。",
+      "example": "They bundled up Anna in a thick blanket and rode into the forest."
+    },
+    {
+      "word": "Saddled",
+      "phonetic": "[ˈsædld]",
+      "definition": "Put a saddle on a horse or other animal.",
+      "analysis": "動詞過去式，意為「裝上馬鞍」。為騎乘作準備。",
+      "example": "The king saddled his fastest horse without losing a second."
+    },
+    {
+      "word": "Rumble of hooves",
+      "phonetic": "[ˈrʌmbl ʌv huːvz]",
+      "definition": "A continuous deep sound of animal hooves striking the ground.",
+      "analysis": "短語，意為「馬蹄發出的轟鳴巨響」。馬群疾馳聲。",
+      "example": "The rumble of hooves shattered the silence of the misty night."
+    },
+    {
+      "word": "Gallop",
+      "phonetic": "[ˈɡæləp]",
+      "definition": "The fastest pace of a horse, with all four feet off the ground together in each stride.",
+      "analysis": "名詞/動詞，意為「（馬）飛馳；疾馳」。高速度奔跑。",
+      "example": "They rode at a full gallop toward the hidden valley."
+    },
+    {
+      "word": "Whinnied",
+      "phonetic": "[ˈwɪniːd]",
+      "definition": "Made a gentle, high-pitched neigh (as a horse).",
+      "analysis": "動詞過去式，意為「（馬）嘶鳴；歡叫」。馬匹發出的鳴叫聲。",
+      "example": "The royal horse whinnied softly as it approached the mystical rocks."
+    },
+    {
+      "word": "Absently",
+      "phonetic": "[ˈæbsəntli]",
+      "definition": "In a distracted manner; showing thoughts are elsewhere.",
+      "analysis": "副詞，意為「心不在焉地；神不守舍地」。出神地做動作。",
+      "example": "She stroking her hair absently, lost in deep anxiety."
+    },
+    {
+      "word": "Persuaded",
+      "phonetic": "[pərˈsweɪdɪd]",
+      "definition": "Convinced someone to do or believe something through reasoning.",
+      "analysis": "動詞過去式，意為「說服；勸說成功的」。",
+      "example": "They persuaded the trolls to help save their daughter."
+    },
+    {
+      "word": "Hovered",
+      "phonetic": "[ˈhʌvərd]",
+      "definition": "Remained suspended in one place in the air; hung nearby.",
+      "analysis": "動詞過去式，意為「盤旋；懸浮；縈繞」。懸在空中或附近不離去。",
+      "example": "Grand Pabbie's glowing hands hovered over Anna's forehead."
+    },
+    {
+      "word": "Conjured",
+      "phonetic": "[ˈkɑːndʒərd]",
+      "definition": "Made something appear unexpectedly or as if by magic.",
+      "analysis": "動詞過去式，意為「變出；召喚（變魔術般顯現）」。",
+      "example": "The troll conjured an illusion of light in the air to show them the future."
+    },
+    {
+      "word": "Spectre",
+      "phonetic": "[ˈspektər]",
+      "definition": "A ghost or phantom; a terrifying image of fear.",
+      "analysis": "名詞，意為「幽靈；鬼魂；恐懼的陰影／幻象」。",
+      "example": "The illusion showed a spectre of fear controlling her magic."
+    },
+    {
+      "word": "Effigy",
+      "phonetic": "[ˈefɪdʒi]",
+      "definition": "A sculpture or model of a person.",
+      "analysis": "名詞，意為「雕像；人像；幻像假人」。光芒構成的人形假象。",
+      "example": "Light formed a glowing effigy of adult Elsa in the air."
+    },
+    {
+      "word": "Secluded",
+      "phonetic": "[sɪˈkluːdɪd]",
+      "definition": "Not seen or visited by many people; sheltered and private.",
+      "analysis": "形容詞，意為「隱蔽的；隱居清靜的；僻靜的」。與世隔絕的環境。",
+      "example": "Elsa was confined to a secluded wing of the castle."
+    },
+    {
+      "word": "Conceal",
+      "phonetic": "[kənˈsiːl]",
+      "definition": "Keep secret or hide from view; prevent from being known.",
+      "analysis": "動詞，意為「隱藏；遮掩；掩蓋」。故事中 Elsa 父親告誡的核心格言（Conceal, don't feel）。",
+      "example": "'Conceal, don't feel, don't let it show,' became Elsa's motto."
+    },
+    {
+      "word": "Engulfed",
+      "phonetic": "[ɪnˈɡʌlft]",
+      "definition": "Swept over or surrounded completely.",
+      "analysis": "動詞過去式，意為「吞沒；包圍；淹沒」。完全被火焰、浪潮或悲傷籠罩。",
+      "example": "A devastating storm engulfed the king and queen's ship at sea."
+    },
+    {
+      "word": "Mourned",
+      "phonetic": "[mɔːrnd]",
+      "definition": "Felt or showed deep sorrow or regret for someone who died.",
+      "analysis": "動詞過去式，意為「哀悼；悼念；為…哀傷」。悼念去世的雙親。",
+      "example": "The entire kingdom mourned the tragic loss of their ruler."
+    },
+    {
+      "word": "Bustling",
+      "phonetic": "[ˈbʌslɪŋ]",
+      "definition": "Full of activity, movement, and energy; crowded.",
+      "analysis": "形容詞，意為「熱鬧忙碌的；熙熙攘攘的」。熱鬧繁忙的港口景象。",
+      "example": "On coronation day, the harbor was bustling with foreign ships."
+    },
+    {
+      "word": "Coronation",
+      "phonetic": "[ˌkɔːrəˈneɪʃn]",
+      "definition": "The ceremony of crowning a sovereign king or queen.",
+      "analysis": "名詞，意為「加冕典禮」。故事前半段重大事件。",
+      "example": "Guests gathered from afar to attend Elsa's official coronation."
+    },
+    {
+      "word": "Dignitary",
+      "phonetic": "[ˈdɪɡnɪteri]",
+      "definition": "A person considered important because of high rank or office.",
+      "analysis": "名詞，意為「高官；顯要人物；貴賓」。受邀參會的各國政要。",
+      "example": "The Duke of Weselton was a visiting dignitary seeking trade advantages."
+    },
+    {
+      "word": "Burst",
+      "phonetic": "[bɜːrst]",
+      "definition": "Break open or sudden outburst of emotion or movement.",
+      "analysis": "動詞/名詞，意為「衝出；爆發；破裂」。感情或門猛然打開。",
+      "example": "Anna burst out the castle gates, singing with joy."
+    },
+    {
+      "word": "Tugged",
+      "phonetic": "[tʌɡd]",
+      "definition": "Pulled something hard or suddenly.",
+      "analysis": "動詞過去式，意為「拉；用力拽」。",
+      "example": "She tugged at her tight coronation gown in frustration."
+    },
+    {
+      "word": "Dock",
+      "phonetic": "[dɑːk]",
+      "definition": "A structure extended along or out from the shore where ships moor.",
+      "analysis": "名詞/動詞，意為「碼頭；船塢」。停靠船隻的岸邊設施。",
+      "example": "A large sailing vessel tied its ropes to the wooden dock."
+    },
+    {
+      "word": "Tipped precariously",
+      "phonetic": "[tɪpt prɪˈkerɪəsli]",
+      "definition": "Tilted in a way that is dangerously unstable and likely to fall.",
+      "analysis": "短語，意為「搖搖欲墜地傾斜；危險地歪斜」。幾乎要翻倒下去。",
+      "example": "The small boat tipped precariously into the water when she bumped it."
+    },
+    {
+      "word": "Composure",
+      "phonetic": "[kəmˈpoʊʒər]",
+      "definition": "The state or feeling of being calm and in control of oneself.",
+      "analysis": "名詞，意為「鎮定；沉著；平靜的心態」。控制住情緒與態勢。",
+      "example": "Elsa struggled hard to maintain her composure in front of the crowd."
+    },
+    {
+      "word": "Welfare",
+      "phonetic": "[ˈwelfer]",
+      "definition": "The health, happiness, and fortunes of a person or group.",
+      "analysis": "名詞，意為「福祉；安康；利益」。人民與國家的安危福祉。",
+      "example": "The princess was genuinely concerned for the welfare of her subjects."
+    },
+    {
+      "word": "Curtsied",
+      "phonetic": "[ˈkɜːrtsid]",
+      "definition": "Made a formal greeting by bending the knees with one foot behind.",
+      "analysis": "動詞過去式，意為「行屈膝禮」。女性高雅的社交宮廷禮儀。",
+      "example": "Anna curtsied politely to the handsome young prince."
+    },
+    {
+      "word": "Slammed",
+      "phonetic": "[slæmd]",
+      "definition": "Shut or hit forcefully and loudly.",
+      "analysis": "動詞過去式，意為「砰地關上；猛力撞擊」。",
+      "example": "The heavy iron gates slammed shut behind her."
+    },
+    {
+      "word": "Gorgeous",
+      "phonetic": "[ˈɡɔːrdʒəs]",
+      "definition": "Beautiful; very attractive and splendid.",
+      "analysis": "形容詞，意為「極其美麗華麗的；絢麗的」。讚嘆絕美場面或服飾。",
+      "example": "The ballroom was decorated with gorgeous floral banners."
+    },
+    {
+      "word": "Rambling",
+      "phonetic": "[ˈræmblɪŋ]",
+      "definition": "Lengthy and confused or inconsequential in speech or writing.",
+      "analysis": "形容詞/分詞，意為「漫無邊際嘀咕的；扯遠的；蔓延的」。緊張時說話語無倫次。",
+      "example": "Anna started rambling about chocolate and awkwardness when meeting Hans."
+    },
+    {
+      "word": "To peal",
+      "phonetic": "[tə piːl]",
+      "definition": "To sound loudly and sonorously (as bells or thunder).",
+      "analysis": "短語，意為「鐘聲齊鳴；發出震耳宏亮響聲」。教堂大鐘敲響。",
+      "example": "The cathedral bells began to peal, announcing the official ceremony."
+    },
+    {
+      "word": "Splash",
+      "phonetic": "[splæʃ]",
+      "definition": "A sound made by something striking or falling into liquid.",
+      "analysis": "名詞/動詞，意為「濺水聲；潑濺；落水聲」。水花四濺聲響。",
+      "example": "She fell into the water with a loud splash."
+    },
+    {
+      "word": "Cathedral",
+      "phonetic": "[kəˈθiːdrəl]",
+      "definition": "The principal church of a diocese; grand church.",
+      "analysis": "名詞，意為「大教堂」。舉辦加冕大典的莊嚴教堂。",
+      "example": "The coronation ceremony took place in the royal cathedral."
+    },
+    {
+      "word": "Orchestra",
+      "phonetic": "[ˈɔːrkɪstrə]",
+      "definition": "A large group of musicians playing classical instruments together.",
+      "analysis": "名詞，意為「管弦樂團」。宮廷宴會現場演奏伴奏的樂團。",
+      "example": "The grand orchestra played delightful waltzes for the dancing couples."
+    },
+    {
+      "word": "Choir",
+      "phonetic": "[ˈkwaɪər]",
+      "definition": "An organized group of singers, especially one that takes part in church services.",
+      "analysis": "名詞，意為「合唱團；聖樂團」。加冕大典上唱聖歌的合唱團。",
+      "example": "The choir's angelic voices resonated through the high stone arches."
+    },
+    {
+      "word": "Bishop",
+      "phonetic": "[ˈbɪʃəp]",
+      "definition": "A senior member of the Christian clergy in charge of a diocese.",
+      "analysis": "名詞，意為「主教」。主持加冕典禮的神職人員。",
+      "example": "The Bishop handed the sacred orb and scepter to Elsa."
+    },
+    {
+      "word": "The scepter and orb",
+      "phonetic": "[ðə ˈseptər ænd ɔːrb]",
+      "definition": "Regalia items representing royal power and authority.",
+      "analysis": "短語，意為「權杖與寶球」。象徵君王至高權力的皇家法器。",
+      "example": "Elsa had to remove her gloves to hold the scepter and orb."
+    },
+    {
+      "word": "Majesty",
+      "phonetic": "[ˈmædʒəsti]",
+      "definition": "Impressive beauty, scale, or royal dignity; title used to address a monarch.",
+      "analysis": "名詞，意為「陛下；威嚴；尊嚴」。對國王皇后的尊稱。",
+      "example": "'Her Majesty, Queen Elsa of Arendelle!' announced the herald."
+    },
+    {
+      "word": "Intoned",
+      "phonetic": "[ɪnˈtoʊnd]",
+      "definition": "Said or recited with little rise and fall of the pitch of the voice; chanted.",
+      "analysis": "動詞過去式，意為「吟誦；用莊嚴單調的語調宣告/朗誦」。莊嚴頌念誓詞。",
+      "example": "The Bishop intoned the ancient Latin coronation prayers."
+    },
+    {
+      "word": "Lavishly",
+      "phonetic": "[ˈlævɪʃli]",
+      "definition": "In a sumptuously rich, elaborate, or luxurious manner.",
+      "analysis": "副詞，意為「奢華地；豐富盛大地」。擺設極其豐富高檔。",
+      "example": "The banquet tables were lavishly set with fine food and silver."
+    },
+    {
+      "word": "Whiff",
+      "phonetic": "[wɪf]",
+      "definition": "A smell that is inhaled briefly or faintly.",
+      "analysis": "名詞/動詞，意為「一陣（香味/臭味）；一絲氣味」。飄過鼻子的一陣味道。",
+      "example": "Anna caught a sweet whiff of roasted chocolate."
+    },
+    {
+      "word": "Aroma wafting",
+      "phonetic": "[əˈroʊmə ˈwæftɪŋ]",
+      "definition": "A pleasant smell floating or drifting gently through the air.",
+      "analysis": "短語，意為「徐徐飄散香氣／芳香飄溢」。食物或花香隨風飄散開來。",
+      "example": "The delicious aroma wafting from the bakery made her hungry."
+    },
+    {
+      "word": "Stiffened",
+      "phonetic": "[ˈstɪfnd]",
+      "definition": "Made or became rigid, tense, or stiff.",
+      "analysis": "動詞過去式，意為「（身體）僵硬起來；挺直；繃緊」。因緊張突然全身變硬。",
+      "example": "Elsa stiffened when the guest stepped too close to her hand."
+    },
+    {
+      "word": "Nudged",
+      "phonetic": "[nʌdʒd]",
+      "definition": "Pushed someone or something gently, typically with the elbow.",
+      "analysis": "動詞過去式，意為「用肘輕推；輕觸提醒」。暗示或輕推提醒對方。",
+      "example": "Anna nudged Hans playfully while they were talking."
+    },
+    {
+      "word": "Marvelous",
+      "phonetic": "[ˈmɑːrvələs]",
+      "definition": "Causing great wonder; extraordinary; extremely good.",
+      "analysis": "形容詞，意為「極好的；非凡精彩的；絕妙的」。讚賞極棒場面。",
+      "example": "They had a marvelous time dancing together at the party."
+    },
+    {
+      "word": "Cringed",
+      "phonetic": "[krɪndʒd]",
+      "definition": "Shrank back in fear or embarrassment; winced.",
+      "analysis": "動詞過去式，意為「感到尷尬畏縮；尷尬得直皺眉/倒退」。形容極度尷尬身姿。",
+      "example": "She cringed when the Duke performed his awkward dance moves."
+    },
+    {
+      "word": "Dying peacock",
+      "phonetic": "[ˈdaɪɪŋ ˈpiːkɑːk]",
+      "definition": "A humorous comparison to an ungraceful, overly dramatic performance.",
+      "analysis": "短語，意為「瀕死的大孔雀」。生動形容公爵誇張滑稽、滑稽難看的舞姿。",
+      "example": "The Duke looked like a dying peacock as he strutted across the floor."
+    },
+    {
+      "word": "Amusement",
+      "phonetic": "[əˈmjuːzmənt]",
+      "definition": "The state or experience of finding something funny or entertaining.",
+      "analysis": "名詞，意為「娛樂；可笑樂趣；逗樂」。覺得好笑有趣發笑。",
+      "example": "The guests watched the dance with great amusement."
+    },
+    {
+      "word": "Limped",
+      "phonetic": "[lɪmpt]",
+      "definition": "Walked with difficulty, typically because of a damaged leg or foot.",
+      "analysis": "動詞過去式，意為「跛行；一瘸一拐地走」。腳受傷步履不平。",
+      "example": "The injured guard limped away from the icy scene."
+    },
+    {
+      "word": "Sprightly",
+      "phonetic": "[ˈspraɪtli]",
+      "definition": "Lively and full of energy, especially of an old person.",
+      "analysis": "形容詞，意為「活潑精神矍鑠的；輕快的」。形容長者精神奕奕抖擻。",
+      "example": "Despite his age, the Duke was sprightly on his feet."
+    },
+    {
+      "word": "Wistfully",
+      "phonetic": "[ˈwɪstfəli]",
+      "definition": "In a way that shows vague, regretful longing or sadness.",
+      "analysis": "副詞，意為「渴望地；悵然若失地；留戀地」。眼神充滿憧憬與一絲憂傷。",
+      "example": "Anna looked wistfully out at the open kingdom gates."
+    },
+    {
+      "word": "Tripped into",
+      "phonetic": "[trɪpt ˈɪntə]",
+      "definition": "Stumbled and fell or bumped into someone accidentally.",
+      "analysis": "短語（過去式），意為「絆倒撞進…懷裡；意外跌入」。摔倒跌撞到人身邊。",
+      "example": "She tripped into Prince Hans's arms, blushing furiously."
+    },
+    {
+      "word": "Plucked",
+      "phonetic": "[plʌkt]",
+      "definition": "Quickly pulled or picked something from a place.",
+      "analysis": "動詞過去式，意為「拔下；採摘；快速抓取」。快速摘下物品。",
+      "example": "Hans plucked a sweet grape from the tray as they walked."
+    },
+    {
+      "word": "Beamed",
+      "phonetic": "[biːmd]",
+      "definition": "Smiled radiantly and warmly; radiated light.",
+      "analysis": "動詞過去式，意為「開懷大笑；面露喜色；滿面春風」。幸福發光笑容。",
+      "example": "Anna beamed with happiness when Hans proposed to her."
+    },
+    {
+      "word": "Scoffing",
+      "phonetic": "[skɔːfɪŋ]",
+      "definition": "Speaking to someone or about something in a scornfully derisive way.",
+      "analysis": "動詞/分詞，意為「嘲笑；嗤之以鼻；鄙視不屑發聲」。",
+      "example": "Elsa stopped scoffing and grew serious when Anna insisted on marrying a stranger."
+    },
+    {
+      "word": "Frothing up",
+      "phonetic": "[frɔːθɪŋ ʌp]",
+      "definition": "Foaming up or rising rapidly in bubbles/fury.",
+      "analysis": "短語，意為「翻騰；起泡；情緒憤怒起伏沸騰」。感情或冰霜翻滾沸騰。",
+      "example": "Anger was frothing up inside her as the argument escalated."
+    },
+    {
+      "word": "Icy plumes",
+      "phonetic": "[ˈaɪsi pluːmz]",
+      "definition": "Feather-like clouds or sprays of ice and snow.",
+      "analysis": "短語，意為「羽毛狀的冰柱／冰霜羽霧」。冰氣噴湧噴射出來的型態。",
+      "example": "Icy plumes shot out from Elsa's gloveless hand across the floor."
+    },
+    {
+      "word": "Abruptly",
+      "phonetic": "[əˈbrʌptli]",
+      "definition": "Suddenly and unexpectedly.",
+      "analysis": "副詞，意為「突然地；唐突地；戛然而止地」。場面突然停頓中斷。",
+      "example": "The music stopped abruptly as the crowd gasped in horror."
+    },
+    {
+      "word": "Sorcery",
+      "phonetic": "[ˈsɔːrsəri]",
+      "definition": "The use of magic, especially evil or mysterious power.",
+      "analysis": "名詞，意為「巫術；魔法；邪術」。公爵指控 Elsa 魔力的詞彙。",
+      "example": "'Sorcery!' cried the terrified Duke, cowering behind his guards."
+    },
+    {
+      "word": "Glimpse",
+      "phonetic": "[ɡlɪmps]",
+      "definition": "A momentary or partial view of someone or something.",
+      "analysis": "名詞/動詞，意為「一瞥；看見一眼」。短暫瞥見看清。",
+      "example": "The townspeople caught a terrifying glimpse of her icy magic."
+    },
+    {
+      "word": "Hissed",
+      "phonetic": "[hɪst]",
+      "definition": "Made a sharp sibilant sound; whispered angrily.",
+      "analysis": "動詞過去式，意為「發出嘶嘶聲；壓低聲音厲聲指責/急促說道」。",
+      "example": "'Stay away from me!' Elsa hissed as she backed toward the courtyard."
+    },
+    {
+      "word": "Shore",
+      "phonetic": "[ʃɔːr]",
+      "definition": "The land along the edge of a sea, lake, or other large body of water.",
+      "analysis": "名詞，意為「海岸；岸邊」。水域陸地交界之處。",
+      "example": "She ran past the crowd toward the shore of the fjord."
+    },
+    {
+      "word": "Strained",
+      "phonetic": "[streɪnd]",
+      "definition": "Showing signs of nervous tension, tiredness, or effort.",
+      "analysis": "形容詞/動詞過去式，意為「緊張繃緊的；吃力的」。拉緊吃力不自然姿態。",
+      "example": "Her voice sounded strained as she tried to calm her breathing."
+    },
+    {
+      "word": "Scowled",
+      "phonetic": "[skaʊld]",
+      "definition": "Frowned in an angry or bad-tempered way.",
+      "analysis": "動詞過去式，意為「怒目而視；皺眉怒視」。怒氣沖沖皺眉。",
+      "example": "The guard scowled at the approaching crowd."
+    },
+    {
+      "word": "Desperation",
+      "phonetic": "[ˌdespəˈreɪʃn]",
+      "definition": "A state of despair, typically resulting in rash or extreme behavior.",
+      "analysis": "名詞，意為「絕望；走投無路拼死一搏」。",
+      "example": "In pure desperation, Elsa stepped onto the open water of the fjord."
+    },
+    {
+      "word": "Trudged up",
+      "phonetic": "[trʌdʒd ʌp]",
+      "definition": "Walked slowly and with heavy steps up a slope or snow.",
+      "analysis": "短語（過去式），意為「步履艱難地攀登／跋涉上去」。雪地艱難步行上山。",
+      "example": "Anna trudged up the freezing mountain, shivering in her thin gown."
+    },
+    {
+      "word": "Wavy braid",
+      "phonetic": "[ˈweɪvi breɪd]",
+      "definition": "Hair woven into a plait with gentle curves.",
+      "analysis": "短語，意為「波浪狀的辮子／麻花辮」。Elsa 解開頭髮後的經典髮型。",
+      "example": "Elsa let her hair down into a loose, stylish wavy braid."
+    },
+    {
+      "word": "Cape of gossamer frost",
+      "phonetic": "[keɪp ʌv ˈɡɑːsəmər frɔːst]",
+      "definition": "A light cloak made of delicate, shimmering frost pattern.",
+      "analysis": "短語，意為「薄霜交織成的披風／冰霜披風」。Elsa 變裝後身後的輕柔冰晶斗篷。",
+      "example": "Her new dress was completed with a long cape of gossamer frost."
+    },
+    {
+      "word": "Exquisite ice palace",
+      "phonetic": "[ɪkˈskwɪzɪt aɪs ˈpæləs]",
+      "definition": "Extremely beautiful and delicate castle made entirely of ice.",
+      "analysis": "短語，意為「精美絕倫的冰雪城堡」。Elsa 在北山建造的冰宮。",
+      "example": "High on the North Mountain stood her exquisite ice palace."
+    },
+    {
+      "word": "Palace",
+      "phonetic": "[ˈpæləs]",
+      "definition": "A large and impressive building forming the official residence of a ruler.",
+      "analysis": "名詞，意為「宮殿；城堡」。皇室住所或冰宮。",
+      "example": "The ice palace shone brilliantly in the morning sunlight."
+    },
+    {
+      "word": "Howled",
+      "phonetic": "[haʊld]",
+      "definition": "Made a long, doleful cry; blew violently (as wind).",
+      "analysis": "動詞過去式，意為「咆哮；（狂風）怒號」。形容雪暴狂風發聲。",
+      "example": "The blizzard wind howled through the mountain peaks."
+    },
+    {
+      "word": "Thaw",
+      "phonetic": "[θɔː]",
+      "definition": "Become liquid or soft as a result of warming; melt.",
+      "analysis": "動詞/名詞，意為「融化；解凍；融雪」。冰雪消融化水。",
+      "example": "Only an act of true love can thaw a frozen heart."
+    },
+    {
+      "word": "Blizzard",
+      "phonetic": "[ˈblɪzərd]",
+      "definition": "A severe snowstorm with high winds and low visibility.",
+      "analysis": "名詞，意為「暴風雪」。急速強烈的狂風大雪環境。",
+      "example": "A fierce blizzard swept over the mountain, blinding travelers."
+    },
+    {
+      "word": "Tropical",
+      "phonetic": "[ˈtrɑːpɪkl]",
+      "definition": "Relating to or characteristic of the tropics; warm and humid.",
+      "analysis": "形容詞，意為「熱帶的；炎熱溫暖的」。Olaf 幻想熱帶夏天的詞彙。",
+      "example": "Olaf loved dreaming about tropical beaches and warm sunshine."
+    },
+    {
+      "word": "Lump of snow",
+      "phonetic": "[lʌmp ʌv snoʊ]",
+      "definition": "A compact mass or piece of snow without regular shape.",
+      "analysis": "短語，意為「一團雪／雪塊」。雪球雪團堆。",
+      "example": "A small lump of snow suddenly rolled down the hill and came to life."
+    },
+    {
+      "word": "Darted",
+      "phonetic": "[ˈdɑːrtɪd]",
+      "definition": "Moved or ran somewhere suddenly and rapidly.",
+      "analysis": "動詞過去式，意為「飛奔；敏捷疾馳」。像箭一般迅速移動竄走。",
+      "example": "The little snow creature darted behind a rock."
+    },
+    {
+      "word": "Frigid air",
+      "phonetic": "[ˈfrɪdʒɪd er]",
+      "definition": "Extremely cold atmosphere.",
+      "analysis": "短語，意為「刺骨冰冷的空氣」。嚴寒冷冽氣流。",
+      "example": "She breathed in the sharp, frigid air of the mountain peak."
+    },
+    {
+      "word": "Arctic cold",
+      "phonetic": "[ˈɑːrkɪk koʊld]",
+      "definition": "Extreme, severe cold characteristic of the North Pole region.",
+      "analysis": "短語，意為「極地嚴寒／北極般的寒冷」。凍徹心扉的溫度。",
+      "example": "The arctic cold froze the fjord in a matter of minutes."
+    },
+    {
+      "word": "Fellow",
+      "phonetic": "[ˈfeloʊ]",
+      "definition": "A man or boy; a companion or associate.",
+      "analysis": "名詞/形容詞，意為「傢伙；伙伴；同伴」。親切稱呼夥伴。",
+      "example": "Olaf was a funny little fellow who loved warm hugs."
+    },
+    {
+      "word": "Briskly",
+      "phonetic": "[ˈbrɪskli]",
+      "definition": "In an active, fast, and energetic way.",
+      "analysis": "副詞，意為「輕快地；敏捷地；幹脆俐落步履」。富有活力速度快。",
+      "example": "Kristoff walked briskly through the snow toward the trading post."
+    },
+    {
+      "word": "Toasty",
+      "phonetic": "[ˈtoʊsti]",
+      "definition": "Comfortably warm and cozy.",
+      "analysis": "形容詞，意為「溫暖舒適的；暖呼呼的」。溫暖舒服狀態。",
+      "example": "The fireplace kept the small cabin warm and toasty."
+    },
+    {
+      "word": "Seething",
+      "phonetic": "[ˈsiːðɪŋ]",
+      "definition": "Filled with or characterized by intense but unexpressed anger; boiling.",
+      "analysis": "形容詞/分詞，意為「強烈壓抑憤怒怒火中燒的；沸騰的」。深層憤怒起伏。",
+      "example": "Beneath her calm face, fear and confusion were seething."
+    },
+    {
+      "word": "Loomed",
+      "phonetic": "[luːmd]",
+      "definition": "Appeared as a shadowy form, especially one that is large or threatening.",
+      "analysis": "動詞過去式，意為「赫然聳立；隱隱約約浮現（龐大威脅感）」。龐大物體在前方出現。",
+      "example": "The massive North Mountain loomed over them in the mist."
+    },
+    {
+      "word": "Frown",
+      "phonetic": "[fraʊn]",
+      "definition": "A facial expression showing disapproval, displeasure, or deep thought.",
+      "analysis": "名詞/動詞，意為「皺眉；不悅表露」。不悅皺眉態勢。",
+      "example": "Kristoff wore a permanent frown as he walked."
+    },
+    {
+      "word": "Swiftly",
+      "phonetic": "[ˈswɪftli]",
+      "definition": "At high speed; quickly and smoothly.",
+      "analysis": "副詞，意為「迅速地；敏捷平滑地」。速度快順暢。",
+      "example": "The reindeer moved swiftly across the frozen landscape."
+    },
+    {
+      "word": "Moaned",
+      "phonetic": "[moʊnd]",
+      "definition": "Made a long, low sound expressing physical or mental suffering.",
+      "analysis": "動詞過去式，意為「呻吟；發出痛苦悲鳴發聲」。呻吟發出低鳴。",
+      "example": "The wind moaned softly through the snow-covered pine trees."
+    },
+    {
+      "word": "Snuffling",
+      "phonetic": "[ˈsnʌflɪŋ]",
+      "definition": "Breathe noisily through a partially blocked nose; sniff continually.",
+      "analysis": "動詞/分詞，意為「用鼻子吸氣抽鼻子；哼哧哼哧嗅聞」。動物用鼻子抽氣嗅探。",
+      "example": "Sven was snuffling around the snow searching for buried carrots."
+    },
+    {
+      "word": "Huffed in",
+      "phonetic": "[hʌft ɪn]",
+      "definition": "Inhaled deeply or noisily out of annoyance or cold.",
+      "analysis": "短語（過去式），意為「氣呼呼地吸入／喘著氣吸入」。氣呼呼大口吸氣。",
+      "example": "He huffed in the freezing mountain air and pulled his hat lower."
+    },
+    {
+      "word": "Quart of lutefisk",
+      "phonetic": "[kwɔːrt ʌv ˈluːtfɪsk]",
+      "definition": "A traditional Nordic dish made of dried whitefish treated with lye.",
+      "analysis": "短語，意為「一誇脫的醃製鹼漬魚」。北歐傳統美食，Wandering Oaken 雜貨店賣的特產食材。",
+      "example": "Oaken offered them a jar of pickled fish and a quart of lutefisk."
+    },
+    {
+      "word": "Grunted",
+      "phonetic": "[ˈɡrʌntɪd]",
+      "definition": "Made a low, short guttural sound.",
+      "analysis": "動詞過去式，意為「咕嚕聲；哼一聲」。不悅或發力悶哼。",
+      "example": "Kristoff grunted in reply when Oaken greeted him."
+    },
+    {
+      "word": "Dawn",
+      "phonetic": "[dɔːn]",
+      "definition": "The first appearance of light in the sky before sunrise.",
+      "analysis": "名詞/動詞，意為「黎明；拂曉；破曉」。清晨第一道曙光。",
+      "example": "They set off into the mountains just as dawn was breaking."
+    },
+    {
+      "word": "Drift",
+      "phonetic": "[drɪft]",
+      "definition": "A large pile of snow blown together by the wind; carried by water or air.",
+      "analysis": "名詞/動詞，意為「雪堆；漂流；隨風漂移」。風吹形成的深雪堆積。",
+      "example": "The sled got stuck deep in a heavy snow drift."
+    },
+    {
+      "word": "Lacquer",
+      "phonetic": "[ˈlækər]",
+      "definition": "A liquid made of shellac dissolved in alcohol, drying to form a hard protective coat.",
+      "analysis": "名詞/動詞，意為「漆；漆樹塗料；塗漆光亮面」。高光表面塗漆塗層。",
+      "example": "The sled was finished with shiny, red protective lacquer."
+    },
+    {
+      "word": "Freaked out",
+      "phonetic": "[friːkt aʊt]",
+      "definition": "Reacted with extreme emotion, shock, or surprise (informal).",
+      "analysis": "短語（過去式），意為「嚇壞了；抓狂；崩潰嚇傻」。極度震驚崩潰表情。",
+      "example": "Kristoff freaked out when he realized the snow statue was talking to him."
+    },
+    {
+      "word": "Sarcastically",
+      "phonetic": "[sɑːrˈkæstɪkli]",
+      "definition": "In a way that uses irony to mock or convey contempt.",
+      "analysis": "副詞，意為「諷刺地；挖苦地」。用反話挖苦嘲弄。",
+      "example": "'Great, a talking snowman,' Kristoff said sarcastically."
+    },
+    {
+      "word": "Sleigh",
+      "phonetic": "[sleɪ]",
+      "definition": "A sledge drawn by horses or reindeer, used for passenger travel over snow.",
+      "analysis": "名詞，意為「乘人用大型雪橇」。載客乘用的精美雪橇車（與 sled 同義但多指載人大雪橇）。",
+      "example": "Sven pulled the heavy wooden sleigh through the white powder."
+    },
+    {
+      "word": "Lute",
+      "phonetic": "[luːt]",
+      "definition": "A plucked stringed instrument with a long neck bearing frets and a rounded body.",
+      "analysis": "名詞，意為「琵琶；魯特琴」。Kristoff 自彈自唱拿著的弦樂器。",
+      "example": "Kristoff played his lute and sang a funny song to Sven."
+    },
+    {
+      "word": "Lunge",
+      "phonetic": "[lʌndʒ]",
+      "definition": "A sudden forward thrust of the body, typically with an arm or weapon.",
+      "analysis": "動詞/名詞，意為「猛衝；向前撲殺／前刺」。突然飛身猛衝向前撲擊。",
+      "example": "The wild wolf made a sudden lunge toward Anna."
+    },
+    {
+      "word": "Ducked",
+      "phonetic": "[dʌkt]",
+      "definition": "Lowered the head or body quickly to avoid a blow or being seen.",
+      "analysis": "動詞過去式，意為「迅速低頭避開；快速閃躲蹲下」。下蹲躲避姿態。",
+      "example": "She ducked just in time as a tree branch swung past her head."
+    },
+    {
+      "word": "Dismay",
+      "phonetic": "[dɪsˈmeɪ]",
+      "definition": "Consternation and distress, typically caused by something unexpected.",
+      "analysis": "名詞/動詞，意為「沮喪；吃驚慌張；灰心喪氣」。措手不及心慌震驚。",
+      "example": "To their dismay, the path ahead ended at a sheer cliff."
+    },
+    {
+      "word": "Massive gorge",
+      "phonetic": "[ˈmæsɪv ɡɔːrdʒ]",
+      "definition": "A very large, deep, narrow valley with steep rocky sides.",
+      "analysis": "短語，意為「巨大的深谷／大峽谷」。深不可測的懸崖深谷。",
+      "example": "They reached the edge of a massive gorge cut into the mountain."
+    },
+    {
+      "word": "Leaped",
+      "phonetic": "[liːpt]",
+      "definition": "Jumped or sprang a long distance or high in the air.",
+      "analysis": "動詞過去式，意為「飛躍；跳躍」。大力跨躍過空間懸崖。",
+      "example": "Kristoff leaped across the wide gap to safety."
+    },
+    {
+      "word": "Out of nowhere",
+      "phonetic": "[aʊt ʌv ˈnoʊwer]",
+      "definition": "Appearing suddenly and unexpectedly from an unknown place.",
+      "analysis": "短語，意為「不知從哪冒出來；憑空出現；突然間」。",
+      "example": "A pack of hungry wolves appeared out of nowhere in the darkness."
+    },
+    {
+      "word": "Nuzzled",
+      "phonetic": "[ˈnʌzld]",
+      "definition": "Rubbed or pushed gentle with the nose and mouth against someone.",
+      "analysis": "動詞過去式，意為「用鼻子親暱蹭/依偎」。動物親暱討好用鼻子蹭人。",
+      "example": "Sven nuzzled Kristoff affectionately to comfort him after losing the sled."
+    },
+    {
+      "word": "Composed",
+      "phonetic": "[kəmˈpoʊzd]",
+      "definition": "Calm and in control of one's feelings or behavior.",
+      "analysis": "形容詞/動詞過去式，意為「鎮定的；沈著自若的；平靜組成的」。",
+      "example": "She tried to look composed despite the danger all around them."
+    },
+    {
+      "word": "Terrain",
+      "phonetic": "[təˈreɪn]",
+      "definition": "A stretch of land, especially with regard to its physical features.",
+      "analysis": "名詞，意為「地形；地勢」。描述險峻的自然陸地環境。",
+      "example": "The rough mountain terrain made traveling dangerous and slow."
+    },
+    {
+      "word": "Antler",
+      "phonetic": "[ˈæntlər]",
+      "definition": "One of two bony growths on the head of a deer or reindeer.",
+      "analysis": "名詞，意為「鹿角」。馴鹿頭上的分支硬角。",
+      "example": "Sven got his large antler tangled in the tree branches."
+    },
+    {
+      "word": "Willow tree",
+      "phonetic": "[ˈwɪloʊ triː]",
+      "definition": "A tree that grows near water with long, drooping branches.",
+      "analysis": "名詞，意為「柳樹；垂柳」。枝條垂落的樹種。",
+      "example": "Frost covered the delicate leaves of the willow tree."
+    },
+    {
+      "word": "Glistening",
+      "phonetic": "[ˈɡlɪsnɪŋ]",
+      "definition": "Shining with a sparkling light from a wet or icy surface.",
+      "analysis": "形容詞/分詞，意為「晶瑩剔透的；閃耀著微光的」。潮濕冰雪發光表面。",
+      "example": "The ground was glistening with fresh, untouched snow."
+    },
+    {
+      "word": "Tangled up",
+      "phonetic": "[ˈtæŋɡld ʌp]",
+      "definition": "Twisted together in a confused, messy mass.",
+      "analysis": "短語（過去式），意為「糾纏在一起；纏住勾住」。繩索枝條亂成一團。",
+      "example": "Olaf found his arms tangled up in hanging vines."
+    },
+    {
+      "word": "Bleach",
+      "phonetic": "[bliːtʃ]",
+      "definition": "Whiten or make pale by chemical means or sunlight.",
+      "analysis": "動詞/名詞，意為「漂白；使褪色變白／漂白劑」。白雪將色彩洗刷成白色。",
+      "example": "The harsh sun on the white snow seemed to bleach everything around."
+    },
+    {
+      "word": "Crimson",
+      "phonetic": "[ˈkrɪmzn]",
+      "definition": "A rich, deep red color, inclining to purple.",
+      "analysis": "名詞/形容詞，意為「深紅色；緋紅色」。濃郁鮮紅色彩。",
+      "example": "Her velvet cloak was a vibrant shade of crimson."
+    },
+    {
+      "word": "Chartreuse",
+      "phonetic": "[ʃɑːrˈtruːz]",
+      "definition": "A color between yellow and green.",
+      "analysis": "名詞/形容詞，意為「黃綠色；黃綠相間色」。陽光下的黃綠特色色彩。",
+      "example": "Olaf pointed out a lovely chartreuse flower peeking through snow."
+    },
+    {
+      "word": "Goofy",
+      "phonetic": "[ˈɡuːfi]",
+      "definition": "Harmlessly eccentric, foolish, or silly.",
+      "analysis": "形容詞，意為「滑稽傻氣的；傻呼呼的」。形容可愛好笑個性。",
+      "example": "Olaf gave them a wide, goofy grin as he introduced himself."
+    },
+    {
+      "word": "You are creepy",
+      "phonetic": "[juː ɑːr ˈkriːpi]",
+      "definition": "An expression telling someone they cause an unpleasant feeling of fear or unease.",
+      "analysis": "短語，意為「你真毛骨悚然／怪嚇人的」。直白表達對方怪異讓人起雞皮疙瘩。",
+      "example": "Kristoff looked at the talking snowman and muttered, 'You are creepy.'"
+    },
+    {
+      "word": "Shrieked",
+      "phonetic": "[ʃriːkt]",
+      "definition": "Uttered a high-pitched piercing cry or sound.",
+      "analysis": "動詞過去式，意為「尖叫；發出刺耳叫聲」。吃驚高聲叫喊。",
+      "example": "Anna shrieked when Olaf's head suddenly popped off his body."
+    },
+    {
+      "word": "Inquired",
+      "phonetic": "[ɪnˈkwaɪərd]",
+      "definition": "Asked for information from someone.",
+      "analysis": "動詞過去式，意為「詢問；打聽；打聽探問」。禮貌詢問問話。",
+      "example": "'Who is Elsa?' Olaf inquired curiously with wide eyes."
+    },
+    {
+      "word": "Smack",
+      "phonetic": "[smæk]",
+      "definition": "Strike hit forcefully with an open hand or flat object; exact sound.",
+      "analysis": "動詞/名詞/副詞，意為「啪地一聲打下；重擊；正中（正中央）」。正中打擊撞擊。",
+      "example": "Anna hit the giant snow monster smack in the middle of his chest."
+    },
+    {
+      "word": "Scolded",
+      "phonetic": "[ˈskoʊldɪd]",
+      "definition": "Remonstrated with or rebuked someone angrily.",
+      "analysis": "動詞過去式，意為「責備；訓斥；斥責」。為不當舉止責怪對方。",
+      "example": "Kristoff scolded Anna for throwing snowballs at the monster."
+    },
+    {
+      "word": "Jabbed",
+      "phonetic": "[dʒæbd]",
+      "definition": "Poked or thrust abruptly with a short, sharp blow.",
+      "analysis": "動詞過去式，意為「用尖物戳；猛刺／戳捅」。用棒子手指突刺。",
+      "example": "He jabbed at the snowy creature with a long sharp stick."
+    },
+    {
+      "word": "Marched",
+      "phonetic": "[mɑːrtʃt]",
+      "definition": "Walked in a military manner with a regular measured tread or firm determination.",
+      "analysis": "動詞過去式，意為「大步邁進；進軍；堅定前行」。昂首挺胸大步挺進。",
+      "example": "Anna marched right up the ice palace steps without hesitation."
+    },
+    {
+      "word": "Pierced his torso",
+      "phonetic": "[pɪrst hɪz ˈtɔːrsoʊ]",
+      "definition": "Puncture or went right through his main upper body trunk.",
+      "analysis": "短語，意為「刺穿了他的軀干／胸膛」。尖銳物穿透身體核心軀幹。",
+      "example": "A sharp icicle pierced his torso, but as a snowman, he felt no pain."
+    },
+    {
+      "word": "Impaled",
+      "phonetic": "[ɪmˈpeɪld]",
+      "definition": "Transfixed or pierced through with a sharp instrument or stake.",
+      "analysis": "動詞過去式，意為「刺穿；釘在…上」。被尖銳物件釘住穿透。",
+      "example": "Olaf ended up impaled on a sharp tree branch, laughing at the silly sight."
+    },
+    {
+      "word": "Sheer slope",
+      "phonetic": "[ʃɪr sloʊp]",
+      "definition": "A very steep, almost vertical mountain incline.",
+      "analysis": "短語，意為「陡峭直立的山坡／懸崖斜坡」。幾乎垂直極險陡坡。",
+      "example": "They had to climb up a sheer slope to reach the palace entrance."
+    },
+    {
+      "word": "Amused",
+      "phonetic": "[əˈmjuːzd]",
+      "definition": "Finding humor in something; entertained.",
+      "analysis": "形容詞，意為「感到逗樂的；被逗笑好笑的」。感到被逗樂了發笑。",
+      "example": "Elsa was briefly amused by the funny talking snowman her childhood memory created."
+    },
+    {
+      "word": "Snow boulder",
+      "phonetic": "[snoʊ ˈboʊldər]",
+      "definition": "A massive rounded ball or chunk of packed snow.",
+      "analysis": "短語，意為「巨型雪球／雪岩」。雪怪扔出的龐大硬雪球巨石。",
+      "example": "The giant monster threw a heavy snow boulder down the mountain at them."
+    },
+    {
+      "word": "Shimmering",
+      "phonetic": "[ˈʃɪmərɪŋ]",
+      "definition": "Shining with a soft, slightly wavering light.",
+      "analysis": "形容詞/分詞，意為「微微閃爍發光的；晶瑩閃爍的」。冰清平滑光彩。",
+      "example": "The walls of the ice palace were shimmering with magical blue light."
+    },
+    {
+      "word": "Eerily",
+      "phonetic": "[ˈɪrəli]",
+      "definition": "In a strange, weird, and frightening manner.",
+      "analysis": "副詞，意為「怪異陰森地；令人毛骨悚然地」。氣氛詭異恐怖地。",
+      "example": "The silent room felt eerily cold and empty."
+    },
+    {
+      "word": "Eternal",
+      "phonetic": "[ɪˈtɜːrnl]",
+      "definition": "Lasting or existing forever; without end.",
+      "analysis": "形容詞，意為「永恆的；無休止不滅的」。永不結束消退的冬雪。",
+      "example": "Arendelle was trapped in an eternal winter caused by her spell."
+    },
+    {
+      "word": "The banister frosted over",
+      "phonetic": "[ðə ˈbænɪstər ˈfrɔːstɪd ˈoʊvər]",
+      "definition": "The handrail along stairs became covered in a layer of white frost.",
+      "analysis": "短語，意為「樓梯扶手結了一層霜」。情緒恐懼失控時扶手被冰霜覆蓋。",
+      "example": "As Elsa grew panic-stricken, the banister frosted over instantly."
+    },
+    {
+      "word": "Torn",
+      "phonetic": "[tɔːrn]",
+      "definition": "Divided between two conflicting choices or feelings; ripped.",
+      "analysis": "形容詞/動詞過去分詞（原形 tear），意為「糾結的；撕裂割捨不下的；撕裂的」。內心兩難糾結。",
+      "example": "Elsa was torn between wanting to see her sister and needing to protect her."
+    },
+    {
+      "word": "Welling up",
+      "phonetic": "[ˈwelɪŋ ʌp]",
+      "definition": "Rising to the surface and about to overflow (as tears or emotions).",
+      "analysis": "短語，意為「（眼淚/情緒）湧上心頭／翻騰湧出」。淚水眼眶滿溢湧出。",
+      "example": "Tears were welling up in Anna's eyes as Elsa urged her to leave."
+    },
+    {
+      "word": "Jostling",
+      "phonetic": "[ˈdʒɑːslɪŋ]",
+      "definition": "Pushing, elbowing, or bumping against someone roughly in a crowd.",
+      "analysis": "動詞/分詞，意為「推擠；磕磕碰碰；人群擠搡」。人群中推擠碰撞。",
+      "example": "The panicking villagers were jostling one another in the freezing streets."
+    },
+    {
+      "word": "Plummeted",
+      "phonetic": "[ˈplʌmɪtɪd]",
+      "definition": "Fell or dropped straight down at high speed.",
+      "analysis": "動詞過去式，意為「垂直墜落；猛然摔落」。從高處直直墜落摔下。",
+      "example": "They held their breath as the anchor plummeted into the deep snow below."
+    },
+    {
+      "word": "Dangling in midair",
+      "phonetic": "[ˈdæŋɡlɪŋ ɪn ˌmɪdˈer]",
+      "definition": "Hanging or swinging loosely in the air without touching ground.",
+      "analysis": "短語，意為「懸掛半空中／懸在空中搖晃」。空中腳不著地懸掛擺動。",
+      "example": "Anna found herself dangling in midair over the dangerous cliff edge."
+    },
+    {
+      "word": "Ledge",
+      "phonetic": "[ledʒ]",
+      "definition": "A narrow horizontal surface projecting from a wall, cliff, or rock.",
+      "analysis": "名詞，意為「突出物；岩架；懸崖突出邊緣」。崖壁邊邊突出處。",
+      "example": "Kristoff reached down from the ledge to pull Anna up."
+    },
+    {
+      "word": "Skull",
+      "phonetic": "[skʌl]",
+      "definition": "The framework of bone enclosing the brain in vertebrate animals.",
+      "analysis": "名詞，意為「頭骨；骷髏」。Olaf 拿自己的頭蓋骨開玩笑掉落結構。",
+      "example": "Olaf's head popped off, revealing his rounded snowy skull."
+    },
+    {
+      "word": "Marooned boat",
+      "phonetic": "[məˈruːnd boʊt]",
+      "definition": "A boat left stranded in an isolated or inaccessible place by ice or storm.",
+      "analysis": "短語，意為「擱淺孤立的船隻／困在冰上的舟船」。被冰雪凍結在港口離岸船隻。",
+      "example": "Several marooned boats were trapped in the solid ice of the fjord."
+    },
+    {
+      "word": "Arendelle is indebted to you",
+      "phonetic": "[ˈærəndel ɪz ɪnˈdetɪd tə juː]",
+      "definition": "The kingdom owes you a debt of gratitude for help provided.",
+      "analysis": "句子，意為「艾倫戴爾王國欠你一個深厚恩情／對您萬分感激」。表示由衷謝意尊崇話語。",
+      "example": "'Arendelle is indebted to you for your bravery,' Prince Hans said smoothly."
+    },
+    {
+      "word": "Counseled",
+      "phonetic": "[ˈkaʊnsəld]",
+      "definition": "Gave advice or guidance to someone.",
+      "analysis": "動詞過去式，意為「建議；給予諮詢引導」。給予權威建議看法。",
+      "example": "The advisers counseled Hans to stay safe inside the castle."
+    },
+    {
+      "word": "Conspiring",
+      "phonetic": "[kənˈspaɪərɪŋ]",
+      "definition": "Making secret plans together to commit an unlawful or harmful act.",
+      "analysis": "動詞/分詞，意為「圖謀不軌；密謀反叛；勾結陰謀」。暗中密謀害人。",
+      "example": "Hans was secretly conspiring to take over the throne of Arendelle."
+    },
+    {
+      "word": "Wicked sorceress",
+      "phonetic": "[ˈwɪkɪd ˈsɔːrsərəs]",
+      "definition": "An evil female magician or witch.",
+      "analysis": "短語，意為「邪惡的女巫／邪惡魔女」。公爵冠給 Elsa 的惡名稱謂。",
+      "example": "The Duke falsely painted Elsa as a wicked sorceress who attacked her sister."
+    },
+    {
+      "word": "Stuttered",
+      "phonetic": "[ˈstʌtərd]",
+      "definition": "Spoke with sudden involuntary pauses and repeated initial letters.",
+      "analysis": "動詞過去式，意為「結巴；口吃；說話打結結巴」。緊張時發音口吃。",
+      "example": "He stuttered nervously when confronted with the truth."
+    },
+    {
+      "word": "Torches and swords",
+      "phonetic": "[ˈtɔːrtʃɪz ænd sɔːrdz]",
+      "definition": "Weapons and light sources traditionally carried by angry mobs or guards.",
+      "analysis": "短語，意為「火把與長劍」。前往捉拿的公爵衛隊與憤怒群眾配備武器。",
+      "example": "The soldiers marched up the icy mountain carrying burning torches and swords."
+    },
+    {
+      "word": "Crossbow",
+      "phonetic": "[ˈkrɔːsboʊ]",
+      "definition": "A medieval weapon consisting of a bow mounted on a stock that shoots bolts.",
+      "analysis": "名詞，意為「弩；十字弓」。公爵手下用的近程發射武器。",
+      "example": "The guard aimed his loaded crossbow directly at Elsa."
+    },
+    {
+      "word": "Teetered",
+      "phonetic": "[ˈtiːtərd]",
+      "definition": "Swayed back and forth unsteadily; balanced precariously.",
+      "analysis": "動詞過去式，意為「搖晃不穩；瀕臨失衡陷落」。在懸崖頂搖搖欲墜。",
+      "example": "The massive ice chandelier teetered dangerously on the edge of falling."
+    },
+    {
+      "word": "Dissolving",
+      "phonetic": "[dɪˈzɑːlvɪŋ]",
+      "definition": "Melting away; becoming liquid; disappearing.",
+      "analysis": "動詞/分詞，意為「融化消逝；解體散開」。冰塊水汽逐漸融化。",
+      "example": "The frost wall was slowly dissolving in the warmer air."
+    },
+    {
+      "word": "Chandelier",
+      "phonetic": "[ˌʃændəˈlɪr]",
+      "definition": "A large, decorative hanging light fixture with branches for several lamps.",
+      "analysis": "名詞，意為「枝形吊燈」。Elsa 冰宮頂端絕美龐大的冰晶吊燈。",
+      "example": "A magnificent ice chandelier hung suspended from the center of the dome."
+    },
+    {
+      "word": "Encased",
+      "phonetic": "[ɪnˈkeɪst]",
+      "definition": "Enclosed or covered completely in a case or layer.",
+      "analysis": "動詞過去式/形容詞，意為「完全包覆的；被包裹封住的」。被冰層徹底封住裹住。",
+      "example": "Her hands were encased in heavy iron shackles in the dungeon."
+    },
+    {
+      "word": "Imprisoned",
+      "phonetic": "[ɪmˈprɪznd]",
+      "definition": "Kept in prison; captive.",
+      "analysis": "動詞過去式/形容詞，意為「關押的；囚禁的」。被囚禁喪失自由。",
+      "example": "Elsa found herself imprisoned in the castle dungeon."
+    },
+    {
+      "word": "Castle dungeon",
+      "phonetic": "[ˈkæsl ˈdʌndʒən]",
+      "definition": "A dark, subterranean prison cell under a castle.",
+      "analysis": "短語，意為「城堡地牢／地下牢房」。地下黑牢。",
+      "example": "Iron chains secured her to the wall inside the cold castle dungeon."
+    },
+    {
+      "word": "Halt",
+      "phonetic": "[hɔːlt]",
+      "definition": "Bring or come to an abrupt stop.",
+      "analysis": "動詞/名詞，意為「停止；喊停；停下步伐」。突然站住停下。",
+      "example": "The soldiers came to a sudden halt at the queen's command."
+    },
+    {
+      "word": "Infectious",
+      "phonetic": "[ɪnˈfekʃəs]",
+      "definition": "Likely to spread to or influence others rapidly (as emotion, smile, or disease).",
+      "analysis": "形容詞，意為「具感染力的；蔓延傳播開來的」。笑聲或歡樂具強烈感染力。",
+      "example": "Olaf's warm enthusiasm and joy were completely infectious."
+    },
+    {
+      "word": "Collapsed",
+      "phonetic": "[kəˈlæpst]",
+      "definition": "Fell down or in suddenly; broke down physically or mentally.",
+      "analysis": "動詞過去式，意為「倒塌；癱倒；崩潰暈倒」。體力耗盡或絕望癱倒在地。",
+      "example": "Anna collapsed onto the floor, her heart turning to solid ice."
+    },
+    {
+      "word": "Shortcomings",
+      "phonetic": "[ˈʃɔːrtkʌmɪŋz]",
+      "definition": "A fault or failure to meet a certain standard, typically in a person's character.",
+      "analysis": "名詞（複數），意為「缺點；短處；不足之處」。個性瑕疵缺陷。",
+      "example": "Kristoff's troll family sang about his silly personal shortcomings."
+    },
+    {
+      "word": "Shackles",
+      "phonetic": "[ˈʃæklz]",
+      "definition": "Metal bonds or handcuffs used to fasten a prisoner's wrists or ankles.",
+      "analysis": "名詞（複數），意為「手銬；腳鐐；束縛枷鎖」。",
+      "example": "Elsa pulled desperately against the heavy iron shackles binding her hands."
+    },
+    {
+      "word": "Sank into a chair",
+      "phonetic": "[sæŋk ˈɪntə ə tʃer]",
+      "definition": "Sat down heavily into a chair out of physical or emotional exhaustion.",
+      "analysis": "短語（過去式），意為「虛脫地陷坐進椅子裡／癱坐在椅上」。無力沉坐下去。",
+      "example": "Weakened by the cold, Anna sank into a chair near the fireplace."
+    },
+    {
+      "word": "Pensively",
+      "phonetic": "[ˈpensɪvli]",
+      "definition": "In a way that involves deep, serious, or melancholy thought.",
+      "analysis": "副詞，意為「沉思地；心事重重地；若有所思地」。眼神深沉冥想。",
+      "example": "Hans stared out the window pensively, plotting his next move."
+    },
+    {
+      "word": "Anticipation",
+      "phonetic": "[ænˌtɪsɪˈpeɪʃn]",
+      "definition": "The action of anticipating something; expectation or excitement.",
+      "analysis": "名詞，意為「期待；預期；期盼」。滿懷期待的心情。",
+      "example": "The kingdom waited in tense anticipation for news from the mountain."
+    },
+    {
+      "word": "Plea",
+      "phonetic": "[pliː]",
+      "definition": "An urgent and emotional request or appeal.",
+      "analysis": "名詞，意為「懇求；呼籲；哀求」。懇切地請求發聲。",
+      "example": "Ignoring her desperate plea, Hans locked the library door."
+    },
+    {
+      "word": "Embers",
+      "phonetic": "[ˈembərz]",
+      "definition": "Small pieces of glowing coal or wood in a dying fire.",
+      "analysis": "名詞（複數），意為「餘燼；餘火；餘輝」。微弱餘溫火星。",
+      "example": "Olaf carefully stirred the dying embers to keep the fire going."
+    },
+    {
+      "word": "Doomed",
+      "phonetic": "[duːmd]",
+      "definition": "Certain to fail, suffer, or die; ill-fated.",
+      "analysis": "形容詞/動詞過去式，意為「註定失敗/毀滅的；命中註定劫數難逃的」。",
+      "example": "Without help, Anna believed she was doomed to freeze completely."
+    },
+    {
+      "word": "Cruelty",
+      "phonetic": "[ˈkruːəlti]",
+      "definition": "Cruel behavior or attitudes; indifference to suffering.",
+      "analysis": "名詞，意為「殘忍；殘酷；冷酷無情」。冷血無理行為。",
+      "example": "Hans showed his true evil cruelty by letting her freeze alone."
+    },
+    {
+      "word": "Fiercely",
+      "phonetic": "[ˈfɪrsli]",
+      "definition": "In a savagely violent, aggressive, or intensely passionate manner.",
+      "analysis": "副詞，意為「猛烈地；狂暴地；極其強烈地」。風暴或情感猛烈爆發。",
+      "example": "The blizzard wind blew fiercely across the frozen fjord."
+    },
+    {
+      "word": "Grief-stricken",
+      "phonetic": "[ˈɡriːf strɪkən]",
+      "definition": "Overwhelmed by deep sorrow and sadness.",
+      "analysis": "形容詞，意為「悲痛欲絕的；極度哀傷的」。悲傷過度打擊沉重。",
+      "example": "Elsa collapsed onto the ice, grief-stricken over the news of her sister."
+    },
+    {
+      "word": "Grieving",
+      "phonetic": "[ˈɡriːvɪŋ]",
+      "definition": "Feeling intense sorrow, especially after a loss or death.",
+      "analysis": "形容詞/分詞，意為「悲傷的；悼念哀悼中的」。為喪親或失去而悲傷。",
+      "example": "The grieving queen wept openly in the center of the storm."
+    },
+    {
+      "word": "Grimly",
+      "phonetic": "[ˈɡrɪmli]",
+      "definition": "In a stern, serious, or forbidding manner; relentlessly.",
+      "analysis": "副詞，意為「冷酷地；嚴肅堅定地；沉重地」。冷峻嚴肅姿態。",
+      "example": "Kristoff rode grimly into the blinding white storm to find Anna."
+    },
+    {
+      "word": "Elate",
+      "phonetic": "[ɪˈleɪt]",
+      "definition": "Make someone ecstasy, ecstatically happy, or proud.",
+      "analysis": "動詞/形容詞，意為「使興奮歡欣鼓舞；得意洋洋的」。歡欣鼓舞感情發揮。",
+      "example": "News of the thaw would elate the shivering citizens."
+    },
+    {
+      "word": "Ascent",
+      "phonetic": "[əˈsent]",
+      "definition": "A climb or walk to the summit of a mountain or hill; upward movement.",
+      "analysis": "名詞，意為「攀登；上升；登高」。登山攀高過程。",
+      "example": "Their dangerous ascent up the North Mountain proved exhausting."
+    },
+    {
+      "word": "Throne",
+      "phonetic": "[θroʊn]",
+      "definition": "The ceremonial chair used by a sovereign monarch.",
+      "analysis": "名詞，意為「王座；寶座；君權」。代表最高政治權利與地位。",
+      "example": "Hans schemed to seize control of the vacant royal throne."
+    },
+    {
+      "word": "Gloriously",
+      "phonetic": "[ˈɡlɔːriəsli]",
+      "definition": "In a strikingly beautiful, magnificent, or triumphant manner.",
+      "analysis": "副詞，意為「光彩照人地；壯麗輝煌地；燦爛地」。美麗非凡輝煌美感。",
+      "example": "The ice palace shone gloriously under the bright sun."
+    },
+    {
+      "word": "Thunderous",
+      "phonetic": "[ˈθʌndərəs]",
+      "definition": "Relating to or resembling thunder; extremely loud.",
+      "analysis": "形容詞，意為「雷鳴般的；極震耳的」。巨響或如雷般轟鳴掌聲。",
+      "example": "A thunderous crack vibrated through the fjord as the ice split apart."
+    },
+    {
+      "word": "Wiggled",
+      "phonetic": "[ˈwɪɡld]",
+      "definition": "Moved or cause to move up and down or side to side with small quick movements.",
+      "analysis": "動詞過去式，意為「扭動；蠕動；擺動抖動」。微小快速扭擺扭動。",
+      "example": "Olaf wiggled his carrot nose back into place."
+    },
+    {
+      "word": "Shuddered",
+      "phonetic": "[ˈʃʌdərd]",
+      "definition": "Shook uncontrollably as a result of fear, cold, or strong emotion.",
+      "analysis": "動詞過去式，意為「顫抖；打寒顫；劇烈晃動」。身體猛烈抖動。",
+      "example": "The whole ice bridge shuddered under the monster's heavy weight."
+    },
+    {
+      "word": "Squinted",
+      "phonetic": "[skwɪntɪd]",
+      "definition": "Looked at someone or something with eyes partly closed.",
+      "analysis": "動詞過去式，意為「瞇起眼睛看」。因陽光或刺眼瞇眼看。",
+      "example": "Kristoff squinted through the driving white snow to find the path."
+    },
+    {
+      "word": "Adamant",
+      "phonetic": "[ˈædəmənt]",
+      "definition": "Refusing to be persuaded or to change one's mind; resolute.",
+      "analysis": "形容詞，意為「堅決的；固執的；堅貞不屈的」。立場堅定不移絕不退讓。",
+      "example": "Anna was adamant about going up the mountain alone to bring back Elsa."
+    },
+    {
+      "word": "Valiant",
+      "phonetic": "[ˈvæliənt]",
+      "definition": "Possessing or showing courage or determination; brave.",
+      "analysis": "形容詞，意為「英勇的；勇敢果敢的」。表現極大勇氣品質。",
+      "example": "Anna made a valiant effort to save her sister despite her frozen state."
+    },
+    {
+      "word": "Pungent",
+      "phonetic": "[ˈpʌndʒənt]",
+      "definition": "Having a sharply strong taste or smell.",
+      "analysis": "形容詞，意為「刺鼻的；強烈辛辣的（氣味）」。氣味濃烈刺鼻。",
+      "example": "The pungent smell of lutefisk filled Oaken's small shop."
+    },
+    {
+      "word": "Shield",
+      "phonetic": "[ʃiːld]",
+      "definition": "A broad piece of armor carried for protection; protect from danger.",
+      "analysis": "名詞/動詞，意為「盾牌；屏障；保護；遮擋」。阻擋危險保護目標。",
+      "example": "Anna threw her body between Elsa and Hans to shield her sister."
+    },
+    {
+      "word": "Splintering",
+      "phonetic": "[ˈsplɪntərɪŋ]",
+      "definition": "Breaking small sharp fragments of wood, glass, or ice.",
+      "analysis": "動詞/分詞，意為「粉碎；碎裂崩解」。硬物崩裂破碎聲與狀態。",
+      "example": "Hans's sword struck the frozen Anna, splintering into a thousand pieces."
+    },
+    {
+      "word": "Signaling",
+      "phonetic": "[ˈsɪɡnəlɪŋ]",
+      "definition": "Making a gesture, sound, or action to give information or an instruction.",
+      "analysis": "動詞/分詞，意為「發出訊號；預示；信號表示」。預示傳達訊息發出信號。",
+      "example": "The sudden calm was signaling the end of the magical storm."
+    },
+    {
+      "word": "Snow ceased",
+      "phonetic": "[snoʊ siːst]",
+      "definition": "The falling snow stopped completely.",
+      "analysis": "短語，意為「降雪停止／大雪停息」。暴風雪停息平靜下。",
+      "example": "Suddenly the wind died down and the falling snow ceased."
+    },
+    {
+      "word": "In the sudden stillness",
+      "phonetic": "[ɪn ðə ˈsʌdən ˈstɪlnəs]",
+      "definition": "Inside the unexpected, quiet state where all sound and motion has stopped.",
+      "analysis": "短語，意為「在突如其來的寂靜之中」。風暴停止後的悄無聲息氛圍。",
+      "example": "In the sudden stillness, only Elsa's soft weeping could be heard."
+    },
+    {
+      "word": "Uttered",
+      "phonetic": "[ˈʌtərd]",
+      "definition": "Spoke or made a sound with the voice.",
+      "analysis": "動詞過去式，意為「說出；發出（聲音）；口吐」。發出話語或發聲。",
+      "example": "She uttered a soft gasp as her frozen sister began to thaw."
+    },
+    {
+      "word": "Clutching",
+      "phonetic": "[ˈklʌtʃɪŋ]",
+      "definition": "Holding tightly with the hands.",
+      "analysis": "動詞/分詞，意為「緊抱；緊握抱住」。抱住不放手姿態。",
+      "example": "Elsa was clutching Anna's frozen ice statue in deep grief."
+    },
+    {
+      "word": "Knelt",
+      "phonetic": "[nelt]",
+      "definition": "Fell or rested on the knees.",
+      "analysis": "動詞過去式（原形 kneel），意為「跪下；下跪」。屈膝跪在地板。",
+      "example": "Elsa knelt beside her sister on the frozen surface of the fjord."
+    },
+    {
+      "word": "Shattered",
+      "phonetic": "[ˈʃætərd]",
+      "definition": "Broken suddenly into small pieces; destroyed utterly.",
+      "analysis": "動詞過去式/形容詞，意為「粉碎的；崩碎的；破碎崩潰的」。受重擊粉碎。",
+      "example": "Hans's steel sword shattered completely upon hitting Anna's frozen hand."
+    },
+    {
+      "word": "Astonishment",
+      "phonetic": "[əˈstɑːnɪʃmənt]",
+      "definition": "Great surprise or amazement.",
+      "analysis": "名詞，意為「驚訝；震驚；驚奇」。極度吃驚目瞪口呆狀態。",
+      "example": "The crowd watched in complete astonishment as true love thawed Anna's heart."
+    },
+    {
+      "word": "Fuming",
+      "phonetic": "[ˈfjuːmɪŋ]",
+      "definition": "Feeling or showing great anger; emitting smoke.",
+      "analysis": "形容詞/分詞，意為「怒火中燒的；氣急敗壞冒煙的」。極度憤怒失態。",
+      "example": "The defeated Duke of Weselton was fuming as he was escorted to his ship."
+    },
+    {
+      "word": "Joyous",
+      "phonetic": "[ˈdʒɔɪəs]",
+      "definition": "Full of happiness and joy; delightful.",
+      "analysis": "形容詞，意為「充滿歡樂喜悅的；令人歡欣的」。快樂至極心境。",
+      "example": "Cheering townspeople celebrated the joyous return of summer."
+    },
+    {
+      "word": "Dazed",
+      "phonetic": "[deɪzd]",
+      "definition": "Unable to think or react properly; bewildered or stunned.",
+      "analysis": "形容詞，意為「神情恍惚茫然的；被打暈迷糊的」。震驚暈眩反應不及。",
+      "example": "Hans sat dazed on the deck of the ship after being punched overboard."
+    },
+    {
+      "word": "Cage",
+      "phonetic": "[keɪdʒ]",
+      "definition": "A structure of bars or wires in which birds or other animals are confined.",
+      "analysis": "名詞/動詞，意為「籠子；監牢；關進籠中」。關押囚禁結構。",
+      "example": "Prince Hans was put inside a makeshift ship cage to await trial back home."
+    },
+    {
+      "word": "Scoundrel",
+      "phonetic": "[ˈskaʊndrəl]",
+      "definition": "A dishonest or unscrupulous person; a villain.",
+      "analysis": "名詞，意為「惡棍；無恥之徒；壞蛋」。罵惡霸反派詞彙。",
+      "example": "'That deceitful scoundrel got what he deserved!' cried the citizens."
+    },
+    {
+      "word": "Bashful",
+      "phonetic": "[ˈbæʃfl]",
+      "definition": "Reluctant to draw attention to oneself; shy and embarrassed.",
+      "analysis": "形容詞，意為「害羞的；羞澀腆腆的」。形容害羞低頭表情。",
+      "example": "Kristoff gave a bashful smile when Anna presented him with his new sled."
+    }
+  ]
+}
