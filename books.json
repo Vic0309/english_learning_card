@@ -23,5 +23,10 @@
     "id": "who_moved_my_cheese",
     "title": "Who Moved My Cheese? (誰搬走了我的乳酪？)",
     "file": "data/who_moved_my_cheese.json"
+  },
+  {
+    "id": "frozen",
+    "title": "Frozen (冰雪奇緣)",
+    "file": "data/frozen.json"
   }
 ]
