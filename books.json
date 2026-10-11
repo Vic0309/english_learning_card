@@ -18,5 +18,10 @@
     "id": "albert_einstein",
     "title": "Albert Einstein Was a Dope? (愛因斯坦是個笨蛋嗎？)",
     "file": "data/albert_einstein.json"
+  },
+  {
+    "id": "who_moved_my_cheese",
+    "title": "Who Moved My Cheese? (誰搬走了我的乳酪？)",
+    "file": "data/who_moved_my_cheese.json"
   }
 ]
