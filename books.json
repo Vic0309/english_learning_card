@@ -13,6 +13,10 @@
     "id": "think_and_grow_rich",
     "title": "Think and Grow Rich (思考致富)",
     "file": "data/think_and_grow_rich.json"
+  },
+  {
+    "id": "albert_einstein",
+    "title": "Albert Einstein Was a Dope? (愛因斯坦是個笨蛋嗎？)",
+    "file": "data/albert_einstein.json"
   }
-  
 ]
