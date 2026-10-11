@@ -1,0 +1,517 @@
+{
+  "bookId": "albert_einstein",
+  "bookTitle": "Albert Einstein Was a Dope?",
+  "vocabulary": [
+    {
+      "word": "Rheumatism",
+      "phonetic": "[ˈruːmətɪzəm]",
+      "definition": "A medical condition causing pain and stiffness in joints and muscles.",
+      "analysis": "名詞，意為「風濕病」。年長者常患的關節肌肉疼痛病症。",
+      "example": "He joked that his joint pain was just a mild case of rheumatism."
+    },
+    {
+      "word": "Gloomy",
+      "phonetic": "[ˈɡluːmi]",
+      "definition": "Dark or poorly lit; feeling distressed or pessimistic.",
+      "analysis": "形容詞，意為「陰暗的；抑鬱的；陰沉的」。形容天氣或心情沉悶低落。",
+      "example": "The classroom felt gloomy on rainy Monday mornings."
+    },
+    {
+      "word": "Eccentric",
+      "phonetic": "[ɪkˈsentrɪk]",
+      "definition": "Unconventional and slightly strange in behavior or appearance.",
+      "analysis": "形容詞/名詞，意為「古怪的；怪異的；行為特立獨行的人」。常用於形容天才特別的習性。",
+      "example": "People thought the scientist was eccentric because he never wore socks."
+    },
+    {
+      "word": "Deserved",
+      "phonetic": "[dɪˈzɜːrvd]",
+      "definition": "Rightfully earned or merited because of actions or qualities.",
+      "analysis": "形容詞/動詞過去式，意為「應得的；理所當然的」。",
+      "example": "Einstein received a well-deserved Nobel Prize for his contributions to physics."
+    },
+    {
+      "word": "Deflect",
+      "phonetic": "[dɪˈflekt]",
+      "definition": "Cause something to change direction; turn aside.",
+      "analysis": "動詞，意為「使偏斜；轉向；轉移（注意力或光線）」。故事中指引力使光線彎曲偏折。",
+      "example": "Gravity can deflect light coming from distant stars."
+    },
+    {
+      "word": "Engrossed",
+      "phonetic": "[ɪnˈɡroʊst]",
+      "definition": "Having one's attention completely absorbed by something.",
+      "analysis": "形容詞，意為「全神貫注的；沉溺其中的」。形容專心致志到忽視周遭。",
+      "example": "He was so engrossed in his physics equations that he forgot to eat lunch."
+    },
+    {
+      "word": "Scatterbrained",
+      "phonetic": "[ˈskætərbreɪnd]",
+      "definition": "Disorganized and incapable of serious, connected thought.",
+      "analysis": "形容詞，意為「注意力不集中的；心不在焉的；丟三落四的」。",
+      "example": "Although brilliant, he seemed scatterbrained in his daily personal routine."
+    },
+    {
+      "word": "Absentminded",
+      "phonetic": "[ˌæbsəntˈmaɪndɪd]",
+      "definition": "Having or showing a habitual forgetfulness or inattention.",
+      "analysis": "形容詞，意為「心不在焉的；健忘的」。愛因斯坦經典的典型形象。",
+      "example": "The absentminded professor used a bank check as a bookmark and lost it."
+    },
+    {
+      "word": "Content",
+      "phonetic": "[kənˈtent]",
+      "definition": "In a state of peaceful happiness and satisfaction.",
+      "analysis": "形容詞，意為「心滿意足的；滿足的」。不追求奢華、對簡單生活感到滿意。",
+      "example": "He was content with a simple sweater, his violin, and a sheet of paper."
+    },
+    {
+      "word": "Clown",
+      "phonetic": "[klaʊn]",
+      "definition": "A comic performer who uses physical humor; a foolish person.",
+      "analysis": "名詞/動詞，意為「小丑；愛開玩笑的人；扮小丑」。",
+      "example": "He loved to stick out his tongue and clown around for photo journalists."
+    },
+    {
+      "word": "Rumple corduroy pants",
+      "phonetic": "[ˈrʌmpl ˈkɔːrdərɔɪ pænts]",
+      "definition": "Wrinkled, creased trousers made of thick ribbed cotton fabric.",
+      "analysis": "短語，意為「皺巴巴的燈心絨長褲」。描述愛因斯坦招牌的不修邊幅穿著風格。",
+      "example": "He comfortably walked into the university wearing rumple corduroy pants."
+    },
+    {
+      "word": "Nearsighted",
+      "phonetic": "[ˈnɪrsaɪtɪd]",
+      "definition": "Unable to see distant objects clearly; myopic.",
+      "analysis": "形容詞，意為「近視的；缺乏遠見的」。看近清楚、看遠模糊的視力狀態。",
+      "example": "Being nearsighted, he needed glasses to read the blackboard clearly."
+    },
+    {
+      "word": "Silly",
+      "phonetic": "[ˈsɪli]",
+      "definition": "Having or showing a lack of common sense or seriousness; playful.",
+      "analysis": "形容詞，意為「傻氣的；滑稽可笑的；無聊的」。",
+      "example": "He often made silly faces to make children laugh."
+    },
+    {
+      "word": "Barking seal",
+      "phonetic": "[ˈbɑːrkɪŋ siːl]",
+      "definition": "A marine mammal producing loud, sharp vocal sounds.",
+      "analysis": "短語，意為「吠叫的海豹」。用於生動形容某種獨特洪亮叫聲或咳嗽聲。",
+      "example": "The unique laugh of the professor sounded like a barking seal."
+    },
+    {
+      "word": "Einstein was a ham",
+      "phonetic": "[ˈaɪnstaɪn wʌz ə hæm]",
+      "definition": "Einstein enjoyed performing or showing off in front of audiences.",
+      "analysis": "短語（俚語 ham 意為愛表演/搶鏡頭的人），意為「愛因斯坦是個愛搶鏡頭、愛表演的人」。",
+      "example": "Whenever cameras appeared, people realized that Einstein was a ham."
+    },
+    {
+      "word": "Beetle crawl",
+      "phonetic": "[ˈbiːtl krɔːl]",
+      "definition": "The slow, deliberate movement of a beetle insect.",
+      "analysis": "短語，意為「甲蟲爬行」。用來比喻極其緩慢爬行或觀察甲蟲在彎曲表面移動的童年經歷。",
+      "example": "He watched a beetle crawl on his blanket and wondered about space and movement."
+    },
+    {
+      "word": "Phenomenon",
+      "phonetic": "[fəˈnɑːmɪnən]",
+      "definition": "A remarkable fact or event that can be observed and studied.",
+      "analysis": "名詞，意為「現象；罕見非凡的人事物」。科學界觀察到的自然現象。",
+      "example": "Light bending around massive objects was a mind-boggling phenomenon."
+    },
+    {
+      "word": "Sculpture",
+      "phonetic": "[ˈskʌlptʃər]",
+      "definition": "The art of making three-dimensional figures out of stone, wood, or metal.",
+      "analysis": "名詞/動詞，意為「雕塑品；雕刻」。",
+      "example": "Artists created a bronze sculpture to honor his scientific achievements."
+    },
+    {
+      "word": "Opera",
+      "phonetic": "[ˈɑːprə]",
+      "definition": "A dramatic work combining singing, orchestral music, and acting.",
+      "analysis": "名詞，意為「歌劇」。愛因斯坦熱愛的古典音樂藝術形式之一。",
+      "example": "In his free time, he enjoyed listening to classical opera and playing music."
+    },
+    {
+      "word": "Endorse",
+      "phonetic": "[ɪnˈdɔːrs]",
+      "definition": "Declare one's public approval or support of; sign a document.",
+      "analysis": "動詞，意為「代言；背書；公開支持；簽署」。",
+      "example": "Companies offered him large sums of money to endorse their commercial products."
+    },
+    {
+      "word": "Plenty",
+      "phonetic": "[ˈplenti]",
+      "definition": "A large or sufficient amount or quantity; abundance.",
+      "analysis": "名詞/副詞/形容詞，意為「大量；充足；豐富」。",
+      "example": "Don't worry, there is plenty of time to solve this physics puzzle."
+    },
+    {
+      "word": "Undressing",
+      "phonetic": "[ʌnˈdresɪŋ]",
+      "definition": "Removing one's clothing.",
+      "analysis": "動詞/分詞，意為「脫衣服」。",
+      "example": "He was so distracted that he started undressing for bed in the middle of the afternoon."
+    },
+    {
+      "word": "Undress",
+      "phonetic": "[ʌnˈdres]",
+      "definition": "Take off one's clothes.",
+      "analysis": "動詞，意為「脫衣」。原形動詞。",
+      "example": "He forgot where he was and began to undress right in his study."
+    },
+    {
+      "word": "Autograph seeker",
+      "phonetic": "[ˈɔːtəɡræf ˈsiːkər]",
+      "definition": "A fan who pursues famous people to get their signature.",
+      "analysis": "短語，意為「索取簽名的人；簽名迷」。跟著成名後的愛因斯坦到處跑的人群。",
+      "example": "Everywhere he went, an autograph seeker would jump out with a pen."
+    },
+    {
+      "word": "Hounded",
+      "phonetic": "[ˈhaʊndɪd]",
+      "definition": "Harassed, pursued, or nagged persistently.",
+      "analysis": "動詞過去式/形容詞，意為「被緊追不捨的；被纏得煩不勝煩的」。",
+      "example": "The famous scientist was constantly hounded by curious reporters."
+    },
+    {
+      "word": "Newsreel",
+      "phonetic": "[ˈnuːzriːl]",
+      "definition": "A short documentary film of news events shown in theaters.",
+      "analysis": "名詞，意為「新聞紀錄短片」。電視普及前在電影院播放的影像新聞紀錄。",
+      "example": "People watched newsreel footage of the famous genius visiting America."
+    },
+    {
+      "word": "Coincidence",
+      "phonetic": "[koʊˈɪnsɪdəns]",
+      "definition": "A remarkable concurrence of events without apparent causal connection.",
+      "analysis": "名詞，意為「巧合；偶然一致」。兩件無關的事同時發生。",
+      "example": "It was a pure coincidence that both scientists published their ideas in the same year."
+    },
+    {
+      "word": "Solar eclipse",
+      "phonetic": "[ˈsoʊlər ɪˈklɪps]",
+      "definition": "An event where the moon passes between the sun and Earth, blocking sunlight.",
+      "analysis": "短語，意為「日食；日全蝕」。證實廣義相對論關鍵的天文現象。",
+      "example": "Scientists photographed the solar eclipse of 1919 to test Einstein's theory."
+    },
+    {
+      "word": "Nutty",
+      "phonetic": "[ˈnʌti]",
+      "definition": "Mad, eccentric, or foolish (informal).",
+      "analysis": "形容詞（口語），意為「古怪瘋狂的；古里古怪的」。",
+      "example": "Some teachers mistakenly thought his unconventional ideas were completely nutty."
+    },
+    {
+      "word": "Crackpot",
+      "phonetic": "[ˈkrækpɑːt]",
+      "definition": "An eccentric or foolish person with bizarre ideas.",
+      "analysis": "名詞/形容詞（口語），意為「怪人；狂人；想法荒謬異想天開的人」。",
+      "example": "Critics initially dismissed his bold relativity paper as the work of a crackpot."
+    },
+    {
+      "word": "Nominate",
+      "phonetic": "[ˈnɑːmɪneɪt]",
+      "definition": "Propose formally for a award, honor, or official position.",
+      "analysis": "動詞，意為「提名；推薦」。官方推薦角逐獎項。",
+      "example": "Colleagues voted to nominate him for the Nobel Prize in Physics."
+    },
+    {
+      "word": "Humiliating",
+      "phonetic": "[hjuːˈmɪlieɪtɪŋ]",
+      "definition": "Causing someone to feel ashamed, embarrassed, or foolish.",
+      "analysis": "形容詞，意為「令人羞辱的；使人難堪的」。極度令人丟臉的場合。",
+      "example": "Failing the entrance exam on his first try was a humiliating experience."
+    },
+    {
+      "word": "Encircle",
+      "phonetic": "[ɪnˈsɜːrkl]",
+      "definition": "Form a circle around; surround completely.",
+      "analysis": "動詞，意為「環繞；圍繞；圈住」。把事物包圍一圈。",
+      "example": "The equator is an imaginary line that can encircle the Earth."
+    },
+    {
+      "word": "Equator",
+      "phonetic": "[ɪˈkweɪtər]",
+      "definition": "An imaginary line drawn around the earth equally distant from both poles.",
+      "analysis": "名詞，意為「赤道」。劃分地球南北半球的虛構緯線。",
+      "example": "If you travel along the equator, you stay in the tropical zone."
+    },
+    {
+      "word": "Came up with an idea",
+      "phonetic": "[keɪm ʌp wɪð æn aɪˈdiːə]",
+      "definition": "Thought of or produced a new thought or solution.",
+      "analysis": "短語（過去式），意為「想出了一個點子／靈感」。頭腦中萌生新構想。",
+      "example": "While riding his bicycle, he came up with an idea that changed physics forever."
+    },
+    {
+      "word": "Grasp",
+      "phonetic": "[ɡræsp]",
+      "definition": "Hold firmly; comprehend or understand fully.",
+      "analysis": "動詞/名詞，意為「抓住；理解；領悟」。理解複雜艱深的理論。",
+      "example": "It took years for other scientists to fully grasp his theory of relativity."
+    },
+    {
+      "word": "Molecule",
+      "phonetic": "[ˈmɑːlɪkjuːl]",
+      "definition": "A group of atoms bonded together, representing the smallest unit of a chemical compound.",
+      "analysis": "名詞，意為「分子」。由原子組成的微觀物質基本單位。",
+      "example": "Water is made of molecules containing hydrogen and oxygen."
+    },
+    {
+      "word": "Atom",
+      "phonetic": "[ˈætəm]",
+      "definition": "The basic unit of a chemical element.",
+      "analysis": "名詞，意為「原子」。構成化學元素的微觀基本粒子。",
+      "example": "Einstein proved the existence of atoms mathematically."
+    },
+    {
+      "word": "Blast off",
+      "phonetic": "[blæst ɔːf]",
+      "definition": "Take off vertically from a launchpad (as a rocket).",
+      "analysis": "動詞短語，意為「（火箭）升空；發射點火起飛」。描述航天器快速發射。",
+      "example": "Spacecraft use immense energy to blast off into outer space."
+    },
+    {
+      "word": "Trap",
+      "phonetic": "[træp]",
+      "definition": "Catch or enclose in a place; a device for catching animals.",
+      "analysis": "動詞/名詞，意為「陷阱；困住；捕獲」。強大的引力連光都能捕捉困住。",
+      "example": "A black hole's gravity is so strong that it can trap light."
+    },
+    {
+      "word": "Gravity",
+      "phonetic": "[ˈɡrævəti]",
+      "definition": "The force that attracts a body toward the center of the earth or another heavy object.",
+      "analysis": "名詞，意為「地心引力；重力」。萬有引力。",
+      "example": "He explained gravity not as a force, but as the bending of space-time."
+    },
+    {
+      "word": "Cram",
+      "phonetic": "[kræm]",
+      "definition": "Completely fill to overflowing; study intensively in a short time.",
+      "analysis": "動詞，意為「塞滿；臨時抱佛腳死記硬背」。考試前死記硬背資料。",
+      "example": "He hated having to cram facts for school exams just to pass."
+    },
+    {
+      "word": "Sweaty feet",
+      "phonetic": "[ˈsweti fiːt]",
+      "definition": "Feet covered in perspiration.",
+      "analysis": "短語，意為「容易出汗的雙腳／流汗的腳」。愛因斯坦討厭穿襪子的原因之一。",
+      "example": "He stopped wearing socks because he complained they got sweaty feet wet."
+    },
+    {
+      "word": "Varicose veins",
+      "phonetic": "[ˈværɪkoʊs veɪnz]",
+      "definition": "Gnarled, enlarged veins, most commonly appearing in the legs.",
+      "analysis": "短語，意為「靜脈曲張」。腿部常見的血管腫脹膨大疾病。",
+      "example": "Standing for long hours at a chalkboard can aggravate varicose veins."
+    },
+    {
+      "word": "Piercing brown eyes",
+      "phonetic": "[ˈpɪrsɪŋ braʊn aɪz]",
+      "definition": "Intense, sharp, and deep brown eyes that seem to look right through someone.",
+      "analysis": "短語，意為「深邃銳利的棕色雙眼」。形容目光睿智銳利透徹。",
+      "example": "He stared out at the universe with his piercing brown eyes."
+    },
+    {
+      "word": "Wavy hair",
+      "phonetic": "[ˈweɪvi her]",
+      "definition": "Hair that has gentle curves and forms natural S-shapes.",
+      "analysis": "短語，意為「捲曲的頭髮；波浪髮」。愛因斯坦招牌炸開蓬鬆的捲髮。",
+      "example": "His wild wavy hair stuck out in all directions."
+    },
+    {
+      "word": "Explosion",
+      "phonetic": "[ɪkˈsploʊʒn]",
+      "definition": "A violent shattering or blowing apart with a loud noise; sudden outburst.",
+      "analysis": "名詞，意為「爆炸；爆發；突發事件」。核能或原子彈的巨大爆炸能量。",
+      "example": "The equation E=mc² showed how much energy an atomic explosion produces."
+    },
+    {
+      "word": "Diploma",
+      "phonetic": "[dɪˈploʊmə]",
+      "definition": "A certificate awarded by an educational institution to show completion of study.",
+      "analysis": "名詞，意為「畢業證書；文憑」。畢業獲得的學位證書。",
+      "example": "He eventually finished high school in Switzerland and earned his diploma."
+    },
+    {
+      "word": "Sailing",
+      "phonetic": "[ˈseɪlɪŋ]",
+      "definition": "The sport or activity of navigating a sailboat.",
+      "analysis": "名詞，意為「航海；駕帆船」。愛因斯坦最喜愛的放鬆休閒運動。",
+      "example": "He loved going sailing on quiet lakes, even though he didn't know how to swim."
+    },
+    {
+      "word": "Fascinated",
+      "phonetic": "[ˈfæsɪneɪtɪd]",
+      "definition": "Strongly attracted and interested; spellbound.",
+      "analysis": "形容詞，意為「著迷的；深深被吸引的」。對事物抱有極大的好奇心。",
+      "example": "Young Albert was fascinated by the magnetic compass his father gave him."
+    },
+    {
+      "word": "Nerd",
+      "phonetic": "[nɜːrd]",
+      "definition": "A foolish, unstylish, or socially awkward person; an overly intellectual fan.",
+      "analysis": "名詞（口語），意為「書呆子；科技控；沉迷學問的人」。",
+      "example": "Before he became famous, some kids called him a quiet nerd."
+    },
+    {
+      "word": "Feeding pigeons",
+      "phonetic": "[ˈfiːdɪŋ ˈpɪdʒɪnz]",
+      "definition": "Giving food particles to birds in public parks.",
+      "analysis": "短語，意為「餵鴿子」。描繪晚年悠閒生活散步的場景。",
+      "example": "In his later years in Princeton, he enjoyed sitting on park benches feeding pigeons."
+    },
+    {
+      "word": "Maid",
+      "phonetic": "[meɪd]",
+      "definition": "A female domestic servant.",
+      "analysis": "名詞，意為「女傭；打掃女侍」。家庭打掃幫傭。",
+      "example": "The house maid helped keep the messy study somewhat organized."
+    },
+    {
+      "word": "Tutor",
+      "phonetic": "[ˈtuːtər]",
+      "definition": "A private teacher, typically one who teaches a single student or small group.",
+      "analysis": "名詞/動詞，意為「家庭教師；私人導師」。輔導課業的教師。",
+      "example": "A medical student worked as a tutor to teach Albert advanced mathematics."
+    },
+    {
+      "word": "Temper tantrums",
+      "phonetic": "[ˈtempər ˈtæntrəmz]",
+      "definition": "Uncontrolled outbursts of anger and frustration, typically in a young child.",
+      "analysis": "短語，意為「發脾氣；耍態度暴怒」。幼年情緒失控砸物品。",
+      "example": "As a young child, Albert had severe temper tantrums and threw things at his sister."
+    },
+    {
+      "word": "Vegetarian",
+      "phonetic": "[ˌvedʒəˈteriən]",
+      "definition": "A person who does not eat meat or fish.",
+      "analysis": "名詞/形容詞，意為「素食者；素食的」。不吃肉類的飲食習慣。",
+      "example": "Later in life, he decided to become a strict vegetarian for health and moral reasons."
+    },
+    {
+      "word": "Jewish",
+      "phonetic": "[ˈdʒuːɪʃ]",
+      "definition": "Relating to or associated with Jews or Judaism.",
+      "analysis": "形容詞，意為「猶太人的；猶太教的」。民族與宗教背景。",
+      "example": "Because he was Jewish, he had to leave Germany when the Nazi party rose to power."
+    },
+    {
+      "word": "Weightlessly",
+      "phonetic": "[ˈweɪtləsli]",
+      "definition": "In a manner unaffected by gravity; floating effortlessly.",
+      "analysis": "副詞，意為「無重力地；失重地；輕飄飄地」。形容失重狀態下的懸浮。",
+      "example": "In a free-falling elevator, a person would float weightlessly."
+    },
+    {
+      "word": "Contest",
+      "phonetic": "[ˈkɑːntest]",
+      "definition": "An event in which people compete for a prize; dispute.",
+      "analysis": "名詞/動詞，意為「競賽；比賽；爭奪」。角逐勝負的活動。",
+      "example": "He entered a mathematics contest and easily solved every puzzle."
+    },
+    {
+      "word": "Award",
+      "phonetic": "[əˈwɔːrd]",
+      "definition": "Give or grant as an official payment, prize, or reward.",
+      "analysis": "名詞/動詞，意為「獎項；頒發；授予」。官方頒發榮譽。",
+      "example": "The committee decided to award him the 1921 Nobel Prize in Physics."
+    },
+    {
+      "word": "Relativity",
+      "phonetic": "[ˌreləˈtɪvəti]",
+      "definition": "Einstein's theory concerning space, time, and gravity.",
+      "analysis": "名詞，意為「相對論」。愛因斯坦最出名的物理學巨作。",
+      "example": "The General Theory of Relativity revolutionized how we view space and time."
+    },
+    {
+      "word": "Revolutionize",
+      "phonetic": "[ˌrevəˈluːʃənaɪz]",
+      "definition": "Change something radically or fundamentally.",
+      "analysis": "動詞，意為「徹底改革；顛覆；給…帶來革命性變化」。徹底改寫歷史領域。",
+      "example": "His famous equations helped revolutionize modern science."
+    },
+    {
+      "word": "Botany",
+      "phonetic": "[ˈbɑːtəni]",
+      "definition": "The scientific study of plants.",
+      "analysis": "名詞，意為「植物學」。研究植物結構與生的科學。",
+      "example": "While he excelled in physics, he showed little interest in botany."
+    },
+    {
+      "word": "Zoology",
+      "phonetic": "[zoʊˈɑːlədʒi]",
+      "definition": "The scientific study of the behavior, structure, and classification of animals.",
+      "analysis": "名詞，意為「動物學」。研究動物生命與行為的科學。",
+      "example": "Zoology deals with animal life, whereas Einstein focused on physical forces."
+    },
+    {
+      "word": "Flunk",
+      "phonetic": "[flʌŋk]",
+      "definition": "Fail an exam, course, or test (informal).",
+      "analysis": "動詞（口語），意為「不及格；考砸；當掉」。考試未達到通過標準。",
+      "example": "He did not flunk math, contrary to popular urban legends."
+    },
+    {
+      "word": "You’re nuts",
+      "phonetic": "[jʊr nʌts]",
+      "definition": "You are crazy, irrational, or foolish (informal phrase).",
+      "analysis": "短語（口語），意為「你瘋了；你真神經／不可理喻」。形容極度瘋狂異想天開。",
+      "example": "When he told people time could slow down, they replied, 'You're nuts!'"
+    },
+    {
+      "word": "Stating",
+      "phonetic": "[ˈsteɪtɪŋ]",
+      "definition": "Expressing something clearly or formally.",
+      "analysis": "動詞/分詞，意為「陳述；明言；發表說明」。明確發言發表理論。",
+      "example": "He published a paper stating that light travels in tiny energy quanta."
+    },
+    {
+      "word": "Geometry",
+      "phonetic": "[dʒiˈɑːmətri]",
+      "definition": "The branch of mathematics concerned with the properties and relations of points, lines, and shapes.",
+      "analysis": "名詞，意為「幾何學」。愛因斯坦少年時期深深著迷的數學分支。",
+      "example": "At age twelve, Albert taught himself Euclidean geometry over one summer."
+    },
+    {
+      "word": "Dopey",
+      "phonetic": "[ˈdoʊpi]",
+      "definition": "Foolish or stupid; slow-witted (informal).",
+      "analysis": "形容詞（口語），意為「傻乎乎的；反應遲鈍笨拙的」。",
+      "example": "Because he spoke slowly as a child, some thought he was dopey."
+    },
+    {
+      "word": "Dummy",
+      "phonetic": "[ˈdʌmi]",
+      "definition": "A stupid person; a mannequin or model.",
+      "analysis": "名詞（口語），意為「笨蛋；傻瓜；木頭人」。",
+      "example": "Strict teachers unfairly labeled young Albert a dummy."
+    },
+    {
+      "word": "Algebra",
+      "phonetic": "[ˈældʒɪbrə]",
+      "definition": "The branch of mathematics in which symbols and letters are used to represent numbers.",
+      "analysis": "名詞，意為「代數學」。用符號運算數字的數學分支。",
+      "example": "His uncle introduced him to algebra, calling it a game where you hunt for 'X'."
+    },
+    {
+      "word": "Cuckoo",
+      "phonetic": "[ˈkuːkuː]",
+      "definition": "Mad; crazy; eccentric (informal).",
+      "analysis": "形容詞/名詞（口語），意為「瘋瘋癲癲的；怪裡怪氣的；布谷鳥」。",
+      "example": "Some of his radical physics ideas sounded cuckoo to traditional professors."
+    },
+    {
+      "word": "Dope",
+      "phonetic": "[doʊp]",
+      "definition": "A stupid or foolish person (informal); slang for cool or drugs.",
+      "analysis": "名詞（口語），意為「笨蛋；傻瓜（書名所指）」。書標題用詞，反諷大眾以為他是笨蛋。",
+      "example": "The book humorously asks: Was Albert Einstein really a dope?"
+    }
+  ]
+}
