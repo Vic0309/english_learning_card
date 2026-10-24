@@ -400,13 +400,18 @@
 
   // 核心功能：從指定位置開始繼續/輪播
   async function playFromIndex(index) {
-    unlockAudio();
-    synth.cancel();
+    // 1. 立即停止並重置目前所有播放狀態，標記舊的非同步迴圈失效
     isPlaying = false;
     isPaused = false;
+    synth.cancel();
 
+    // 2. 短暫等待 50 毫秒讓舊的 Promise/delay 順利被攔截並跳出
+    await new Promise(resolve => setTimeout(resolve, 50));
+
+    // 3. 設定新的播放索引並啟動
     currentIndex = index;
     isPlaying = true;
+    isPaused = false;
     
     requestWakeLock();
     updateUI();
@@ -418,10 +423,12 @@
 
       try {
         await speakVocabItem(item);
+        // 確保在沒有被手動停止或切換的情況下才將索引加 1
         if (isPlaying && !isPaused) {
           currentIndex++;
         }
       } catch (err) {
+        // 當收到 'Interrupted' 錯誤時（代表被手動切換或停止），安全跳出迴圈
         break;
       }
     }
