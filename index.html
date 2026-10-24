@@ -378,7 +378,15 @@
     if (playSessionId !== sessionId) return;
     await delay(500, sessionId);
 
-    // 2. 唸英文定義 (definition_en)
+    // 2. 唸中文定義 (definition_tw)
+    if (item.definition_tw) {
+      if (playSessionId !== sessionId) return;
+      await speakText(item.definition_tw, 'zh-TW', 0.9, sessionId);
+      if (playSessionId !== sessionId) return;
+      await delay(500, sessionId);
+    }
+    
+    // 3. 唸英文定義 (definition_en)
     if (item.definition_en) {
       if (playSessionId !== sessionId) return;
       await speakText(item.definition_en, 'en-US', 0.9, sessionId);
@@ -386,13 +394,7 @@
       await delay(500, sessionId);
     }
 
-    // 3. 唸中文定義 (definition_tw)
-    if (item.definition_tw) {
-      if (playSessionId !== sessionId) return;
-      await speakText(item.definition_tw, 'zh-TW', 0.9, sessionId);
-      if (playSessionId !== sessionId) return;
-      await delay(500, sessionId);
-    }
+    
 
     // 4. 唸英文例句 (sentence_en)
     if (item.sentence_en) {
