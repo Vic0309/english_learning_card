@@ -12,7 +12,7 @@
       "sentence_en": "The ice harvesters sang rhythmically as they cut blocks from the frozen lake.",
       "sentence_tw": "採冰隊在凍結的湖面上切割冰塊時，富有節奏地歌唱著。",
       "analysis": "短語，意為「採冰人／採冰隊」。電影開頭在冰湖上記冰、運冰的工作者（Kristoff 養父們的職業）。",
-      "timing": ""
+      "timing": "電影開場採冰隊在大雪紛飛的結冰湖面上合唱開場曲並鑿冰時使用。"
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@
       "sentence_en": "Sven is a loyal reindeer who loves eating carrots.",
       "sentence_tw": "Sven 是一隻忠誠且喜歡吃胡蘿蔔的馴鹿。",
       "analysis": "名詞（單複數同形），意為「馴鹿」。指 Kristoff 忠誠的好夥伴 Sven。",
-      "timing": ""
+      "timing": "介紹 Kristoff 的好夥伴 Sven 或提及北歐雪地動物時使用。"
     },
     {
       "id": 3,
@@ -36,7 +36,7 @@
       "sentence_en": "They loaded the heavy ice blocks onto the wooden wagon.",
       "sentence_tw": "他們將沉重的冰塊裝載到木製貨運車上。",
       "analysis": "名詞，意為「四輪馬車；貨運車」。用於運送冰塊等重物。",
-      "timing": ""
+      "timing": "採冰隊將切好的巨大冰塊搬運上車準備運往王國時使用。"
     },
     {
       "id": 4,
@@ -48,7 +48,7 @@
       "sentence_en": "Kristoff took great pride in his brand-new sled.",
       "sentence_tw": "Kristoff 對他那輛全新的雪橇感到非常自豪。",
       "analysis": "名詞，意為「雪橇」。Kristoff 在雪地穿梭的核心交通工具。",
-      "timing": ""
+      "timing": "Kristoff 帶著 Anna 乘坐雪橇趕路以及後來雪橇毀壞時使用。"
     },
     {
       "id": 5,
@@ -60,7 +60,7 @@
       "sentence_en": "The sled was hurtling down the snowy mountain path.",
       "sentence_tw": "雪橇沿著積雪的山路高速疾馳而下。",
       "analysis": "動詞/分詞，意為「疾馳；猛衝」。形容雪橇或物體急速飛馳。",
-      "timing": ""
+      "timing": "雪橇在冰雪山谷中遭到野狼追趕、快速俯衝時使用。"
     },
     {
       "id": 6,
@@ -72,7 +72,7 @@
       "sentence_en": "The king and queen searched desperately for a way to cure Anna.",
       "sentence_tw": "國王和王后絕望且急切地尋找治療 Anna 的方法。",
       "analysis": "副詞，意為「拼命地；絕望地；急切地」。形容迫切尋求解決方案的心情。",
-      "timing": ""
+      "timing": "Anna 被冰雪魔法擊中頭部後，國王與王后焦急尋求石怪救助時使用。"
     },
     {
       "id": 7,
@@ -84,7 +84,7 @@
       "sentence_en": "Sven snorted in agreement when Kristoff spoke to him.",
       "sentence_tw": "當 Kristoff 對 Sven 說話時，Sven 哼了一氣表示贊同。",
       "analysis": "動詞過去式，意為「噴氣；哼氣」。形容動物（如 Sven）發出鼻息聲。",
-      "timing": ""
+      "timing": "Kristoff 模仿 Sven 聲音說話，Sven 用鼻息回應時使用。"
     },
     {
       "id": 8,
@@ -96,7 +96,7 @@
       "sentence_en": "The sound of hoof striking ice echoed through the quiet valley.",
       "sentence_tw": "蹄子叩擊冰面的聲音在寧靜的山谷中迴盪。",
       "analysis": "名詞（複數為 hooves），意為「（馬或馴鹿的）蹄」。",
-      "timing": ""
+      "timing": "國王騎馬飛馳或 Sven 在冰面上踏步發出聲響時使用。"
     },
     {
       "id": 9,
@@ -104,11 +104,11 @@
       "pos": "v.",
       "kk": "[ˈresld]",
       "definition_en": "Struggled hand-to-hand with someone; fought to overcome a difficult force.",
-      "analysis": "動詞過去式，意為「格鬥；摔角；努力角力」。形容費勁控制車頭或重物。",
       "definition_tw": "奮力控制；努力角力",
       "sentence_en": "He wrestled with the sled steering handles to maintain control.",
       "sentence_tw": "他奮力握緊雪橇的方向把手以維持控制。",
-      "timing": ""
+      "analysis": "動詞過去式，意為「格鬥；摔角；努力角力」。形容費勁控制車頭或重物。",
+      "timing": "雪橇失控險些翻覆時，Kristoff 奮力拉住韁繩與控制桿時使用。"
     },
     {
       "id": 10,
@@ -120,7 +120,7 @@
       "sentence_en": "Good steering is crucial when sliding down icy slopes.",
       "sentence_tw": "在結冰的斜坡下滑時，良好的轉向操縱至關重要。",
       "analysis": "名詞/分詞，意為「操縱；方向控制」。掌控前進方向。",
-      "timing": ""
+      "timing": "描述雪橇方向極難控制、險些撞上岩石時使用。"
     },
     {
       "id": 11,
@@ -132,7 +132,7 @@
       "sentence_en": "They held up a glowing lantern to light the dark mountain pathway.",
       "sentence_tw": "他們舉起明亮的提燈來照亮黑暗的山路。",
       "analysis": "名詞，意為「提燈；燈籠」。黑夜或冰洞中照明的古老手提燈具。",
-      "timing": ""
+      "timing": "深夜國王帶著一家人手提明燈趕往石怪山谷時使用。"
     },
     {
       "id": 12,
@@ -144,7 +144,7 @@
       "sentence_en": "The kingdom of Arendelle was built right along the edge of a breathtaking fjord.",
       "sentence_tw": "艾倫戴爾王國就建立在令人屏息的峽灣邊緣。",
       "analysis": "名詞，意為「峽灣」。北歐挪威風光地形，Arendelle 王國坐落之處。",
-      "timing": ""
+      "timing": "介紹 Arendelle 王國地理位置或 Elsa 踏上冰凍峽灣海面時使用。"
     },
     {
       "id": 13,
@@ -156,7 +156,7 @@
       "sentence_en": "The gossamer green light of the Northern Lights danced across the night sky.",
       "sentence_tw": "北極光那如薄紗般輕柔的綠光在夜空中翩翩起舞。",
       "analysis": "短語，意為「如薄紗般輕柔飄渺的綠光」。描述極光（Northern Lights）的幻彩美感。",
-      "timing": ""
+      "timing": "夜空中出現綠色北極光、映照著國王一家趕路時使用。"
     },
     {
       "id": 14,
@@ -168,7 +168,7 @@
       "sentence_en": "The fresh snow reflected the moonlight with a dazzling luster.",
       "sentence_tw": "新雪反射著月光，散發出耀眼的光澤。",
       "analysis": "名詞，意為「光澤；柔和的光彩」。形容冰晶或珍珠的光芒。",
-      "timing": ""
+      "timing": "描繪冰雪城堡或夜間雪地反射光芒時使用。"
     },
     {
       "id": 15,
@@ -180,7 +180,7 @@
       "sentence_en": "The young princesses giggled as they built a snowman indoors.",
       "sentence_tw": "小公主們在室內堆雪人時咯咯笑個不停。",
       "analysis": "動詞過去式，意為「咯咯地笑；嘻笑」。描繪幼年 Elsa 和 Anna 玩耍時的笑聲。",
-      "timing": ""
+      "timing": "幼年 Elsa 與 Anna 深夜在宴會廳變雪堆雪人、快樂嬉戲時使用。"
     },
     {
       "id": 16,
@@ -192,7 +192,7 @@
       "sentence_en": "Elsa created a giant floating snowflake over her hand.",
       "sentence_tw": "Elsa 在手心上方變出了一朵巨大的飄浮雪花。",
       "analysis": "名詞，意為「雪花」。",
-      "timing": ""
+      "timing": "幼年 Elsa 在掌心變出精緻飄浮雪花展示給 Anna 看時使用。"
     },
     {
       "id": 17,
@@ -204,7 +204,7 @@
       "sentence_en": "'What a twirl!' Anna shouted happily as she spun on the ice.",
       "sentence_tw": "「多麼漂亮的旋轉啊！」Anna 在冰上旋轉時高興地喊道。",
       "analysis": "短語，意為「多麼精彩漂亮的旋轉啊！」。讚嘆舞蹈或旋轉姿勢。",
-      "timing": ""
+      "timing": "Anna 在室內冰面上快樂滑行並原地旋轉時使用。"
     },
     {
       "id": 18,
@@ -216,7 +216,7 @@
       "sentence_en": "Elsa summoned her magical powers to form an icy playground.",
       "sentence_tw": "Elsa 召喚了她的魔法力量，打造出一個冰雪樂園。",
       "analysis": "動詞過去式，意為「召喚；聚起（魔力或勇氣）」。形容 Elsa 召喚冰雪魔力。",
-      "timing": ""
+      "timing": "Elsa 動用體內魔力將整個大廳變成冰雪世界時使用。"
     },
     {
       "id": 19,
@@ -228,7 +228,7 @@
       "sentence_en": "She stomped her feet, creating a wave of frost across the ballroom floor.",
       "sentence_tw": "她重重跺腳，在舞廳地面上激起了一陣霜浪。",
       "analysis": "短語，意為「重重跺腳」。用腳猛力踩踏地面激發魔力。",
-      "timing": ""
+      "timing": "Elsa 在冰面上踩腳、瞬間凍結地面形成冰床時使用。"
     },
     {
       "id": 20,
@@ -240,7 +240,7 @@
       "sentence_en": "A layer of thin ice swept across the polished wooden floor.",
       "sentence_tw": "一層薄冰迅速席捲了光滑的木地板。",
       "analysis": "短語，意為「冰霜席捲／橫掃」。描繪冰霜快速蔓延。",
-      "timing": ""
+      "timing": "魔力爆發時，冰霜迅速順著地板和牆壁蔓延開來時使用。"
     },
     {
       "id": 21,
@@ -252,7 +252,7 @@
       "sentence_en": "They went swooping down the snow slides Elsa conjured.",
       "sentence_tw": "她們順著 Elsa 變出的雪滑梯急速俯衝而下。",
       "analysis": "動詞/分詞，意為「俯衝；飛掠」。形容滑行或鳥飛掠姿態。",
-      "timing": ""
+      "timing": "Anna 在 Elsa 造出的雪丘上跳躍、飛掠高空時使用。"
     },
     {
       "id": 22,
@@ -264,7 +264,7 @@
       "sentence_en": "A fountain of snow soared up toward the high ceiling.",
       "sentence_tw": "一座雪噴泉直衝向高高的天花板。",
       "analysis": "動詞短語（過去式），意為「騰空高飛；直衝雲霄」。",
-      "timing": ""
+      "timing": "Anna 藉著 Elsa 變出的雪山高高躍起、飛向半空時使用。"
     },
     {
       "id": 23,
@@ -276,7 +276,7 @@
       "sentence_en": "Snowballs were tossed upward as the girls played.",
       "sentence_tw": "當女孩們玩耍時，雪球被向上高高拋起。",
       "analysis": "短語，意為「向上拋起」。向上拋擲物件。",
-      "timing": ""
+      "timing": "姐妹倆互相丟拋雪球嬉戲時使用。"
     },
     {
       "id": 24,
@@ -288,7 +288,7 @@
       "sentence_en": "Elsa's foot slipped on the slick ice, causing her magic to go out of control.",
       "sentence_tw": "Elsa 的腳在滑溜的冰面上滑了一下，導致她的魔法失控。",
       "analysis": "短語，意為「腳底滑了一下／失足」。滑倒導致事故發生的轉折點。",
-      "timing": ""
+      "timing": "Elsa 追不上跳躍的 Anna、腳底在冰上滑倒失控時使用。"
     },
     {
       "id": 25,
@@ -300,7 +300,7 @@
       "sentence_en": "Her playful magic suddenly went awry, striking her sister.",
       "sentence_tw": "她嬉戲用的魔法突然出了差錯，擊中了她的妹妹。",
       "analysis": "短語（過去式），意為「出了差錯；失控；走樣」。計畫或魔法失控。",
-      "timing": ""
+      "timing": "魔法失去控制、誤傷 Anna 頭部時使用。"
     },
     {
       "id": 26,
@@ -312,7 +312,7 @@
       "sentence_en": "A sudden blast of icy magic hit Anna directly in the head.",
       "sentence_tw": "一陣突如其來的冰霜魔法衝擊波直接擊中了 Anna 的頭部。",
       "analysis": "名詞/動詞，意為「魔法衝擊波；爆破；寒風吹襲」。",
-      "timing": ""
+      "timing": "冰雪魔力衝擊波射中 Anna 導致她昏迷時使用。"
     },
     {
       "id": 27,
@@ -324,7 +324,7 @@
       "sentence_en": "The king and queen gasped in horror when they saw Anna collapse.",
       "sentence_tw": "國王和王后看到 Anna 倒下時震驚地倒吸了一口涼氣。",
       "analysis": "動詞過去式，意為「倒吸一口涼氣；驚呼」。因震驚倒抽一口氣。",
-      "timing": ""
+      "timing": "國王王后破門而入看到暈倒的 Anna 和滿屋冰霜時使用。"
     },
     {
       "id": 28,
@@ -336,7 +336,7 @@
       "sentence_en": "Anna lay shivering on the ground as white frost spread through her hair.",
       "sentence_tw": "Anna 躺在地上瑟瑟發抖，白霜開始在她頭髮間蔓延。",
       "analysis": "動詞/分詞，意為「打顫；發抖」。因嚴寒或害怕發抖。",
-      "timing": ""
+      "timing": "Anna 被魔力傷到後全身發冷打顫、頭髮開始變白時使用。"
     },
     {
       "id": 29,
@@ -348,7 +348,7 @@
       "sentence_en": "Sharp icicles formed along the edges of the bedroom walls.",
       "sentence_tw": "臥室牆壁邊緣凝結出了尖銳的冰錐。",
       "analysis": "名詞，意為「冰柱；冰錐」。",
-      "timing": ""
+      "timing": "Elsa 恐慌時房間牆角與天花板急速生長出冰錐時使用。"
     },
     {
       "id": 30,
@@ -360,7 +360,7 @@
       "sentence_en": "The wise old troll Grand Pabbie possessed ancient magical wisdom.",
       "sentence_tw": "睿智的老石怪 Grand Pabbie 擁有古老的魔法智慧。",
       "analysis": "名詞，意為「石怪；石巨魔」。住在 Valley of the Living Rock 的善良長老與族人。",
-      "timing": ""
+      "timing": "長老 Grand Pabbie 與圓滾滾的石怪族人出現時使用。"
     },
     {
       "id": 31,
@@ -372,7 +372,7 @@
       "sentence_en": "They bundled up Anna in a thick blanket and rode into the forest.",
       "sentence_tw": "他們用厚毯子把 Anna 包裹得嚴嚴實實，騎馬奔入森林。",
       "analysis": "短語（過去式），意為「包裹得嚴嚴實實；穿得暖暖的」。",
-      "timing": ""
+      "timing": "國王抱起昏迷的 Anna 用披風厚毯包裹好準備出發時使用。"
     },
     {
       "id": 32,
@@ -384,7 +384,7 @@
       "sentence_en": "The king saddled his fastest horse without losing a second.",
       "sentence_tw": "國王分秒必爭地為他最快的馬裝上馬鞍。",
       "analysis": "動詞過去式，意為「裝上馬鞍」。為騎乘作準備。",
-      "timing": ""
+      "timing": "連夜準備緊急騎馬出門尋找石怪時使用。"
     },
     {
       "id": 33,
@@ -396,7 +396,7 @@
       "sentence_en": "The rumble of hooves shattered the silence of the misty night.",
       "sentence_tw": "馬蹄的轟鳴聲打破了薄霧夜色的寧靜。",
       "analysis": "短語，意為「馬蹄發出的轟鳴巨響」。馬群疾馳聲。",
-      "timing": ""
+      "timing": "皇家馬隊在黑夜中疾馳穿過山谷發出巨響時使用。"
     },
     {
       "id": 34,
@@ -408,7 +408,7 @@
       "sentence_en": "They rode at a full gallop toward the hidden valley.",
       "sentence_tw": "他們全速飛馳，奔向隱密的山谷。",
       "analysis": "名詞/動詞，意為「（馬）飛馳；疾馳」。高速度奔跑。",
-      "timing": ""
+      "timing": "國王催馬全速趕往 Living Rock 谷地時使用。"
     },
     {
       "id": 35,
@@ -420,7 +420,7 @@
       "sentence_en": "The royal horse whinnied softly as it approached the mystical rocks.",
       "sentence_tw": "當靠近神秘的岩石時，皇家馬匹輕聲嘶鳴。",
       "analysis": "動詞過去式，意為「（馬）嘶鳴；歡叫」。馬匹發出的鳴叫聲。",
-      "timing": ""
+      "timing": "馬匹到達石怪谷地停下腳步發出嘶鳴時使用。"
     },
     {
       "id": 36,
@@ -432,7 +432,7 @@
       "sentence_en": "She stroking her hair absently, lost in deep anxiety.",
       "sentence_tw": "她心不在焉地撫摸著頭髮，陷入深深的焦慮中。",
       "analysis": "副詞，意為「心不在焉地；神不守舍地」。出神地做動作。",
-      "timing": ""
+      "timing": "王后因焦慮與擔憂而發呆撫摸 Anna 頭髮時使用。"
     },
     {
       "id": 37,
@@ -444,7 +444,7 @@
       "sentence_en": "They persuaded the trolls to help save their daughter.",
       "sentence_tw": "他們說服了石怪們幫忙拯救他們的女兒。",
       "analysis": "動詞過去式，意為「說服；勸說成功的」。",
-      "timing": ""
+      "timing": "國王向長老說明來意並請求醫治 Anna 時使用。"
     },
     {
       "id": 38,
@@ -456,7 +456,7 @@
       "sentence_en": "Grand Pabbie's glowing hands hovered over Anna's forehead.",
       "sentence_tw": "Grand Pabbie 發光的手掌懸浮在 Anna 的額頭上方。",
       "analysis": "動詞過去式，意為「盤旋；懸浮；縈繞」。懸在空中或附近不離去。",
-      "timing": ""
+      "timing": "石怪長老將雙手懸在 Anna 額頭上方施法消除記憶時使用。"
     },
     {
       "id": 39,
@@ -468,7 +468,7 @@
       "sentence_en": "The troll conjured an illusion of light in the air to show them the future.",
       "sentence_tw": "石怪在空中變出了光的幻象，為他們展示未來。",
       "analysis": "動詞過去式，意為「變出；召喚（變魔術般顯現）」。",
-      "timing": ""
+      "timing": "長老在半空中變出光影幻象警告 Elsa 魔法的危險時使用。"
     },
     {
       "id": 40,
@@ -480,7 +480,7 @@
       "sentence_en": "The illusion showed a spectre of fear controlling her magic.",
       "sentence_tw": "幻象展示了恐懼的陰影正在掌控她的魔法。",
       "analysis": "名詞，意為「幽靈；鬼魂；恐懼的陰影／幻象」。",
-      "timing": ""
+      "timing": "石怪幻象中展示 Elsa 被恐懼反噬的陰暗景象時使用。"
     },
     {
       "id": 41,
@@ -492,7 +492,7 @@
       "sentence_en": "Light formed a glowing effigy of adult Elsa in the air.",
       "sentence_tw": "光線在半空中凝聚成成年 Elsa 發光的幻像。",
       "analysis": "名詞，意為「雕像；人像；幻像假人」。光芒構成的人形假象。",
-      "timing": ""
+      "timing": "光線聚合成成年 Elsa 的光影形體時使用。"
     },
     {
       "id": 42,
@@ -504,7 +504,7 @@
       "sentence_en": "Elsa was confined to a secluded wing of the castle.",
       "sentence_tw": "Elsa 被限制生活在城堡一處僻靜的側殿裡。",
       "analysis": "形容詞，意為「隱蔽的；隱居清靜的；僻靜的」。與世隔絕的環境。",
-      "timing": ""
+      "timing": "國王關閉城堡大門、將 Elsa 安置在獨自房間時使用。"
     },
     {
       "id": 43,
@@ -516,7 +516,7 @@
       "sentence_en": "'Conceal, don't feel, don't let it show,' became Elsa's motto.",
       "sentence_tw": "「藏起來，不要有感受，別讓大家看出來」成了 Elsa 的座右銘。",
       "analysis": "動詞，意為「隱藏；遮掩；掩蓋」。故事中 Elsa 父親告誡的核心格言（Conceal, don't feel）。",
-      "timing": ""
+      "timing": "父親送給 Elsa 手套並交待口訣「Conceal, don't feel」時使用。"
     },
     {
       "id": 44,
@@ -528,7 +528,7 @@
       "sentence_en": "A devastating storm engulfed the king and queen's ship at sea.",
       "sentence_tw": "一場毀滅性的風暴在海上吞沒了國王和王后的船隻。",
       "analysis": "動詞過去式，意為「吞沒；包圍；淹沒」。完全被火焰、浪潮或悲傷籠罩。",
-      "timing": ""
+      "timing": "海上巨浪與暴風雨吞沒國王與王后航行的船隻時使用。"
     },
     {
       "id": 45,
@@ -540,7 +540,7 @@
       "sentence_en": "The entire kingdom mourned the tragic loss of their ruler.",
       "sentence_tw": "全國上下都在哀悼國王統治者的悲慘離世。",
       "analysis": "動詞過去式，意為「哀悼；悼念；為…哀傷」。悼念去世的雙親。",
-      "timing": ""
+      "timing": "國王與王后遇難後，全王國上下舉辦葬禮悼念時使用。"
     },
     {
       "id": 46,
@@ -552,7 +552,7 @@
       "sentence_en": "On coronation day, the harbor was bustling with foreign ships.",
       "sentence_tw": "加冕日當天，港口裡外國船隻雲集，熙熙攘攘。",
       "analysis": "形容詞，意為「熱鬧忙碌的；熙熙攘攘的」。熱鬧繁忙的港口景象。",
-      "timing": ""
+      "timing": "加冕日當天城堡大門開啟、港口人山人海熱鬧無比時使用。"
     },
     {
       "id": 47,
@@ -564,7 +564,7 @@
       "sentence_en": "Guests gathered from afar to attend Elsa's official coronation.",
       "sentence_tw": "賓客們從遠方趕來參加 Elsa 的正式加冕典禮。",
       "analysis": "名詞，意為「加冕典禮」。故事前半段重大事件。",
-      "timing": ""
+      "timing": "Anna 歡慶「For the First Time in Forever」及 Elsa 加冕時使用。"
     },
     {
       "id": 48,
@@ -576,7 +576,7 @@
       "sentence_en": "The Duke of Weselton was a visiting dignitary seeking trade advantages.",
       "sentence_tw": "Weselton 公爵是一位前來尋求貿易優勢的外國貴賓。",
       "analysis": "名詞，意為「高官；顯要人物；貴賓」。受邀參會的各國政要。",
-      "timing": ""
+      "timing": "Weselton 公爵等外國高官貴賓抵達 Arendelle 參會時使用。"
     },
     {
       "id": 49,
@@ -588,7 +588,7 @@
       "sentence_en": "Anna burst out the castle gates, singing with joy.",
       "sentence_tw": "Anna 歡唱著衝出了城堡大門。",
       "analysis": "動詞/名詞，意為「衝出；爆發；破裂」。感情或門猛然打開。",
-      "timing": ""
+      "timing": "城堡大門一打開，Anna 興奮無比地衝出門外時使用。"
     },
     {
       "id": 50,
@@ -600,7 +600,7 @@
       "sentence_en": "She tugged at her tight coronation gown in frustration.",
       "sentence_tw": "她沮喪地用力拉扯著緊繃的加冕禮服。",
       "analysis": "動詞過去式，意為「拉；用力拽」。",
-      "timing": ""
+      "timing": "Anna 覺得禮服笨重緊繃、拉扯衣服裙擺時使用。"
     },
     {
       "id": 51,
@@ -612,7 +612,7 @@
       "sentence_en": "A large sailing vessel tied its ropes to the wooden dock.",
       "sentence_tw": "一艘大型帆船將纜繩繫在木製碼頭上。",
       "analysis": "名詞/動詞，意為「碼頭；船塢」。停靠船隻的岸邊設施。",
-      "timing": ""
+      "timing": "Anna 在碼頭邊奔跑、撞上 Hans 的小船時使用。"
     },
     {
       "id": 52,
@@ -624,7 +624,7 @@
       "sentence_en": "The small boat tipped precariously into the water when she bumped it.",
       "sentence_tw": "當她撞到小船時，小船危險地歪斜傾入水中。",
       "analysis": "短語，意為「搖搖欲墜地傾斜；危險地歪斜」。幾乎要翻倒下去。",
-      "timing": ""
+      "timing": "Anna 被馬撞到摔進 Hans 的小船、小船險些翻覆時使用。"
     },
     {
       "id": 53,
@@ -636,7 +636,7 @@
       "sentence_en": "Elsa struggled hard to maintain her composure in front of the crowd.",
       "sentence_tw": "Elsa 在人群面前極力維持著鎮定。",
       "analysis": "名詞，意為「鎮定；沉著；平靜的心態」。控制住情緒與態勢。",
-      "timing": ""
+      "timing": "Elsa 在加冕儀式上強忍緊張、極力保持鎮定時使用。"
     },
     {
       "id": 54,
@@ -648,7 +648,7 @@
       "sentence_en": "The princess was genuinely concerned for the welfare of her subjects.",
       "sentence_tw": "公主由衷地關心臣民的福祉。",
       "analysis": "名詞，意為「福祉；安康；利益」。人民與國家的安危福祉。",
-      "timing": ""
+      "timing": "Hans 代理執政時向民眾分發物資、關心百姓福祉時使用。"
     },
     {
       "id": 55,
@@ -660,7 +660,7 @@
       "sentence_en": "Anna curtsied politely to the handsome young prince.",
       "sentence_tw": "Anna 彬彬有禮地向那位英俊的年輕王子行屈膝禮。",
       "analysis": "動詞過去式，意為「行屈膝禮」。女性高雅的社交宮廷禮儀。",
-      "timing": ""
+      "timing": "Anna 第一次在碼頭見到 Hans 王子連忙行禮時使用。"
     },
     {
       "id": 56,
@@ -672,7 +672,7 @@
       "sentence_en": "The heavy iron gates slammed shut behind her.",
       "sentence_tw": "沉重的鐵門在她身後砰的一聲關上了。",
       "analysis": "動詞過去式，意為「砰地關上；猛力撞擊」。",
-      "timing": ""
+      "timing": "加冕舞會結束後，城堡大門再次砰然關閉時使用。"
     },
     {
       "id": 57,
@@ -684,7 +684,7 @@
       "sentence_en": "The ballroom was decorated with gorgeous floral banners.",
       "sentence_tw": "舞廳裡裝飾著絢麗的花卉旗幟。",
       "analysis": "形容詞，意為「極其美麗華麗的；絢麗的」。讚嘆絕美場面或服飾。",
-      "timing": ""
+      "timing": "Anna 讚嘆加冕舞會大廳華麗的裝飾與燈光時使用。"
     },
     {
       "id": 58,
@@ -696,7 +696,7 @@
       "sentence_en": "Anna started rambling about chocolate and awkwardness when meeting Hans.",
       "sentence_tw": "當遇見 Hans 時，Anna 開始語無倫次地講起巧克力和尷尬的話題。",
       "analysis": "形容詞/分詞，意為「漫無邊際嘀咕的；扯遠的；蔓延的」。緊張時說話語無倫次。",
-      "timing": ""
+      "timing": "Anna 遇見 Hans 緊張得講話顛三倒四、胡言亂語時使用。"
     },
     {
       "id": 59,
@@ -708,7 +708,7 @@
       "sentence_en": "The cathedral bells began to peal, announcing the official ceremony.",
       "sentence_tw": "大教堂的鐘聲開始齊鳴，宣告典禮正式開始。",
       "analysis": "短語，意為「鐘聲齊鳴；發出震耳宏亮響聲」。教堂大鐘敲響。",
-      "timing": ""
+      "timing": "教堂大鐘響起、宣告加冕典禮即將開始時使用。"
     },
     {
       "id": 60,
@@ -720,7 +720,7 @@
       "sentence_en": "She fell into the water with a loud splash.",
       "sentence_tw": "她伴隨著巨大的落水聲掉進了水裡。",
       "analysis": "名詞/動詞，意為「濺水聲；潑濺；落水聲」。水花四濺聲響。",
-      "timing": ""
+      "timing": "Anna 連同小船摔落水中發出巨大水花聲時使用。"
     },
     {
       "id": 61,
@@ -732,7 +732,7 @@
       "sentence_en": "The coronation ceremony took place in the royal cathedral.",
       "sentence_tw": "加冕典禮在皇家大教堂舉行。",
       "analysis": "名詞，意為「大教堂」。舉辦加冕大典的莊嚴教堂。",
-      "timing": ""
+      "timing": "加冕儀式在莊嚴的大教堂內部舉行時使用。"
     },
     {
       "id": 62,
@@ -744,7 +744,7 @@
       "sentence_en": "The grand orchestra played delightful waltzes for the dancing couples.",
       "sentence_tw": "大型管弦樂團為起舞的伴侶們演奏著優美的華爾滋舞曲。",
       "analysis": "名詞，意為「管弦樂團」。宮廷宴會現場演奏伴奏的樂團。",
-      "timing": ""
+      "timing": "加冕舞會現場管弦樂團奏樂、賓客翩翩起舞時使用。"
     },
     {
       "id": 63,
@@ -756,7 +756,7 @@
       "sentence_en": "The choir's angelic voices resonated through the high stone arches.",
       "sentence_tw": "合唱團天使般的歌聲在高聳的石拱門間迴盪。",
       "analysis": "名詞，意為「合唱團；聖樂團」。加冕大典上唱聖歌的合唱團。",
-      "timing": ""
+      "timing": "教堂加冕儀式上合唱團演唱莊嚴聖歌時使用。"
     },
     {
       "id": 64,
@@ -768,7 +768,7 @@
       "sentence_en": "The Bishop handed the sacred orb and scepter to Elsa.",
       "sentence_tw": "主教將神聖的寶球和權杖遞給了 Elsa。",
       "analysis": "名詞，意為「主教」。主持加冕典禮的神職人員。",
-      "timing": ""
+      "timing": "主教主持加冕、要求 Elsa 脫下手套握持法器時使用。"
     },
     {
       "id": 65,
@@ -780,7 +780,7 @@
       "sentence_en": "Elsa had to remove her gloves to hold the scepter and orb.",
       "sentence_tw": "Elsa 必須手套脫下才能手握權杖與寶球。",
       "analysis": "短語，意為「權杖與寶球」。象徵君王至高權力的皇家法器。",
-      "timing": ""
+      "timing": "Elsa 必須赤手接過權杖與寶球進行加冕誓詞時使用。"
     },
     {
       "id": 66,
@@ -792,7 +792,7 @@
       "sentence_en": "'Her Majesty, Queen Elsa of Arendelle!' announced the herald.",
       "sentence_tw": "「女王陛下，艾倫戴爾的 Elsa 女王！」傳令官宣佈道。",
       "analysis": "名詞，意為「陛下；威嚴；尊嚴」。對國王皇后的尊稱。",
-      "timing": ""
+      "timing": "傳令官向眾人隆重宣佈 Elsa 女王陛下登場時使用。"
     },
     {
       "id": 67,
@@ -804,7 +804,7 @@
       "sentence_en": "The Bishop intoned the ancient Latin coronation prayers.",
       "sentence_tw": "主教莊嚴地吟誦著古老的拉丁文加冕祈禱文。",
       "analysis": "動詞過去式，意為「吟誦；用莊嚴單調的語調宣告/朗誦」。莊嚴頌念誓詞。",
-      "timing": ""
+      "timing": "主教在加冕典禮上莊嚴唸誦祈禱誓言時使用。"
     },
     {
       "id": 68,
@@ -816,7 +816,7 @@
       "sentence_en": "The banquet tables were lavishly set with fine food and silver.",
       "sentence_tw": "宴會餐桌擺滿了精緻佳餚與銀器，極其奢華。",
       "analysis": "副詞，意為「奢華地；豐富盛大地」。擺設極其豐富高檔。",
-      "timing": ""
+      "timing": "描繪皇家加冕宴會上擺滿高級美食與飾品的奢華場面時使用。"
     },
     {
       "id": 69,
@@ -828,7 +828,7 @@
       "sentence_en": "Anna caught a sweet whiff of roasted chocolate.",
       "sentence_tw": "Anna 聞到了一陣烤巧克力的甜香。",
       "analysis": "名詞/動詞，意為「一陣（香味/臭味）；一絲氣味」。飄過鼻子的一陣味道。",
-      "timing": ""
+      "timing": "Anna 在舞會上聞到空氣中傳來的巧克力香氣時使用。"
     },
     {
       "id": 70,
@@ -840,7 +840,7 @@
       "sentence_en": "The delicious aroma wafting from the bakery made her hungry.",
       "sentence_tw": "烘焙坊徐徐飄散出的誘人香氣讓她感到飢餓。",
       "analysis": "短語，意為「徐徐飄散香氣／芳香飄溢」。食物或花香隨風飄散開來。",
-      "timing": ""
+      "timing": "描述宴會廳內巧克力與各色美食香氣隨風飄散時使用。"
     },
     {
       "id": 71,
@@ -852,7 +852,7 @@
       "sentence_en": "Elsa stiffened when the guest stepped too close to her hand.",
       "sentence_tw": "當賓客離她的手太近時，Elsa 的全身瞬間繃緊起來。",
       "analysis": "動詞過去式，意為「（身體）僵硬起來；挺直；繃緊」。因緊張突然全身變硬。",
-      "timing": ""
+      "timing": "Anna 試圖搶走 Elsa 手套、Elsa 因驚恐身體瞬間僵硬時使用。"
     },
     {
       "id": 72,
@@ -864,7 +864,7 @@
       "sentence_en": "Anna nudged Hans playfully while they were talking.",
       "sentence_tw": "Anna 在交談時俏皮地用手肘推了推 Hans。",
       "analysis": "動詞過去式，意為「用肘輕推；輕觸提醒」。暗示或輕推提醒對方。",
-      "timing": ""
+      "timing": "Anna 與 Hans 聊得投機、用手肘輕推暗示對方時使用。"
     },
     {
       "id": 73,
@@ -876,7 +876,7 @@
       "sentence_en": "They had a marvelous time dancing together at the party.",
       "sentence_tw": "他們在派對上共舞，度過了一段絕妙的時光。",
       "analysis": "形容詞，意為「極好的；非凡精彩的；絕妙的」。讚賞極棒場面。",
-      "timing": ""
+      "timing": "Anna 與 Hans 興高采烈合唱「Love is an Open Door」時使用。"
     },
     {
       "id": 74,
@@ -888,7 +888,7 @@
       "sentence_en": "She cringed when the Duke performed his awkward dance moves.",
       "sentence_tw": "當公爵跳起他那笨拙的舞步時，她尷尬得直皺眉。",
       "analysis": "動詞過去式，意為「感到尷尬畏縮；尷尬得直皺眉/倒退」。形容極度尷尬身姿。",
-      "timing": ""
+      "timing": "Weselton 公爵展現滑稽笨拙舞姿、Anna 和 Elsa 感到尷尬時使用。"
     },
     {
       "id": 75,
@@ -900,7 +900,7 @@
       "sentence_en": "The Duke looked like a dying peacock as he strutted across the floor.",
       "sentence_tw": "當公爵在舞池中趾高氣揚時，看起來就像一隻瀕死的大孔雀。",
       "analysis": "短語，意為「瀕死的大孔雀」。生動形容公爵誇張滑稽、滑稽難看的舞姿。",
-      "timing": ""
+      "timing": "公爵在舞池中滑稽甩頭跳舞、姐妹私下嘲笑他舞姿時使用。"
     },
     {
       "id": 76,
@@ -912,7 +912,7 @@
       "sentence_en": "The guests watched the dance with great amusement.",
       "sentence_tw": "賓客們饒有興緻且覺得逗樂地看著舞蹈。",
       "analysis": "名詞，意為「娛樂；可笑樂趣；逗樂」。覺得好笑有趣發笑。",
-      "timing": ""
+      "timing": "Anna 與 Elsa 因公爵跳舞的滑稽模樣而相視發笑時使用。"
     },
     {
       "id": 77,
@@ -924,7 +924,7 @@
       "sentence_en": "The injured guard limped away from the icy scene.",
       "sentence_tw": "受傷的衛兵一瘸一拐地離開了結冰的現場。",
       "analysis": "動詞過去式，意為「跛行；一瘸一拐地走」。腳受傷步履不平。",
-      "timing": ""
+      "timing": "衛兵在冰宮被冰怪踩傷或擊退後跛行撤退時使用。"
     },
     {
       "id": 78,
@@ -936,7 +936,7 @@
       "sentence_en": "Despite his age, the Duke was sprightly on his feet.",
       "sentence_tw": "儘管年事已高，公爵腳步依然十分輕快充沛。",
       "analysis": "形容詞，意為「活潑精神矍鑠的；輕快的」。形容長者精神奕奕抖擻。",
-      "timing": ""
+      "timing": "描繪 Weselton 公爵雖年長卻精力過人地衝向舞池時使用。"
     },
     {
       "id": 79,
@@ -948,7 +948,7 @@
       "sentence_en": "Anna looked wistfully out at the open kingdom gates.",
       "sentence_tw": "Anna 滿懷渴望且依依不捨地望著打開的王國大門。",
       "analysis": "副詞，意為「渴望地；悵然若失地；留戀地」。眼神充滿憧憬與一絲憂傷。",
-      "timing": ""
+      "timing": "Anna 望著門外自由的世界、憧憬愛情與交友時使用。"
     },
     {
       "id": 80,
@@ -960,7 +960,7 @@
       "sentence_en": "She tripped into Prince Hans's arms, blushing furiously.",
       "sentence_tw": "她意外跌入了 Hans 王子的懷裡，臉蛋刷地紅透了。",
       "analysis": "短語（過去式），意為「絆倒撞進…懷裡；意外跌入」。摔倒跌撞到人身邊。",
-      "timing": ""
+      "timing": "Anna 在碼頭被馬撞到不小心跌入 Hans 王子懷中時使用。"
     },
     {
       "id": 81,
@@ -972,7 +972,7 @@
       "sentence_en": "Hans plucked a sweet grape from the tray as they walked.",
       "sentence_tw": "Hans 在他們散步時順手從托盤上摘下了一顆甜葡萄。",
       "analysis": "動詞過去式，意為「拔下；採摘；快速抓取」。快速摘下物品。",
-      "timing": ""
+      "timing": "Hans 在舞會散步時順手從侍者托盤上摘下水果時使用。"
     },
     {
       "id": 82,
@@ -984,7 +984,7 @@
       "sentence_en": "Anna beamed with happiness when Hans proposed to her.",
       "sentence_tw": "當 Hans 向 Anna 求婚時，她滿面春風、幸福無比。",
       "analysis": "動詞過去式，意為「開懷大笑；面露喜色；滿面春風」。幸福發光笑容。",
-      "timing": ""
+      "timing": "Anna 聽到 Hans 向她求婚、露出滿面幸福微笑時使用。"
     },
     {
       "id": 83,
@@ -996,7 +996,7 @@
       "sentence_en": "Elsa stopped scoffing and grew serious when Anna insisted on marrying a stranger.",
       "sentence_tw": "當 Anna 堅持要嫁給一個陌生人時，Elsa 收起了嘲笑，表情變得嚴肅起來。",
       "analysis": "動詞/分詞，意為「嘲笑；嗤之以鼻；鄙視不屑發聲」。",
-      "timing": ""
+      "timing": "Elsa 聽到 Anna 宣佈要和剛認識一天的男人結婚時嗤之以鼻。"
     },
     {
       "id": 84,
@@ -1008,7 +1008,7 @@
       "sentence_en": "Anger was frothing up inside her as the argument escalated.",
       "sentence_tw": "隨著爭執升級，她內心的怒火不斷翻騰湧上。",
       "analysis": "短語，意為「翻騰；起泡；情緒憤怒起伏沸騰」。感情或冰霜翻滾沸騰。",
-      "timing": ""
+      "timing": "姐妹在大廳激烈爭吵、Elsa 內心恐懼與怒火不斷湧上時使用。"
     },
     {
       "id": 85,
@@ -1020,7 +1020,7 @@
       "sentence_en": "Icy plumes shot out from Elsa's gloveless hand across the floor.",
       "sentence_tw": "羽毛狀的冰霜從 Elsa 沒戴手套的手中噴湧而出，橫掃地板。",
       "analysis": "短語，意為「羽毛狀的冰柱／冰霜羽霧」。冰氣噴湧噴射出來的型態。",
-      "timing": ""
+      "timing": "Elsa 揮手拒絕 Anna 時，失控噴發出羽毛狀冰晶突刺時使用。"
     },
     {
       "id": 86,
@@ -1032,7 +1032,7 @@
       "sentence_en": "The music stopped abruptly as the crowd gasped in horror.",
       "sentence_tw": "當人群驚恐地倒吸一口氣時，音樂戛然而止。",
       "analysis": "副詞，意為「突然地；唐突地；戛然而止地」。場面突然停頓中斷。",
-      "timing": ""
+      "timing": "Elsa 魔法失控暴露後，全場音樂與舞蹈戛然而止時使用。"
     },
     {
       "id": 87,
@@ -1044,7 +1044,7 @@
       "sentence_en": "'Sorcery!' cried the terrified Duke, cowering behind his guards.",
       "sentence_tw": "「是巫術！」驚恐萬分的公爵躲在衛兵身後大叫道。",
       "analysis": "名詞，意為「巫術；魔法；邪術」。公爵指控 Elsa 魔力的詞彙。",
-      "timing": ""
+      "timing": "Weselton 公爵看見冰晶後尖叫指控 Elsa 使用邪惡巫術時使用。"
     },
     {
       "id": 88,
@@ -1056,7 +1056,7 @@
       "sentence_en": "The townspeople caught a terrifying glimpse of her icy magic.",
       "sentence_tw": "鎮上居民驚恐地瞥見了她的冰雪魔法。",
       "analysis": "名詞/動詞，意為「一瞥；看見一眼」。短暫瞥見看清。",
-      "timing": ""
+      "timing": "鎮上居民在城堡中庭瞥見 Elsa 手中冒出冰雪時使用。"
     },
     {
       "id": 89,
@@ -1068,7 +1068,7 @@
       "sentence_en": "'Stay away from me!' Elsa hissed as she backed toward the courtyard.",
       "sentence_tw": "「離我遠點！」Elsa 邊退向中庭邊厲聲說道。",
       "analysis": "動詞過去式，意為「發出嘶嘶聲；壓低聲音厲聲指責/急促說道」。",
-      "timing": ""
+      "timing": "Elsa 恐慌地向靠近她的人群厲聲警告「Stay away!」時使用。"
     },
     {
       "id": 90,
@@ -1080,7 +1080,7 @@
       "sentence_en": "She ran past the crowd toward the shore of the fjord.",
       "sentence_tw": "她穿過人群，跑向峽灣的岸邊。",
       "analysis": "名詞，意為「海岸；岸邊」。水域陸地交界之處。",
-      "timing": ""
+      "timing": "Elsa 一路被追趕、逃到峽灣岸邊無路可退時使用。"
     },
     {
       "id": 91,
@@ -1092,7 +1092,7 @@
       "sentence_en": "Her voice sounded strained as she tried to calm her breathing.",
       "sentence_tw": "當她試圖平復呼吸時，聲音聽起來十分吃力緊繃。",
       "analysis": "形容詞/動詞過去式，意為「緊張繃緊的；吃力的」。拉緊吃力不自然姿態。",
-      "timing": ""
+      "timing": "Elsa 逃跑時極度緊張吃力、呼吸急促時使用。"
     },
     {
       "id": 92,
@@ -1104,7 +1104,7 @@
       "sentence_en": "The guard scowled at the approaching crowd.",
       "sentence_tw": "衛兵怒目而視著靠近的人群。",
       "analysis": "動詞過去式，意為「怒目而視；皺眉怒視」。怒氣沖沖皺眉。",
-      "timing": ""
+      "timing": "Weselton 公爵的手下帶著敵意與殺氣皺眉注視 Elsa 時使用。"
     },
     {
       "id": 93,
@@ -1116,7 +1116,7 @@
       "sentence_en": "In pure desperation, Elsa stepped onto the open water of the fjord.",
       "sentence_tw": "在絕望之中，Elsa 踏上了峽灣的水面。",
       "analysis": "名詞，意為「絕望；走投無路拼死一搏」。",
-      "timing": ""
+      "timing": "Elsa 走投無路之下伸腳踩向水面、試圖跨海逃跑時使用。"
     },
     {
       "id": 94,
@@ -1128,7 +1128,7 @@
       "sentence_en": "Anna trudged up the freezing mountain, shivering in her thin gown.",
       "sentence_tw": "Anna 身穿薄禮服瑟瑟發抖，步履艱難地登上寒冷的山峰。",
       "analysis": "短語（過去式），意為「步履艱難地攀登／跋涉上去」。雪地艱難步行上山。",
-      "timing": ""
+      "timing": "Anna 獨自一人穿著薄禮服在深雪山路中艱難爬山時使用。"
     },
     {
       "id": 95,
@@ -1140,7 +1140,7 @@
       "sentence_en": "Elsa let her hair down into a loose, stylish wavy braid.",
       "sentence_tw": "Elsa 散下頭髮，綁成隨性時尚的波浪麻花辮。",
       "analysis": "短語，意為「波浪狀的辮子／麻花辮」。Elsa 解開頭髮後的經典髮型。",
-      "timing": ""
+      "timing": "Elsa 演唱「Let It Go」解開髮束、綁成隨性髮辮時使用。"
     },
     {
       "id": 96,
@@ -1152,7 +1152,7 @@
       "sentence_en": "Her new dress was completed with a long cape of gossamer frost.",
       "sentence_tw": "她的新禮服配上一條薄霜交織而成的長披風，顯得更加完美。",
       "analysis": "短語，意為「薄霜交織成的披風／冰霜披風」。Elsa 變裝後身後的輕柔冰晶斗篷。",
-      "timing": ""
+      "timing": "Elsa 換上藍色冰雪禮服並變出輕柔冰晶披風時使用。"
     },
     {
       "id": 97,
@@ -1164,7 +1164,7 @@
       "sentence_en": "High on the North Mountain stood her exquisite ice palace.",
       "sentence_tw": "在她高聳的北山之上，屹立著一座精美絕倫的冰雪城堡。",
       "analysis": "短語，意為「精美絕倫的冰雪城堡」。Elsa 在北山建造的冰宮。",
-      "timing": ""
+      "timing": "Elsa 在北山頂端完工極致美麗的冰晶城堡時使用。"
     },
     {
       "id": 98,
@@ -1176,7 +1176,7 @@
       "sentence_en": "The ice palace shone brilliantly in the morning sunlight.",
       "sentence_tw": "冰宮在清晨的陽光下閃爍著耀眼的光芒。",
       "analysis": "名詞，意為「宮殿；城堡」。皇室住所或冰宮。",
-      "timing": ""
+      "timing": "提及 Arendelle 王國城堡或 Elsa 的北山冰宮時使用。"
     },
     {
       "id": 99,
@@ -1188,7 +1188,7 @@
       "sentence_en": "The blizzard wind howled through the mountain peaks.",
       "sentence_tw": "暴風雪呼嘯著掠過山峰。",
       "analysis": "動詞過去式，意為「咆哮；（狂風）怒號」。形容雪暴狂風發聲。",
-      "timing": ""
+      "timing": "北山暴風雪狂風呼嘯、「Let It Go」歌詞「The wind is howling like this swirling storm inside」時使用。"
     },
     {
       "id": 100,
@@ -1200,7 +1200,7 @@
       "sentence_en": "Only an act of true love can thaw a frozen heart.",
       "sentence_tw": "唯有真愛的舉動才能融化一顆冰封的心。",
       "analysis": "動詞/名詞，意為「融化；解凍；融雪」。冰雪消融化水。",
-      "timing": ""
+      "timing": "石怪說明「唯有真愛能融化冰封的心」及最後冰雪消融時使用。"
     },
     {
       "id": 101,
@@ -1212,7 +1212,7 @@
       "sentence_en": "A fierce blizzard swept over the mountain, blinding travelers.",
       "sentence_tw": "強烈的暴風雪席捲了山峰，遮蔽了旅人的視線。",
       "analysis": "名詞，意為「暴風雪」。急速強烈的狂風大雪環境。",
-      "timing": ""
+      "timing": "高山與峽灣爆發強烈暴風雪、視線全黑時使用。"
     },
     {
       "id": 102,
@@ -1224,7 +1224,7 @@
       "sentence_en": "Olaf loved dreaming about tropical beaches and warm sunshine.",
       "sentence_tw": "Olaf 喜歡幻想熱帶海灘與溫暖的陽光。",
       "analysis": "形容詞，意為「熱帶的；炎熱溫暖的」。Olaf 幻想熱帶夏天的詞彙。",
-      "timing": ""
+      "timing": "Olaf 歡唱「In Summer」幻想熱帶海灘與陽光時使用。"
     },
     {
       "id": 103,
@@ -1236,7 +1236,7 @@
       "sentence_en": "A small lump of snow suddenly rolled down the hill and came to life.",
       "sentence_tw": "一小塊雪團突然滾下山坡，獲得了生命。",
       "analysis": "短語，意為「一團雪／雪塊」。雪球雪團堆。",
-      "timing": ""
+      "timing": "描述 Olaf 原本只是 Elsa 隨手變出的一團雪球時使用。"
     },
     {
       "id": 104,
@@ -1248,7 +1248,7 @@
       "sentence_en": "The little snow creature darted behind a rock.",
       "sentence_tw": "小雪怪迅速閃身躲到了岩石後面。",
       "analysis": "動詞過去式，意為「飛奔；敏捷疾馳」。像箭一般迅速移動竄走。",
-      "timing": ""
+      "timing": "Olaf 在樹林間靈活竄來竄去、穿梭自如時使用。"
     },
     {
       "id": 105,
@@ -1260,7 +1260,7 @@
       "sentence_en": "She breathed in the sharp, frigid air of the mountain peak.",
       "sentence_tw": "她吸入了山頂刺骨冰冷的空氣。",
       "analysis": "短語，意為「刺骨冰冷的空氣」。嚴寒冷冽氣流。",
-      "timing": ""
+      "timing": "描繪高山頂端刺骨冰冷的空氣吹掠時使用。"
     },
     {
       "id": 106,
@@ -1272,7 +1272,7 @@
       "sentence_en": "The arctic cold froze the fjord in a matter of minutes.",
       "sentence_tw": "極地嚴寒在幾分鐘內就凍結了整個峽灣。",
       "analysis": "短語，意為「極地嚴寒／北極般的寒冷」。凍徹心扉的溫度。",
-      "timing": ""
+      "timing": "描述 Arendelle 在盛夏瞬間陷入極地嚴寒時使用。"
     },
     {
       "id": 107,
@@ -1284,7 +1284,7 @@
       "sentence_en": "Olaf was a funny little fellow who loved warm hugs.",
       "sentence_tw": "Olaf 是一個有趣的小傢伙，最喜歡溫暖的擁抱。",
       "analysis": "名詞/形容詞，意為「傢伙；伙伴；同伴」。親切稱呼夥伴。",
-      "timing": ""
+      "timing": "Anna 向 Kristoff 介紹 Olaf 這個有趣的小傢伙時使用。"
     },
     {
       "id": 108,
@@ -1296,7 +1296,7 @@
       "sentence_en": "Kristoff walked briskly through the snow toward the trading post.",
       "sentence_tw": "Kristoff 腳步輕快地踩著雪邁向貿易站。",
       "analysis": "副詞，意為「輕快地；敏捷地；幹脆俐落步履」。富有活力速度快。",
-      "timing": ""
+      "timing": "Kristoff 冒著風雪快步走進 Oaken 商店時使用。"
     },
     {
       "id": 109,
@@ -1308,7 +1308,7 @@
       "sentence_en": "The fireplace kept the small cabin warm and toasty.",
       "sentence_tw": "壁爐讓小木屋裡保持得溫暖又舒適。",
       "analysis": "形容詞，意為「溫暖舒適的；暖呼呼的」。溫暖舒服狀態。",
-      "timing": ""
+      "timing": "Oaken 介紹小木屋桑拿房溫暖舒服（Toasty）時使用。"
     },
     {
       "id": 110,
@@ -1320,7 +1320,7 @@
       "sentence_en": "Beneath her calm face, fear and confusion were seething.",
       "sentence_tw": "在她平靜的面孔下，恐懼與困惑正在強烈翻騰。",
       "analysis": "形容詞/分詞，意為「強烈壓抑憤怒怒火中燒的；沸騰的」。深層憤怒起伏。",
-      "timing": ""
+      "timing": "Elsa 獨自在冰宮中恐慌與壓抑情緒強烈翻騰時使用。"
     },
     {
       "id": 111,
@@ -1332,7 +1332,7 @@
       "sentence_en": "The massive North Mountain loomed over them in the mist.",
       "sentence_tw": "龐大的北山在薄霧中向他們赫然聳立。",
       "analysis": "動詞過去式，意為「赫然聳立；隱隱約約浮現（龐大威脅感）」。龐大物體在前方出現。",
-      "timing": ""
+      "timing": "巨大險峻的北山佇立在一行人面前時使用。"
     },
     {
       "id": 112,
@@ -1344,7 +1344,7 @@
       "sentence_en": "Kristoff wore a permanent frown as he walked.",
       "sentence_tw": "Kristoff 走著路時總是皺著眉頭。",
       "analysis": "名詞/動詞，意為「皺眉；不悅表露」。不悅皺眉態勢。",
-      "timing": ""
+      "timing": "Kristoff 被 Anna 盧著要帶路時一臉不爽皺眉時使用。"
     },
     {
       "id": 113,
@@ -1356,7 +1356,7 @@
       "sentence_en": "The reindeer moved swiftly across the frozen landscape.",
       "sentence_tw": "馴鹿迅速地穿過結冰的大地。",
       "analysis": "副詞，意為「迅速地；敏捷平滑地」。速度快順暢。",
-      "timing": ""
+      "timing": "Sven 拉著雪橇在雪地上飛速奔馳時使用。"
     },
     {
       "id": 114,
@@ -1368,7 +1368,7 @@
       "sentence_en": "The wind moaned softly through the snow-covered pine trees.",
       "sentence_tw": "寒風在覆雪的松樹間發出陣陣低鳴。",
       "analysis": "動詞過去式，意為「呻吟；發出痛苦悲鳴發聲」。呻吟發出低鳴。",
-      "timing": ""
+      "timing": "山谷寒風在樹林間呼嘯發出低鳴聲時使用。"
     },
     {
       "id": 115,
@@ -1380,7 +1380,7 @@
       "sentence_en": "Sven was snuffling around the snow searching for buried carrots.",
       "sentence_tw": "Sven 在雪地裡哼哧哼哧地嗅著，尋找埋在下面的胡蘿蔔。",
       "analysis": "動詞/分詞，意為「用鼻子吸氣抽鼻子；哼哧哼哧嗅聞」。動物用鼻子抽氣嗅探。",
-      "timing": ""
+      "timing": "Sven 嗅聞雪地尋找胡蘿蔔發出哼哼聲時使用。"
     },
     {
       "id": 116,
@@ -1392,7 +1392,7 @@
       "sentence_en": "He huffed in the freezing mountain air and pulled his hat lower.",
       "sentence_tw": "他喘著氣吸入山間冰冷的空氣，把帽子拉得更低。",
       "analysis": "短語（過去式），意為「氣呼呼地吸入／喘著氣吸入」。氣呼呼大口吸氣。",
-      "timing": ""
+      "timing": "Kristoff 爬山累得大口喘著寒氣時使用。"
     },
     {
       "id": 117,
@@ -1404,7 +1404,7 @@
       "sentence_en": "Oaken offered them a jar of pickled fish and a quart of lutefisk.",
       "sentence_tw": "Oaken 向他們提供了一罐醃魚和一誇脫的鹼漬魚。",
       "analysis": "短語，意為「一誇脫的醃製鹼漬魚」。北歐傳統美食，Wandering Oaken 雜貨店賣的特產食材。",
-      "timing": ""
+      "timing": "Oaken 在商店裡向客戶推銷鹼漬魚（Lutefisk）特價優惠時使用。"
     },
     {
       "id": 118,
@@ -1416,7 +1416,7 @@
       "sentence_en": "Kristoff grunted in reply when Oaken greeted him.",
       "sentence_tw": "當 Oaken 向 Kristoff 打招呼時，他只是咕嚕一聲作答。",
       "analysis": "動詞過去式，意為「咕嚕聲；哼一聲」。不悅或發力悶哼。",
-      "timing": ""
+      "timing": "Kristoff 敷衍店家或搬重物時發出不悅悶哼時使用。"
     },
     {
       "id": 119,
@@ -1428,7 +1428,7 @@
       "sentence_en": "They set off into the mountains just as dawn was breaking.",
       "sentence_tw": "天剛破曉，他們就出發前往山區。",
       "analysis": "名詞/動詞，意為「黎明；拂曉；破曉」。清晨第一道曙光。",
-      "timing": ""
+      "timing": "太陽升起、一行人在天剛亮時趕路時使用。"
     },
     {
       "id": 120,
@@ -1440,7 +1440,7 @@
       "sentence_en": "The sled got stuck deep in a heavy snow drift.",
       "sentence_tw": "雪橇卡在了厚厚的雪堆深處。",
       "analysis": "名詞/動詞，意為「雪堆；漂流；隨風漂移」。風吹形成的深雪堆積。",
-      "timing": ""
+      "timing": "雪橇衝進厚厚的積雪堆中無法前進時使用。"
     },
     {
       "id": 121,
@@ -1452,7 +1452,7 @@
       "sentence_en": "The sled was finished with shiny, red protective lacquer.",
       "sentence_tw": "這輛雪橇塗上了紅亮奪目的保護漆。",
       "analysis": "名詞/動詞，意為「漆；漆樹塗料；塗漆光亮面」。高光表面塗漆塗層。",
-      "timing": ""
+      "timing": "Kristoff 愛惜地誇耀自己雪橇亮晶晶的烤漆時使用。"
     },
     {
       "id": 122,
@@ -1464,7 +1464,7 @@
       "sentence_en": "Kristoff freaked out when he realized the snow statue was talking to him.",
       "sentence_tw": "當 Kristoff 發現雪人居然在對他說話時，他徹底嚇壞了。",
       "analysis": "短語（過去式），意為「嚇壞了；抓狂；崩潰嚇傻」。極度震驚崩潰表情。",
-      "timing": ""
+      "timing": "Kristoff 看到會說話的雪人 Olaf 突然開口、嚇一大跳時使用。"
     },
     {
       "id": 123,
@@ -1476,7 +1476,7 @@
       "sentence_en": "'Great, a talking snowman,' Kristoff said sarcastically.",
       "sentence_tw": "「太好了，一個會說話的雪人，」Kristoff 挖苦地說道。",
       "analysis": "副詞，意為「諷刺地；挖苦地」。用反話挖苦嘲弄。",
-      "timing": ""
+      "timing": "Kristoff 語氣酸酸地冷嘲熱諷時使用。"
     },
     {
       "id": 124,
@@ -1488,7 +1488,7 @@
       "sentence_en": "Sven pulled the heavy wooden sleigh through the white powder.",
       "sentence_tw": "Sven 拉著沉重的木製雪橇穿過白雪。",
       "analysis": "名詞，意為「乘人用大型雪橇」。載客乘用的精美雪橇車（與 sled 同義但多指載人大雪橇）。",
-      "timing": ""
+      "timing": "描述 Sven 拖拉載人的大型精美雪橇時使用。"
     },
     {
       "id": 125,
@@ -1500,7 +1500,7 @@
       "sentence_en": "Kristoff played his lute and sang a funny song to Sven.",
       "sentence_tw": "Kristoff 彈著魯特琴，對著 Sven 唱起了一首滑稽的歌。",
       "analysis": "名詞，意為「琵琶；魯特琴」。Kristoff 自彈自唱拿著的弦樂器。",
-      "timing": ""
+      "timing": "Kristoff 在木屋裡彈著琴對 Sven 唱「Reindeers Are Better Than People」時使用。"
     },
     {
       "id": 126,
@@ -1512,7 +1512,7 @@
       "sentence_en": "The wild wolf made a sudden lunge toward Anna.",
       "sentence_tw": "野狼突然朝 Anna 猛撲過來。",
       "analysis": "動詞/名詞，意為「猛衝；向前撲殺／前刺」。突然飛身猛衝向前撲擊。",
-      "timing": ""
+      "timing": "野狼群張牙舞爪跳上雪橇猛撲過來時使用。"
     },
     {
       "id": 127,
@@ -1524,7 +1524,7 @@
       "sentence_en": "She ducked just in time as a tree branch swung past her head.",
       "sentence_tw": "樹枝從她頭上掠過時，她及時低頭躲了過去。",
       "analysis": "動詞過去式，意為「迅速低頭避開；快速閃躲蹲下」。下蹲躲避姿態。",
-      "timing": ""
+      "timing": "Anna 低頭閃避迎面撞來的樹枝或野狼攻擊時使用。"
     },
     {
       "id": 128,
@@ -1536,7 +1536,7 @@
       "sentence_en": "To their dismay, the path ahead ended at a sheer cliff.",
       "sentence_tw": "讓他們吃驚沮喪的是，前方的路止於一片陡峭的懸崖。",
       "analysis": "名詞/動詞，意為「沮喪；吃驚慌張；灰心喪氣」。措手不及心慌震驚。",
-      "timing": ""
+      "timing": "發現前面的路是絕壁懸崖、雪橇被毀時極度沮喪時使用。"
     },
     {
       "id": 129,
@@ -1548,7 +1548,7 @@
       "sentence_en": "They reached the edge of a massive gorge cut into the mountain.",
       "sentence_tw": "他們來到山體間形成的巨大峽谷邊緣。",
       "analysis": "短語，意為「巨大的深谷／大峽谷」。深不可測的懸崖深谷。",
-      "timing": ""
+      "timing": "雪橇一路狂奔到巨大懸崖深谷邊緣時使用。"
     },
     {
       "id": 130,
@@ -1560,7 +1560,7 @@
       "sentence_en": "Kristoff leaped across the wide gap to safety.",
       "sentence_tw": "Kristoff 縱身飛躍過寬闊的鴻溝，到達安全地帶。",
       "analysis": "動詞過去式，意為「飛躍；跳躍」。大力跨躍過空間懸崖。",
-      "timing": ""
+      "timing": "Sven 奮力一躍跨越懸崖深谷時使用。"
     },
     {
       "id": 131,
@@ -1572,7 +1572,7 @@
       "sentence_en": "A pack of hungry wolves appeared out of nowhere in the darkness.",
       "sentence_tw": "一群飢餓的狼憑空出現在黑暗中。",
       "analysis": "短語，意為「不知從哪冒出來；憑空出現；突然間」。",
-      "timing": ""
+      "timing": "狼群突然在黑夜雪地中憑空冒出襲擊時使用。"
     },
     {
       "id": 132,
@@ -1584,7 +1584,7 @@
       "sentence_en": "Sven nuzzled Kristoff affectionately to comfort him after losing the sled.",
       "sentence_tw": "失去雪橇後，Sven 親暱地用鼻子蹭了蹭 Kristoff 來安慰他。",
       "analysis": "動詞過去式，意為「用鼻子親暱蹭/依偎」。動物親暱討好用鼻子蹭人。",
-      "timing": ""
+      "timing": "雪橇摔碎後，Sven 用鼻子溫柔蹭蹭傷心的 Kristoff 時使用。"
     },
     {
       "id": 133,
@@ -1596,7 +1596,7 @@
       "sentence_en": "She tried to look composed despite the danger all around them.",
       "sentence_tw": "儘管周圍危險重重，她仍努力保持鎮定。",
       "analysis": "形容詞/動詞過去式，意為「鎮定的；沈著自若的；平靜組成的」。",
-      "timing": ""
+      "timing": "Anna 面對危機試圖表現得冷靜鎮定時使用。"
     },
     {
       "id": 134,
@@ -1608,7 +1608,7 @@
       "sentence_en": "The rough mountain terrain made traveling dangerous and slow.",
       "sentence_tw": "崎嶇的山區地形讓旅程既危險又緩慢。",
       "analysis": "名詞，意為「地形；地勢」。描述險峻的自然陸地環境。",
-      "timing": ""
+      "timing": "形容北山地形險峻、難以爬行攀登時使用。"
     },
     {
       "id": 135,
@@ -1620,7 +1620,7 @@
       "sentence_en": "Sven got his large antler tangled in the tree branches.",
       "sentence_tw": "Sven 大大的鹿角纏在了樹枝上。",
       "analysis": "名詞，意為「鹿角」。馴鹿頭上的分支硬角。",
-      "timing": ""
+      "timing": "Sven 頭上的巨大鹿角被樹枝卡住或用鹿角頂雪球時使用。"
     },
     {
       "id": 136,
@@ -1632,7 +1632,7 @@
       "sentence_en": "Frost covered the delicate leaves of the willow tree.",
       "sentence_tw": "霜雪覆蓋了柳樹纖細的葉片。",
       "analysis": "名詞，意為「柳樹；垂柳」。枝條垂落的樹種。",
-      "timing": ""
+      "timing": "描繪被冰雪覆蓋的浪漫柳樹樹枝時使用。"
     },
     {
       "id": 137,
@@ -1644,7 +1644,7 @@
       "sentence_en": "The ground was glistening with fresh, untouched snow.",
       "sentence_tw": "地面因無人踩踏的新雪而閃耀著微光。",
       "analysis": "形容詞/分詞，意為「晶瑩剔透的；閃耀著微光的」。潮濕冰雪發光表面。",
-      "timing": ""
+      "timing": "看到滿山遍野晶瑩閃耀的冰雕森林景致時使用。"
     },
     {
       "id": 138,
@@ -1656,7 +1656,7 @@
       "sentence_en": "Olaf found his arms tangled up in hanging vines.",
       "sentence_tw": "Olaf 發現自己的手臂被垂掛的藤蔓纏住了。",
       "analysis": "短語（過去式），意為「糾纏在一起；纏住勾住」。繩索枝條亂成一團。",
-      "timing": ""
+      "timing": "Olaf 被冰晶藤蔓纏住手臂時使用。"
     },
     {
       "id": 139,
@@ -1668,7 +1668,7 @@
       "sentence_en": "The harsh sun on the white snow seemed to bleach everything around.",
       "sentence_tw": "白雪上刺眼的陽光彷彿把周圍的一切都洗刷成了白色。",
       "analysis": "動詞/名詞，意為「漂白；使褪色變白／漂白劑」。白雪將色彩洗刷成白色。",
-      "timing": ""
+      "timing": "形容刺眼的雪光將大地染得一片潔白時使用。"
     },
     {
       "id": 140,
@@ -1680,7 +1680,7 @@
       "sentence_en": "Her velvet cloak was a vibrant shade of crimson.",
       "sentence_tw": "她的天鵝絨斗篷呈現出鮮豔的深紅色。",
       "analysis": "名詞/形容詞，意為「深紅色；緋紅色」。濃郁鮮紅色彩。",
-      "timing": ""
+      "timing": "描繪 Anna 身上穿的深紅色天鵝絨披風時使用。"
     },
     {
       "id": 141,
@@ -1692,7 +1692,7 @@
       "sentence_en": "Olaf pointed out a lovely chartreuse flower peeking through snow.",
       "sentence_tw": "Olaf 指著一朵從雪地裡露出來的可愛黃綠色小花。",
       "analysis": "名詞/形容詞，意為「黃綠色；黃綠相間色」。陽光下的黃綠特色色彩。",
-      "timing": ""
+      "timing": "Olaf 描述他在夏天最喜歡的黃綠色花朵時使用。"
     },
     {
       "id": 142,
@@ -1704,7 +1704,7 @@
       "sentence_en": "Olaf gave them a wide, goofy grin as he introduced himself.",
       "sentence_tw": "Olaf 在自我介紹時對他們露出了燦爛而傻呼呼的笑容。",
       "analysis": "形容詞，意為「滑稽傻氣的；傻呼呼的」。形容可愛好笑個性。",
-      "timing": ""
+      "timing": "描繪 Olaf 露出招牌傻笑、憨態可掬時使用。"
     },
     {
       "id": 143,
@@ -1716,7 +1716,7 @@
       "sentence_en": "Kristoff looked at the talking snowman and muttered, 'You are creepy.'",
       "sentence_tw": "Kristoff 看著會說話的雪人，嘟囔道：「你真怪嚇人的。」",
       "analysis": "短語，意為「你真毛骨悚然／怪嚇人的」。直白表達對方怪異讓人起雞皮疙瘩。",
-      "timing": ""
+      "timing": "Kristoff 被 Olaf 突然分離的身體和奇怪對話嚇到時直言使用。"
     },
     {
       "id": 144,
@@ -1728,7 +1728,7 @@
       "sentence_en": "Anna shrieked when Olaf's head suddenly popped off his body.",
       "sentence_tw": "當 Olaf 的頭突然從身體上掉下來時，Anna 嚇得尖叫起來。",
       "analysis": "動詞過去式，意為「尖叫；發出刺耳叫聲」。吃驚高聲叫喊。",
-      "timing": ""
+      "timing": "Anna 被 Olaf 掉落的頭嚇了一跳並高聲尖叫時使用。"
     },
     {
       "id": 145,
@@ -1740,7 +1740,7 @@
       "sentence_en": "'Who is Elsa?' Olaf inquired curiously with wide eyes.",
       "sentence_tw": "「Elsa 是誰？」Olaf 瞪大眼睛好奇地詢問道。",
       "analysis": "動詞過去式，意為「詢問；打聽；打聽探問」。禮貌詢問問話。",
-      "timing": ""
+      "timing": "Olaf 瞪大眼睛好奇地問 Anna 他們要去找誰時使用。"
     },
     {
       "id": 146,
@@ -1752,7 +1752,7 @@
       "sentence_en": "Anna hit the giant snow monster smack in the middle of his chest.",
       "sentence_tw": "Anna 正中擊中了巨型雪怪胸口正中央。",
       "analysis": "動詞/名詞/副詞，意為「啪地一聲打下；重擊；正中（正中央）」。正中打擊撞擊。",
-      "timing": ""
+      "timing": "Anna 拿雪球精準砸中雪怪 Marshmallow 的正中央時使用。"
     },
     {
       "id": 147,
@@ -1764,7 +1764,7 @@
       "sentence_en": "Kristoff scolded Anna for throwing snowballs at the monster.",
       "sentence_tw": "Kristoff 訓斥 Anna 向怪獸扔雪球的危險舉動。",
       "analysis": "動詞過去式，意為「責備；訓斥；斥責」。為不當舉止責怪對方。",
-      "timing": ""
+      "timing": "Kristoff 氣得責怪 Anna 惹怒龐大雪怪時使用。"
     },
     {
       "id": 148,
@@ -1776,7 +1776,7 @@
       "sentence_en": "He jabbed at the snowy creature with a long sharp stick.",
       "sentence_tw": "他用一根尖銳的長木棍戳向那個雪怪。",
       "analysis": "動詞過去式，意為「用尖物戳；猛刺／戳捅」。用棒子手指突刺。",
-      "timing": ""
+      "timing": "Kristoff 用木棍試探性地戳戳 Olaf 的肚子時使用。"
     },
     {
       "id": 149,
@@ -1788,7 +1788,7 @@
       "sentence_en": "Anna marched right up the ice palace steps without hesitation.",
       "sentence_tw": "Anna 毫不猶豫地大步邁上冰宮的台階。",
       "analysis": "動詞過去式，意為「大步邁進；進軍；堅定前行」。昂首挺胸大步挺進。",
-      "timing": ""
+      "timing": "Anna 信心滿滿地踏上冰宮階梯、準備去找 Elsa 時使用。"
     },
     {
       "id": 150,
@@ -1800,7 +1800,7 @@
       "sentence_en": "A sharp icicle pierced his torso, but as a snowman, he felt no pain.",
       "sentence_tw": "一根尖銳的冰錐刺穿了他的軀幹，但作為雪人，他感受不到疼痛。",
       "analysis": "短語，意為「刺穿了他的軀干／胸膛」。尖銳物穿透身體核心軀幹。",
-      "timing": ""
+      "timing": "Olaf 被尖銳冰晶貫穿軀幹卻渾然不覺時使用。"
     },
     {
       "id": 151,
@@ -1812,7 +1812,7 @@
       "sentence_en": "Olaf ended up impaled on a sharp tree branch, laughing at the silly sight.",
       "sentence_tw": "Olaf 最終被釘在了一根尖銳的樹枝上，還對著這滑稽的景象笑個不停。",
       "analysis": "動詞過去式，意為「刺穿；釘在…上」。被尖銳物件釘住穿透。",
-      "timing": ""
+      "timing": "Olaf 被樹枝刺穿身體還覺得很有趣時使用。"
     },
     {
       "id": 152,
@@ -1824,7 +1824,7 @@
       "sentence_en": "They had to climb up a sheer slope to reach the palace entrance.",
       "sentence_tw": "他們必須攀登一段極其陡峭的山坡才能到達宮殿入口。",
       "analysis": "短語，意為「陡峭直立的山坡／懸崖斜坡」。幾乎垂直極險陡坡。",
-      "timing": ""
+      "timing": "Kristoff 用繩索攀爬冰宮下陡峭幾乎垂直的山崖時使用。"
     },
     {
       "id": 153,
@@ -1835,8 +1835,8 @@
       "definition_tw": "感到被逗樂的",
       "sentence_en": "Elsa was briefly amused by the funny talking snowman her childhood memory created.",
       "sentence_tw": "童年回憶創造出這個會說話的有趣雪人，讓 Elsa 短暫地感到被逗樂了。",
-      "analysis": "形容詞，意為「感到逗樂的；被逗笑好笑的」。感到被逗樂了發笑。",
-      "timing": ""
+      "analysis": "形容詞，意為「感到逗樂的／被逗笑好笑的」。感到被逗樂了發笑。",
+      "timing": "Elsa 在冰宮見到 Olaf 走進來、露出會心微笑時使用。"
     },
     {
       "id": 154,
@@ -1848,7 +1848,7 @@
       "sentence_en": "The giant monster threw a heavy snow boulder down the mountain at them.",
       "sentence_tw": "巨大的怪物向他們朝山下砸出一顆沉重的巨型雪球。",
       "analysis": "短語，意為「巨型雪球／雪岩」。雪怪扔出的龐大硬雪球巨石。",
-      "timing": ""
+      "timing": "雪怪 Marshmallow 抓起巨大的雪岩朝追趕者砸過去時使用。"
     },
     {
       "id": 155,
@@ -1860,7 +1860,7 @@
       "sentence_en": "The walls of the ice palace were shimmering with magical blue light.",
       "sentence_tw": "冰宮的牆壁閃爍著神奇的藍色微光。",
       "analysis": "形容詞/分詞，意為「微微閃爍發光的；晶瑩閃爍的」。冰清平滑光彩。",
-      "timing": ""
+      "timing": "Anna 踏入 Elsa 的冰宮、讚嘆周圍閃爍微光的冰牆時使用。"
     },
     {
       "id": 156,
@@ -1872,7 +1872,7 @@
       "sentence_en": "The silent room felt eerily cold and empty.",
       "sentence_tw": "寂靜的房間讓人感到怪異陰森的寒冷與空虛。",
       "analysis": "副詞，意為「怪異陰森地；令人毛骨悚然地」。氣氛詭異恐怖地。",
-      "timing": ""
+      "timing": "描繪冰宮內隨著 Elsa 情緒緊張、色調轉變成暗紅陰森時使用。"
     },
     {
       "id": 157,
@@ -1884,7 +1884,7 @@
       "sentence_en": "Arendelle was trapped in an eternal winter caused by her spell.",
       "sentence_tw": "艾倫戴爾被困在她魔咒所造成的永恆寒冬之中。",
       "analysis": "形容詞，意為「永恆的；無休止不滅的」。永不結束消退的冬雪。",
-      "timing": ""
+      "timing": "Anna 告訴 Elsa 全王國都被困在「永恆寒冬」（Eternal Winter）時使用。"
     },
     {
       "id": 158,
@@ -1896,7 +1896,7 @@
       "sentence_en": "As Elsa grew panic-stricken, the banister frosted over instantly.",
       "sentence_tw": "當 Elsa 陷入恐慌時，樓梯扶手瞬間結上了一層冰霜。",
       "analysis": "短語，意為「樓梯扶手結了一層霜」。情緒恐懼失控時扶手被冰霜覆蓋。",
-      "timing": ""
+      "timing": "Elsa 聽聞王國被凍結、慌亂中手抓扶手導致其急速結冰時使用。"
     },
     {
       "id": 159,
@@ -1908,7 +1908,7 @@
       "sentence_en": "Elsa was torn between wanting to see her sister and needing to protect her.",
       "sentence_tw": "Elsa 在渴望見到妹妹與需要保護妹妹之間感到無比糾結。",
       "analysis": "形容詞/動詞過去分詞（原形 tear），意為「糾結的；撕裂割捨不下的；撕裂的」。內心兩難糾結。",
-      "timing": ""
+      "timing": "Elsa 內心在「想保護 Anna」與「怕傷害 Anna」之間極度拉扯糾結時使用。"
     },
     {
       "id": 160,
@@ -1920,7 +1920,7 @@
       "sentence_en": "Tears were welling up in Anna's eyes as Elsa urged her to leave.",
       "sentence_tw": "當 Elsa 催促她離開時，Anna 的眼眶湧出了淚水。",
       "analysis": "短語，意為「（眼淚/情緒）湧上心頭／翻騰湧出」。淚水眼眶滿溢湧出。",
-      "timing": ""
+      "timing": "Anna 被姐姐拒絕、委屈地眼眶泛淚時使用。"
     },
     {
       "id": 161,
@@ -1932,7 +1932,7 @@
       "sentence_en": "The panicking villagers were jostling one another in the freezing streets.",
       "sentence_tw": "驚慌失措的村民們在冰冷的街道上互相推擠。",
       "analysis": "動詞/分詞，意為「推擠；磕磕碰碰；人群擠搡」。人群中推擠碰撞。",
-      "timing": ""
+      "timing": "暴風雪封城時，恐慌的鎮民在街道上互相推擠擠拾物資時使用。"
     },
     {
       "id": 162,
@@ -1944,7 +1944,7 @@
       "sentence_en": "They held their breath as the anchor plummeted into the deep snow below.",
       "sentence_tw": "當鐵錨直直墜入下方的深雪中時，他們屏住了呼吸。",
       "analysis": "動詞過去式，意為「垂直墜落；猛然摔落」。從高處直直墜落摔下。",
-      "timing": ""
+      "timing": "Anna 與 Kristoff 從冰宮高處割斷繩索直直墜落深雪時使用。"
     },
     {
       "id": 163,
@@ -1956,7 +1956,7 @@
       "sentence_en": "Anna found herself dangling in midair over the dangerous cliff edge.",
       "sentence_tw": "Anna 發現自己懸掛在危險懸崖邊緣的半空中。",
       "analysis": "短語，意為「懸掛半空中／懸在空中搖晃」。空中腳不著地懸掛擺動。",
-      "timing": ""
+      "timing": "Anna 在懸崖邊抓著繩索、雙腳懸空搖晃時使用。"
     },
     {
       "id": 164,
@@ -1966,9 +1966,9 @@
       "definition_en": "A narrow horizontal surface projecting from a wall, cliff, or rock.",
       "definition_tw": "懸崖突出物；岩架",
       "sentence_en": "Kristoff reached down from the ledge to pull Anna up.",
-      "sentence_tw": "Kristoff 從岩架上伸手伸手把 Anna 拉了上來。",
+      "sentence_tw": "Kristoff 從岩架上伸手把 Anna 拉了上來。",
       "analysis": "名詞，意為「突出物；岩架；懸崖突出邊緣」。崖壁邊邊突出處。",
-      "timing": ""
+      "timing": "Kristoff 伏在山崖突出的岩架上伸手要拉住 Anna 時使用。"
     },
     {
       "id": 165,
@@ -1980,7 +1980,7 @@
       "sentence_en": "Olaf's head popped off, revealing his rounded snowy skull.",
       "sentence_tw": "Olaf 的頭彈了出來，露出了他圓滾滾的雪頭骨。",
       "analysis": "名詞，意為「頭骨；骷髏」。Olaf 拿自己的頭蓋骨開玩笑掉落結構。",
-      "timing": ""
+      "timing": "Olaf 開玩笑抱怨自己的頭骨（圓圓的雪頭）掉了時使用。"
     },
     {
       "id": 166,
@@ -1992,7 +1992,7 @@
       "sentence_en": "Several marooned boats were trapped in the solid ice of the fjord.",
       "sentence_tw": "幾艘擱淺的船隻被困在峽灣堅硬的冰層中。",
       "analysis": "短語，意為「擱淺孤立的船隻／困在冰上的舟船」。被冰雪凍結在港口離岸船隻。",
-      "timing": ""
+      "timing": "峽灣被凍結後、多艘木船被死死卡在冰面上時使用。"
     },
     {
       "id": 167,
@@ -2004,7 +2004,7 @@
       "sentence_en": "'Arendelle is indebted to you for your bravery,' Prince Hans said smoothly.",
       "sentence_tw": "「感謝您的勇敢，艾倫戴爾王國欠您一個深厚的恩情，」Hans 王子溫和地說道。",
       "analysis": "句子，意為「艾倫戴爾王國欠你一個深厚恩情／對您萬分感激」。表示由衷謝意尊崇話語。",
-      "timing": ""
+      "timing": "Hans 王子向自願幫忙搜尋的女王衛隊表達謝意時使用。"
     },
     {
       "id": 168,
@@ -2016,7 +2016,7 @@
       "sentence_en": "The advisers counseled Hans to stay safe inside the castle.",
       "sentence_tw": "顧問們建議 Hans 留在城堡內確保安全。",
       "analysis": "動詞過去式，意為「建議；給予諮詢引導」。給予權威建議看法。",
-      "timing": ""
+      "timing": "王國政要建議 Hans 不可冒險親自入山時使用。"
     },
     {
       "id": 169,
@@ -2024,11 +2024,11 @@
       "pos": "v.",
       "kk": "[kənˈspaɪərɪŋ]",
       "definition_en": "Making secret plans together to commit an unlawful or harmful act.",
-      "definition_tw": "密謀；圖谋不軌",
+      "definition_tw": "密谋；圖謀不軌",
       "sentence_en": "Hans was secretly conspiring to take over the throne of Arendelle.",
-      "sentence_tw": "Hans 正在暗中密谋篡奪艾倫戴爾的王位。",
+      "sentence_tw": "Hans 正在暗中密謀篡奪艾倫戴爾的王位。",
       "analysis": "動詞/分詞，意為「圖謀不軌；密謀反叛；勾結陰謀」。暗中密謀害人。",
-      "timing": ""
+      "timing": "描述 Hans 表面討好眾人、暗地裡圖謀奪取王位時使用。"
     },
     {
       "id": 170,
@@ -2040,7 +2040,7 @@
       "sentence_en": "The Duke falsely painted Elsa as a wicked sorceress who attacked her sister.",
       "sentence_tw": "公爵抹黑 Elsa，將她塑造為攻擊自己妹妹的邪惡女巫。",
       "analysis": "短語，意為「邪惡的女巫／邪惡魔女」。公爵冠給 Elsa 的惡名稱謂。",
-      "timing": ""
+      "timing": "Weselton 公爵叫囂要把 Elsa 當作邪惡女巫除掉時使用。"
     },
     {
       "id": 171,
@@ -2052,7 +2052,7 @@
       "sentence_en": "He stuttered nervously when confronted with the truth.",
       "sentence_tw": "當面對真相時，他緊張得說話打結結巴。",
       "analysis": "動詞過去式，意為「結巴；口吃；說話打結結巴」。緊張時發音口吃。",
-      "timing": ""
+      "timing": "Hans 被揭穿陰謀時慌張得講話結巴打結時使用。"
     },
     {
       "id": 172,
@@ -2064,7 +2064,7 @@
       "sentence_en": "The soldiers marched up the icy mountain carrying burning torches and swords.",
       "sentence_tw": "士兵們手持燃燒的火把與長劍，邁上冰山。",
       "analysis": "短語，意為「火把與長劍」。前往捉拿的公爵衛隊與憤怒群眾配備武器。",
-      "timing": ""
+      "timing": "公爵手下的士兵們帶著火把與刀劍攻上北山冰宮時使用。"
     },
     {
       "id": 173,
@@ -2076,7 +2076,7 @@
       "sentence_en": "The guard aimed his loaded crossbow directly at Elsa.",
       "sentence_tw": "衛兵將上鎖的十字弓直接瞄準了 Elsa。",
       "analysis": "名詞，意為「弩；十字弓」。公爵手下用的近程發射武器。",
-      "timing": ""
+      "timing": "公爵刺客在冰宮用弩弓偷偷瞄準 Elsa 準備發射時使用。"
     },
     {
       "id": 174,
@@ -2088,7 +2088,7 @@
       "sentence_en": "The massive ice chandelier teetered dangerously on the edge of falling.",
       "sentence_tw": "巨大的冰晶吊燈危險地搖搖欲墜，隨時可能墜落。",
       "analysis": "動詞過去式，意為「搖晃不穩；瀕臨失衡陷落」。在懸崖頂搖搖欲墜。",
-      "timing": ""
+      "timing": "箭矢射偏中吊燈懸索、巨型冰吊燈搖搖欲墜時使用。"
     },
     {
       "id": 175,
@@ -2100,7 +2100,7 @@
       "sentence_en": "The frost wall was slowly dissolving in the warmer air.",
       "sentence_tw": "冰霜牆在逐漸回暖的空氣中慢慢融化。",
       "analysis": "動詞/分詞，意為「融化消逝；解體散開」。冰塊水汽逐漸融化。",
-      "timing": ""
+      "timing": "描述 Elsa 恢復情緒後、冰晶護盾慢慢融化解體時使用。"
     },
     {
       "id": 176,
@@ -2112,7 +2112,7 @@
       "sentence_en": "A magnificent ice chandelier hung suspended from the center of the dome.",
       "sentence_tw": "一座宏偉的冰晶吊燈懸掛在圓頂正中央。",
       "analysis": "名詞，意為「枝形吊燈」。Elsa 冰宮頂端絕美龐大的冰晶吊燈。",
-      "timing": ""
+      "timing": "Hans 向上撞開十字弓、將巨大冰吊燈砸落在地時使用。"
     },
     {
       "id": 177,
@@ -2124,7 +2124,7 @@
       "sentence_en": "Her hands were encased in heavy iron shackles in the dungeon.",
       "sentence_tw": "在地牢裡，她的雙手被沉重的鐵手銬牢牢套住。",
       "analysis": "動詞過去式/形容詞，意為「完全包覆的；被包裹封住的」。被冰層徹底封住裹住。",
-      "timing": ""
+      "timing": "Elsa 醒來發現雙手被特製鐵套完全包覆束縛時使用。"
     },
     {
       "id": 178,
@@ -2136,7 +2136,7 @@
       "sentence_en": "Elsa found herself imprisoned in the castle dungeon.",
       "sentence_tw": "Elsa 發現自己被囚禁在城堡的地牢裡。",
       "analysis": "動詞過去式/形容詞，意為「關押的；囚禁的」。被囚禁喪失自由。",
-      "timing": ""
+      "timing": "Elsa 被抓回 Arendelle 王國並被囚禁在地牢時使用。"
     },
     {
       "id": 179,
@@ -2148,7 +2148,7 @@
       "sentence_en": "Iron chains secured her to the wall inside the cold castle dungeon.",
       "sentence_tw": "鐵鏈將她固定在冰冷的城堡地牢牆上。",
       "analysis": "短語，意為「城堡地牢／地下牢房」。地下黑牢。",
-      "timing": ""
+      "timing": "Hans 將昏迷的 Elsa 鎖在冷冰冰的城堡地牢中時使用。"
     },
     {
       "id": 180,
@@ -2160,7 +2160,7 @@
       "sentence_en": "The soldiers came to a sudden halt at the queen's command.",
       "sentence_tw": "士兵們在女王的命令下突然停下了步伐。",
       "analysis": "動詞/名詞，意為「停止；喊停；停下步伐」。突然站住停下。",
-      "timing": ""
+      "timing": "Hans 叫住手下士兵、下令停止攻擊時使用。"
     },
     {
       "id": 181,
@@ -2172,7 +2172,7 @@
       "sentence_en": "Olaf's warm enthusiasm and joy were completely infectious.",
       "sentence_tw": "Olaf 溫暖的熱情與快樂極具感染力。",
       "analysis": "形容詞，意為「具感染力的；蔓延傳播開來的」。笑聲或歡樂具強烈感染力。",
-      "timing": ""
+      "timing": "形容 Olaf 天真樂觀的笑容極具感染力、逗樂所有人時使用。"
     },
     {
       "id": 182,
@@ -2184,7 +2184,7 @@
       "sentence_en": "Anna collapsed onto the floor, her heart turning to solid ice.",
       "sentence_tw": "Anna 癱倒在地，她的心正逐漸凍結成堅冰。",
       "analysis": "動詞過去式，意為「倒塌；癱倒；崩潰暈倒」。體力耗盡或絕望癱倒在地。",
-      "timing": ""
+      "timing": "Anna 被 Hans 拒絕並鎖在房裡後，因體力不支虛弱癱倒在地時使用。"
     },
     {
       "id": 183,
@@ -2196,7 +2196,7 @@
       "sentence_en": "Kristoff's troll family sang about his silly personal shortcomings.",
       "sentence_tw": "Kristoff 的石怪家人唱歌調侃著他個人那些滑稽的小缺點。",
       "analysis": "名詞（複數），意為「缺點；短處；不足之處」。個性瑕疵缺陷。",
-      "timing": ""
+      "timing": "石怪族人在歌曲「Fixer Upper」中熱情歌唱 Kristoff 的各種小缺點時使用。"
     },
     {
       "id": 184,
@@ -2208,19 +2208,19 @@
       "sentence_en": "Elsa pulled desperately against the heavy iron shackles binding her hands.",
       "sentence_tw": "Elsa 拼命拉扯著束縛她雙手的沉重鐵手銬。",
       "analysis": "名詞（複數），意為「手銬；腳鐐；束縛枷鎖」。",
-      "timing": ""
+      "timing": "Elsa 的冰霜將手銬凍裂並掙脫鐵枷鎖時使用。"
     },
     {
       "id": 185,
       "word": "Sank into a chair",
       "pos": "phrase",
-      "kk": "[sænk ˈɪntə ə tʃer]",
+      "kk": "[sæŋk ˈɪntə ə tʃer]",
       "definition_en": "Sat down heavily into a chair out of physical or emotional exhaustion.",
       "definition_tw": "癱坐在椅子上",
       "sentence_en": "Weakened by the cold, Anna sank into a chair near the fireplace.",
       "sentence_tw": "受到寒氣侵蝕而虛弱的 Anna 癱坐在壁爐旁的椅子上。",
       "analysis": "短語（過去式），意為「虛脫地陷坐進椅子裡／癱坐在椅上」。無力沉坐下去。",
-      "timing": ""
+      "timing": "Anna 被帶回城堡後虛弱不堪、癱坐在沙發上等待 Hans 的真愛之吻時使用。"
     },
     {
       "id": 186,
@@ -2232,7 +2232,7 @@
       "sentence_en": "Hans stared out the window pensively, plotting his next move.",
       "sentence_tw": "Hans 若有所思地凝視著窗外，籌劃著下一步行動。",
       "analysis": "副詞，意為「沉思地；心事重重地；若有所思地」。眼神深沉冥想。",
-      "timing": ""
+      "timing": "Hans 站在地牢窗前若有所思、準備展開謀殺計畫時使用。"
     },
     {
       "id": 187,
@@ -2244,7 +2244,7 @@
       "sentence_en": "The kingdom waited in tense anticipation for news from the mountain.",
       "sentence_tw": "王國在緊張的期待中等待著來自山上的消息。",
       "analysis": "名詞，意為「期待；預期；期盼」。滿懷期待的心情。",
-      "timing": ""
+      "timing": "Anna 滿懷期待地閉上眼睛等候 Hans 的吻時使用。"
     },
     {
       "id": 188,
@@ -2256,7 +2256,7 @@
       "sentence_en": "Ignoring her desperate plea, Hans locked the library door.",
       "sentence_tw": "Hans 無視她絕望的懇求，鎖上了圖書館的大門。",
       "analysis": "名詞，意為「懇求；呼籲；哀求」。懇切地請求發聲。",
-      "timing": ""
+      "timing": "Anna 虛弱地向 Hans 哀求救救她時使用。"
     },
     {
       "id": 189,
@@ -2268,7 +2268,7 @@
       "sentence_en": "Olaf carefully stirred the dying embers to keep the fire going.",
       "sentence_tw": "Olaf 小心地撥動著快要熄滅的餘燼，讓火繼續燃燒。",
       "analysis": "名詞（複數），意為「餘燼；餘火；餘輝」。微弱餘溫火星。",
-      "timing": ""
+      "timing": "Olaf 趕來房間生火、用壁爐裡的餘火為 Anna 取暖時使用。"
     },
     {
       "id": 190,
@@ -2280,7 +2280,7 @@
       "sentence_en": "Without help, Anna believed she was doomed to freeze completely.",
       "sentence_tw": "如果沒有幫助，Anna 相信自己註定會被完全凍結。",
       "analysis": "形容詞/動詞過去式，意為「註定失敗/毀滅的；命中註定劫數難逃的」。",
-      "timing": ""
+      "timing": "Hans 露出一面、冷酷地宣佈 Anna 和 Arendelle 已經沒救了（Doomed）時使用。"
     },
     {
       "id": 191,
@@ -2292,7 +2292,7 @@
       "sentence_en": "Hans showed his true evil cruelty by letting her freeze alone.",
       "sentence_tw": "Hans 任由她獨自凍結，展現出了他真正邪惡冷酷的一面。",
       "analysis": "名詞，意為「殘忍；殘酷；冷酷無情」。冷血無理行為。",
-      "timing": ""
+      "timing": "揭露 Hans 吹熄火苗、冷酷無情地把 Anna 鎖在房內時使用。"
     },
     {
       "id": 192,
@@ -2304,7 +2304,7 @@
       "sentence_en": "The blizzard wind blew fiercely across the frozen fjord.",
       "sentence_tw": "暴風雪呼嘯著狂暴地吹過冰封的峽灣。",
       "analysis": "副詞，意為「猛烈地；狂暴地；極其強烈地」。風暴或情感猛烈爆發。",
-      "timing": ""
+      "timing": "峽灣海面上白茫茫的暴風雪狂暴地刮起時使用。"
     },
     {
       "id": 193,
@@ -2316,7 +2316,7 @@
       "sentence_en": "Elsa collapsed onto the ice, grief-stricken over the news of her sister.",
       "sentence_tw": "聽到妹妹的消息，Elsa 悲痛欲絕地倒在冰面上。",
       "analysis": "形容詞，意為「悲痛欲絕的；極度哀傷的」。悲傷過度打擊沉重。",
-      "timing": ""
+      "timing": "Elsa 聽到 Hans 撒謊說 Anna 已經因為她而死、悲痛欲絕倒地時使用。"
     },
     {
       "id": 194,
@@ -2328,7 +2328,7 @@
       "sentence_en": "The grieving queen wept openly in the center of the storm.",
       "sentence_tw": "悲痛交加的女王在風暴中心坦然痛哭。",
       "analysis": "形容詞/分詞，意為「悲傷的；悼念哀悼中的」。為喪親或失去而悲傷。",
-      "timing": ""
+      "timing": "Elsa 在風暴中心為 Anna 的死極度悲痛哭泣時使用。"
     },
     {
       "id": 195,
@@ -2340,7 +2340,7 @@
       "sentence_en": "Kristoff rode grimly into the blinding white storm to find Anna.",
       "sentence_tw": "Kristoff 神色嚴肅堅定地騎馬衝入刺眼的白茫茫風暴中去尋找 Anna。",
       "analysis": "副詞，意為「冷酷地；嚴肅堅定地；沉重地」。冷峻嚴肅姿態。",
-      "timing": ""
+      "timing": "Kristoff 看見城堡冒出異狀、神情嚴肅地拼命衝回峽灣時使用。"
     },
     {
       "id": 196,
@@ -2352,7 +2352,7 @@
       "sentence_en": "News of the thaw would elate the shivering citizens.",
       "sentence_tw": "解凍的消息將會使瑟瑟發抖的市民們歡欣鼓舞。",
       "analysis": "動詞/形容詞，意為「使興奮歡欣鼓舞；得意洋洋的」。歡欣鼓舞感情發揮。",
-      "timing": ""
+      "timing": "描述全城得知夏天回歸、冰雪消融時無比興奮歡欣鼓舞時使用。"
     },
     {
       "id": 197,
@@ -2364,7 +2364,7 @@
       "sentence_en": "Their dangerous ascent up the North Mountain proved exhausting.",
       "sentence_tw": "他們攀登北山的危險過程令人筋疲力盡。",
       "analysis": "名詞，意為「攀登；上升；登高」。登山攀高過程。",
-      "timing": ""
+      "timing": "回顧一行人艱難攀登北山冰峰的過程時使用。"
     },
     {
       "id": 198,
@@ -2376,7 +2376,7 @@
       "sentence_en": "Hans schemed to seize control of the vacant royal throne.",
       "sentence_tw": "Hans 企圖謀劃奪取空置的皇家王座控制權。",
       "analysis": "名詞，意為「王座；寶座；君權」。代表最高政治權利與地位。",
-      "timing": ""
+      "timing": "Hans 坐在大廳王座上發號施令、暴露狼子野心時使用。"
     },
     {
       "id": 199,
@@ -2388,7 +2388,7 @@
       "sentence_en": "The ice palace shone gloriously under the bright sun.",
       "sentence_tw": "冰宮在明亮的陽光下散發著輝煌壯麗的光芒。",
       "analysis": "副詞，意為「光彩照人地；壯麗輝煌地；燦爛地」。美麗非凡輝煌美感。",
-      "timing": ""
+      "timing": "冰雪解凍後、暖陽壯麗耀眼地照亮整個 Arendelle 王國時使用。"
     },
     {
       "id": 200,
@@ -2400,7 +2400,7 @@
       "sentence_en": "A thunderous crack vibrated through the fjord as the ice split apart.",
       "sentence_tw": "當冰層裂開時，一陣雷鳴般的裂開聲在峽灣中震響。",
       "analysis": "形容詞，意為「雷鳴般的；極震耳的」。巨響或如雷般轟鳴掌聲。",
-      "timing": ""
+      "timing": "峽灣巨冰斷裂破開、發出雷鳴般轟響時使用。"
     },
     {
       "id": 201,
@@ -2412,7 +2412,7 @@
       "sentence_en": "Olaf wiggled his carrot nose back into place.",
       "sentence_tw": "Olaf 扭動著把胡蘿蔔鼻子裝回了原位。",
       "analysis": "動詞過去式，意為「扭動；蠕動；擺動抖動」。微小快速扭擺扭動。",
-      "timing": ""
+      "timing": "Sven 咬走 Olaf 的胡蘿蔔鼻子、Olaf 把它重新塞回扭動時使用。"
     },
     {
       "id": 202,
@@ -2424,7 +2424,7 @@
       "sentence_en": "The whole ice bridge shuddered under the monster's heavy weight.",
       "sentence_tw": "整座冰橋在怪物的重壓下劇烈晃動起來。",
       "analysis": "動詞過去式，意為「顫抖；打寒顫；劇烈晃動」。身體猛烈抖動。",
-      "timing": ""
+      "timing": "雪怪踏上冰橋、整座冰橋劇烈顫抖晃動時使用。"
     },
     {
       "id": 203,
@@ -2436,7 +2436,7 @@
       "sentence_en": "Kristoff squinted through the driving white snow to find the path.",
       "sentence_tw": "Kristoff 瞇起眼睛穿過迎面飛舞的白雪尋找道路。",
       "analysis": "動詞過去式，意為「瞇起眼睛看」。因陽光或刺眼瞇眼看。",
-      "timing": ""
+      "timing": "Kristoff 在強烈暴風雪中瞇著眼試圖尋找 Anna 的身影時使用。"
     },
     {
       "id": 204,
@@ -2448,7 +2448,7 @@
       "sentence_en": "Anna was adamant about going up the mountain alone to bring back Elsa.",
       "sentence_tw": "Anna 態度堅決，非要獨自上山把 Elsa 帶回來。",
       "analysis": "形容詞，意為「堅決的；固執的；堅貞不屈的」。立場堅定不移絕不退讓。",
-      "timing": ""
+      "timing": "Anna 堅決主張必須親自入山尋找姐姐 Elsa 時使用。"
     },
     {
       "id": 205,
@@ -2460,7 +2460,7 @@
       "sentence_en": "Anna made a valiant effort to save her sister despite her frozen state.",
       "sentence_tw": "儘管身體逐漸凍結，Anna 依然為拯救姐姐付出了英勇的努力。",
       "analysis": "形容詞，意為「英勇的；勇敢果敢的」。表現極大勇氣品質。",
-      "timing": ""
+      "timing": "Anna 在最後關頭義無反顧挺身為 Elsa 擋劍時使用。"
     },
     {
       "id": 206,
@@ -2472,7 +2472,7 @@
       "sentence_en": "The pungent smell of lutefisk filled Oaken's small shop.",
       "sentence_tw": "鹼漬魚刺鼻的氣味瀰漫在 Oaken 的小店裡。",
       "analysis": "形容詞，意為「刺鼻的；強烈辛辣的（氣味）」。氣味濃烈刺鼻。",
-      "timing": ""
+      "timing": "在 Oaken 商店裡聞到濃烈刺鼻的鹼漬魚味時使用。"
     },
     {
       "id": 207,
@@ -2484,7 +2484,7 @@
       "sentence_en": "Anna threw her body between Elsa and Hans to shield her sister.",
       "sentence_tw": "Anna 挺身擋在 Elsa 與 Hans 之間，以保護她的姐姐。",
       "analysis": "名詞/動詞，意為「盾牌；屏障；保護；遮擋」。阻擋危險保護目標。",
-      "timing": ""
+      "timing": "Anna 挺身衝向 Hans 的長劍、用身軀擋在 Elsa 前面時使用。"
     },
     {
       "id": 208,
@@ -2496,7 +2496,7 @@
       "sentence_en": "Hans's sword struck the frozen Anna, splintering into a thousand pieces.",
       "sentence_tw": "Hans 的劍砍在凍結的 Anna 身上，瞬間碎裂成千百碎片。",
       "analysis": "動詞/分詞，意為「粉碎；碎裂崩解」。硬物崩裂破碎聲與狀態。",
-      "timing": ""
+      "timing": "Hans 的劍砍向變成冰雕的 Anna 身上、長劍瞬間震碎成碎塊時使用。"
     },
     {
       "id": 209,
@@ -2508,7 +2508,7 @@
       "sentence_en": "The sudden calm was signaling the end of the magical storm.",
       "sentence_tw": "突如其來的平靜預示著魔法風暴的結束。",
       "analysis": "動詞/分詞，意為「發出訊號；預示；信號表示」。預示傳達訊息發出信號。",
-      "timing": ""
+      "timing": "風暴突然散去、預示著魔法衝擊結束時使用。"
     },
     {
       "id": 210,
@@ -2520,7 +2520,7 @@
       "sentence_en": "Suddenly the wind died down and the falling snow ceased.",
       "sentence_tw": "突然風平浪靜，大雪完全停息了。",
       "analysis": "短語，意為「降雪停止／大雪停息」。暴風雪停息平靜下。",
-      "timing": ""
+      "timing": "狂風驟停、漫天飛舞的大雪瞬間停止降落時使用。"
     },
     {
       "id": 211,
@@ -2532,7 +2532,7 @@
       "sentence_en": "In the sudden stillness, only Elsa's soft weeping could be heard.",
       "sentence_tw": "在突如其來的寂靜之中，只能聽到 Elsa 輕微的哭泣聲。",
       "analysis": "短語，意為「在突如其來的寂靜之中」。風暴停止後的悄無聲息氛圍。",
-      "timing": ""
+      "timing": "暴風雪平息後、全場陷入突如其來的死寂時使用。"
     },
     {
       "id": 212,
@@ -2544,7 +2544,7 @@
       "sentence_en": "She uttered a soft gasp as her frozen sister began to thaw.",
       "sentence_tw": "當她凍結的妹妹開始解凍時，她發出了一聲輕柔的驚呼。",
       "analysis": "動詞過去式，意為「說出；發出（聲音）；口吐」。發出話語或發聲。",
-      "timing": ""
+      "timing": "Elsa 看到 Anna 開始融化復原、發出驚喜的呼喚時使用。"
     },
     {
       "id": 213,
@@ -2556,7 +2556,7 @@
       "sentence_en": "Elsa was clutching Anna's frozen ice statue in deep grief.",
       "sentence_tw": "Elsa 在極度悲痛中緊緊抱著 Anna 的冰雕像。",
       "analysis": "動詞/分詞，意為「緊抱；緊握抱住」。抱住不放手姿態。",
-      "timing": ""
+      "timing": "Elsa 抱著完全凍結成冰雕的 Anna 絕望痛哭時使用。"
     },
     {
       "id": 214,
@@ -2568,7 +2568,7 @@
       "sentence_en": "Elsa knelt beside her sister on the frozen surface of the fjord.",
       "sentence_tw": "Elsa 跪在峽灣結冰的水面上，陪在妹妹身邊。",
       "analysis": "動詞過去式（原形 kneel），意為「跪下；下跪」。屈膝跪在地板。",
-      "timing": ""
+      "timing": "Elsa 跪在冰面上擁抱 Anna 時使用。"
     },
     {
       "id": 215,
@@ -2580,7 +2580,7 @@
       "sentence_en": "Hans's steel sword shattered completely upon hitting Anna's frozen hand.",
       "sentence_tw": "Hans 的鋼劍在砍到 Anna 凍結的手時徹底粉碎。",
       "analysis": "動詞過去式/形容詞，意為「粉碎的；崩碎的；破碎崩潰的」。受重擊粉碎。",
-      "timing": ""
+      "timing": "Hans 的長劍被震得粉碎、Hans 被衝擊波彈飛時使用。"
     },
     {
       "id": 216,
@@ -2592,7 +2592,7 @@
       "sentence_en": "The crowd watched in complete astonishment as true love thawed Anna's heart.",
       "sentence_tw": "當真愛融化了 Anna 的心時，人群目瞪口呆地看著這一幕。",
       "analysis": "名詞，意為「驚訝；震驚；驚奇」。極度吃驚目瞪口呆狀態。",
-      "timing": ""
+      "timing": "大家看到 Anna 奇蹟般甦醒解凍、全場無不驚訝萬分時使用。"
     },
     {
       "id": 217,
@@ -2604,7 +2604,7 @@
       "sentence_en": "The defeated Duke of Weselton was fuming as he was escorted to his ship.",
       "sentence_tw": "敗北的 Weselton 公爵在被押送回船上時氣急敗壞。",
       "analysis": "形容詞/分詞，意為「怒火中燒的；氣急敗壞冒煙的」。極度憤怒失態。",
-      "timing": ""
+      "timing": " Weselton 公爵被驅逐出境、氣急敗壞大吼大叫時使用。"
     },
     {
       "id": 218,
@@ -2616,7 +2616,7 @@
       "sentence_en": "Cheering townspeople celebrated the joyous return of summer.",
       "sentence_tw": "歡呼的鎮民們慶祝著夏季歡欣回歸。",
       "analysis": "形容詞，意為「充滿歡樂喜悅的；令人歡欣的」。快樂至極心境。",
-      "timing": ""
+      "timing": "王國恢復夏季榮景、人民在廣場溜冰慶祝這歡欣時刻時使用。"
     },
     {
       "id": 219,
@@ -2628,7 +2628,7 @@
       "sentence_en": "Hans sat dazed on the deck of the ship after being punched overboard.",
       "sentence_tw": "Hans 被一拳打落水後，神情恍惚地坐在船甲板上。",
       "analysis": "形容詞，意為「神情恍惚茫然的；被打暈迷糊的」。震驚暈眩反應不及。",
-      "timing": ""
+      "timing": "Hans 被 Anna 一拳打飛落水後、被打得頭暈目眩恍惚時使用。"
     },
     {
       "id": 220,
@@ -2640,7 +2640,7 @@
       "sentence_en": "Prince Hans was put inside a makeshift ship cage to await trial back home.",
       "sentence_tw": "Hans 王子被關進船上臨時搭建的牢籠裡，等待回國接受審判。",
       "analysis": "名詞/動詞，意為「籠子；監牢；關進籠中」。關押囚禁結構。",
-      "timing": ""
+      "timing": "Hans 被關進船艙牢籠中準備押送回國接受懲罰時使用。"
     },
     {
       "id": 221,
@@ -2652,7 +2652,7 @@
       "sentence_en": "'That deceitful scoundrel got what he deserved!' cried the citizens.",
       "sentence_tw": "「那個虛偽的惡棍得到應有的報應了！」市民們高喊道。",
       "analysis": "名詞，意為「惡棍；無恥之徒；壞蛋」。罵惡霸反派詞彙。",
-      "timing": ""
+      "timing": "眾人指責 Hans 這個虛偽的惡棍時使用。"
     },
     {
       "id": 222,
@@ -2664,7 +2664,7 @@
       "sentence_en": "Kristoff gave a bashful smile when Anna presented him with his new sled.",
       "sentence_tw": "當 Anna 送給 Kristoff 新雪橇時，他露出了害羞的笑容。",
       "analysis": "形容詞，意為「害羞的；羞澀腆腆的」。形容害羞低頭表情。",
-      "timing": ""
+      "timing": "Kristoff 收到 Anna 送的新雪橇和被吻時露出靦腆害羞笑容時使用。"
     }
   ]
 }
