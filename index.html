@@ -369,13 +369,24 @@
     });
   }
 
-  // 完整朗讀一個項目
+  // 完整朗讀一個項目 (加入英文定義與中文例句)
   async function speakVocabItem(item, sessionId) {
     if (playSessionId !== sessionId) return;
+    
+    // 1. 唸英文單字 / 片語
     await speakText(item.displayWord, 'en-US', 0.85, sessionId);
     if (playSessionId !== sessionId) return;
     await delay(500, sessionId);
 
+    // 2. 唸英文定義 (definition_en)
+    if (item.definition_en) {
+      if (playSessionId !== sessionId) return;
+      await speakText(item.definition_en, 'en-US', 0.9, sessionId);
+      if (playSessionId !== sessionId) return;
+      await delay(500, sessionId);
+    }
+
+    // 3. 唸中文定義 (definition_tw)
     if (item.definition_tw) {
       if (playSessionId !== sessionId) return;
       await speakText(item.definition_tw, 'zh-TW', 0.9, sessionId);
@@ -383,6 +394,7 @@
       await delay(500, sessionId);
     }
 
+    // 4. 唸英文例句 (sentence_en)
     if (item.sentence_en) {
       if (playSessionId !== sessionId) return;
       await speakText(item.sentence_en, 'en-US', 0.9, sessionId);
@@ -390,6 +402,15 @@
       await delay(500, sessionId);
     }
 
+    // 5. 唸中文例句 (sentence_tw) - 新增
+    if (item.sentence_tw) {
+      if (playSessionId !== sessionId) return;
+      await speakText(item.sentence_tw, 'zh-TW', 0.9, sessionId);
+      if (playSessionId !== sessionId) return;
+      await delay(500, sessionId);
+    }
+
+    // 6. 唸中文解析與使用時機
     let textToSpeak = "";
     if (item.analysis) textToSpeak += "解析：" + item.analysis + "。";
     if (item.timing) textToSpeak += "使用時機：" + item.timing;
@@ -399,8 +420,9 @@
       await speakText(textToSpeak, 'zh-TW', 0.95, sessionId);
     }
 
+    // 7. 留空 3.5 秒供跟讀與思考
     if (playSessionId !== sessionId) return;
-    await delay(3500, sessionId);
+    await delay(2000, sessionId);
   }
 
   // 核心功能：從指定位置開始播放
