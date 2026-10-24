@@ -2,9 +2,8 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <!-- 確保手機 Safari 放大比例正確 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>我的英文單字庫 (Drive & Learn)</title>
+  <title>英文單字隨身聽 (Drive & Learn)</title>
   <style>
     /* 全局基底設定 */
     * { box-sizing: border-box; }
@@ -14,14 +13,16 @@
       padding: 15px; 
       background: #f8f9fa; 
       color: #333;
-    }
-
-    .container {
-      max-width: 1000px;
+      max-width: 1200px;
       margin: 0 auto;
     }
 
-    /* 書籍選擇區 */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    /* 書籍/課文選擇區 */
     .header { 
       display: flex; 
       gap: 10px; 
@@ -50,6 +51,9 @@
       margin-bottom: 15px; 
       text-align: center; 
       box-shadow: 0 2px 8px rgba(0,122,255,0.25);
+      position: sticky;
+      top: 10px;
+      z-index: 100;
     }
     .drive-title {
       font-size: 18px;
@@ -61,7 +65,7 @@
       display: flex;
       gap: 8px;
       justify-content: center;
-      flex-wrap: wrap; /* 空間不夠時自動換行 */
+      flex-wrap: wrap;
     }
     .btn { 
       padding: 10px 16px; 
@@ -78,28 +82,29 @@
     .btn-pause { background: #ff9500; color: white; }
     .btn-stop { background: #ff3b30; color: white; }
 
-    /* 表格橫向滾動容器 - 解決手機擠壓表格主因 */
+    /* 表格橫向滾動容器 */
     .table-container {
       width: 100%;
       overflow-x: auto;
-      -webkit-overflow-scrolling: touch; /* 讓 iOS Safari 滾動更流暢 */
+      -webkit-overflow-scrolling: touch;
       background: white;
       border-radius: 10px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
     }
 
     /* 表格基本設定 */
     table { 
       width: 100%; 
       border-collapse: collapse; 
-      min-width: 650px; /* 保障內容不會壓縮變形 */
+      min-width: 750px;
     }
     th, td { 
       padding: 12px 10px; 
       text-align: left; 
       border-bottom: 1px solid #eee; 
       vertical-align: top;
-      word-break: break-word; /* 允許文字自動換行 */
+      word-break: break-word;
     }
     th { 
       background: #f1f3f5; 
@@ -121,13 +126,26 @@
     }
     .playing-row { 
       background-color: #e7f5ff !important; 
+      border-left: 5px solid #007aff;
     }
 
-    /* 📱 手機微調 (螢幕寬度小於 600px 時套用) */
+    /* 句型專區 */
+    .grammar-section {
+      background: white;
+      padding: 15px 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .grammar-card {
+      border-bottom: 1px solid #eee;
+      padding: 10px 0;
+    }
+    .grammar-card:last-child { border-bottom: none; }
+
     @media (max-width: 600px) {
       body { padding: 10px; }
       .drive-control { padding: 12px; }
-      .btn { padding: 12px 10px; font-size: 14px; } /* 手機按鈕放大好點擊 */
+      .btn { padding: 12px 10px; font-size: 14px; }
     }
   </style>
 </head>
@@ -135,40 +153,50 @@
 
 <div class="container">
   <div class="header">
-    <label for="bookSelect"><strong>書籍：</strong></label>
-    <select id="bookSelect" onchange="loadSelectedBook()"></select>
+    <label for="lessonSelect"><strong>選擇課文：</strong></label>
+    <select id="lessonSelect" onchange="loadSelectedLesson()">
+      <option value="data/senior_high_2_up_lesson1.json">高二上第一課</option>
+      
+      <!-- 未來新增英文書直接加在這裡 -->
+    </select>
   </div>
 
-  <!-- 開車模式 / 連續播放 -->
+  <!-- 開車模式 / 連續播放控制器 -->
   <div class="drive-control">
-    <span class="drive-title">🚗 開車/連播模式</span>
+    <span class="drive-title">🚗 開車/跟讀輪播模式</span>
     <div class="btn-group">
       <button id="playBtn" class="btn btn-play" onclick="startAutoPlay()">▶ 開始輪播</button>
       <button id="pauseBtn" class="btn btn-pause" onclick="togglePause()" style="display:none;">⏸ 暫停</button>
       <button class="btn btn-stop" onclick="stopAutoPlay()">⏹ 停止</button>
     </div>
-    <div id="nowPlayingText" style="margin-top: 10px; font-size: 13px; opacity: 0.95;">狀態：未播放</div>
+    <div id="nowPlayingText" style="margin-top: 10px; font-size: 14px; opacity: 0.95;">狀態：未播放</div>
   </div>
 
-  <!-- 包裹層：防止表格把手機螢幕撐爆 -->
+  <!-- 單字與片語列表 -->
   <div class="table-container">
     <table id="vocabTable">
       <thead>
         <tr>
           <th style="width: 50px;">語音</th>
-          <th style="width: 110px;">Word</th>
-          <th style="width: 110px;">Phonetic</th>
-          <th style="width: 30%;">Definition</th>
-          <th>深入解析與使用 / 例句</th>
+          <th style="width: 120px;">Word / KK</th>
+          <th style="width: 28%;">Definition</th>
+          <th>Example (英/中)</th>
+          <th>深入解析與使用時機</th>
         </tr>
       </thead>
       <tbody id="tableBody"></tbody>
     </table>
   </div>
+
+  <!-- 核心句型區 -->
+  <div class="grammar-section" id="grammarContainer" style="display:none;">
+    <h3>📚 核心句型與文法</h3>
+    <div id="grammarList"></div>
+  </div>
 </div>
 
 <script>
-  let currentVocabList = [];
+  let currentWords = [];
   let isPlaying = false;
   let isPaused = false;
   let currentIndex = 0;
@@ -179,13 +207,13 @@
   // iOS 語音解鎖機制
   function unlockAudio() {
     if (synth && synth.speak) {
-      const silentUtterance = new SpeechSynthesisUtterance('');
-      silentUtterance.volume = 0;
+      const silentUtterance = new SpeechSynthesisUtterance(' ');
+      silentUtterance.volume = 0.01;
       synth.speak(silentUtterance);
     }
   }
 
-  // 防鎖屏
+  // 螢幕常亮控制 (Wake Lock API)
   function requestWakeLock() {
     if ('wakeLock' in navigator) {
       navigator.wakeLock.request('screen').then(lock => {
@@ -208,49 +236,94 @@
     }
   });
 
-  // 載入書籍清單
-  async function init() {
-    try {
-      const res = await fetch('books.json');
-      if (!res.ok) throw new Error(`無法讀取 books.json (HTTP ${res.status})`);
-      const books = await res.json();
-      const select = document.getElementById('bookSelect');
-      select.innerHTML = books.map(b => `<option value="${b.file}">${b.title}</option>`).join('');
-      loadSelectedBook();
-    } catch (error) {
-      alert('載入書籍清單失敗：' + error.message);
-    }
-  }
-
-  // 載入單字
-  async function loadSelectedBook() {
+  // 載入指定的 JSON 課文 (同時支援單字與片語)
+  async function loadSelectedLesson() {
     stopAutoPlay();
-    const file = document.getElementById('bookSelect').value;
+    const filePath = document.getElementById('lessonSelect').value;
     try {
-      const res = await fetch(file);
-      if (!res.ok) throw new Error(`無法讀取單字檔 ${file} (HTTP ${res.status})`);
+      const res = await fetch(filePath);
+      if (!res.ok) throw new Error(`無法讀取檔案 ${filePath} (HTTP ${res.status})`);
       const data = await res.json();
-      currentVocabList = data.vocabulary;
+      
+      // 【關鍵修復】將 words 與 phrases 整合到同一個播放清單中
+      const rawWords = (data.words || []).map(item => ({
+        ...item,
+        displayWord: item.word,
+        displaySub: `${item.pos || ''} ${item.kk || ''}`,
+        type: 'word'
+      }));
+
+      const rawPhrases = (data.phrases || []).map(item => ({
+        ...item,
+        displayWord: item.phrase,
+        displaySub: '片語 / Idiom',
+        definition_en: item.definition_en || '',
+        definition_tw: item.definition_tw,
+        sentence_en: item.sentence_en || '',
+        sentence_tw: item.sentence_tw || '',
+        analysis: item.analysis || '',
+        timing: item.timing || '',
+        type: 'phrase'
+      }));
+
+      // 合併單字與片語
+      currentWords = [...rawWords, ...rawPhrases];
+
       renderTable();
+      renderGrammar(data.patterns);
     } catch (error) {
-      alert('載入單字檔失敗：' + error.message);
+      alert('載入課文失敗：請確認 data 資料夾與 JSON 檔案是否正確。');
+      console.error(error);
     }
   }
 
-  // 渲染表格
+  // 渲染表格 (同時支援單字與片語欄位)
   function renderTable() {
     const tbody = document.getElementById('tableBody');
-    tbody.innerHTML = currentVocabList.map((item, index) => `
+    if (currentWords.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center; padding: 20px;">此課文目前沒有單字或片語資料</td></tr>';
+      return;
+    }
+
+    tbody.innerHTML = currentWords.map((item, index) => `
       <tr id="row-${index}" onclick="playFromIndex(${index})" style="cursor: pointer;">
         <td><button class="audio-btn" onclick="event.stopPropagation(); playFromIndex(${index});">🔊</button></td>
-        <td><strong>${item.word}</strong></td>
-        <td style="color: #666; font-size: 13px;">${item.phonetic}</td>
-        <td style="font-size: 14px;">${item.definition}</td>
-        <td style="font-size: 14px;">
-          ${item.analysis}
-          <div style="color:#007aff; margin-top: 4px; font-size: 13px;">例: ${item.example}</div>
+        <td>
+          <strong>${item.displayWord}</strong><br>
+          <small style="color: #666;">${item.displaySub}</small>
+        </td>
+        <td>
+          ${item.definition_en ? `<div><strong>英：</strong>${item.definition_en}</div>` : ''}
+          <div style="color: #007aff; margin-top: 3px;"><strong>中：</strong>${item.definition_tw}</div>
+        </td>
+        <td>
+          <div>${item.sentence_en || ''}</div>
+          <div style="color: #666; font-size: 0.9em; margin-top: 2px;">${item.sentence_tw || ''}</div>
+        </td>
+        <td style="font-size: 13.5px;">
+          ${item.analysis ? `<div><strong>解析：</strong>${item.analysis}</div>` : ''}
+          ${item.timing ? `<div style="color: #d97706; margin-top: 3px;"><strong>時機：</strong>${item.timing}</div>` : ''}
         </td>
       </tr>
+    `).join('');
+  }
+
+  // 渲染句型
+  function renderGrammar(patterns) {
+    const container = document.getElementById('grammarContainer');
+    const list = document.getElementById('grammarList');
+    if (!patterns || patterns.length === 0) {
+      container.style.display = 'none';
+      return;
+    }
+    container.style.display = 'block';
+    list.innerHTML = patterns.map(p => `
+      <div class="grammar-card">
+        <h4 style="color: #007aff; margin-bottom: 4px;">${p.title}</h4>
+        <p style="margin: 2px 0;"><strong>結構：</strong><code>${p.structure}</code></p>
+        <p style="margin: 2px 0;"><strong>解析：</strong>${p.explanation}</p>
+        <p style="margin: 2px 0; color: #555;"><strong>例句：</strong>${p.sentence_en || ''} (${p.sentence_tw || ''})</p>
+      </div>
     `).join('');
   }
 
@@ -271,7 +344,7 @@
   // 文字朗讀
   function speakText(text, lang = 'en-US', speed = 0.9) {
     return new Promise((resolve, reject) => {
-      if (!isPlaying || isPaused) return reject(new Error('Interrupted'));
+      if (!isPlaying || isPaused || !text) return resolve();
 
       synth.cancel();
 
@@ -287,29 +360,45 @@
 
       utterance.onerror = (e) => {
         currentUtterance = null;
-        reject(new Error('Speech error'));
+        resolve();
       };
 
       synth.speak(utterance);
     });
   }
 
-  // 唸單字順序
+  // 完整朗讀一個項目 (單字/片語 ➔ 中文 ➔ 例句 ➔ 解析 ➔ 留空 3.5 秒)
   async function speakVocabItem(item) {
-    await speakText(item.word, 'en-US', 0.85);
-    await delay(400);
-
-    await speakText(item.definition, 'en-US', 0.9);
-    await delay(400);
-
-    await speakText(item.example, 'en-US', 0.9);
+    // 1. 唸英文單字 / 片語
+    await speakText(item.displayWord, 'en-US', 0.85);
     await delay(500);
 
-    await speakText(item.analysis, 'zh-TW', 1.0);
-    await delay(1500);
+    // 2. 唸中文定義
+    if (item.definition_tw) {
+      await speakText(item.definition_tw, 'zh-TW', 0.9);
+      await delay(500);
+    }
+
+    // 3. 唸英文例句
+    if (item.sentence_en) {
+      await speakText(item.sentence_en, 'en-US', 0.9);
+      await delay(500);
+    }
+
+    // 4. 唸中文解析與使用時機
+    let textToSpeak = "";
+    if (item.analysis) textToSpeak += "解析：" + item.analysis + "。";
+    if (item.timing) textToSpeak += "使用時機：" + item.timing;
+
+    if (textToSpeak) {
+      await speakText(textToSpeak, 'zh-TW', 0.95);
+    }
+
+    // 5. 留空 3.5 秒供跟讀與思考
+    await delay(3500);
   }
 
-  // 核心功能：從指定單字開始繼續/輪播
+  // 核心功能：從指定位置開始繼續/輪播
   async function playFromIndex(index) {
     unlockAudio();
     synth.cancel();
@@ -322,10 +411,10 @@
     requestWakeLock();
     updateUI();
 
-    while (currentIndex < currentVocabList.length && isPlaying && !isPaused) {
+    while (currentIndex < currentWords.length && isPlaying && !isPaused) {
       highlightRow(currentIndex);
-      const item = currentVocabList[currentIndex];
-      document.getElementById('nowPlayingText').innerText = `正在播放 (${currentIndex + 1}/${currentVocabList.length}): ${item.word}`;
+      const item = currentWords[currentIndex];
+      document.getElementById('nowPlayingText').innerText = `正在播放 (${currentIndex + 1}/${currentWords.length}): ${item.displayWord}`;
 
       try {
         await speakVocabItem(item);
@@ -337,12 +426,12 @@
       }
     }
 
-    if (currentIndex >= currentVocabList.length) {
+    if (currentIndex >= currentWords.length) {
       stopAutoPlay();
     }
   }
 
-  // 開車連播模式
+  // 開始輪播
   function startAutoPlay() {
     unlockAudio();
     if (isPlaying && !isPaused) return;
@@ -409,16 +498,17 @@
       pauseBtn.innerText = '▶ 繼續';
       pauseBtn.style.display = 'inline-block';
       playBtn.style.display = 'none';
-      statusText.innerText = `狀態：已暫停 (${currentVocabList[currentIndex]?.word || ''})`;
+      statusText.innerText = `狀態：已暫停 (${currentWords[currentIndex]?.displayWord || ''})`;
     } else {
       pauseBtn.innerText = '⏸ 暫停';
       pauseBtn.style.display = 'inline-block';
       playBtn.style.display = 'none';
-      statusText.innerText = `正在播放 (${currentIndex + 1}/${currentVocabList.length}): ${currentVocabList[currentIndex]?.word || ''}`;
+      statusText.innerText = `正在播放 (${currentIndex + 1}/${currentWords.length}): ${currentWords[currentIndex]?.displayWord || ''}`;
     }
   }
 
-  init();
+  // 頁面載入初始化
+  loadSelectedLesson();
 </script>
 </body>
 </html>
