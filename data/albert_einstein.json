@@ -1,517 +1,858 @@
 {
-  "bookId": "albert_einstein",
-  "bookTitle": "Albert Einstein Was a Dope?",
-  "vocabulary": [
+  "lesson_id": "albert_einstein",
+  "lesson_title": "Albert Einstein Was a Dope?",
+  "words": [
     {
+      "id": "w1",
       "word": "Rheumatism",
-      "phonetic": "[ˈruːmətɪzəm]",
-      "definition": "A medical condition causing pain and stiffness in joints and muscles.",
+      "pos": "n.",
+      "kk": "[ˈruːmətɪzəm]",
+      "definition_en": "A medical condition causing pain and stiffness in joints and muscles.",
+      "definition_tw": "風濕病",
+      "sentence_en": "He joked that his joint pain was just a mild case of rheumatism.",
+      "sentence_tw": "他開玩笑說他的關節痛只是一個輕微的風濕病例。",
       "analysis": "名詞，意為「風濕病」。年長者常患的關節肌肉疼痛病症。",
-      "example": "He joked that his joint pain was just a mild case of rheumatism."
+      "timing": "談論關節疼痛或年長者常見病症時。"
     },
     {
+      "id": "w2",
       "word": "Gloomy",
-      "phonetic": "[ˈɡluːmi]",
-      "definition": "Dark or poorly lit; feeling distressed or pessimistic.",
+      "pos": "adj.",
+      "kk": "[ˈɡluːmi]",
+      "definition_en": "Dark or poorly lit; feeling distressed or pessimistic.",
+      "definition_tw": "陰暗的/抑鬱的/陰沉的",
+      "sentence_en": "The classroom felt gloomy on rainy Monday mornings.",
+      "sentence_tw": "在下雨的週一早晨，教室讓人感到陰暗沉悶。",
       "analysis": "形容詞，意為「陰暗的；抑鬱的；陰沉的」。形容天氣或心情沉悶低落。",
-      "example": "The classroom felt gloomy on rainy Monday mornings."
+      "timing": "形容天氣陰霾或心情低落時。"
     },
     {
+      "id": "w3",
       "word": "Eccentric",
-      "phonetic": "[ɪkˈsentrɪk]",
-      "definition": "Unconventional and slightly strange in behavior or appearance.",
+      "pos": "adj.",
+      "kk": "[ɪkˈsentrɪk]",
+      "definition_en": "Unconventional and slightly strange in behavior or appearance.",
+      "definition_tw": "古怪的/怪異的/特立獨行的",
+      "sentence_en": "People thought the scientist was eccentric because he never wore socks.",
+      "sentence_tw": "人們認為這位科學家很古怪，因為他從不穿襪子。",
       "analysis": "形容詞/名詞，意為「古怪的；怪異的；行為特立獨行的人」。常用於形容天才特別的習性。",
-      "example": "People thought the scientist was eccentric because he never wore socks."
+      "timing": "描述某人行為舉止與眾不同或怪異時。"
     },
     {
+      "id": "w4",
       "word": "Deserved",
-      "phonetic": "[dɪˈzɜːrvd]",
-      "definition": "Rightfully earned or merited because of actions or qualities.",
+      "pos": "adj.",
+      "kk": "[dɪˈzɜːrvd]",
+      "definition_en": "Rightfully earned or merited because of actions or qualities.",
+      "definition_tw": "應得的/理所當然的",
+      "sentence_en": "Einstein received a well-deserved Nobel Prize for his contributions to physics.",
+      "sentence_tw": "愛因斯坦因對物理學的貢獻而獲得了實至名歸的諾貝爾獎。",
       "analysis": "形容詞/動詞過去式，意為「應得的；理所當然的」。",
-      "example": "Einstein received a well-deserved Nobel Prize for his contributions to physics."
+      "timing": "談論努力獲得應有回報或獎項時。"
     },
     {
+      "id": "w5",
       "word": "Deflect",
-      "phonetic": "[dɪˈflekt]",
-      "definition": "Cause something to change direction; turn aside.",
+      "pos": "v.",
+      "kk": "[dɪˈflekt]",
+      "definition_en": "Cause something to change direction; turn aside.",
+      "definition_tw": "使偏斜/轉向/轉移",
+      "sentence_en": "Gravity can deflect light coming from distant stars.",
+      "sentence_tw": "引力可以使來自遙遠恆星的光線發生偏折。",
       "analysis": "動詞，意為「使偏斜；轉向；轉移（注意力或光線）」。故事中指引力使光線彎曲偏折。",
-      "example": "Gravity can deflect light coming from distant stars."
+      "timing": "談論光線、方向改變或物理引力作用時。"
     },
     {
+      "id": "w6",
       "word": "Engrossed",
-      "phonetic": "[ɪnˈɡroʊst]",
-      "definition": "Having one's attention completely absorbed by something.",
+      "pos": "adj.",
+      "kk": "[ɪnˈɡroʊst]",
+      "definition_en": "Having one's attention completely absorbed by something.",
+      "definition_tw": "全神貫注的/沉溺其中的",
+      "sentence_en": "He was so engrossed in his physics equations that he forgot to eat lunch.",
+      "sentence_tw": "他太全神貫注於物理方程式，以至於忘了吃午飯。",
       "analysis": "形容詞，意為「全神貫注的；沉溺其中的」。形容專心致志到忽視周遭。",
-      "example": "He was so engrossed in his physics equations that he forgot to eat lunch."
+      "timing": "形容人極度專心投入某事時。"
     },
     {
+      "id": "w7",
       "word": "Scatterbrained",
-      "phonetic": "[ˈskætərbreɪnd]",
-      "definition": "Disorganized and incapable of serious, connected thought.",
+      "pos": "adj.",
+      "kk": "[ˈskætərbreɪnd]",
+      "definition_en": "Disorganized and incapable of serious, connected thought.",
+      "definition_tw": "注意力不集中的/心不在焉的/丟三落四的",
+      "sentence_en": "Although brilliant, he seemed scatterbrained in his daily personal routine.",
+      "definition_tw": "儘管才華橫溢，他在日常個人生活中似乎總是心不在焉。",
       "analysis": "形容詞，意為「注意力不集中的；心不在焉的；丟三落四的」。",
-      "example": "Although brilliant, he seemed scatterbrained in his daily personal routine."
+      "timing": "形容人做事迷糊或不夠專注時。"
     },
     {
+      "id": "w8",
       "word": "Absentminded",
-      "phonetic": "[ˌæbsəntˈmaɪndɪd]",
-      "definition": "Having or showing a habitual forgetfulness or inattention.",
+      "pos": "adj.",
+      "kk": "[ˌæbsəntˈmaɪndɪd]",
+      "definition_en": "Having or showing a habitual forgetfulness or inattention.",
+      "definition_tw": "心不在焉的/健忘的",
+      "sentence_en": "The absentminded professor used a bank check as a bookmark and lost it.",
+      "sentence_tw": "這位健忘的教授把銀行支票當作書籤，結果把它弄丟了。",
       "analysis": "形容詞，意為「心不在焉的；健忘的」。愛因斯坦經典的典型形象。",
-      "example": "The absentminded professor used a bank check as a bookmark and lost it."
+      "timing": "形容人常常健忘或分心時。"
     },
     {
+      "id": "w9",
       "word": "Content",
-      "phonetic": "[kənˈtent]",
-      "definition": "In a state of peaceful happiness and satisfaction.",
+      "pos": "adj.",
+      "kk": "[kənˈtent]",
+      "definition_en": "In a state of peaceful happiness and satisfaction.",
+      "definition_tw": "心滿意足的/滿足的",
+      "sentence_en": "He was content with a simple sweater, his violin, and a sheet of paper.",
+      "sentence_tw": "他只要有一件簡單的毛衣、他的小提琴和一張紙就心滿意足了。",
       "analysis": "形容詞，意為「心滿意足的；滿足的」。不追求奢華、對簡單生活感到滿意。",
-      "example": "He was content with a simple sweater, his violin, and a sheet of paper."
+      "timing": "表達知足常樂或生活安逸時。"
     },
     {
+      "id": "w10",
       "word": "Clown",
-      "phonetic": "[klaʊn]",
-      "definition": "A comic performer who uses physical humor; a foolish person.",
+      "pos": "n.",
+      "kk": "[klaʊn]",
+      "definition_en": "A comic performer who uses physical humor; a foolish person.",
+      "definition_tw": "小丑/愛開玩笑的人",
+      "sentence_en": "He loved to stick out his tongue and clown around for photo journalists.",
+      "sentence_tw": "他喜歡向攝影記者吐舌頭並耍寶開玩笑。",
       "analysis": "名詞/動詞，意為「小丑；愛開玩笑的人；扮小丑」。",
-      "example": "He loved to stick out his tongue and clown around for photo journalists."
+      "timing": "談論愛開玩笑或滑稽舉動時。"
     },
     {
+      "id": "w11",
       "word": "Rumple corduroy pants",
-      "phonetic": "[ˈrʌmpl ˈkɔːrdərɔɪ pænts]",
-      "definition": "Wrinkled, creased trousers made of thick ribbed cotton fabric.",
+      "pos": "phrase",
+      "kk": "[ˈrʌmpl ˈkɔːrdərɔɪ pænts]",
+      "definition_en": "Wrinkled, creased trousers made of thick ribbed cotton fabric.",
+      "definition_tw": "皺巴巴的燈心絨長褲",
+      "sentence_en": "He comfortably walked into the university wearing rumple corduroy pants.",
+      "sentence_tw": "他穿著一條皺巴巴的燈心絨長褲，舒適地走進了大學。",
       "analysis": "短語，意為「皺巴巴的燈心絨長褲」。描述愛因斯坦招牌的不修邊幅穿著風格。",
-      "example": "He comfortably walked into the university wearing rumple corduroy pants."
+      "timing": "形容不修邊幅的衣著風格時。"
     },
     {
+      "id": "w12",
       "word": "Nearsighted",
-      "phonetic": "[ˈnɪrsaɪtɪd]",
-      "definition": "Unable to see distant objects clearly; myopic.",
+      "pos": "adj.",
+      "kk": "[ˈnɪrsaɪtɪd]",
+      "definition_en": "Unable to see distant objects clearly; myopic.",
+      "definition_tw": "近視的/缺乏遠見的",
+      "sentence_en": "Being nearsighted, he needed glasses to read the blackboard clearly.",
+      "definition_tw": "因為近視，他需要戴眼鏡才能看清黑板。",
       "analysis": "形容詞，意為「近視的；缺乏遠見的」。看近清楚、看遠模糊的視力狀態。",
-      "example": "Being nearsighted, he needed glasses to read the blackboard clearly."
+      "timing": "談論視力狀況或近視時。"
     },
     {
+      "id": "w13",
       "word": "Silly",
-      "phonetic": "[ˈsɪli]",
-      "definition": "Having or showing a lack of common sense or seriousness; playful.",
+      "pos": "adj.",
+      "kk": "[ˈsɪli]",
+      "definition_en": "Having or showing a lack of common sense or seriousness; playful.",
+      "definition_tw": "傻氣的/滑稽可笑的",
+      "sentence_en": "He often made silly faces to make children laugh.",
+      "sentence_tw": "他經常做出滑稽的面部表情來逗孩子笑。",
       "analysis": "形容詞，意為「傻氣的；滑稽可笑的；無聊的」。",
-      "example": "He often made silly faces to make children laugh."
+      "timing": "形容滑稽、逗趣的行為時。"
     },
     {
+      "id": "w14",
       "word": "Barking seal",
-      "phonetic": "[ˈbɑːrkɪŋ siːl]",
-      "definition": "A marine mammal producing loud, sharp vocal sounds.",
+      "pos": "phrase",
+      "kk": "[ˈbɑːrkɪŋ siːl]",
+      "definition_en": "A marine mammal producing loud, sharp vocal sounds.",
+      "definition_tw": "吠叫的海豹",
+      "sentence_en": "The unique laugh of the professor sounded like a barking seal.",
+      _sentence_tw": "這位教授獨特的笑聲聽起來像是一隻吠叫的海豹。",
       "analysis": "短語，意為「吠叫的海豹」。用於生動形容某種獨特洪亮叫聲或咳嗽聲。",
-      "example": "The unique laugh of the professor sounded like a barking seal."
+      "timing": "形容獨特的笑聲或聲音時。"
     },
     {
+      "id": "w15",
       "word": "Einstein was a ham",
-      "phonetic": "[ˈaɪnstaɪn wʌz ə hæm]",
-      "definition": "Einstein enjoyed performing or showing off in front of audiences.",
+      "pos": "phrase",
+      "kk": "[ˈaɪnstaɪn wʌz ə hæm]",
+      "definition_en": "Einstein enjoyed performing or showing off in front of audiences.",
+      "definition_tw": "愛因斯坦是個愛搶鏡頭、愛表演的人",
+      "sentence_en": "Whenever cameras appeared, people realized that Einstein was a ham.",
+      "sentence_tw": "每當相機出現時，人們意識到愛因斯坦其實很愛搶鏡頭表演。",
       "analysis": "短語（俚語 ham 意為愛表演/搶鏡頭的人），意為「愛因斯坦是個愛搶鏡頭、愛表演的人」。",
-      "example": "Whenever cameras appeared, people realized that Einstein was a ham."
+      "timing": "描述某人喜歡在鏡頭前表現自己時。"
     },
     {
+      "id": "w16",
       "word": "Beetle crawl",
-      "phonetic": "[ˈbiːtl krɔːl]",
-      "definition": "The slow, deliberate movement of a beetle insect.",
+      "pos": "phrase",
+      "kk": "[ˈbiːtl krɔːl]",
+      "definition_en": "The slow, deliberate movement of a beetle insect.",
+      "definition_tw": "甲蟲爬行",
+      "sentence_en": "He watched a beetle crawl on his blanket and wondered about space and movement.",
+      "sentence_tw": "他看著一隻甲蟲在他的毛毯上爬行，並對空間與運動產生了好奇。",
       "analysis": "短語，意為「甲蟲爬行」。用來比喻極其緩慢爬行或觀察甲蟲在彎曲表面移動的童年經歷。",
-      "example": "He watched a beetle crawl on his blanket and wondered about space and movement."
+      "timing": "觀察緩慢移動的小生物時。"
     },
     {
+      "id": "w17",
       "word": "Phenomenon",
-      "phonetic": "[fəˈnɑːmɪnən]",
-      "definition": "A remarkable fact or event that can be observed and studied.",
+      "pos": "n.",
+      "kk": "[fəˈnɑːmɪnən]",
+      "definition_en": "A remarkable fact or event that can be observed and studied.",
+      "definition_tw": "現象/罕見非凡的人事物",
+      "sentence_en": "Light bending around massive objects was a mind-boggling phenomenon.",
+      "sentence_tw": "光線繞過巨大質量物體彎曲是一個令人匪夷所思的現象。",
       "analysis": "名詞，意為「現象；罕見非凡的人事物」。科學界觀察到的自然現象。",
-      "example": "Light bending around massive objects was a mind-boggling phenomenon."
+      "timing": "探討科學或自然界的特殊現象時。"
     },
     {
+      "id": "w18",
       "word": "Sculpture",
-      "phonetic": "[ˈskʌlptʃər]",
-      "definition": "The art of making three-dimensional figures out of stone, wood, or metal.",
+      "pos": "n.",
+      "kk": "[ˈskʌlptʃər]",
+      "definition_en": "The art of making three-dimensional figures out of stone, wood, or metal.",
+      "definition_tw": "雕塑品/雕刻",
+      "sentence_en": "Artists created a bronze sculpture to honor his scientific achievements.",
+      "sentence_tw": "藝術家們創作了一座青銅雕塑來紀念他的科學成就。",
       "analysis": "名詞/動詞，意為「雕塑品；雕刻」。",
-      "example": "Artists created a bronze sculpture to honor his scientific achievements."
+      "timing": "談論藝術品或雕刻創作時。"
     },
     {
+      "id": "w19",
       "word": "Opera",
-      "phonetic": "[ˈɑːprə]",
-      "definition": "A dramatic work combining singing, orchestral music, and acting.",
+      "pos": "n.",
+      "kk": "[ˈɑːprə]",
+      "definition_en": "A dramatic work combining singing, orchestral music, and acting.",
+      "definition_tw": "歌劇",
+      "sentence_en": "In his free time, he enjoyed listening to classical opera and playing music.",
+      "sentence_tw": "在空閒時間，他喜歡聆聽古典歌劇並演奏音樂。",
       "analysis": "名詞，意為「歌劇」。愛因斯坦熱愛的古典音樂藝術形式之一。",
-      "example": "In his free time, he enjoyed listening to classical opera and playing music."
+      "timing": "談論古典音樂或欣賞歌劇時。"
     },
     {
+      "id": "w20",
       "word": "Endorse",
-      "phonetic": "[ɪnˈdɔːrs]",
-      "definition": "Declare one's public approval or support of; sign a document.",
+      "pos": "v.",
+      "kk": "[ɪnˈdɔːrs]",
+      "definition_en": "Declare one's public approval or support of; sign a document.",
+      "definition_tw": "代言/背書/公開支持",
+      "sentence_en": "Companies offered him large sums of money to endorse their commercial products.",
+      "sentence_tw": "許多公司提供他一大筆錢，希望他為他們的商業產品代言。",
       "analysis": "動詞，意為「代言；背書；公開支持；簽署」。",
-      "example": "Companies offered him large sums of money to endorse their commercial products."
+      "timing": "談論商業代言或公開支持某事物時。"
     },
     {
+      "id": "w21",
       "word": "Plenty",
-      "phonetic": "[ˈplenti]",
-      "definition": "A large or sufficient amount or quantity; abundance.",
+      "pos": "n.",
+      "kk": "[ˈplenti]",
+      "definition_en": "A large or sufficient amount or quantity; abundance.",
+      "definition_tw": "大量/充足/豐富",
+      "sentence_en": "Don't worry, there is plenty of time to solve this physics puzzle.",
+      "sentence_tw": "別擔心，有充足的時間來解決這個物理難題。",
       "analysis": "名詞/副詞/形容詞，意為「大量；充足；豐富」。",
-      "example": "Don't worry, there is plenty of time to solve this physics puzzle."
+      "timing": "表達數量充足或綽綽有餘時。"
     },
     {
+      "id": "w22",
       "word": "Undressing",
-      "phonetic": "[ʌnˈdresɪŋ]",
-      "definition": "Removing one's clothing.",
+      "pos": "v.",
+      "kk": "[ʌnˈdresɪŋ]",
+      "definition_en": "Removing one's clothing.",
+      "definition_tw": "脫衣服",
+      "sentence_en": "He was so distracted that he started undressing for bed in the middle of the afternoon.",
+      "sentence_tw": "他太心不在焉了，居然在下午時分就開始準備脫衣服上床睡覺。",
       "analysis": "動詞/分詞，意為「脫衣服」。",
-      "example": "He was so distracted that he started undressing for bed in the middle of the afternoon."
+      "timing": "描述準備就寢或脫去衣物時。"
     },
     {
+      "id": "w23",
       "word": "Undress",
-      "phonetic": "[ʌnˈdres]",
-      "definition": "Take off one's clothes.",
+      "pos": "v.",
+      "kk": "[ʌnˈdres]",
+      "definition_en": "Take off one's clothes.",
+      "definition_tw": "脫衣",
+      "sentence_en": "He forgot where he was and began to undress right in his study.",
+      "sentence_tw": "他忘記自己身在何處，直接在書房裡開始脫衣服。",
       "analysis": "動詞，意為「脫衣」。原形動詞。",
-      "example": "He forgot where he was and began to undress right in his study."
+      "timing": "描述脫掉衣物的動作時。"
     },
     {
+      "id": "w24",
       "word": "Autograph seeker",
-      "phonetic": "[ˈɔːtəɡræf ˈsiːkər]",
-      "definition": "A fan who pursues famous people to get their signature.",
+      "pos": "phrase",
+      "kk": "[ˈɔːtəɡræf ˈsiːkər]",
+      "definition_en": "A fan who pursues famous people to get their signature.",
+      "definition_tw": "索取簽名的人/簽名迷",
+      "sentence_en": "Everywhere he went, an autograph seeker would jump out with a pen.",
+      "sentence_tw": "無論他走到哪裡，總會有索取簽名的粉絲拿著筆衝出來。",
       "analysis": "短語，意為「索取簽名的人；簽名迷」。跟著成名後的愛因斯坦到處跑的人群。",
-      "example": "Everywhere he went, an autograph seeker would jump out with a pen."
+      "timing": "名人遇到粉絲索取簽名時。"
     },
     {
+      "id": "w25",
       "word": "Hounded",
-      "phonetic": "[ˈhaʊndɪd]",
-      "definition": "Harassed, pursued, or nagged persistently.",
-      "analysis": "動詞過去式/形容詞，意為「被緊追不捨的；被纏得煩不勝煩的」。",
-      "example": "The famous scientist was constantly hounded by curious reporters."
+      "pos": "adj.",
+      "kk": "[ˈhaʊndɪd]",
+      "definition_en": "Harassed, pursued, or nagged persistently.",
+      "definition_tw": "被緊追不捨的/被纏得煩不勝煩的",
+      "sentence_en": "The famous scientist was constantly hounded by curious reporters.",
+      "sentence_tw": "這位著名的科學家經常被好奇的記者們窮追不捨。",
+      "analysis": "形容詞/動詞過去式，意為「被緊追不捨的；被纏得煩不勝煩的」。",
+      "timing": "形容被媒體或人群緊追不捨時。"
     },
     {
+      "id": "w26",
       "word": "Newsreel",
-      "phonetic": "[ˈnuːzriːl]",
-      "definition": "A short documentary film of news events shown in theaters.",
+      "pos": "n.",
+      "kk": "[ˈnuːzriːl]",
+      "definition_en": "A short documentary film of news events shown in theaters.",
+      "definition_tw": "新聞紀錄短片",
+      "sentence_en": "People watched newsreel footage of the famous genius visiting America.",
+      "sentence_tw": "人們觀看了這位著名天才訪問美國的新聞紀錄短片。",
       "analysis": "名詞，意為「新聞紀錄短片」。電視普及前在電影院播放的影像新聞紀錄。",
-      "example": "People watched newsreel footage of the famous genius visiting America."
+      "timing": "談論早期電影院播出的新聞短片時。"
     },
     {
+      "id": "w27",
       "word": "Coincidence",
-      "phonetic": "[koʊˈɪnsɪdəns]",
-      "definition": "A remarkable concurrence of events without apparent causal connection.",
+      "pos": "n.",
+      "kk": "[koʊˈɪnsɪdəns]",
+      "definition_en": "A remarkable concurrence of events without apparent causal connection.",
+      "definition_tw": "巧合/偶然一致",
+      "sentence_en": "It was a pure coincidence that both scientists published their ideas in the same year.",
+      "sentence_tw": "兩位科學家在同一年發表他們的觀念，這純粹是個巧合。",
       "analysis": "名詞，意為「巧合；偶然一致」。兩件無關的事同時發生。",
-      "example": "It was a pure coincidence that both scientists published their ideas in the same year."
+      "timing": "發生意料之外的巧合時。"
     },
     {
+      "id": "w28",
       "word": "Solar eclipse",
-      "phonetic": "[ˈsoʊlər ɪˈklɪps]",
-      "definition": "An event where the moon passes between the sun and Earth, blocking sunlight.",
+      "pos": "phrase",
+      "kk": "[ˈsoʊlər ɪˈklɪps]",
+      "definition_en": "An event where the moon passes between the sun and Earth, blocking sunlight.",
+      "definition_tw": "日食/日全蝕",
+      "sentence_en": "Scientists photographed the solar eclipse of 1919 to test Einstein's theory.",
+      "sentence_tw": "科學家們拍攝了1919年的日食以檢驗愛因斯坦的理論。",
       "analysis": "短語，意為「日食；日全蝕」。證實廣義相對論關鍵的天文現象。",
-      "example": "Scientists photographed the solar eclipse of 1919 to test Einstein's theory."
+      "timing": "談論天文奇觀或日食現象時。"
     },
     {
+      "id": "w29",
       "word": "Nutty",
-      "phonetic": "[ˈnʌti]",
-      "definition": "Mad, eccentric, or foolish (informal).",
+      "pos": "adj.",
+      "kk": "[ˈnʌti]",
+      "definition_en": "Mad, eccentric, or foolish (informal).",
+      "definition_tw": "古怪瘋狂的/古里古怪的",
+      "sentence_en": "Some teachers mistakenly thought his unconventional ideas were completely nutty.",
+      "sentence_tw": "有些老師誤以為他那些非傳統的想法簡直瘋狂透頂。",
       "analysis": "形容詞（口語），意為「古怪瘋狂的；古里古怪的」。",
-      "example": "Some teachers mistakenly thought his unconventional ideas were completely nutty."
+      "timing": "形容想法極端瘋狂或怪異時。"
     },
     {
+      "id": "w30",
       "word": "Crackpot",
-      "phonetic": "[ˈkrækpɑːt]",
-      "definition": "An eccentric or foolish person with bizarre ideas.",
+      "pos": "n.",
+      "kk": "[ˈkrækpɑːt]",
+      "definition_en": "An eccentric or foolish person with bizarre ideas.",
+      "definition_tw": "怪人/狂人/想法荒謬的人",
+      "sentence_en": "Critics initially dismissed his bold relativity paper as the work of a crackpot.",
+      "sentence_tw": "批評家們最初對他大膽的相對論論文不屑一顧，認為是一個怪人的作品。",
       "analysis": "名詞/形容詞（口語），意為「怪人；狂人；想法荒謬異想天開的人」。",
-      "example": "Critics initially dismissed his bold relativity paper as the work of a crackpot."
+      "timing": "形容不被主流接受的怪異狂人時。"
     },
     {
+      "id": "w31",
       "word": "Nominate",
-      "phonetic": "[ˈnɑːmɪneɪt]",
-      "definition": "Propose formally for a award, honor, or official position.",
+      "pos": "v.",
+      "kk": "[ˈnɑːmɪneɪt]",
+      "definition_en": "Propose formally for a award, honor, or official position.",
+      "definition_tw": "提名/推薦",
+      "sentence_en": "Colleagues voted to nominate him for the Nobel Prize in Physics.",
+      "sentence_tw": "同事們投票提名他競逐諾貝爾物理學獎。",
       "analysis": "動詞，意為「提名；推薦」。官方推薦角逐獎項。",
-      "example": "Colleagues voted to nominate him for the Nobel Prize in Physics."
+      "timing": "談論獎項提名或候選人推薦時。"
     },
     {
+      "id": "w32",
       "word": "Humiliating",
-      "phonetic": "[hjuːˈmɪlieɪtɪŋ]",
-      "definition": "Causing someone to feel ashamed, embarrassed, or foolish.",
+      "pos": "adj.",
+      "kk": "[hjuːˈmɪlieɪtɪŋ]",
+      "definition_en": "Causing someone to feel ashamed, embarrassed, or foolish.",
+      "definition_tw": "令人羞辱的/使人難堪的",
+      "sentence_en": "Failing the entrance exam on his first try was a humiliating experience.",
+      "sentence_tw": "第一次入學考試不及格是一次令人難堪的經歷。",
       "analysis": "形容詞，意為「令人羞辱的；使人難堪的」。極度令人丟臉的場合。",
-      "example": "Failing the entrance exam on his first try was a humiliating experience."
+      "timing": "遭遇難堪或丟臉的經歷時。"
     },
     {
+      "id": "w33",
       "word": "Encircle",
-      "phonetic": "[ɪnˈsɜːrkl]",
-      "definition": "Form a circle around; surround completely.",
+      "pos": "v.",
+      "kk": "[ɪnˈsɜːrkl]",
+      "definition_en": "Form a circle around; surround completely.",
+      "definition_tw": "環繞/圍繞/圈住",
+      "sentence_en": "The equator is an imaginary line that can encircle the Earth.",
+      "sentence_tw": "赤道是一條可以環繞地球的假想線。",
       "analysis": "動詞，意為「環繞；圍繞；圈住」。把事物包圍一圈。",
-      "example": "The equator is an imaginary line that can encircle the Earth."
+      "timing": "描述環繞、包圍某物時。"
     },
     {
+      "id": "w34",
       "word": "Equator",
-      "phonetic": "[ɪˈkweɪtər]",
-      "definition": "An imaginary line drawn around the earth equally distant from both poles.",
+      "pos": "n.",
+      "kk": "[ɪˈkweɪtər]",
+      "definition_en": "An imaginary line drawn around the earth equally distant from both poles.",
+      "definition_tw": "赤道",
+      "sentence_en": "If you travel along the equator, you stay in the tropical zone.",
+      "sentence_tw": "如果你沿著赤道旅行，你就會留在熱帶地區。",
       "analysis": "名詞，意為「赤道」。劃分地球南北半球的虛構緯線。",
-      "example": "If you travel along the equator, you stay in the tropical zone."
+      "timing": "談論地理位置或赤道時。"
     },
     {
+      "id": "w35",
       "word": "Came up with an idea",
-      "phonetic": "[keɪm ʌp wɪð æn aɪˈdiːə]",
-      "definition": "Thought of or produced a new thought or solution.",
+      "pos": "phrase",
+      "kk": "[keɪm ʌp wɪð æn aɪˈdiːə]",
+      "definition_en": "Thought of or produced a new thought or solution.",
+      "definition_tw": "想出了一個點子／靈感",
+      "sentence_en": "While riding his bicycle, he came up with an idea that changed physics forever.",
+      "sentence_tw": "騎腳踏車時，他想出了一個永遠改變物理學的點子。",
       "analysis": "短語（過去式），意為「想出了一個點子／靈感」。頭腦中萌生新構想。",
-      "example": "While riding his bicycle, he came up with an idea that changed physics forever."
+      "timing": "突然獲得靈感或想出新點子時。"
     },
     {
+      "id": "w36",
       "word": "Grasp",
-      "phonetic": "[ɡræsp]",
-      "definition": "Hold firmly; comprehend or understand fully.",
+      "pos": "v.",
+      "kk": "[ɡræsp]",
+      "definition_en": "Hold firmly; comprehend or understand fully.",
+      "definition_tw": "抓住/理解/領悟",
+      "sentence_en": "It took years for other scientists to fully grasp his theory of relativity.",
+      "sentence_tw": "其他科學家花了多年時間才完全理解他的相對論。",
       "analysis": "動詞/名詞，意為「抓住；理解；領悟」。理解複雜艱深的理論。",
-      "example": "It took years for other scientists to fully grasp his theory of relativity."
+      "timing": "完全理解複雜概念或理論時。"
     },
     {
+      "id": "w37",
       "word": "Molecule",
-      "phonetic": "[ˈmɑːlɪkjuːl]",
-      "definition": "A group of atoms bonded together, representing the smallest unit of a chemical compound.",
+      "pos": "n.",
+      "kk": "[ˈmɑːlɪkjuːl]",
+      "definition_en": "A group of atoms bonded together, representing the smallest unit of a chemical compound.",
+      "definition_tw": "分子",
+      "sentence_en": "Water is made of molecules containing hydrogen and oxygen.",
+      "sentence_tw": "水是由包含氫和氧的分子所組成的。",
       "analysis": "名詞，意為「分子」。由原子組成的微觀物質基本單位。",
-      "example": "Water is made of molecules containing hydrogen and oxygen."
+      "timing": "談論化學或微觀結構時。"
     },
     {
+      "id": "w38",
       "word": "Atom",
-      "phonetic": "[ˈætəm]",
-      "definition": "The basic unit of a chemical element.",
+      "pos": "n.",
+      "kk": "[ˈætəm]",
+      "definition_en": "The basic unit of a chemical element.",
+      "definition_tw": "原子",
+      "sentence_en": "Einstein proved the existence of atoms mathematically.",
+      "sentence_tw": "愛因斯坦從數學上證明了原子的存在。",
       "analysis": "名詞，意為「原子」。構成化學元素的微觀基本粒子。",
-      "example": "Einstein proved the existence of atoms mathematically."
+      "timing": "談論物理學或原子結構時。"
     },
     {
+      "id": "w39",
       "word": "Blast off",
-      "phonetic": "[blæst ɔːf]",
-      "definition": "Take off vertically from a launchpad (as a rocket).",
+      "pos": "v.",
+      "kk": "[blæst ɔːf]",
+      "definition_en": "Take off vertically from a launchpad (as a rocket).",
+      "definition_tw": "（火箭）升空/發射點火起飛",
+      "sentence_en": "Spacecraft use immense energy to blast off into outer space.",
+      "sentence_tw": "太空船利用巨大的能量發射升空進入外太空。",
       "analysis": "動詞短語，意為「（火箭）升空；發射點火起飛」。描述航天器快速發射。",
-      "example": "Spacecraft use immense energy to blast off into outer space."
+      "timing": "火箭發射或太空船升空時。"
     },
     {
+      "id": "w40",
       "word": "Trap",
-      "phonetic": "[træp]",
-      "definition": "Catch or enclose in a place; a device for catching animals.",
+      "pos": "v.",
+      "kk": "[træp]",
+      "definition_en": "Catch or enclose in a place; a device for catching animals.",
+      "definition_tw": "陷阱/困住/捕獲",
+      "sentence_en": "A black hole's gravity is so strong that it can trap light.",
+      "sentence_tw": "黑洞的引力是如此強大，以至於它能困住光線。",
       "analysis": "動詞/名詞，意為「陷阱；困住；捕獲」。強大的引力連光都能捕捉困住。",
-      "example": "A black hole's gravity is so strong that it can trap light."
+      "timing": "談論被禁錮或陷阱捕捉時。"
     },
     {
+      "id": "w41",
       "word": "Gravity",
-      "phonetic": "[ˈɡrævəti]",
-      "definition": "The force that attracts a body toward the center of the earth or another heavy object.",
+      "pos": "n.",
+      "kk": "[ˈɡrævəti]",
+      "definition_en": "The force that attracts a body toward the center of the earth or another heavy object.",
+      "definition_tw": "地心引力/重力",
+      "sentence_en": "He explained gravity not as a force, but as the bending of space-time.",
+      "sentence_tw": "他對重力的解釋不是一種力，而是時空的彎曲。",
       "analysis": "名詞，意為「地心引力；重力」。萬有引力。",
-      "example": "He explained gravity not as a force, but as the bending of space-time."
+      "timing": "談論物理重力或引力現象時。"
     },
     {
+      "id": "w42",
       "word": "Cram",
-      "phonetic": "[kræm]",
-      "definition": "Completely fill to overflowing; study intensively in a short time.",
+      "pos": "v.",
+      "kk": "[kræm]",
+      "definition_en": "Completely fill to overflowing; study intensively in a short time.",
+      "definition_tw": "塞滿/臨時抱佛腳死記硬背",
+      "sentence_en": "He hated having to cram facts for school exams just to pass.",
+      "sentence_tw": "他討厭為了應付學校考試而死記硬背各種事實。",
       "analysis": "動詞，意為「塞滿；臨時抱佛腳死記硬背」。考試前死記硬背資料。",
-      "example": "He hated having to cram facts for school exams just to pass."
+      "timing": "考試前臨時抱佛腳或死記硬背時。"
     },
     {
+      "id": "w43",
       "word": "Sweaty feet",
-      "phonetic": "[ˈsweti fiːt]",
-      "definition": "Feet covered in perspiration.",
+      "pos": "phrase",
+      "kk": "[ˈsweti fiːt]",
+      "definition_en": "Feet covered in perspiration.",
+      "definition_tw": "容易出汗的雙腳／流汗的腳",
+      "sentence_en": "He stopped wearing socks because he complained they got sweaty feet wet.",
+      "sentence_tw": "他不再穿襪子，因為他抱怨襪子會讓流汗的雙腳變得濕漉漉的。",
       "analysis": "短語，意為「容易出汗的雙腳／流汗的腳」。愛因斯坦討厭穿襪子的原因之一。",
-      "example": "He stopped wearing socks because he complained they got sweaty feet wet."
+      "timing": "談論腳部流汗或不穿襪子的原因時。"
     },
     {
+      "id": "w44",
       "word": "Varicose veins",
-      "phonetic": "[ˈværɪkoʊs veɪnz]",
-      "definition": "Gnarled, enlarged veins, most commonly appearing in the legs.",
+      "pos": "phrase",
+      "kk": "[ˈværɪkoʊs veɪnz]",
+      "definition_en": "Gnarled, enlarged veins, most commonly appearing in the legs.",
+      "definition_tw": "靜脈曲張",
+      "sentence_en": "Standing for long hours at a chalkboard can aggravate varicose veins.",
+      "sentence_tw": "長時間站在黑板前可能會加重靜脈曲張。",
       "analysis": "短語，意為「靜脈曲張」。腿部常見的血管腫脹膨大疾病。",
-      "example": "Standing for long hours at a chalkboard can aggravate varicose veins."
+      "timing": "談論久站造成的腿部血管疾病時。"
     },
     {
+      "id": "w45",
       "word": "Piercing brown eyes",
-      "phonetic": "[ˈpɪrsɪŋ braʊn aɪz]",
-      "definition": "Intense, sharp, and deep brown eyes that seem to look right through someone.",
+      "pos": "phrase",
+      "kk": "[ˈpɪrsɪŋ braʊn aɪz]",
+      "definition_en": "Intense, sharp, and deep brown eyes that seem to look right through someone.",
+      "definition_tw": "深邃銳利的棕色雙眼",
+      "sentence_en": "He stared out at the universe with his piercing brown eyes.",
+      "sentence_tw": "他用他深邃銳利的棕色雙眼凝視著宇宙。",
       "analysis": "短語，意為「深邃銳利的棕色雙眼」。形容目光睿智銳利透徹。",
-      "example": "He stared out at the universe with his piercing brown eyes."
+      "timing": "形容眼神銳利或深刻時。"
     },
     {
+      "id": "w46",
       "word": "Wavy hair",
-      "phonetic": "[ˈweɪvi her]",
-      "definition": "Hair that has gentle curves and forms natural S-shapes.",
+      "pos": "phrase",
+      "kk": "[ˈweɪvi her]",
+      "definition_en": "Hair that has gentle curves and forms natural S-shapes.",
+      "definition_tw": "捲曲的頭髮/波浪髮",
+      "sentence_en": "His wild wavy hair stuck out in all directions.",
+      "sentence_tw": "他那蓬亂的捲髮朝四面八方亂翹。",
       "analysis": "短語，意為「捲曲的頭髮；波浪髮」。愛因斯坦招牌炸開蓬鬆的捲髮。",
-      "example": "His wild wavy hair stuck out in all directions."
+      "timing": "描述頭髮捲曲蓬鬆的外觀時。"
     },
     {
+      "id": "w47",
       "word": "Explosion",
-      "phonetic": "[ɪkˈsploʊʒn]",
-      "definition": "A violent shattering or blowing apart with a loud noise; sudden outburst.",
+      "pos": "n.",
+      "kk": "[ɪkˈsploʊʒn]",
+      "definition_en": "A violent shattering or blowing apart with a loud noise; sudden outburst.",
+      "definition_tw": "爆炸/爆發/突發事件",
+      "sentence_en": "The equation E=mc² showed how much energy an atomic explosion produces.",
+      "sentence_tw": "公式 $E=mc^2$ 展示了原子爆炸會產生多大的能量。",
       "analysis": "名詞，意為「爆炸；爆發；突發事件」。核能或原子彈的巨大爆炸能量。",
-      "example": "The equation E=mc² showed how much energy an atomic explosion produces."
+      "timing": "談論爆炸威力或核能反應時。"
     },
     {
+      "id": "w48",
       "word": "Diploma",
-      "phonetic": "[dɪˈploʊmə]",
-      "definition": "A certificate awarded by an educational institution to show completion of study.",
+      "pos": "n.",
+      "kk": "[dɪˈploʊmə]",
+      "definition_en": "A certificate awarded by an educational institution to show completion of study.",
+      "definition_tw": "畢業證書/文憑",
+      "sentence_en": "He eventually finished high school in Switzerland and earned his diploma.",
+      "sentence_tw": "他最終在瑞士完成了高中學業並取得了畢業證書。",
       "analysis": "名詞，意為「畢業證書；文憑」。畢業獲得的學位證書。",
-      "example": "He eventually finished high school in Switzerland and earned his diploma."
+      "timing": "談論學業完成或畢業證書時。"
     },
     {
+      "id": "w49",
       "word": "Sailing",
-      "phonetic": "[ˈseɪlɪŋ]",
-      "definition": "The sport or activity of navigating a sailboat.",
+      "pos": "n.",
+      "kk": "[ˈseɪlɪŋ]",
+      "definition_en": "The sport or activity of navigating a sailboat.",
+      "definition_tw": "航海/駕帆船",
+      "sentence_en": "He loved going sailing on quiet lakes, even though he didn't know how to swim.",
+      "sentence_tw": "他喜歡在寧靜的湖泊上開帆船，儘管他不會游泳。",
       "analysis": "名詞，意為「航海；駕帆船」。愛因斯坦最喜愛的放鬆休閒運動。",
-      "example": "He loved going sailing on quiet lakes, even though he didn't know how to swim."
+      "timing": "談論水上休閒活動或航海時。"
     },
     {
+      "id": "w50",
       "word": "Fascinated",
-      "phonetic": "[ˈfæsɪneɪtɪd]",
-      "definition": "Strongly attracted and interested; spellbound.",
+      "pos": "adj.",
+      "kk": "[ˈfæsɪneɪtɪd]",
+      "definition_en": "Strongly attracted and interested; spellbound.",
+      "definition_tw": "著迷的/深深被吸引的",
+      "sentence_en": "Young Albert was fascinated by the magnetic compass his father gave him.",
+      "sentence_tw": "年輕的亞伯特對父親送給他的磁羅盤深深著迷。",
       "analysis": "形容詞，意為「著迷的；深深被吸引的」。對事物抱有極大的好奇心。",
-      "example": "Young Albert was fascinated by the magnetic compass his father gave him."
+      "timing": "形容對某事物充滿興趣與好奇時。"
     },
     {
+      "id": "w51",
       "word": "Nerd",
-      "phonetic": "[nɜːrd]",
-      "definition": "A foolish, unstylish, or socially awkward person; an overly intellectual fan.",
+      "pos": "n.",
+      "kk": "[nɜːrd]",
+      "definition_en": "A foolish, unstylish, or socially awkward person; an overly intellectual fan.",
+      "definition_tw": "書呆子/科技控/沉迷學問的人",
+      "sentence_en": "Before he became famous, some kids called him a quiet nerd.",
+      "sentence_tw": "在他成名之前，有些孩子叫他安靜的書呆子。",
       "analysis": "名詞（口語），意為「書呆子；科技控；沉迷學問的人」。",
-      "example": "Before he became famous, some kids called him a quiet nerd."
+      "timing": "形容沈浸於學術或科技的書呆子時。"
     },
     {
+      "id": "w52",
       "word": "Feeding pigeons",
-      "phonetic": "[ˈfiːdɪŋ ˈpɪdʒɪnz]",
-      "definition": "Giving food particles to birds in public parks.",
+      "pos": "phrase",
+      "kk": "[ˈfiːdɪŋ ˈpɪdʒɪnz]",
+      "definition_en": "Giving food particles to birds in public parks.",
+      "definition_tw": "餵鴿子",
+      "sentence_en": "In his later years in Princeton, he enjoyed sitting on park benches feeding pigeons.",
+      "sentence_tw": "在普林斯頓的晚年，他喜歡坐在公園長椅上餵鴿子。",
       "analysis": "短語，意為「餵鴿子」。描繪晚年悠閒生活散步的場景。",
-      "example": "In his later years in Princeton, he enjoyed sitting on park benches feeding pigeons."
+      "timing": "描述公園悠閒的退休生活時。"
     },
     {
+      "id": "w53",
       "word": "Maid",
-      "phonetic": "[meɪd]",
-      "definition": "A female domestic servant.",
+      "pos": "n.",
+      "kk": "[meɪd]",
+      "definition_en": "A female domestic servant.",
+      "definition_tw": "女傭/打掃女侍",
+      "sentence_en": "The house maid helped keep the messy study somewhat organized.",
+      "sentence_tw": "家裡的幫傭協助將凌亂的書房整理得稍微有條理。",
       "analysis": "名詞，意為「女傭；打掃女侍」。家庭打掃幫傭。",
-      "example": "The house maid helped keep the messy study somewhat organized."
+      "timing": "談論家務幫傭或清理房間時。"
     },
     {
+      "id": "w54",
       "word": "Tutor",
-      "phonetic": "[ˈtuːtər]",
-      "definition": "A private teacher, typically one who teaches a single student or small group.",
+      "pos": "n.",
+      "kk": "[ˈtuːtər]",
+      "definition_en": "A private teacher, typically one who teaches a single student or small group.",
+      "definition_tw": "家庭教師/私人導師",
+      "sentence_en": "A medical student worked as a tutor to teach Albert advanced mathematics.",
+      "sentence_tw": "一名醫學生擔任家庭教師，教導亞伯特高等數學。",
       "analysis": "名詞/動詞，意為「家庭教師；私人導師」。輔導課業的教師。",
-      "example": "A medical student worked as a tutor to teach Albert advanced mathematics."
+      "timing": "談論私人家教或課業輔導時。"
     },
     {
+      "id": "w55",
       "word": "Temper tantrums",
-      "phonetic": "[ˈtempər ˈtæntrəmz]",
-      "definition": "Uncontrolled outbursts of anger and frustration, typically in a young child.",
+      "pos": "phrase",
+      "kk": "[ˈtempər ˈtæntrəmz]",
+      "definition_en": "Uncontrolled outbursts of anger and frustration, typically in a young child.",
+      "definition_tw": "發脾氣/耍態度暴怒",
+      "sentence_en": "As a young child, Albert had severe temper tantrums and threw things at his sister.",
+      "sentence_tw": "小時候，亞伯特經常嚴重發脾氣，甚至向姊姊丟東西。",
       "analysis": "短語，意為「發脾氣；耍態度暴怒」。幼年情緒失控砸物品。",
-      "example": "As a young child, Albert had severe temper tantrums and threw things at his sister."
+      "timing": "形容小孩情緒失控或大發雷霆時。"
     },
     {
+      "id": "w56",
       "word": "Vegetarian",
-      "phonetic": "[ˌvedʒəˈteriən]",
-      "definition": "A person who does not eat meat or fish.",
+      "pos": "adj.",
+      "kk": "[ˌvedʒəˈteriən]",
+      "definition_en": "A person who does not eat meat or fish.",
+      "definition_tw": "素食者/素食的",
+      "sentence_en": "Later in life, he decided to become a strict vegetarian for health and moral reasons.",
+      "sentence_tw": "晚年時，基於健康和道德原因，他決定成為一名嚴格的素食者。",
       "analysis": "名詞/形容詞，意為「素食者；素食的」。不吃肉類的飲食習慣。",
-      "example": "Later in life, he decided to become a strict vegetarian for health and moral reasons."
+      "timing": "談論飲食習慣或素食主義時。"
     },
     {
+      "id": "w57",
       "word": "Jewish",
-      "phonetic": "[ˈdʒuːɪʃ]",
-      "definition": "Relating to or associated with Jews or Judaism.",
+      "pos": "adj.",
+      "kk": "[ˈdʒuːɪʃ]",
+      "definition_en": "Relating to or associated with Jews or Judaism.",
+      "definition_tw": "猶太人的/猶太教的",
+      "sentence_en": "Because he was Jewish, he had to leave Germany when the Nazi party rose to power.",
+      "sentence_tw": "因為他是猶太人，當納粹黨掌權時他不得不離開德國。",
       "analysis": "形容詞，意為「猶太人的；猶太教的」。民族與宗教背景。",
-      "example": "Because he was Jewish, he had to leave Germany when the Nazi party rose to power."
+      "timing": "談論猶太民族或宗教背景時。"
     },
     {
+      "id": "w58",
       "word": "Weightlessly",
-      "phonetic": "[ˈweɪtləsli]",
-      "definition": "In a manner unaffected by gravity; floating effortlessly.",
+      "pos": "adv.",
+      "kk": "[ˈweɪtləsli]",
+      "definition_en": "In a manner unaffected by gravity; floating effortlessly.",
+      "definition_tw": "無重力地/失重地/輕飄飄地",
+      "sentence_en": "In a free-falling elevator, a person would float weightlessly.",
+      "sentence_tw": "在自由落體的電梯裡，人會無重力地漂浮著。",
       "analysis": "副詞，意為「無重力地；失重地；輕飄飄地」。形容失重狀態下的懸浮。",
-      "example": "In a free-falling elevator, a person would float weightlessly."
+      "timing": "形容無重力漂浮狀態時。"
     },
     {
+      "id": "w59",
       "word": "Contest",
-      "phonetic": "[ˈkɑːntest]",
-      "definition": "An event in which people compete for a prize; dispute.",
+      "pos": "n.",
+      "kk": "[ˈkɑːntest]",
+      "definition_en": "An event in which people compete for a prize; dispute.",
+      "definition_tw": "競賽/比賽/爭奪",
+      "sentence_en": "He entered a mathematics contest and easily solved every puzzle.",
+      "sentence_tw": "他參加了一場數學競賽，並輕鬆解開了每一個謎題。",
       "analysis": "名詞/動詞，意為「競賽；比賽；爭奪」。角逐勝負的活動。",
-      "example": "He entered a mathematics contest and easily solved every puzzle."
+      "timing": "參與競技比賽或數學競賽時。"
     },
     {
+      "id": "w60",
       "word": "Award",
-      "phonetic": "[əˈwɔːrd]",
-      "definition": "Give or grant as an official payment, prize, or reward.",
+      "pos": "n.",
+      "kk": "[əˈwɔːrd]",
+      "definition_en": "Give or grant as an official payment, prize, or reward.",
+      "definition_tw": "獎項/頒發/授予",
+      "sentence_en": "The committee decided to award him the 1921 Nobel Prize in Physics.",
+      "sentence_tw": "委員會決定授予他1921年的諾貝爾物理學獎。",
       "analysis": "名詞/動詞，意為「獎項；頒發；授予」。官方頒發榮譽。",
-      "example": "The committee decided to award him the 1921 Nobel Prize in Physics."
+      "timing": "談論頒獎或獲得榮譽獎項時。"
     },
     {
+      "id": "w61",
       "word": "Relativity",
-      "phonetic": "[ˌreləˈtɪvəti]",
-      "definition": "Einstein's theory concerning space, time, and gravity.",
+      "pos": "n.",
+      "kk": "[ˌreləˈtɪvəti]",
+      "definition_en": "Einstein's theory concerning space, time, and gravity.",
+      "definition_tw": "相對論",
+      "sentence_en": "The General Theory of Relativity revolutionized how we view space and time.",
+      "sentence_tw": "廣義相對論徹底革新了我們對空間和時間的看法。",
       "analysis": "名詞，意為「相對論」。愛因斯坦最出名的物理學巨作。",
-      "example": "The General Theory of Relativity revolutionized how we view space and time."
+      "timing": "談論物理學相對論時。"
     },
     {
+      "id": "w62",
       "word": "Revolutionize",
-      "phonetic": "[ˌrevəˈluːʃənaɪz]",
-      "definition": "Change something radically or fundamentally.",
+      "pos": "v.",
+      "kk": "[ˌrevəˈluːʃənaɪz]",
+      "definition_en": "Change something radically or fundamentally.",
+      "definition_tw": "徹底改革/顛覆/給…帶來革命性變化",
+      "sentence_en": "His famous equations helped revolutionize modern science.",
+      "sentence_tw": "他著名的方程式幫助徹底革新了現代科學。",
       "analysis": "動詞，意為「徹底改革；顛覆；給…帶來革命性變化」。徹底改寫歷史領域。",
-      "example": "His famous equations helped revolutionize modern science."
+      "timing": "談論重大創新或徹底變革時。"
     },
     {
+      "id": "w63",
       "word": "Botany",
-      "phonetic": "[ˈbɑːtəni]",
-      "definition": "The scientific study of plants.",
+      "pos": "n.",
+      "kk": "[ˈbɑːtəni]",
+      "definition_en": "The scientific study of plants.",
+      "definition_tw": "植物學",
+      "sentence_en": "While he excelled in physics, he showed little interest in botany.",
+      "sentence_tw": "雖然他在物理學方面表現優異，但他對植物學卻興趣缺缺。",
       "analysis": "名詞，意為「植物學」。研究植物結構與生的科學。",
-      "example": "While he excelled in physics, he showed little interest in botany."
+      "timing": "談論自然科學或植物學科時。"
     },
     {
+      "id": "w64",
       "word": "Zoology",
-      "phonetic": "[zoʊˈɑːlədʒi]",
-      "definition": "The scientific study of the behavior, structure, and classification of animals.",
+      "pos": "n.",
+      "kk": "[zoʊˈɑːlədʒi]",
+      "definition_en": "The scientific study of the behavior, structure, and classification of animals.",
+      "definition_tw": "動物學",
+      "sentence_en": "Zoology deals with animal life, whereas Einstein focused on physical forces.",
+      "sentence_tw": "動物學研究動物生命，而愛因斯坦則聚焦於物理力學。",
       "analysis": "名詞，意為「動物學」。研究動物生命與行為的科學。",
-      "example": "Zoology deals with animal life, whereas Einstein focused on physical forces."
+      "timing": "談論動物學研究時。"
     },
     {
+      "id": "w65",
       "word": "Flunk",
-      "phonetic": "[flʌŋk]",
-      "definition": "Fail an exam, course, or test (informal).",
+      "pos": "v.",
+      "kk": "[flʌŋk]",
+      "definition_en": "Fail an exam, course, or test (informal).",
+      "definition_tw": "不及格/考砸/當掉",
+      "sentence_en": "He did not flunk math, contrary to popular urban legends.",
+      "sentence_tw": "與普遍的都市傳說相反，他並沒有數學不及格。",
       "analysis": "動詞（口語），意為「不及格；考砸；當掉」。考試未達到通過標準。",
-      "example": "He did not flunk math, contrary to popular urban legends."
+      "timing": "考試不及格或被當掉時。"
     },
     {
+      "id": "w66",
       "word": "You’re nuts",
-      "phonetic": "[jʊr nʌts]",
-      "definition": "You are crazy, irrational, or foolish (informal phrase).",
+      "pos": "phrase",
+      "kk": "[jʊr nʌts]",
+      "definition_en": "You are crazy, irrational, or foolish (informal phrase).",
+      "definition_tw": "你瘋了/你真神經／不可理喻",
+      "sentence_en": "When he told people time could slow down, they replied, 'You're nuts!'",
+      "sentence_tw": "當他告訴人們時間可以變慢時，他們回答說：「你瘋了！」",
       "analysis": "短語（口語），意為「你瘋了；你真神經／不可理喻」。形容極度瘋狂異想天開。",
-      "example": "When he told people time could slow down, they replied, 'You're nuts!'"
+      "timing": "認為別人的想法瘋狂不可理喻時。"
     },
     {
+      "id": "w67",
       "word": "Stating",
-      "phonetic": "[ˈsteɪtɪŋ]",
-      "definition": "Expressing something clearly or formally.",
+      "pos": "v.",
+      "kk": "[ˈsteɪtɪŋ]",
+      "definition_en": "Expressing something clearly or formally.",
+      "definition_tw": "陳述/明言/發表說明",
+      "sentence_en": "He published a paper stating that light travels in tiny energy quanta.",
+      "sentence_tw": "他發表了一篇論文，明確指出光是以微小的能量量子傳播的。",
       "analysis": "動詞/分詞，意為「陳述；明言；發表說明」。明確發言發表理論。",
-      "example": "He published a paper stating that light travels in tiny energy quanta."
+      "timing": "正式發表聲明或說明觀點時。"
     },
     {
+      "id": "w68",
       "word": "Geometry",
-      "phonetic": "[dʒiˈɑːmətri]",
-      "definition": "The branch of mathematics concerned with the properties and relations of points, lines, and shapes.",
+      "pos": "n.",
+      "kk": "[dʒiˈɑːmətri]",
+      "definition_en": "The branch of mathematics concerned with the properties and relations of points, lines, and shapes.",
+      "definition_tw": "幾何學",
+      "sentence_en": "At age twelve, Albert taught himself Euclidean geometry over one summer.",
+      "sentence_tw": "十二歲時，亞伯特利用一個夏天自學了歐幾里得幾何學。",
       "analysis": "名詞，意為「幾何學」。愛因斯坦少年時期深深著迷的數學分支。",
-      "example": "At age twelve, Albert taught himself Euclidean geometry over one summer."
+      "timing": "談論數學分支或幾何學時。"
     },
     {
+      "id": "w69",
       "word": "Dopey",
-      "phonetic": "[ˈdoʊpi]",
-      "definition": "Foolish or stupid; slow-witted (informal).",
+      "pos": "adj.",
+      "kk": "[ˈdoʊpi]",
+      "definition_en": "Foolish or stupid; slow-witted (informal).",
+      "definition_tw": "傻乎乎的/反應遲鈍笨拙的",
+      "sentence_en": "Because he spoke slowly as a child, some thought he was dopey.",
+      "sentence_tw": "因為他小時候說話很慢，有些人以為他反應遲鈍。",
       "analysis": "形容詞（口語），意為「傻乎乎的；反應遲鈍笨拙的」。",
-      "example": "Because he spoke slowly as a child, some thought he was dopey."
+      "timing": "形容人傻氣或反應慢半拍時。"
     },
     {
+      "id": "w70",
       "word": "Dummy",
-      "phonetic": "[ˈdʌmi]",
-      "definition": "A stupid person; a mannequin or model.",
+      "pos": "n.",
+      "kk": "[ˈdʌmi]",
+      "definition_en": "A stupid person; a mannequin or model.",
+      "definition_tw": "笨蛋/傻瓜/木頭人",
+      "sentence_en": "Strict teachers unfairly labeled young Albert a dummy.",
+      "sentence_tw": "嚴格的老師不公平地給年輕的亞伯特貼上了笨蛋的標籤。",
       "analysis": "名詞（口語），意為「笨蛋；傻瓜；木頭人」。",
-      "example": "Strict teachers unfairly labeled young Albert a dummy."
+      "timing": "被輕蔑地稱作笨蛋或傻瓜時。"
     },
     {
+      "id": "w71",
       "word": "Algebra",
-      "phonetic": "[ˈældʒɪbrə]",
-      "definition": "The branch of mathematics in which symbols and letters are used to represent numbers.",
+      "pos": "n.",
+      "kk": "[ˈældʒɪbrə]",
+      "definition_en": "The branch of mathematics in which symbols and letters are used to represent numbers.",
+      "definition_tw": "代數學",
+      "sentence_en": "His uncle introduced him to algebra, calling it a game where you hunt for 'X'.",
+      "sentence_tw": "他的叔叔將代數介紹給他，稱其為一場尋找「X」的遊戲。",
       "analysis": "名詞，意為「代數學」。用符號運算數字的數學分支。",
-      "example": "His uncle introduced him to algebra, calling it a game where you hunt for 'X'."
-    },
-    {
-      "word": "Cuckoo",
-      "phonetic": "[ˈkuːkuː]",
-      "definition": "Mad; crazy; eccentric (informal).",
-      "analysis": "形容詞/名詞（口語），意為「瘋瘋癲癲的；怪裡怪氣的；布谷鳥」。",
-      "example": "Some of his radical physics ideas sounded cuckoo to traditional professors."
-    },
-    {
-      "word": "Dope",
-      "phonetic": "[doʊp]",
-      "definition": "A stupid or foolish person (informal); slang for cool or drugs.",
-      "analysis": "名詞（口語），意為「笨蛋；傻瓜（書名所指）」。書標題用詞，反諷大眾以為他是笨蛋。",
-      "example": "The book humorously asks: Was Albert Einstein really a dope?"
+      "timing": "談論代數運算或數學科目時。"
     }
   ]
 }
