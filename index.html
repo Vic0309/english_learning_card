@@ -202,6 +202,7 @@
   let currentIndex = 0;
   let currentUtterance = null;
   let wakeLock = null;
+  let playSessionId = 0; // 新增：用於控制播放行程的獨佔 ID，防止多重迴圈衝突
   const synth = window.speechSynthesis;
 
   // iOS 語音解鎖機制
@@ -245,7 +246,6 @@
       if (!res.ok) throw new Error(`無法讀取檔案 ${filePath} (HTTP ${res.status})`);
       const data = await res.json();
       
-      // 【關鍵修復】將 words 與 phrases 整合到同一個播放清單中
       const rawWords = (data.words || []).map(item => ({
         ...item,
         displayWord: item.word,
@@ -266,7 +266,6 @@
         type: 'phrase'
       }));
 
-      // 合併單字與片語
       currentWords = [...rawWords, ...rawPhrases];
 
       renderTable();
@@ -327,12 +326,15 @@
     `).join('');
   }
 
-  // 可隨時被中斷的延遲等待函式
-  function delay(ms) {
+  // 可隨時被中斷的延遲等待函式（加入 sessionId 檢查）
+  function delay(ms, sessionId) {
     return new Promise((resolve, reject) => {
-      const timer = setTimeout(resolve, ms);
+      const timer = setTimeout(() => {
+        if (playSessionId !== sessionId) return reject(new Error('Interrupted'));
+        resolve();
+      }, ms);
       const checkInterval = setInterval(() => {
-        if (!isPlaying || isPaused) {
+        if (!isPlaying || isPaused || playSessionId !== sessionId) {
           clearTimeout(timer);
           clearInterval(checkInterval);
           reject(new Error('Interrupted'));
@@ -341,10 +343,10 @@
     });
   }
 
-  // 文字朗讀
-  function speakText(text, lang = 'en-US', speed = 0.9) {
+  // 文字朗讀（加入 sessionId 檢查）
+  function speakText(text, lang = 'en-US', speed = 0.9, sessionId) {
     return new Promise((resolve, reject) => {
-      if (!isPlaying || isPaused || !text) return resolve();
+      if (!isPlaying || isPaused || !text || playSessionId !== sessionId) return resolve();
 
       synth.cancel();
 
@@ -367,73 +369,75 @@
     });
   }
 
-  // 完整朗讀一個項目 (單字/片語 ➔ 中文 ➔ 例句 ➔ 解析 ➔ 留空 3.5 秒)
-  async function speakVocabItem(item) {
-    // 1. 唸英文單字 / 片語
-    await speakText(item.displayWord, 'en-US', 0.85);
-    await delay(500);
+  // 完整朗讀一個項目
+  async function speakVocabItem(item, sessionId) {
+    if (playSessionId !== sessionId) return;
+    await speakText(item.displayWord, 'en-US', 0.85, sessionId);
+    if (playSessionId !== sessionId) return;
+    await delay(500, sessionId);
 
-    // 2. 唸中文定義
     if (item.definition_tw) {
-      await speakText(item.definition_tw, 'zh-TW', 0.9);
-      await delay(500);
+      if (playSessionId !== sessionId) return;
+      await speakText(item.definition_tw, 'zh-TW', 0.9, sessionId);
+      if (playSessionId !== sessionId) return;
+      await delay(500, sessionId);
     }
 
-    // 3. 唸英文例句
     if (item.sentence_en) {
-      await speakText(item.sentence_en, 'en-US', 0.9);
-      await delay(500);
+      if (playSessionId !== sessionId) return;
+      await speakText(item.sentence_en, 'en-US', 0.9, sessionId);
+      if (playSessionId !== sessionId) return;
+      await delay(500, sessionId);
     }
 
-    // 4. 唸中文解析與使用時機
     let textToSpeak = "";
     if (item.analysis) textToSpeak += "解析：" + item.analysis + "。";
     if (item.timing) textToSpeak += "使用時機：" + item.timing;
 
     if (textToSpeak) {
-      await speakText(textToSpeak, 'zh-TW', 0.95);
+      if (playSessionId !== sessionId) return;
+      await speakText(textToSpeak, 'zh-TW', 0.95, sessionId);
     }
 
-    // 5. 留空 3.5 秒供跟讀與思考
-    await delay(3500);
+    if (playSessionId !== sessionId) return;
+    await delay(3500, sessionId);
   }
 
-  // 核心功能：從指定位置開始繼續/輪播
+  // 核心功能：從指定位置開始播放
   async function playFromIndex(index) {
-    // 1. 立即停止並重置目前所有播放狀態，標記舊的非同步迴圈失效
-    isPlaying = false;
-    isPaused = false;
+    unlockAudio();
     synth.cancel();
 
-    // 2. 短暫等待 50 毫秒讓舊的 Promise/delay 順利被攔截並跳出
-    await new Promise(resolve => setTimeout(resolve, 50));
+    // 產生新的工作階段 ID，使任何舊的播放迴圈立刻失效
+    const sessionId = ++playSessionId;
 
-    // 3. 設定新的播放索引並啟動
-    currentIndex = index;
     isPlaying = true;
     isPaused = false;
+    currentIndex = index;
     
     requestWakeLock();
     updateUI();
 
-    while (currentIndex < currentWords.length && isPlaying && !isPaused) {
+    while (currentIndex < currentWords.length && isPlaying && !isPaused && playSessionId === sessionId) {
       highlightRow(currentIndex);
       const item = currentWords[currentIndex];
       document.getElementById('nowPlayingText').innerText = `正在播放 (${currentIndex + 1}/${currentWords.length}): ${item.displayWord}`;
 
       try {
-        await speakVocabItem(item);
-        // 確保在沒有被手動停止或切換的情況下才將索引加 1
+        await speakVocabItem(item, sessionId);
+        
+        // 若在此期間被其他操作中斷，則跳出迴圈
+        if (playSessionId !== sessionId) break;
+
         if (isPlaying && !isPaused) {
           currentIndex++;
         }
       } catch (err) {
-        // 當收到 'Interrupted' 錯誤時（代表被手動切換或停止），安全跳出迴圈
         break;
       }
     }
 
-    if (currentIndex >= currentWords.length) {
+    if (playSessionId === sessionId && currentIndex >= currentWords.length) {
       stopAutoPlay();
     }
   }
@@ -469,6 +473,7 @@
 
   // 停止播放
   function stopAutoPlay() {
+    playSessionId++; // 使進行中的非同步等待與語音全部失效
     isPlaying = false;
     isPaused = false;
     currentIndex = 0;
